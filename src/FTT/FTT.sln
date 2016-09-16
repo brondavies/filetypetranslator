@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTT", "FTT.csproj", "{57A79D30-B12F-48FA-BCE2-BE5C68349695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTTLib", "..\FTTLib\FTTLib.csproj", "{A5D0F850-240E-43BC-8B4C-327CF75C81C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57A79D30-B12F-48FA-BCE2-BE5C68349695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A79D30-B12F-48FA-BCE2-BE5C68349695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A79D30-B12F-48FA-BCE2-BE5C68349695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A79D30-B12F-48FA-BCE2-BE5C68349695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

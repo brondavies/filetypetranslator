@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="mime-info" targetNamespace="http://www.freedesktop.org/standards/shared-mime-info" xmlns:mstns="http://www.freedesktop.org/standards/shared-mime-info" xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="match">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="match" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" form="unqualified" type="xs:string" />
+      <xs:attribute name="value" form="unqualified" type="xs:string" />
+      <xs:attribute name="offset" form="unqualified" type="xs:string" />
+      <xs:attribute name="mask" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mime-info" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="match" />
+        <xs:element name="mime-type">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_comment" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element name="acronym" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+              <xs:element name="expanded-acronym" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+              <xs:element name="sub-class-of" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="type" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="generic-icon" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="name" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="glob" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="pattern" form="unqualified" type="xs:string" />
+                  <xs:attribute name="weight" form="unqualified" type="xs:string" />
+                  <xs:attribute name="case-sensitive" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="magic" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="match" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                  <xs:attribute name="priority" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="alias" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="type" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="root-XML" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="namespaceURI" form="unqualified" type="xs:string" />
+                  <xs:attribute name="localName" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="treemagic" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="treematch" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="path" form="unqualified" type="xs:string" />
+                        <xs:attribute name="type" form="unqualified" type="xs:string" />
+                        <xs:attribute name="non-empty" form="unqualified" type="xs:string" />
+                        <xs:attribute name="match-case" form="unqualified" type="xs:string" />
+                        <xs:attribute name="executable" form="unqualified" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="type" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

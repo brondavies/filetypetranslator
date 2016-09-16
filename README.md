@@ -51,7 +51,7 @@ This library is designed along the following tenets:
 
 # File Categories
 
-File media types are broken down into relatively few categories.  Here are the guidelines that determine a file's category
+File media types are broken down into relatively few categories.  Sub-categories may be considered in a future release according to information on [Wikipedia](https://en.wikipedia.org/wiki/List_of_file_formats)  Here are the guidelines that determine a file's category
 
 * Archive: any file that can be extracted into several files
 * Audio: any file that can only contain an audio stream

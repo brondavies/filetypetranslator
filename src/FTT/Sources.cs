@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
 namespace FTT
@@ -37,6 +38,10 @@ namespace FTT
 
             StringBuilder format = new StringBuilder(GenerateFileStart());
 
+            format.AppendLine(GenerateConstants(mimetypes));
+            
+            //GetMimeTypeInternal
+            format.Append(GenerateBeginFunction());
             foreach (MimeType mt in mimetypes)
             {
                 if (!string.IsNullOrEmpty(mt.comment))
@@ -47,11 +52,116 @@ namespace FTT
                 {
                     format.AppendLine(GenerateCase(extension));
                 }
-                format.AppendLine(GenerateReturn(mt.type));
+                format.AppendLine(GenerateReturn(GetConstantFor(mt.type)));
+            }
+            format.Append(GenerateEndFunction());
+
+            // GetMimeTypeFileExtensionsInternal
+            format.Append(GenerateBeginFunction2());
+            foreach (MimeType mt in mimetypes)
+            {
+                format.AppendLine(GenerateCase(mt.type));
+                string extensions = @"new string[] { ";
+                string strings = string.Join("\", \"", mt.extensions);
+                if (strings.Length > 0)
+                {
+                    strings = quote(strings) + " ";
+                }
+                extensions += strings;
+                extensions += "}";
+                format.AppendLine(GenerateReturn(extensions));
             }
 
+            format.Append(GenerateEndFunction2());
             format.Append(GenerateFileEnd());
+
             return format.ToString();
+        }
+
+        private static string GenerateConstants(List<MimeType> mimetypes)
+        {
+            StringBuilder result = new StringBuilder();
+            foreach(var mimetype in mimetypes)
+            {
+                result.AppendLine(GenerateConstantFor(mimetype.type));
+                foreach(string ext in mimetype.extensions)
+                {
+                    result.AppendLine(GenerateConstantFor(ext));
+                }
+            }
+            return result.ToString();
+        }
+
+        static char[] numbers = new[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+        private static string GenerateConstantFor(string type)
+        {
+            string name = GetConstantFor(type);
+            return string.Format("        const string {0} = \"{1}\";", name, type);
+        }
+
+        private static string GetConstantFor(string type)
+        {
+            string name = CleanExtension(type);
+            if (IsKeyword(name) || numbers.Contains(name.First()))
+            {
+                name = "_" + name;
+            }
+            return name;
+        }
+
+        private static bool IsKeyword(string name)
+        {
+            //this is not a comprehensive list, we just add to it as needed
+            switch (name)
+            {
+                case "as":
+                case "class":
+                case "for":
+                case "in":
+                case "is":
+                    return true;
+            }
+            return false;
+        }
+
+        private static string GenerateBeginFunction()
+        {
+            return @"
+        private static string GetMimeTypeInternal(string extension)
+        {
+            switch (extension)
+            {
+";
+        }
+
+        private static string GenerateEndFunction2()
+        {
+            return @"            }
+
+            return new string[] { };
+        }";
+        }
+
+        private static string GenerateBeginFunction2()
+        {
+            return @"
+        private static string[] GetMimeTypeFileExtensionsInternal(string mimeType)
+        {
+            switch(mimeType)
+            {
+";
+        }
+
+        private static string GenerateEndFunction()
+        {
+            return @"            }
+            return """";
+        }";
+        }
+
+        private static string quote(string value)
+        {
+            return string.Format("\"{0}\"", value);
         }
 
         private static void ParseStdIcon(JsonDict dict, List<MimeType> mimetypes)
@@ -90,7 +200,7 @@ namespace FTT
                     foreach (var glob in item.glob)
                     {
                         string extension = CleanExtension(glob.pattern);
-                        if (!mimetypes.Exists(m => m.extensions.Contains(extension)) && !mimeType.extensions.Contains(extension))
+                        if (!string.IsNullOrEmpty(extension) && !mimetypes.Exists(m => m.extensions.Contains(extension)) && !mimeType.extensions.Contains(extension))
                         {
                             added = mimeType.type == null;
                             mimeType.extensions.Add(extension);
@@ -106,14 +216,15 @@ namespace FTT
             }
         }
 
+        static Regex cleanregex = new Regex("[^a-z0-9]");
         private static string CleanExtension(string ext)
         {
-            return ext.Replace("*", "").Replace(".", "").ToLowerInvariant().Trim();
+            return cleanregex.Replace(ext.ToLowerInvariant().Trim(), "");
         }
 
         private static string GenerateReturn(string type)
         {
-            return string.Format("{0}    return \"{1}\";", indent, type);
+            return string.Format("{0}    return {1};", indent, type);
         }
 
         private static string GenerateComment(string comment)
@@ -123,7 +234,7 @@ namespace FTT
 
         private static string GenerateCase(string extension)
         {
-            return string.Format("{0}case \"{1}\":", indent, extension);
+            return string.Format("{0}case {1}:", indent, GetConstantFor(extension));
         }
 
         private static string GenerateFileStart()
@@ -132,18 +243,12 @@ namespace FTT
 {
     public partial class FTT
     {
-        private static string GetMimeTypeInternal(string extension)
-        {
-            switch (extension)
-            {
 ";
         }
 
         private static string GenerateFileEnd()
         {
-            return @"            }
-            return """";
-        }
+            return @"
     }
 }";
         }

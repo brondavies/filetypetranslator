@@ -41,7 +41,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileCategory.cs" />
     <Compile Include="FTT.cs" />
+    <Compile Include="FTT.categories.cs">
+      <DependentUpon>FTT.cs</DependentUpon>
+    </Compile>
     <Compile Include="FTT.generated.cs">
       <DependentUpon>FTT.cs</DependentUpon>
     </Compile>

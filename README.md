@@ -29,7 +29,7 @@ Console.WriteLine(category);
 >  Spreadsheet
 ```
 
-####  When you need to know the preffered file extension for a file based on its mime type.
+####  When you need to know the prefferred file extension for a file based on its mime type.
 
 ```csharp
 string extension = FTT.GetMimeTypeFileExtension("text/csv");

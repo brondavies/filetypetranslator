@@ -222,8 +222,57 @@
                 case "webp":
                     return FileCategory.Image;
 
+                case "1st":
+                case "alx":
+                case "application":
+                case "csv":
+                case "eng":
+                case "html":
+                case "log":
+                case "lrc":
+                case "lst":
+                case "nfo":
+                case "opml":
+                case "plist":
+                case "reg":
+                case "srt":
+                case "sub":
+                case "tbl":
+                case "text":
                 case "txt":
                     return FileCategory.Text;
+
+                case "264":
+                case "3g2":
+                case "3gp":
+                case "avi":
+                case "bik":
+                case "dash":
+                case "dat":
+                case "dvr":
+                case "flv":
+                case "h264":
+                case "m2t":
+                case "m2ts":
+                case "m4v":
+                case "mkv":
+                case "mod":
+                case "mov":
+                case "mp4":
+                case "mpeg":
+                case "mpg":
+                case "mswmm":
+                case "mts":
+                case "ogv":
+                case "rmvb":
+                case "swf":
+                case "tod":
+                case "tp":
+                case "ts":
+                case "vob":
+                case "webm":
+                case "wmv":
+                    return FileCategory.Video;
 
                 default:
                     return FileCategory.Binary;

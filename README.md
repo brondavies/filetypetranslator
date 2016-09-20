@@ -32,10 +32,10 @@ Console.WriteLine(category);
 ####  When you need to know the prefferred file extension for a file based on its mime type.
 
 ```csharp
-string extension = FTT.GetMimeTypeFileExtension("text/csv");
-Console.WriteLine(extension);
+string[] extensions = FTT.GetMimeTypeFileExtension("text/csv");
+Console.WriteLine(extensions[0]);
 
->  .csv
+>  csv
 ```
 
 # Design

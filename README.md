@@ -1,4 +1,5 @@
-# File Type Translator (FTT)
+
+<h1> <img src="https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png" title="FTT Logo" alt="FTT Logo" /> File Type Translator (FTT)</h1>
 A library of helper methods for your .Net project to get [mime types]() and general file category
 
 # Examples
@@ -78,3 +79,5 @@ While it is unrealistic to expect this library to provide a comprehensive list w
 1. https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in
 1. http://www.stdicon.com/mimetypes
 1. http://www.file-extensions.org/
+
+[logo]: https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png "Logo"

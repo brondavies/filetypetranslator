@@ -239,7 +239,7 @@ namespace FTT
 
         private static string GenerateFileStart()
         {
-            return @"namespace FTT
+            return @"namespace FTTLib
 {
     public partial class FTT
     {

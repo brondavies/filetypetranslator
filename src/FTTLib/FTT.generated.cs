@@ -1,4 +1,4 @@
-namespace FTT
+namespace FTTLib
 {
     public partial class FTT
     {

@@ -1,4 +1,4 @@
-﻿namespace FTT
+﻿namespace FTTLib
 {
     public enum FileCategory
     {

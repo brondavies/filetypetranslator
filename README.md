@@ -22,11 +22,11 @@ Console.WriteLine(mimeType);
 FileCategory category = FTT.GetFileCategory(@"Path\To\My\File.docx");
 Console.WriteLine(category);
 
-category = FTT.GetFileCategory(@"Path\To\My\File.xls");
+category = FTT.GetFileCategory(@"Path\To\My\File.jpg");
 Console.WriteLine(category);
 
 >  Document
->  Spreadsheet
+>  Image
 ```
 
 ####  When you need to know the prefferred file extension for a file based on its mime type.

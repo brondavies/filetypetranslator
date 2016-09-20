@@ -5,6 +5,7 @@
     <version>1.0.2</version>
     <authors>Bron Davies</authors>
     <owners>Bron Davies</owners>
+    <title>File Type Translator (FTT) Library</title>
     <licenseUrl>https://raw.githubusercontent.com/brondavies/filetypetranslator/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/brondavies/filetypetranslator/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png</iconUrl>

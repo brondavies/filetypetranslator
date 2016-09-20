@@ -79,5 +79,3 @@ While it is unrealistic to expect this library to provide a comprehensive list w
 1. https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in
 1. http://www.stdicon.com/mimetypes
 1. http://www.file-extensions.org/
-
-[logo]: https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png "Logo"

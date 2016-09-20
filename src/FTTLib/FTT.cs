@@ -3,48 +3,51 @@ using System.IO;
 
 namespace FTTLib
 {
+    /// <summary>
+    /// Methods for translating between mime-types and file extensions
+    /// </summary>
     public partial class FTT
     {
-        [DebuggerStepThrough]
         /// <summary>
         /// Returns the mime type for the given file name
         /// </summary>
-        /// <param name="FileName">A file name, file extension or file path specification</param>
+        /// <param name="fileName">A file name, file extension or file path specification</param>
         /// <returns></returns>
-        public static string GetMimeType(string FileName)
+        [DebuggerStepThrough]
+        public static string GetMimeType(string fileName)
         {
-            string extension = GetExtension(FileName);
+            string extension = GetExtension(fileName);
 
             return GetMimeTypeInternal(extension.ToLowerInvariant().Replace(".", ""));
         }
 
-        [DebuggerStepThrough]
         /// <summary>
         /// Returns a list of possible file extensions for the given mime type
         /// </summary>
-        /// <param name="MimeType">A mime type</param>
+        /// <param name="mimeType">A mime type</param>
         /// <returns></returns>
-        public static string[] GetMimeTypeFileExtensions(string MimeType)
+        [DebuggerStepThrough]
+        public static string[] GetMimeTypeFileExtensions(string mimeType)
         {
-            return GetMimeTypeFileExtensionsInternal(MimeType.ToLowerInvariant());
+            return GetMimeTypeFileExtensionsInternal(mimeType.ToLowerInvariant());
         }
 
-        [DebuggerStepThrough]
         /// <summary>
         /// Returns a file category for the given file name
         /// </summary>
-        /// <param name="FileName">A file name, file extension or file path specification</param>
+        /// <param name="fileName">A file name, file extension or file path specification</param>
         /// <returns></returns>
-        public static FileCategory GetFileCategory(string FileName)
+        [DebuggerStepThrough]
+        public static FileCategory GetFileCategory(string fileName)
         {
-            string extension = GetExtension(FileName);
+            string extension = GetExtension(fileName);
 
             return GetFileCategoryInternal(extension.ToLowerInvariant().Replace(".", ""));
         }
 
-        private static string GetExtension(string FileName)
+        private static string GetExtension(string fileName)
         {
-            return FileName.Contains(".") ? Path.GetExtension(FileName) : FileName;
+            return fileName.Contains(".") ? Path.GetExtension(fileName) : fileName;
         }
     }
 }

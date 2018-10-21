@@ -2,6 +2,10 @@
 <h1> <img src="https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png" title="FTT Logo" alt="FTT Logo" /> File Type Translator (FTT)</h1>
 A library of helper methods for your .Net project to get [mime types]() and general file category
 
+# Releases
+#### 1.1.0 - Updated sources, added  PDF, Presentation, and Spreadsheet file categories - formerly part of Document
+#### 1.0.3 - Initial public release
+
 # Examples
 
 ####  When you need to know the mime type of a file based on its extension.
@@ -30,7 +34,7 @@ Console.WriteLine(category);
 >  Image
 ```
 
-####  When you need to know the prefferred file extension for a file based on its mime type.
+####  When you need to know the preferred file extension for a file based on its mime type.
 
 ```csharp
 string[] extensions = FTT.GetMimeTypeFileExtension("text/csv");
@@ -60,6 +64,9 @@ File media types are broken down into relatively few categories.  Sub-categories
 * Code: any file that contains instructions that are compilable or machine-readable
 * Document: any file that is designed for conveying structured information between people
 * Image: any file that can only contain a single image or series of images
+* PDF: any file that is considered a document archive format
+* Presentation: any file that is designed for electronic presentations consisting of a series of separate pages or slides
+* Spreadsheet: any file in which data is arranged in rows and columns and can be manipulated and used in calculations
 * Text: any file that is not classified under another category and is not binary
 * Video: any file that is designed to be a container for a video stream
 
@@ -77,5 +84,5 @@ While it is unrealistic to expect this library to provide a comprehensive list w
 
 1. http://www.iana.org/assignments/media-types/media-types.xhtml
 1. https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in
-1. http://www.stdicon.com/mimetypes
+1. https://cdn.rawgit.com/jshttp/mime-db/master/db.json
 1. http://www.file-extensions.org/

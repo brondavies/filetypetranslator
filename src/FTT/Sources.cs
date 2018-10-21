@@ -13,6 +13,7 @@ namespace FTT
     {
         const string freedesktopUrl = "https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in";
         const string stdiconJsonUrl = "http://www.stdicon.com/mimetypes";
+        const string mimedbJsonUrl = "https://cdn.rawgit.com/jshttp/mime-db/master/db.json";
 
         const string indent = "                ";
 
@@ -21,19 +22,23 @@ namespace FTT
         {
             MimeInfo info = null;
             JsonDict stdicon = null;
+            MimeDbInfoDict mimedb = null;
             using (WebClient client = new WebClient())
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(MimeInfo));
                 info = (MimeInfo)serializer.Deserialize(client.OpenRead(freedesktopUrl));
-                stdicon = JsonConvert.DeserializeObject<JsonDict>(client.DownloadString(stdiconJsonUrl));
+                mimedb = JsonConvert.DeserializeObject<MimeDbInfoDict>(client.DownloadString(mimedbJsonUrl));
+                // no longer exists :( 
+                // stdicon = JsonConvert.DeserializeObject<JsonDict>(client.DownloadString(stdiconJsonUrl));
             }
-
-            Console.Write(stdicon);
 
             List<MimeType> mimetypes = new List<MimeType>();
             ParseMimeInfo(info, mimetypes);
-            ParseStdIcon(stdicon, mimetypes);
-
+            ParseMimeDbInfo(mimedb, mimetypes);
+            if (stdicon != null)
+            {
+                ParseStdIcon(stdicon, mimetypes);
+            }
             mimetypes = mimetypes.OrderBy(m => m.extensions.First()).ToList();
 
             StringBuilder format = new StringBuilder(GenerateFileStart());
@@ -210,6 +215,35 @@ namespace FTT
                     {
                         mimeType.type = item.type;
                         mimeType.comment = item._comment;
+                        mimetypes.Add(mimeType);
+                    }
+                }
+            }
+        }
+
+        private static void ParseMimeDbInfo(MimeDbInfoDict dict, List<MimeType> mimetypes)
+        {
+            foreach (var entry in dict)
+            {
+                bool added = false;
+                var type = entry.Key;
+                var item = entry.Value;
+                type = type.ToLowerInvariant().Trim();
+                MimeType mimeType = mimetypes.Find(t => t.type == type) ?? new MimeType();
+                if (item.extensions != null)
+                { 
+                    foreach (var extension in item.extensions)
+                    {
+                        if (!string.IsNullOrEmpty(extension) && !mimetypes.Exists(m => m.extensions.Contains(extension)) && !mimeType.extensions.Contains(extension))
+                        {
+                            added = mimeType.type == null;
+                            mimeType.extensions.Add(extension);
+                        }
+                    }
+                    if (added)
+                    {
+                        mimeType.type = type;
+                        mimeType.comment = item.source;
                         mimetypes.Add(mimeType);
                     }
                 }

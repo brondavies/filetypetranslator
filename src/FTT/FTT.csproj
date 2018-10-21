@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="gen\freedesktop_org_xml_in.cs" />
     <Compile Include="JsonDict.cs" />
+    <Compile Include="MimeDbInfo.cs" />
     <Compile Include="MimeType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

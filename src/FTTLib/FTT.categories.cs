@@ -153,27 +153,15 @@
                 case "ibooks":
                 case "ind":
                 case "indd":
-                case key:
-                case "keynote":
                 case "lit":
                 case mht:
                 case mobi:
                 case mpp:
                 case odf:
-                case ods:
                 case odt:
                 case ott:
-                case oxps:
                 case "pages":
-                case pdf:
                 case pmd:
-                case pot:
-                case potx:
-                case pps:
-                case ppsx:
-                case ppt:
-                case pptm:
-                case pptx:
                 case "prn":
                 case "prproj":
                 case ps:
@@ -192,7 +180,6 @@
                 case wpd:
                 case wps:
                 case wri:
-                case xps:
                     return FileCategory.Document;
 
                 case bmp:
@@ -222,7 +209,31 @@
                 case "wdp":
                 case webp:
                     return FileCategory.Image;
-                    
+
+                case oxps:
+                case pdf:
+                case xps:
+                    return FileCategory.PDF;
+
+                case key:
+                case "keynote":
+                case pot:
+                case potx:
+                case pps:
+                case ppsx:
+                case ppt:
+                case pptm:
+                case pptx:
+                    return FileCategory.Presentation;
+
+                case ods:
+                case "numbers":
+                case sdc:
+                case xls:
+                case xlsx:
+                case xlsb:
+                    return FileCategory.Spreadsheet;
+
                 case "alx":
                 case application:
                 case csv:

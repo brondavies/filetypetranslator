@@ -30,6 +30,18 @@
         /// </summary>
         Image,
         /// <summary>
+        /// Any file that is considered a document archive format
+        /// </summary>
+        PDF,
+        /// <summary>
+        /// Any file that is designed for electronic presentations consisting of a series of separate pages or slides
+        /// </summary>
+        Presentation,
+        /// <summary>
+        /// Any file in which data is arranged in rows and columns and can be manipulated and used in calculations
+        /// </summary>
+        Spreadsheet,
+        /// <summary>
         /// Any file that is not classified under another category and is not binary
         /// </summary>
         Text,

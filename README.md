@@ -1,5 +1,6 @@
 
 <h1> <img src="https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png" title="FTT Logo" alt="FTT Logo" /> File Type Translator (FTT)</h1>
+
 A library of helper methods for your .Net project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
 
 # Releases

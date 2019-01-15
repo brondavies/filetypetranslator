@@ -1,6 +1,6 @@
 
 <h1> <img src="https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png" title="FTT Logo" alt="FTT Logo" /> File Type Translator (FTT)</h1>
-A library of helper methods for your .Net project to get [mime types]() and general file category
+A library of helper methods for your .Net project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
 
 # Releases
 #### 1.1.0 - Updated sources, added  PDF, Presentation, and Spreadsheet file categories - formerly part of Document
@@ -74,7 +74,7 @@ File media types are broken down into relatively few categories.  Sub-categories
 
 * Even though a mime type to file extension mapping is not necessarily one-to-one, the most common should be returned by the library
 * This library does not provide file sniffing capabilities - in other words, if you have a file and you want to verify the contents are of a specific type, look elsewhere. FTT only uses the file name with an extension.  That capability may be added in a future release.
-* The only file categories presently considered are Archive, Audio, Binary, Code, Document, Image, Text, and Video.  Binary is the default if there is no match in the database.
+* The only file categories presently considered are Archive, Audio, Binary, Code, Document, Image, PDF, Presentation, Spreadsheet, Text, and Video.  Binary is the default if there is no match in the database.
 
 # Sources
 

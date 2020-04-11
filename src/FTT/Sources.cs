@@ -11,7 +11,7 @@ namespace FTT
 {
     class Sources
     {
-        const string freedesktopUrl = "https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in";
+        const string freedesktopUrl = "https://gitlab.freedesktop.org/xdg/shared-mime-info/-/raw/master/data/freedesktop.org.xml.in";
         const string stdiconJsonUrl = "http://www.stdicon.com/mimetypes";
         const string mimedbJsonUrl = "https://cdn.rawgit.com/jshttp/mime-db/master/db.json";
 

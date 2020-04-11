@@ -8,6 +8,8 @@ namespace FTTLib
         const string wk3 = "wk3";
         const string wk4 = "wk4";
         const string wks = "wks";
+        const string applicationvnd1000mindsdecisionmodelxml = "application/vnd.1000minds.decision-model+xml";
+        const string _1km = "1km";
         const string applicationxgenesis32xrom = "application/x-genesis-32x-rom";
         const string _32x = "32x";
         const string mdx = "mdx";
@@ -23,6 +25,8 @@ namespace FTTLib
         const string _3gp = "3gp";
         const string _3gpp = "3gpp";
         const string _3ga = "3ga";
+        const string model3mf = "model/3mf";
+        const string _3mf = "3mf";
         const string applicationxt602 = "application/x-t602";
         const string _602 = "602";
         const string applicationx7zcompressed = "application/x-7z-compressed";
@@ -129,6 +133,11 @@ namespace FTTLib
         const string arw = "arw";
         const string applicationxapplixspreadsheet = "application/x-applix-spreadsheet";
         const string _as = "as";
+        const string textxcommonlisp = "text/x-common-lisp";
+        const string asd = "asd";
+        const string fasl = "fasl";
+        const string lisp = "lisp";
+        const string ros = "ros";
         const string applicationvndmsasf = "application/vnd.ms-asf";
         const string asf = "asf";
         const string applicationvndaccpacsimplyaso = "application/vnd.accpac.simply.aso";
@@ -147,6 +156,8 @@ namespace FTTLib
         const string atom = "atom";
         const string applicationatomcatxml = "application/atomcat+xml";
         const string atomcat = "atomcat";
+        const string applicationatomdeletedxml = "application/atomdeleted+xml";
+        const string atomdeleted = "atomdeleted";
         const string applicationatomsvcxml = "application/atomsvc+xml";
         const string atomsvc = "atomsvc";
         const string applicationvndantixgamecomponent = "application/vnd.antix.game-component";
@@ -189,6 +200,9 @@ namespace FTTLib
         const string azv = "azv";
         const string applicationvndamazonebook = "application/vnd.amazon.ebook";
         const string azw = "azw";
+        const string applicationvndamazonmobi8ebook = "application/vnd.amazon.mobi8-ebook";
+        const string azw3 = "azw3";
+        const string kfx = "kfx";
         const string applicationxtrash = "application/x-trash";
         const string bak = "bak";
         const string old = "old";
@@ -205,8 +219,21 @@ namespace FTTLib
         const string bh2 = "bh2";
         const string textxbibtex = "text/x-bibtex";
         const string bib = "bib";
-        const string applicationxsegacdrom = "application/x-sega-cd-rom";
+        const string applicationoctetstream = "application/octet-stream";
         const string bin = "bin";
+        const string dms = "dms";
+        const string lrf = "lrf";
+        const string mar = "mar";
+        const string dist = "dist";
+        const string distz = "distz";
+        const string bpk = "bpk";
+        const string dump = "dump";
+        const string elc = "elc";
+        const string deploy = "deploy";
+        const string dll = "dll";
+        const string msp = "msp";
+        const string msm = "msm";
+        const string buffer = "buffer";
         const string applicationxblorb = "application/x-blorb";
         const string blb = "blb";
         const string blorb = "blorb";
@@ -215,6 +242,8 @@ namespace FTTLib
         const string blend = "blend";
         const string applicationvndbmi = "application/vnd.bmi";
         const string bmi = "bmi";
+        const string applicationvndbalsamiqbmmlxml = "application/vnd.balsamiq.bmml+xml";
+        const string bmml = "bmml";
         const string imagebmp = "image/bmp";
         const string bmp = "bmp";
         const string dib = "dib";
@@ -222,8 +251,12 @@ namespace FTTLib
         const string box = "box";
         const string applicationxbzip2 = "application/x-bzip2";
         const string boz = "boz";
+        const string applicationxbpspatch = "application/x-bps-patch";
+        const string bps = "bps";
         const string applicationxbsdiff = "application/x-bsdiff";
         const string bsdiff = "bsdiff";
+        const string modelvndvalvesourcecompiledmap = "model/vnd.valve.source.compiled-map";
+        const string bsp = "bsp";
         const string imageprsbtif = "image/prs.btif";
         const string btif = "btif";
         const string applicationxbzip = "application/x-bzip";
@@ -271,6 +304,8 @@ namespace FTTLib
         const string applicationxnetcdf = "application/x-netcdf";
         const string cdf = "cdf";
         const string nc = "nc";
+        const string applicationcdfxxml = "application/cdfx+xml";
+        const string cdfx = "cdfx";
         const string applicationvndmediastationcdkey = "application/vnd.mediastation.cdkey";
         const string cdkey = "cdkey";
         const string applicationcdmicapability = "application/cdmi-capability";
@@ -311,6 +346,8 @@ namespace FTTLib
         const string cii = "cii";
         const string applicationvndmsartgalry = "application/vnd.ms-artgalry";
         const string cil = "cil";
+        const string applicationnode = "application/node";
+        const string cjs = "cjs";
         const string textxopenclsrc = "text/x-opencl-src";
         const string cl = "cl";
         const string applicationvndclaymore = "application/vnd.claymore";
@@ -402,6 +439,8 @@ namespace FTTLib
         const string cur = "cur";
         const string textvndcurl = "text/vnd.curl";
         const string curl = "curl";
+        const string applicationxappleworksdocument = "application/x-appleworks-document";
+        const string cwk = "cwk";
         const string applicationprscww = "application/prs.cww";
         const string cww = "cww";
         const string textxdsrc = "text/x-dsrc";
@@ -434,6 +473,8 @@ namespace FTTLib
         const string dd2 = "dd2";
         const string applicationvndfujixeroxddd = "application/vnd.fujixerox.ddd";
         const string ddd = "ddd";
+        const string applicationvndsyncmldmddfxml = "application/vnd.syncml.dmddf+xml";
+        const string ddf = "ddf";
         const string imagexdds = "image/x-dds";
         const string dds = "dds";
         const string applicationvnddebianbinarypackage = "application/vnd.debian.binary-package";
@@ -479,20 +520,6 @@ namespace FTTLib
         const string djv = "djv";
         const string applicationxapplediskimage = "application/x-apple-diskimage";
         const string dmg = "dmg";
-        const string applicationoctetstream = "application/octet-stream";
-        const string dms = "dms";
-        const string lrf = "lrf";
-        const string mar = "mar";
-        const string dist = "dist";
-        const string distz = "distz";
-        const string bpk = "bpk";
-        const string dump = "dump";
-        const string elc = "elc";
-        const string deploy = "deploy";
-        const string dll = "dll";
-        const string msp = "msp";
-        const string msm = "msm";
-        const string buffer = "buffer";
         const string applicationvnddna = "application/vnd.dna";
         const string dna = "dna";
         const string imagexadobedng = "image/x-adobe-dng";
@@ -541,6 +568,8 @@ namespace FTTLib
         const string dvibz2 = "dvibz2";
         const string applicationxgzdvi = "application/x-gzdvi";
         const string dvigz = "dvigz";
+        const string applicationatscdwdxml = "application/atsc-dwd+xml";
+        const string dwd = "dwd";
         const string modelvnddwf = "model/vnd.dwf";
         const string dwf = "dwf";
         const string imagevnddwg = "image/vnd.dwg";
@@ -577,6 +606,8 @@ namespace FTTLib
         const string mime = "mime";
         const string applicationemmaxml = "application/emma+xml";
         const string emma = "emma";
+        const string applicationemotionmlxml = "application/emotionml+xml";
+        const string emotionml = "emotionml";
         const string applicationvndemusicemusicpackage = "application/vnd.emusic-emusic_package";
         const string emp = "emp";
         const string applicationxmsmetafile = "application/x-msmetafile";
@@ -658,6 +689,8 @@ namespace FTTLib
         const string fdf = "fdf";
         const string applicationxfdsdisk = "application/x-fds-disk";
         const string fds = "fds";
+        const string applicationfdtxml = "application/fdt+xml";
+        const string fdt = "fdt";
         const string applicationvnddenovofcselayoutlink = "application/vnd.denovo.fcselayout-link";
         const string felaunch = "fe_launch";
         const string textxgherkin = "text/x-gherkin";
@@ -769,6 +802,7 @@ namespace FTTLib
         const string gedcom = "gedcom";
         const string applicationxgenesisrom = "application/x-genesis-rom";
         const string gen = "gen";
+        const string sgd = "sgd";
         const string applicationvnddynageo = "application/vnd.dynageo";
         const string geo = "geo";
         const string applicationgeojson = "application/geo+json";
@@ -838,6 +872,9 @@ namespace FTTLib
         const string gramps = "gramps";
         const string textxgroovy = "text/x-groovy";
         const string groovy = "groovy";
+        const string gvy = "gvy";
+        const string gy = "gy";
+        const string gsh = "gsh";
         const string applicationvndgrooveinjector = "application/vnd.groove-injector";
         const string grv = "grv";
         const string applicationsrgsxml = "application/srgs+xml";
@@ -891,6 +928,10 @@ namespace FTTLib
         const string heics = "heics";
         const string imageheifsequence = "image/heif-sequence";
         const string heifs = "heifs";
+        const string imagehej2k = "image/hej2k";
+        const string hej2 = "hej2";
+        const string applicationatscheldxml = "application/atsc-held+xml";
+        const string held = "held";
         const string applicationxhfefloppyimage = "application/x-hfe-floppy-image";
         const string hfe = "hfe";
         const string textxchdr = "text/x-c++hdr";
@@ -913,6 +954,8 @@ namespace FTTLib
         const string hqx = "hqx";
         const string textxhaskell = "text/x-haskell";
         const string hs = "hs";
+        const string imagehsj2 = "image/hsj2";
+        const string hsj2 = "hsj2";
         const string textxcomponent = "text/x-component";
         const string htc = "htc";
         const string applicationvndkenameaapp = "application/vnd.kenameaapp";
@@ -979,6 +1022,8 @@ namespace FTTLib
         const string ipfix = "ipfix";
         const string applicationvndshanainformedpackage = "application/vnd.shana.informed.package";
         const string ipk = "ipk";
+        const string applicationxipspatch = "application/x-ips-patch";
+        const string ips = "ips";
         const string textxiptables = "text/x-iptables";
         const string iptables = "iptables";
         const string applicationxipynbjson = "application/x-ipynb+json";
@@ -996,6 +1041,8 @@ namespace FTTLib
         const string it87 = "it87";
         const string applicationvndshanainformedformtemplate = "application/vnd.shana.informed.formtemplate";
         const string itp = "itp";
+        const string applicationitsxml = "application/its+xml";
+        const string its = "its";
         const string applicationvndimmervisionivp = "application/vnd.immervision-ivp";
         const string ivp = "ivp";
         const string applicationvndimmervisionivu = "application/vnd.immervision-ivu";
@@ -1018,6 +1065,8 @@ namespace FTTLib
         const string java = "java";
         const string applicationxjavajcekeystore = "application/x-java-jce-keystore";
         const string jceks = "jceks";
+        const string imagejphc = "image/jphc";
+        const string jhc = "jhc";
         const string applicationvndjisp = "application/vnd.jisp";
         const string jisp = "jisp";
         const string applicationxjavakeystore = "application/x-java-keystore";
@@ -1045,6 +1094,8 @@ namespace FTTLib
         const string jpe = "jpe";
         const string videojpeg = "video/jpeg";
         const string jpgv = "jpgv";
+        const string imagejph = "image/jph";
+        const string jph = "jph";
         const string imagejpm = "image/jpm";
         const string jpm = "jpm";
         const string jpgm = "jpgm";
@@ -1070,12 +1121,28 @@ namespace FTTLib
         const string jsonpatch = "jsonpatch";
         const string textjsx = "text/jsx";
         const string jsx = "jsx";
+        const string imagejxr = "image/jxr";
+        const string jxr = "jxr";
+        const string imagejxra = "image/jxra";
+        const string jxra = "jxra";
+        const string imagejxrs = "image/jxrs";
+        const string jxrs = "jxrs";
+        const string imagejxs = "image/jxs";
+        const string jxs = "jxs";
+        const string imagejxsc = "image/jxsc";
+        const string jxsc = "jxsc";
+        const string imagejxsi = "image/jxsi";
+        const string jxsi = "jxsi";
+        const string imagejxss = "image/jxss";
+        const string jxss = "jxss";
         const string imagexkodakk25 = "image/x-kodak-k25";
         const string k25 = "k25";
         const string applicationxthomsoncassette = "application/x-thomson-cassette";
         const string k7 = "k7";
         const string applicationxkarbon = "application/x-karbon";
         const string karbon = "karbon";
+        const string applicationxkeepass2 = "application/x-keepass2";
+        const string kdbx = "kdbx";
         const string imagexkodakkdc = "image/x-kodak-kdc";
         const string kdc = "kdc";
         const string applicationxkexiprojectsqlite2 = "application/x-kexiproject-sqlite2";
@@ -1084,8 +1151,6 @@ namespace FTTLib
         const string kexic = "kexic";
         const string applicationxkexiprojectshortcut = "application/x-kexiproject-shortcut";
         const string kexis = "kexis";
-        const string applicationxiworkkeynotesffkey = "application/x-iwork-keynote-sffkey";
-        const string key = "key";
         const string applicationvndapplekeynote = "application/vnd.apple.keynote";
         const string keynote = "keynote";
         const string applicationxkformula = "application/x-kformula";
@@ -1138,6 +1203,8 @@ namespace FTTLib
         const string les = "les";
         const string textless = "text/less";
         const string less = "less";
+        const string applicationlgrxml = "application/lgr+xml";
+        const string lgr = "lgr";
         const string applicationxlha = "application/x-lha";
         const string lha = "lha";
         const string lzh = "lzh";
@@ -1231,6 +1298,8 @@ namespace FTTLib
         const string mab = "mab";
         const string applicationmadsxml = "application/mads+xml";
         const string mads = "mads";
+        const string applicationmmtaeixml = "application/mmt-aei+xml";
+        const string maei = "maei";
         const string applicationvndecowinchart = "application/vnd.ecowin.chart";
         const string mag = "mag";
         const string textxmakefile = "text/x-makefile";
@@ -1249,6 +1318,8 @@ namespace FTTLib
         const string mbox = "mbox";
         const string applicationvndmedcalcdata = "application/vnd.medcalcdata";
         const string mc1 = "mc1";
+        const string textvndsenxwarpscript = "text/vnd.senx.warpscript";
+        const string mc2 = "mc2";
         const string applicationvndmcd = "application/vnd.mcd";
         const string mcd = "mcd";
         const string textvndcurlmcurl = "text/vnd.curl.mcurl";
@@ -1428,11 +1499,15 @@ namespace FTTLib
         const string msty = "msty";
         const string applicationxmsxrom = "application/x-msx-rom";
         const string msx = "msx";
+        const string modelmtl = "model/mtl";
+        const string mtl = "mtl";
         const string textxmup = "text/x-mup";
         const string mup = "mup";
         const string not = "not";
         const string applicationvndmusician = "application/vnd.musician";
         const string mus = "mus";
+        const string applicationmmtusdxml = "application/mmt-usd+xml";
+        const string musd = "musd";
         const string applicationvndrecordaremusicxmlxml = "application/vnd.recordare.musicxml+xml";
         const string musicxml = "musicxml";
         const string applicationxmsmediaview = "application/x-msmediaview";
@@ -1445,6 +1520,8 @@ namespace FTTLib
         const string mxf = "mxf";
         const string applicationvndrecordaremusicxml = "application/vnd.recordare.musicxml";
         const string mxl = "mxl";
+        const string audiomobilexmf = "audio/mobile-xmf";
+        const string mxmf = "mxmf";
         const string applicationxvxml = "application/xv+xml";
         const string mxml = "mxml";
         const string xhvml = "xhvml";
@@ -1497,12 +1574,16 @@ namespace FTTLib
         const string nnw = "nnw";
         const string imagevndnetfpx = "image/vnd.net-fpx";
         const string npx = "npx";
+        const string applicationnquads = "application/n-quads";
+        const string nq = "nq";
         const string applicationxnetshowchannel = "application/x-netshow-channel";
         const string nsc = "nsc";
         const string applicationvndlotusnotes = "application/vnd.lotus-notes";
         const string nsf = "nsf";
         const string videoxnsv = "video/x-nsv";
         const string nsv = "nsv";
+        const string applicationntriples = "application/n-triples";
+        const string nt = "nt";
         const string applicationvndnitf = "application/vnd.nitf";
         const string ntf = "ntf";
         const string nitf = "nitf";
@@ -1520,6 +1601,8 @@ namespace FTTLib
         const string oas = "oas";
         const string applicationxmsbinder = "application/x-msbinder";
         const string obd = "obd";
+        const string applicationvndopenbloxgamexml = "application/vnd.openblox.game+xml";
+        const string obgx = "obgx";
         const string applicationxtgif = "application/x-tgif";
         const string obj = "obj";
         const string textxocl = "text/x-ocl";
@@ -1548,6 +1631,8 @@ namespace FTTLib
         const string oga = "oga";
         const string ogg = "ogg";
         const string opus = "opus";
+        const string modelvndopengex = "model/vnd.opengex";
+        const string ogex = "ogex";
         const string videoxogmogg = "video/x-ogm+ogg";
         const string ogm = "ogm";
         const string videoogg = "video/ogg";
@@ -1579,6 +1664,8 @@ namespace FTTLib
         const string osf = "osf";
         const string applicationvndyamahaopenscoreformatosfpvgxml = "application/vnd.yamaha.openscoreformat.osfpvg+xml";
         const string osfpvg = "osfpvg";
+        const string applicationvndopenstreetmapdataxml = "application/vnd.openstreetmap.data+xml";
+        const string osm = "osm";
         const string applicationvndoasisopendocumentcharttemplate = "application/vnd.oasis.opendocument.chart-template";
         const string otc = "otc";
         const string applicationvndoasisopendocumentformulatemplate = "application/vnd.oasis.opendocument.formula-template";
@@ -1789,6 +1876,8 @@ namespace FTTLib
         const string pre = "pre";
         const string applicationpicsrules = "application/pics-rules";
         const string prf = "prf";
+        const string applicationprovenancexml = "application/provenance+xml";
+        const string provx = "provx";
         const string applicationpostscript = "application/postscript";
         const string ps = "ps";
         const string applicationvnd3gpppicbwsmall = "application/vnd.3gpp.pic-bw-small";
@@ -1830,6 +1919,10 @@ namespace FTTLib
         const string applicationxpythonbytecode = "application/x-python-bytecode";
         const string pyc = "pyc";
         const string pyo = "pyo";
+        const string applicationxpyspreadbzspreadsheet = "application/x-pyspread-bz-spreadsheet";
+        const string pys = "pys";
+        const string applicationxpyspreadspreadsheet = "application/x-pyspread-spreadsheet";
+        const string pysu = "pysu";
         const string videovndmsplayreadymediapyv = "video/vnd.ms-playready.media.pyv";
         const string pyv = "pyv";
         const string textxpython = "text/x-python";
@@ -1839,6 +1932,9 @@ namespace FTTLib
         const string qam = "qam";
         const string applicationvndintuqbo = "application/vnd.intu.qbo";
         const string qbo = "qbo";
+        const string applicationxqemudisk = "application/x-qemu-disk";
+        const string qcow2 = "qcow2";
+        const string qcow = "qcow";
         const string applicationvndintuqfx = "application/vnd.intu.qfx";
         const string qfx = "qfx";
         const string applicationxqw = "application/x-qw";
@@ -1879,6 +1975,8 @@ namespace FTTLib
         const string ram = "ram";
         const string applicationramlyaml = "application/raml+yaml";
         const string raml = "raml";
+        const string applicationrouteapdxml = "application/route-apd+xml";
+        const string rapd = "rapd";
         const string applicationvndrar = "application/vnd.rar";
         const string rar = "rar";
         const string imagexcmuraster = "image/x-cmu-raster";
@@ -1907,6 +2005,8 @@ namespace FTTLib
         const string reg = "reg";
         const string textxreject = "text/x-reject";
         const string rej = "rej";
+        const string applicationp2poverlayxml = "application/p2p-overlay+xml";
+        const string relo = "relo";
         const string applicationvndbusinessobjects = "application/vnd.businessobjects";
         const string rep = "rep";
         const string applicationxdtbresourcexml = "application/x-dtbresource+xml";
@@ -1956,8 +2056,12 @@ namespace FTTLib
         const string rq = "rq";
         const string textrust = "text/rust";
         const string rs = "rs";
+        const string applicationatscrsatxml = "application/atsc-rsat+xml";
+        const string rsat = "rsat";
         const string applicationrsdxml = "application/rsd+xml";
         const string rsd = "rsd";
+        const string applicationurcressheetxml = "application/urc-ressheet+xml";
+        const string rsheet = "rsheet";
         const string applicationrssxml = "application/rss+xml";
         const string rss = "rss";
         const string textxrst = "text/x-rst";
@@ -1970,6 +2074,8 @@ namespace FTTLib
         const string rtx = "rtx";
         const string applicationxmakeself = "application/x-makeself";
         const string run = "run";
+        const string applicationrouteusdxml = "application/route-usd+xml";
+        const string rusd = "rusd";
         const string videovndrnrealvideo = "video/vnd.rn-realvideo";
         const string rv = "rv";
         const string rvx = "rvx";
@@ -2044,6 +2150,10 @@ namespace FTTLib
         const string semd = "semd";
         const string applicationvndsemf = "application/vnd.semf";
         const string semf = "semf";
+        const string applicationsenmlxml = "application/senml+xml";
+        const string senmlx = "senmlx";
+        const string applicationsensmlxml = "application/sensml+xml";
+        const string sensmlx = "sensmlx";
         const string applicationjavaserializedobject = "application/java-serialized-object";
         const string ser = "ser";
         const string textxdbusservice = "text/x-dbus-service";
@@ -2103,6 +2213,7 @@ namespace FTTLib
         const string sitx = "sitx";
         const string applicationsieve = "application/sieve";
         const string siv = "siv";
+        const string sieve = "sieve";
         const string imagexskencil = "image/x-skencil";
         const string sk = "sk";
         const string sk1 = "sk1";
@@ -2114,6 +2225,7 @@ namespace FTTLib
         const string applicationpgpkeys = "application/pgp-keys";
         const string skr = "skr";
         const string pkr = "pkr";
+        const string key = "key";
         const string applicationvndmspowerpointslidemacroenabled12 = "application/vnd.ms-powerpoint.slide.macroenabled.12";
         const string sldm = "sldm";
         const string applicationvndopenxmlformatsofficedocumentpresentationmlslide = "application/vnd.openxmlformats-officedocument.presentationml.slide";
@@ -2121,6 +2233,8 @@ namespace FTTLib
         const string textslim = "text/slim";
         const string slim = "slim";
         const string slm = "slm";
+        const string applicationroutestsidxml = "application/route-s-tsid+xml";
+        const string sls = "sls";
         const string applicationvndepsonsalt = "application/vnd.epson.salt";
         const string slt = "slt";
         const string applicationvndstepmaniastepchart = "application/vnd.stepmania.stepchart";
@@ -2245,6 +2359,8 @@ namespace FTTLib
         const string spl = "spl";
         const string applicationvndaristanetworksswi = "application/vnd.aristanetworks.swi";
         const string swi = "swi";
+        const string applicationswidxml = "application/swid+xml";
+        const string swidtag = "swidtag";
         const string applicationvndsunxmlcalc = "application/vnd.sun.xml.calc";
         const string sxc = "sxc";
         const string applicationvndsunxmldraw = "application/vnd.sun.xml.draw";
@@ -2304,9 +2420,12 @@ namespace FTTLib
         const string applicationxtarz = "application/x-tarz";
         const string tarz = "tarz";
         const string taz = "taz";
+        const string applicationxzstdcompressedtar = "application/x-zstd-compressed-tar";
+        const string tarzst = "tarzst";
+        const string tzst = "tzst";
         const string applicationvnd3gpp2tcap = "application/vnd.3gpp2.tcap";
         const string tcap = "tcap";
-        const string textxtcl = "text/x-tcl";
+        const string texttcl = "text/tcl";
         const string tcl = "tcl";
         const string tk = "tk";
         const string applicationvndsmartteacher = "application/vnd.smart.teacher";
@@ -2353,6 +2472,8 @@ namespace FTTLib
         const string winmaildat = "winmaildat";
         const string applicationxcdrdaotoc = "application/x-cdrdao-toc";
         const string toc = "toc";
+        const string applicationtoml = "application/toml";
+        const string toml = "toml";
         const string applicationxbittorrent = "application/x-bittorrent";
         const string torrent = "torrent";
         const string applicationvndgroovetooltemplate = "application/vnd.groove-tool-template";
@@ -2382,6 +2503,8 @@ namespace FTTLib
         const string ttf = "ttf";
         const string textturtle = "text/turtle";
         const string ttl = "ttl";
+        const string applicationttmlxml = "application/ttml+xml";
+        const string ttml = "ttml";
         const string applicationxfontttx = "application/x-font-ttx";
         const string ttx = "ttx";
         const string applicationvndsimtechmindmapper = "application/vnd.simtech-mindmapper";
@@ -2432,6 +2555,8 @@ namespace FTTLib
         const string urls = "urls";
         const string applicationxmswinurl = "application/x-mswinurl";
         const string url = "url";
+        const string modelvndusdzzip = "model/vnd.usdz+zip";
+        const string usdz = "usdz";
         const string applicationxustar = "application/x-ustar";
         const string ustar = "ustar";
         const string applicationvnduiqtheme = "application/vnd.uiq.theme";
@@ -2490,6 +2615,8 @@ namespace FTTLib
         const string vbox = "vbox";
         const string applicationxvirtualboxvboxextpack = "application/x-virtualbox-vbox-extpack";
         const string vboxextpack = "vbox-extpack";
+        const string textvbscript = "text/vbscript";
+        const string vbs = "vbs";
         const string textvcard = "text/vcard";
         const string vcard = "vcard";
         const string vcf = "vcf";
@@ -2621,6 +2748,7 @@ namespace FTTLib
         const string wmz = "wmz";
         const string fontwoff = "font/woff";
         const string woff = "woff";
+        const string fontwoff2 = "font/woff2";
         const string woff2 = "woff2";
         const string applicationvndwordperfect = "application/vnd.wordperfect";
         const string wp = "wp";
@@ -2654,6 +2782,10 @@ namespace FTTLib
         const string wvc = "wvc";
         const string applicationxwwf = "application/x-wwf";
         const string wwf = "wwf";
+        const string modelvndparasolidtransmitbinary = "model/vnd.parasolid.transmit.binary";
+        const string xb = "x_b";
+        const string modelvndparasolidtransmittext = "model/vnd.parasolid.transmit.text";
+        const string xt = "x_t";
         const string modelx3dxml = "model/x3d+xml";
         const string x3d = "x3d";
         const string x3dz = "x3dz";
@@ -2672,6 +2804,8 @@ namespace FTTLib
         const string applicationxxar = "application/x-xar";
         const string xar = "xar";
         const string pkg = "pkg";
+        const string applicationxcapattxml = "application/xcap-att+xml";
+        const string xav = "xav";
         const string applicationxmsxbap = "application/x-ms-xbap";
         const string xbap = "xbap";
         const string applicationvndfujixeroxdocuworksbinder = "application/vnd.fujixerox.docuworks.binder";
@@ -2680,12 +2814,16 @@ namespace FTTLib
         const string xbel = "xbel";
         const string imagexxbitmap = "image/x-xbitmap";
         const string xbm = "xbm";
+        const string applicationxcapcapsxml = "application/xcap-caps+xml";
+        const string xca = "xca";
         const string imagexxcf = "image/x-xcf";
         const string xcf = "xcf";
         const string imagexcompressedxcf = "image/x-compressed-xcf";
         const string xcfgz = "xcfgz";
         const string xcfbz2 = "xcfbz2";
-        const string applicationxcapdiffxml = "application/xcap-diff+xml";
+        const string applicationcalendarxml = "application/calendar+xml";
+        const string xcs = "xcs";
+        const string applicationmrbconsumerxml = "application/mrb-consumer+xml";
         const string xdf = "xdf";
         const string applicationvndsyncmldmxml = "application/vnd.syncml.dm+xml";
         const string xdm = "xdm";
@@ -2695,6 +2833,8 @@ namespace FTTLib
         const string xdssc = "xdssc";
         const string applicationvndfujixeroxdocuworks = "application/vnd.fujixerox.docuworks";
         const string xdw = "xdw";
+        const string applicationxcapelxml = "application/xcap-el+xml";
+        const string xel = "xel";
         const string applicationxencxml = "application/xenc+xml";
         const string xenc = "xenc";
         const string applicationpatchopserrorxml = "application/patch-ops-error+xml";
@@ -2747,6 +2887,8 @@ namespace FTTLib
         const string xbl = "xbl";
         const string xsd = "xsd";
         const string rng = "rng";
+        const string applicationxcapnsxml = "application/xcap-ns+xml";
+        const string xns = "xns";
         const string applicationvndolpcsugar = "application/vnd.olpc-sugar";
         const string xo = "xo";
         const string applicationxopxml = "application/xop+xml";
@@ -2810,6 +2952,8 @@ namespace FTTLib
         const string zmm = "zmm";
         const string applicationxzoo = "application/x-zoo";
         const string zoo = "zoo";
+        const string applicationzstd = "application/zstd";
+        const string zst = "zst";
         const string applicationzlib = "application/zlib";
         const string zz = "zz";
 
@@ -2818,50 +2962,45 @@ namespace FTTLib
         {
             switch (extension)
             {
-                // Lotus 1-2-3 spreadsheet
                 case _123:
                 case wk1:
                 case wk3:
                 case wk4:
                 case wks:
                     return applicationvndlotus123;
-                // Genesis 32X ROM
+                // iana
+                case _1km:
+                    return applicationvnd1000mindsdecisionmodelxml;
                 case _32x:
                 case mdx:
                     return applicationxgenesis32xrom;
                 // iana
                 case _3dml:
                     return textvndin3d3dml;
-                // 3D Studio image
                 case _3ds:
                     return imagex3ds;
-                // 3GPP2 multimedia file
                 case _3g2:
                 case _3gp2:
                 case _3gpp2:
                     return video3gpp2;
-                // 3GPP multimedia file
                 case _3gp:
                 case _3gpp:
                 case _3ga:
                     return video3gpp;
-                // T602 document
+                // iana
+                case _3mf:
+                    return model3mf;
                 case _602:
                     return applicationxt602;
-                // 7-zip archive
                 case _7z:
                     return applicationx7zcompressed;
-                // AR archive
                 case a:
                 case ar:
                     return applicationxarchive;
-                // Atari 2600
                 case a26:
                     return applicationxatari2600rom;
-                // Atari 7800
                 case a78:
                     return applicationxatari7800rom;
-                // Audible.Com audio
                 case aa:
                 case aax:
                     return audioxpnaudibleaudio;
@@ -2871,7 +3010,6 @@ namespace FTTLib
                 case u32:
                 case vox:
                     return applicationxauthorwarebin;
-                // AAC audio
                 case aac:
                 case adts:
                     return audioaac;
@@ -2881,7 +3019,6 @@ namespace FTTLib
                 // apache
                 case aas:
                     return applicationxauthorwareseg;
-                // AbiWord document
                 case abw:
                 case abwcrashed:
                 case abwgz:
@@ -2890,23 +3027,19 @@ namespace FTTLib
                 // iana
                 case ac:
                     return applicationpkixattrcert;
-                // Dolby Digital audio
                 case ac3:
                     return audioac3;
                 // iana
                 case acc:
                     return applicationvndamericandynamicsacc;
-                // ACE archive
                 case ace:
                     return applicationxace;
                 // iana
                 case acu:
                     return applicationvndacucobol;
-                // Ada source code
                 case adb:
                 case ads:
                     return textxadasrc;
-                // Amiga disk image
                 case adf:
                     return applicationxamigadiskformat;
                 // apache
@@ -2915,7 +3048,6 @@ namespace FTTLib
                 // iana
                 case aep:
                     return applicationvndaudiograph;
-                // Adobe font metrics
                 case afm:
                     return applicationxfontafm;
                 // iana
@@ -2923,20 +3055,16 @@ namespace FTTLib
                 case listafp:
                 case list3820:
                     return applicationvndibmmodcap;
-                // Applix Graphics image
                 case ag:
                     return imagexapplixgraphics;
                 // iana
                 case ahead:
                     return applicationvndaheadspace;
-                // Adobe Illustrator document
                 case ai:
                     return applicationillustrator;
-                // AIFC audio
                 case aifc:
                 case aiffc:
                     return audioxaifc;
-                // AIFF/Amiga/Mac audio
                 case aiff:
                 case aif:
                     return audioxaiff;
@@ -2946,36 +3074,27 @@ namespace FTTLib
                 // iana
                 case ait:
                     return applicationvnddvbait;
-                // Alzip archive
                 case alz:
                     return applicationxalz;
                 // iana
                 case ami:
                     return applicationvndamigaami;
-                // AMR audio
                 case amr:
                     return audioamr;
-                // AmazonMP3 download file
                 case amz:
                     return audioxamzxml;
-                // Windows animated cursor
                 case ani:
                     return applicationxnavianimation;
-                // ANIM animation
                 case anim19j:
                     return videoxanim;
-                // Annodex exchange format
                 case anx:
                     return applicationannodex;
-                // Monkey's audio
                 case ape:
                     return audioxape;
-                // Android package
                 case apk:
                     return applicationvndandroidpackagearchive;
                 case apng:
                     return imageapng;
-                // AppImage application bundle
                 case appimage:
                     return applicationxiso9660appimage;
                 // apache
@@ -2987,25 +3106,24 @@ namespace FTTLib
                 // apache
                 case arc:
                     return applicationxfreearc;
-                // ARJ archive
                 case arj:
                     return applicationxarj;
-                // Sony ARW raw image
                 case arw:
                     return imagexsonyarw;
-                // Applix Spreadsheets spreadsheet
                 case _as:
                     return applicationxapplixspreadsheet;
-                // ASF video
+                case asd:
+                case fasl:
+                case lisp:
+                case ros:
+                    return textxcommonlisp;
                 case asf:
                     return applicationvndmsasf;
                 // iana
                 case aso:
                     return applicationvndaccpacsimplyaso;
-                // ASP page
                 case asp:
                     return applicationxasp;
-                // Microsoft ASX playlist
                 case asx:
                 case wax:
                 case wvx:
@@ -3015,26 +3133,25 @@ namespace FTTLib
                 case atc:
                 case acutc:
                     return applicationvndacucorp;
-                // Atom syndication feed
                 case atom:
                     return applicationatomxml;
                 // iana
                 case atomcat:
                     return applicationatomcatxml;
                 // iana
+                case atomdeleted:
+                    return applicationatomdeletedxml;
+                // iana
                 case atomsvc:
                     return applicationatomsvcxml;
                 // iana
                 case atx:
                     return applicationvndantixgamecomponent;
-                // ULAW (Sun) audio
                 case au:
                 case snd:
                     return audiobasic;
-                // author list
                 case authors:
                     return textxauthors;
-                // systemd unit file
                 case automount:
                 case device:
                 case mount:
@@ -3046,24 +3163,18 @@ namespace FTTLib
                 case target:
                 case timer:
                     return textxsystemdunit;
-                // AVI video
                 case avi:
                 case avf:
                 case divx:
                     return videoxmsvideo;
-                // Applix Words document
                 case aw:
                     return applicationxapplixword;
-                // AMR-WB audio
                 case awb:
                     return audioamrwb;
-                // AWK script
                 case awk:
                     return applicationxawk;
-                // Annodex Audio
                 case axa:
                     return audioannodex;
-                // Annodex Video
                 case axv:
                     return videoannodex;
                 // iana
@@ -3078,15 +3189,15 @@ namespace FTTLib
                 // apache
                 case azw:
                     return applicationvndamazonebook;
-                // backup file
+                case azw3:
+                case kfx:
+                    return applicationvndamazonmobi8ebook;
                 case bak:
                 case old:
                 case sik:
                     return applicationxtrash;
-                // BCPIO document
                 case bcpio:
                     return applicationxbcpio;
-                // BDF font
                 case bdf:
                     return applicationxfontbdf;
                 case bdoc:
@@ -3097,24 +3208,37 @@ namespace FTTLib
                 // iana
                 case bh2:
                     return applicationvndfujitsuoasysprs;
-                // BibTeX document
                 case bib:
                     return textxbibtex;
-                // Sega CD disc image
+                // iana
                 case bin:
-                    return applicationxsegacdrom;
+                case dms:
+                case lrf:
+                case mar:
+                case dist:
+                case distz:
+                case bpk:
+                case dump:
+                case elc:
+                case deploy:
+                case dll:
+                case msp:
+                case msm:
+                case buffer:
+                    return applicationoctetstream;
                 // apache
                 case blb:
                 case blorb:
                     return applicationxblorb;
-                // Blender scene
                 case blender:
                 case blend:
                     return applicationxblender;
                 // iana
                 case bmi:
                     return applicationvndbmi;
-                // Windows BMP image
+                // iana
+                case bmml:
+                    return applicationvndbalsamiqbmmlxml;
                 case bmp:
                 case dib:
                     return imagebmp;
@@ -3124,13 +3248,16 @@ namespace FTTLib
                 // apache
                 case boz:
                     return applicationxbzip2;
-                // binary differences between files
+                case bps:
+                    return applicationxbpspatch;
                 case bsdiff:
                     return applicationxbsdiff;
                 // iana
+                case bsp:
+                    return modelvndvalvesourcecompiledmap;
+                // iana
                 case btif:
                     return imageprsbtif;
-                // Bzip archive
                 case bz2:
                 case bz:
                     return applicationxbzip;
@@ -3147,7 +3274,6 @@ namespace FTTLib
                 case c4p:
                 case c4u:
                     return applicationvndclonkc4group;
-                // Microsoft Cabinet archive
                 case cab:
                     return applicationvndmscabcompressed;
                 // apache
@@ -3159,26 +3285,20 @@ namespace FTTLib
                 // apache
                 case cat:
                     return applicationvndmspkiseccat;
-                // comic book archive
                 case cb7:
                     return applicationxcb7;
                 // apache
                 case cba:
                     return applicationxcbr;
-                // COBOL source file
                 case cbl:
                 case cob:
                     return textxcobol;
-                // comic book archive
                 case cbr:
                     return applicationvndcomicbookrar;
-                // comic book archive
                 case cbt:
                     return applicationxcbt;
-                // comic book archive
                 case cbz:
                     return applicationvndcomicbookzip;
-                // CCMX color correction file
                 case ccmx:
                     return applicationxccmx;
                 // nginx
@@ -3190,10 +3310,12 @@ namespace FTTLib
                 // iana
                 case cdbcmsg:
                     return applicationvndcontactcmsg;
-                // Unidata NetCDF document
                 case cdf:
                 case nc:
                     return applicationxnetcdf;
+                // iana
+                case cdfx:
+                    return applicationcdfxxml;
                 // iana
                 case cdkey:
                     return applicationvndmediastationcdkey;
@@ -3212,7 +3334,6 @@ namespace FTTLib
                 // iana
                 case cdmiq:
                     return applicationcdmiqueue;
-                // Corel Draw drawing
                 case cdr:
                     return applicationvndcoreldraw;
                 // apache
@@ -3224,25 +3345,20 @@ namespace FTTLib
                 // iana
                 case cdy:
                     return applicationvndcinderella;
-                // X.509 certificate
                 case cer:
                     return applicationpkixcert;
                 // apache
                 case cfs:
                     return applicationxcfscompressed;
-                // Computer Graphics Metafile
                 case cgm:
                     return imagecgm;
-                // ChangeLog document
                 case changelog:
                     return textxchangelog;
                 // apache
                 case chat:
                     return applicationxchat;
-                // CHM document
                 case chm:
                     return applicationvndmshtmlhelp;
-                // KChart chart
                 case chrt:
                     return applicationxkchart;
                 // apache
@@ -3254,13 +3370,14 @@ namespace FTTLib
                 // iana
                 case cil:
                     return applicationvndmsartgalry;
-                // OpenCL source code
+                // iana
+                case cjs:
+                    return applicationnode;
                 case cl:
                     return textxopenclsrc;
                 // iana
                 case cla:
                     return applicationvndclaymore;
-                // Java class
                 case _class:
                     return applicationxjava;
                 // iana
@@ -3281,7 +3398,6 @@ namespace FTTLib
                 // apache
                 case clp:
                     return applicationxmsclip;
-                // CMake source code
                 case cmake:
                 case cmakeliststxt:
                     return textxcmake;
@@ -3303,26 +3419,20 @@ namespace FTTLib
                 // apache
                 case cod:
                     return applicationvndrimcod;
-                // CoffeeScript document
                 case coffee:
                     return applicationvndcoffeescript;
                 // apache
                 case com:
                 case bat:
                     return applicationxmsdownload;
-                // license terms
                 case copying:
                     return textxcopying;
-                // program crash data
                 case core:
                     return applicationxcore;
-                // CPIO archive
                 case cpio:
                     return applicationxcpio;
-                // CPIO archive (gzip-compressed)
                 case cpiogz:
                     return applicationxcpiocompressed;
-                // C++ source code
                 case cpp:
                 case cxx:
                 case cc:
@@ -3331,19 +3441,15 @@ namespace FTTLib
                 // apache
                 case cpt:
                     return applicationmaccompactpro;
-                // Canon CR2 raw image
                 case cr2:
                     return imagexcanoncr2;
                 // apache
                 case crd:
                     return applicationxmscardfile;
-                // author credits
                 case credits:
                     return textxcredits;
-                // Certificate revocation list
                 case crl:
                     return applicationpkixcrl;
-                // Canon CRW raw image
                 case crw:
                     return imagexcanoncrw;
                 case crx:
@@ -3351,10 +3457,8 @@ namespace FTTLib
                 // iana
                 case cryptonote:
                     return applicationvndrigcryptonote;
-                // C# source code
                 case cs:
                     return textxcsharp;
-                // C shell script
                 case csh:
                     return applicationxcsh;
                 // iana
@@ -3366,31 +3470,27 @@ namespace FTTLib
                 // iana
                 case csp:
                     return applicationvndcommonspace;
-                // CSS stylesheet
                 case css:
                     return textcss;
-                // CSV document
                 case csv:
                     return textcsv;
-                // CSV Schema document
                 case csvs:
                     return textcsvschema;
                 // apache
                 case cu:
                     return applicationcuseeme;
-                // CD image cuesheet
                 case cue:
                     return applicationxcue;
-                // Windows cursor
                 case cur:
                     return imagexwinbitmap;
                 // iana
                 case curl:
                     return textvndcurl;
+                case cwk:
+                    return applicationxappleworksdocument;
                 // iana
                 case cww:
                     return applicationprscww;
-                // D source code
                 case d:
                 case di:
                     return textxdsrc;
@@ -3400,7 +3500,6 @@ namespace FTTLib
                 // iana
                 case daf:
                     return applicationvndmobiusdaf;
-                // DAR archive
                 case dar:
                     return applicationxdar;
                 // iana
@@ -3409,20 +3508,15 @@ namespace FTTLib
                 // iana
                 case davmount:
                     return applicationdavmountxml;
-                // Xbase document
                 case dbf:
                     return applicationxdbf;
-                // DocBook document
                 case dbk:
                 case docbook:
                     return applicationxdocbookxml;
-                // Dreamcast GD-ROM
                 case dc:
                     return applicationxdcrom;
-                // DCL script
                 case dcl:
                     return textxdcl;
-                // Kodak DCR raw image
                 case dcr:
                     return imagexkodakdcr;
                 // apache
@@ -3434,20 +3528,19 @@ namespace FTTLib
                 // iana
                 case ddd:
                     return applicationvndfujixeroxddd;
-                // DirectDraw surface
+                // iana
+                case ddf:
+                    return applicationvndsyncmldmddfxml;
                 case dds:
                     return imagexdds;
-                // Debian package
                 case deb:
                 case udeb:
                     return applicationvnddebianbinarypackage;
-                // DER/PEM/Netscape-encoded X.509 certificate
                 case der:
                 case crt:
                 case cert:
                 case pem:
                     return applicationxx509cacert;
-                // desktop configuration file
                 case desktop:
                 case kdelnk:
                     return applicationxdesktop;
@@ -3457,17 +3550,14 @@ namespace FTTLib
                 // apache
                 case dgc:
                     return applicationxdgccompressed;
-                // Dia diagram
                 case dia:
                     return applicationxdiadiagram;
                 // apache
                 case dic:
                     return textxc;
-                // DICOM image
                 case dicomdir:
                 case dcm:
                     return applicationdicom;
-                // differences between files
                 case diff:
                 case patch:
                     return textxpatch;
@@ -3487,50 +3577,26 @@ namespace FTTLib
                 // iana
                 case dispositionnotification:
                     return messagedispositionnotification;
-                // DjVu image
                 case djvu:
                 case djv:
                     return imagevnddjvu;
-                // Apple disk image
                 case dmg:
                     return applicationxapplediskimage;
                 // iana
-                case dms:
-                case lrf:
-                case mar:
-                case dist:
-                case distz:
-                case bpk:
-                case dump:
-                case elc:
-                case deploy:
-                case dll:
-                case msp:
-                case msm:
-                case buffer:
-                    return applicationoctetstream;
-                // iana
                 case dna:
                     return applicationvnddna;
-                // Adobe DNG negative
                 case dng:
                     return imagexadobedng;
-                // Word document
                 case doc:
                     return applicationmsword;
-                // Word document
                 case docm:
                     return applicationvndmsworddocumentmacroenabled12;
-                // Word 2007 document
                 case docx:
                     return applicationvndopenxmlformatsofficedocumentwordprocessingmldocument;
-                // Word template
                 case dot:
                     return applicationmswordtemplate;
-                // Word document template
                 case dotm:
                     return applicationvndmswordtemplatemacroenabled12;
-                // Word 2007 document template
                 case dotx:
                     return applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate;
                 // iana
@@ -3548,7 +3614,6 @@ namespace FTTLib
                 // iana
                 case dsc:
                     return textprslinestag;
-                // DSSSL document
                 case dsl:
                     return textxdsl;
                 // iana
@@ -3557,43 +3622,36 @@ namespace FTTLib
                 // apache
                 case dtb:
                     return applicationxdtbookxml;
-                // DTD file
                 case dtd:
                     return applicationxmldtd;
-                // DTS audio
                 case dts:
                     return audiovnddts;
-                // DTSHD audio
                 case dtshd:
                     return audiovnddtshd;
-                // DV video
                 case dv:
                     return videodv;
                 // iana
                 case dvb:
                     return videovnddvbfile;
-                // TeX DVI document
                 case dvi:
                     return applicationxdvi;
-                // TeX DVI document (bzip-compressed)
                 case dvibz2:
                     return applicationxbzdvi;
-                // TeX DVI document (gzip-compressed)
                 case dvigz:
                     return applicationxgzdvi;
                 // iana
+                case dwd:
+                    return applicationatscdwdxml;
+                // iana
                 case dwf:
                     return modelvnddwf;
-                // AutoCAD image
                 case dwg:
                     return imagevnddwg;
-                // DXF vector image
                 case dxf:
                     return imagevnddxf;
                 // iana
                 case dxp:
                     return applicationvndspotfiredxp;
-                // Eiffel source code
                 case e:
                 case eif:
                     return textxeiffel;
@@ -3615,32 +3673,29 @@ namespace FTTLib
                 // iana
                 case efif:
                     return applicationvndpicsel;
-                // Egon Animator animation
                 case egon:
                     return applicationxegon;
                 // iana
                 case ei6:
                     return applicationvndpgosasli;
-                // Emacs Lisp source code
                 case el:
                     return textxemacslisp;
-                // EMF image
                 case emf:
                     return imageemf;
-                // email message
                 case eml:
                 case mime:
                     return messagerfc822;
                 // iana
                 case emma:
                     return applicationemmaxml;
-                // eMusic download package
+                // iana
+                case emotionml:
+                    return applicationemotionmlxml;
                 case emp:
                     return applicationvndemusicemusicpackage;
                 // apache
                 case emz:
                     return applicationxmsmetafile;
-                // XML entities document
                 case ent:
                     return applicationxmlexternalparsedentity;
                 // iana
@@ -3649,28 +3704,22 @@ namespace FTTLib
                 // iana
                 case eot:
                     return applicationvndmsfontobject;
-                // EPS image
                 case eps:
                 case epsi:
                 case epsf:
                     return imagexeps;
-                // EPS image (bzip-compressed)
                 case epsbz2:
                 case epsibz2:
                 case epsfbz2:
                     return imagexbzeps;
-                // EPS image (gzip-compressed)
                 case epsgz:
                 case epsigz:
                 case epsfgz:
                     return imagexgzeps;
-                // electronic book document
                 case epub:
                     return applicationepubzip;
-                // Erlang source code
                 case erl:
                     return textxerlang;
-                // ECMAScript program
                 case es:
                 case ecma:
                     return applicationecmascript;
@@ -3684,10 +3733,8 @@ namespace FTTLib
                 // iana
                 case esf:
                     return applicationvndepsonesf;
-                // Enlightenment theme
                 case etheme:
                     return applicationxetheme;
-                // Setext document
                 case etx:
                     return textxsetext;
                 // apache
@@ -3696,19 +3743,16 @@ namespace FTTLib
                 // apache
                 case evy:
                     return applicationxenvoy;
-                // DOS/Windows executable
                 case exe:
                     return applicationxmsdosexecutable;
                 // iana
                 case exi:
                     return applicationexi;
-                // EXR image
                 case exr:
                     return imagexexr;
                 // iana
                 case ext:
                     return applicationvndnovadigmext;
-                // ATK inset
                 case ez:
                     return applicationandrewinset;
                 // iana
@@ -3717,17 +3761,14 @@ namespace FTTLib
                 // iana
                 case ez3:
                     return applicationvndezpixpackage;
-                // Fortran source code
                 case f:
                 case f90:
                 case f95:
                 case _for:
                 case f77:
                     return textxfortran;
-                // FictionBook document
                 case fb2:
                     return applicationxfictionbookxml;
-                // Compressed FictionBook document
                 case fb2zip:
                     return applicationxzipcompressedfb2;
                 // iana
@@ -3739,20 +3780,20 @@ namespace FTTLib
                 // iana
                 case fcs:
                     return applicationvndisacfcs;
-                // Floppy disk image
                 case fd:
                 case qd:
                     return applicationxrawfloppydiskimage;
                 // iana
                 case fdf:
                     return applicationvndfdf;
-                // Nintendo FDS disk image
                 case fds:
                     return applicationxfdsdisk;
                 // iana
+                case fdt:
+                    return applicationfdtxml;
+                // iana
                 case felaunch:
                     return applicationvnddenovofcselayoutlink;
-                // feature specification in Gherkin format
                 case feature:
                     return textxgherkin;
                 // iana
@@ -3765,39 +3806,29 @@ namespace FTTLib
                 case fh5:
                 case fh7:
                     return imagexfreehand;
-                // XFig image
                 case fig:
                     return imagexxfig;
-                // FITS document
                 case fits:
                     return imagefits;
-                // FLTK Fluid file
                 case fl:
                     return applicationxfluid;
-                // FLAC audio
                 case flac:
                     return audioflac;
-                // Flatpak application bundle
                 case flatpak:
                 case xdgapp:
                     return applicationvndflatpak;
-                // Flatpak repository reference
                 case flatpakref:
                     return applicationvndflatpakref;
-                // Flatpak repository description
                 case flatpakrepo:
                     return applicationvndflatpakrepo;
-                // FLIC animation
                 case fli:
                 case flc:
                     return videoxflic;
                 // iana
                 case flo:
                     return applicationvndmicrografxflo;
-                // Flash video
                 case flv:
                     return videoxflv;
-                // Kivio flowchart
                 case flw:
                     return applicationxkivio;
                 // iana
@@ -3806,7 +3837,6 @@ namespace FTTLib
                 // iana
                 case fly:
                     return textvndfly;
-                // Adobe FrameMaker document
                 case fm:
                 case frame:
                 case maker:
@@ -3815,20 +3845,15 @@ namespace FTTLib
                 // iana
                 case fnc:
                     return applicationvndfrogansfnc;
-                // XSL FO file
                 case fo:
                 case xslfo:
                     return textxxslfo;
-                // ODG drawing (Flat XML)
                 case fodg:
                     return applicationvndoasisopendocumentgraphicsflatxml;
-                // ODP presentation (Flat XML)
                 case fodp:
                     return applicationvndoasisopendocumentpresentationflatxml;
-                // ODS spreadsheet (Flat XML)
                 case fods:
                     return applicationvndoasisopendocumentspreadsheetflatxml;
-                // ODT document (Flat XML)
                 case fodt:
                     return applicationvndoasisopendocumenttextflatxml;
                 // iana
@@ -3849,7 +3874,6 @@ namespace FTTLib
                 // iana
                 case fvt:
                     return videovndfvt;
-                // JavaFX video
                 case fxm:
                     return videoxjavafx;
                 // iana
@@ -3862,7 +3886,6 @@ namespace FTTLib
                 // iana
                 case g2w:
                     return applicationvndgeoplan;
-                // CCITT G3 fax
                 case g3:
                     return imagefaxg3;
                 // iana
@@ -3874,25 +3897,20 @@ namespace FTTLib
                 // apache
                 case gam:
                     return applicationxtads;
-                // Game Boy ROM
                 case gb:
                 case sgb:
                     return applicationxgameboyrom;
-                // Game Boy Advance ROM
                 case gba:
                 case agb:
                     return applicationxgbarom;
-                // Game Boy Color ROM
                 case gbc:
                 case cgb:
                     return applicationxgameboycolorrom;
-                // GIMP brush
                 case gbr:
                     return imagexgimpgbr;
                 // apache
                 case gca:
                     return applicationxgcacompressed;
-                // G-code file
                 case gcode:
                     return textxgcode;
                 // iana
@@ -3900,27 +3918,23 @@ namespace FTTLib
                     return modelvndgdl;
                 case gdoc:
                     return applicationvndgoogleappsdocument;
-                // GEDCOM family history
                 case ged:
                 case gedcom:
                     return applicationxgedcom;
-                // Genesis ROM
                 case gen:
+                case sgd:
                     return applicationxgenesisrom;
                 // iana
                 case geo:
                     return applicationvnddynageo;
-                // GeoJSON geospatial data
                 case geojson:
                     return applicationgeojson;
                 // iana
                 case gex:
                 case gre:
                     return applicationvndgeometryexplorer;
-                // generic font file
                 case gf:
                     return applicationxtexgf;
-                // Game Gear ROM
                 case gg:
                     return applicationxgamegearrom;
                 // iana
@@ -3932,16 +3946,13 @@ namespace FTTLib
                 // iana
                 case ghf:
                     return applicationvndgroovehelp;
-                // GIF image
                 case gif:
                     return imagegif;
-                // GIMP brush pipe
                 case gih:
                     return imagexgimpgih;
                 // iana
                 case gim:
                     return applicationvndgrooveidentitymessage;
-                // Glade project
                 case glade:
                     return applicationxglade;
                 // iana
@@ -3950,34 +3961,26 @@ namespace FTTLib
                 // iana
                 case gltf:
                     return modelgltfjson;
-                // GML document
                 case gml:
                     return applicationgmlxml;
-                // translated messages (machine-readable)
                 case gmo:
                 case mo:
                     return applicationxgettexttranslation;
-                // profiler results
                 case gmonout:
                     return applicationxprofile;
                 // iana
                 case gmx:
                     return applicationvndgmx;
-                // GNUnet search file
                 case gnd:
                     return applicationgnunetdirectory;
-                // GnuCash financial data
                 case gnucash:
                 case gnc:
                 case xac:
                     return applicationxgnucash;
-                // Gnumeric spreadsheet
                 case gnumeric:
                     return applicationxgnumeric;
-                // Go source code
                 case go:
                     return textxgo;
-                // Gnuplot document
                 case gp:
                 case gplt:
                 case gnuplot:
@@ -3985,17 +3988,14 @@ namespace FTTLib
                 // iana
                 case gph:
                     return applicationvndflographit;
-                // GPX geographic data
                 case gpx:
                     return applicationgpxxml;
                 // iana
                 case gqf:
                 case gqs:
                     return applicationvndgrafeq;
-                // Graphite scientific graph
                 case gra:
                     return applicationxgraphite;
-                // Gradle scripts
                 case gradle:
                     return textxgradle;
                 // iana
@@ -4004,8 +4004,10 @@ namespace FTTLib
                 // apache
                 case gramps:
                     return applicationxgrampsxml;
-                // Groovy script
                 case groovy:
+                case gvy:
+                case gy:
+                case gsh:
                     return textxgroovy;
                 // iana
                 case grv:
@@ -4013,14 +4015,12 @@ namespace FTTLib
                 // iana
                 case grxml:
                     return applicationsrgsxml;
-                // Genie source code
                 case gs:
                     return textxgenie;
                 case gsheet:
                     return applicationvndgoogleappsspreadsheet;
                 case gslides:
                     return applicationvndgoogleappspresentation;
-                // GSM 06.10 audio
                 case gsm:
                     return audioxgsm;
                 // iana
@@ -4029,10 +4029,8 @@ namespace FTTLib
                 // iana
                 case gtw:
                     return modelvndgtw;
-                // Graphviz DOT graph
                 case gv:
                     return textvndgraphviz;
-                // Google Video Pointer
                 case gvp:
                     return textxgooglevideopointer;
                 // apache
@@ -4041,7 +4039,6 @@ namespace FTTLib
                 // iana
                 case gxt:
                     return applicationvndgeonext;
-                // Gzip archive
                 case gz:
                     return applicationgzip;
                 // iana
@@ -4063,14 +4060,12 @@ namespace FTTLib
                     return textxhandlebarstemplate;
                 case hdd:
                     return applicationxvirtualboxhdd;
-                // HDF document
                 case hdf:
                 case hdf4:
                 case h4:
                 case hdf5:
                 case h5:
                     return applicationxhdf;
-                // HEIF image
                 case heic:
                 case heif:
                     return imageheif;
@@ -4080,10 +4075,14 @@ namespace FTTLib
                 // iana
                 case heifs:
                     return imageheifsequence;
-                // HFE floppy disk image
+                // iana
+                case hej2:
+                    return imagehej2k;
+                // iana
+                case held:
+                    return applicationatscheldxml;
                 case hfe:
                     return applicationxhfefloppyimage;
-                // C++ header
                 case hh:
                 case hp:
                 case hpp:
@@ -4092,10 +4091,8 @@ namespace FTTLib
                     return textxchdr;
                 case hjson:
                     return applicationhjson;
-                // WinHelp help file
                 case hlp:
                     return applicationwinhlp;
-                // HPGL file
                 case hpgl:
                     return applicationvndhphpgl;
                 // iana
@@ -4107,9 +4104,11 @@ namespace FTTLib
                 // iana
                 case hqx:
                     return applicationmacbinhex40;
-                // Haskell source code
                 case hs:
                     return textxhaskell;
+                // iana
+                case hsj2:
+                    return imagehsj2;
                 // nginx
                 case htc:
                     return textxcomponent;
@@ -4125,38 +4124,29 @@ namespace FTTLib
                 // iana
                 case hvs:
                     return applicationvndyamahahvscript;
-                // Haansoft Hangul document
                 case hwp:
                     return applicationxhwp;
-                // Haansoft Hangul document template
                 case hwt:
                     return applicationxhwt;
                 // iana
                 case i2g:
                     return applicationvndintergeo;
-                // Citrix ICA settings file
                 case ica:
                     return applicationxica;
-                // ICC profile
                 case icc:
                 case icm:
                     return applicationvndiccprofile;
                 // apache
                 case ice:
                     return xconferencexcooltalk;
-                // MacOS X icon
                 case icns:
                     return imagexicns;
-                // Windows icon
                 case ico:
                     return imagevndmicrosofticon;
-                // IDL document
                 case idl:
                     return textxidl;
-                // IEF image
                 case ief:
                     return imageief;
-                // ILBM image
                 case iff:
                 case ilbm:
                 case lbm:
@@ -4170,7 +4160,6 @@ namespace FTTLib
                 // iana
                 case igm:
                     return applicationvndinsorsigm;
-                // IGES document
                 case igs:
                 case iges:
                     return modeliges;
@@ -4186,7 +4175,6 @@ namespace FTTLib
                 // iana
                 case ims:
                     return applicationvndmsims;
-                // iMelody ringtone
                 case imy:
                 case ime:
                     return textximelody;
@@ -4194,7 +4182,6 @@ namespace FTTLib
                 case ink:
                 case inkml:
                     return applicationinkmlxml;
-                // installation instructions
                 case install:
                     return textxinstall;
                 // iana
@@ -4206,10 +4193,10 @@ namespace FTTLib
                 // iana
                 case ipk:
                     return applicationvndshanainformedpackage;
-                // iptables configuration file
+                case ips:
+                    return applicationxipspatch;
                 case iptables:
                     return textxiptables;
-                // Jupyter Notebook
                 case ipynb:
                     return applicationxipynbjson;
                 // iana
@@ -4218,31 +4205,29 @@ namespace FTTLib
                 // iana
                 case irp:
                     return applicationvndirepositorypackagexml;
-                // raw CD image
                 case iso:
                 case iso9660:
                     return applicationxcdimage;
-                // Impulse Tracker audio
                 case it:
                     return audioxit;
-                // IT 8.7 color calibration file
                 case it87:
                     return applicationxit87;
                 // iana
                 case itp:
                     return applicationvndshanainformedformtemplate;
                 // iana
+                case its:
+                    return applicationitsxml;
+                // iana
                 case ivp:
                     return applicationvndimmervisionivp;
                 // iana
                 case ivu:
                     return applicationvndimmervisionivu;
-                // JPEG-2000 codestream
                 case j2c:
                 case j2k:
                 case jpc:
                     return imagexjp2codestream;
-                // JAD document
                 case jad:
                     return textvndsunj2meappdescriptor;
                 case jade:
@@ -4250,22 +4235,21 @@ namespace FTTLib
                 // iana
                 case jam:
                     return applicationvndjam;
-                // Java archive
                 case jar:
                     return applicationxjavaarchive;
                 // nginx
                 case jardiff:
                     return applicationxjavaarchivediff;
-                // Java source code
                 case java:
                     return textxjava;
-                // Java JCE keystore
                 case jceks:
                     return applicationxjavajcekeystore;
                 // iana
+                case jhc:
+                    return imagejphc;
+                // iana
                 case jisp:
                     return applicationvndjisp;
-                // Java keystore
                 case jks:
                 case ks:
                 case cacerts:
@@ -4276,23 +4260,18 @@ namespace FTTLib
                 // iana
                 case jlt:
                     return applicationvndhpjlyt;
-                // JNG image
                 case jng:
                     return imagexjng;
-                // JNLP file
                 case jnlp:
                     return applicationxjavajnlpfile;
                 // iana
                 case joda:
                     return applicationvndjoostjodaarchive;
-                // JPEG-2000 JP2 image
                 case jp2:
                 case jpg2:
                     return imagejp2;
-                // JPEG-2000 JPX image
                 case jpf:
                     return imagejpx;
-                // JPEG image
                 case jpg:
                 case jpeg:
                 case jpe:
@@ -4300,119 +4279,115 @@ namespace FTTLib
                 // iana
                 case jpgv:
                     return videojpeg;
-                // JPEG-2000 JPM image
+                // iana
+                case jph:
+                    return imagejph;
                 case jpm:
                 case jpgm:
                     return imagejpm;
-                // JBuilder project
                 case jpr:
                 case jpx:
                     return applicationxjbuilderproject;
-                // JRD document
                 case jrd:
                     return applicationjrdjson;
-                // JavaScript program
                 case js:
                 case jsm:
                 case mjs:
                     return applicationjavascript;
-                // JSON document
                 case json:
                 case map:
                     return applicationjson;
                 case json5:
                     return applicationjson5;
-                // JSON-LD document
                 case jsonld:
                     return applicationldjson;
                 // apache
                 case jsonml:
                     return applicationjsonmljson;
-                // JSON patch
                 case jsonpatch:
                     return applicationjsonpatchjson;
                 case jsx:
                     return textjsx;
-                // Kodak K25 raw image
+                // iana
+                case jxr:
+                    return imagejxr;
+                // iana
+                case jxra:
+                    return imagejxra;
+                // iana
+                case jxrs:
+                    return imagejxrs;
+                // iana
+                case jxs:
+                    return imagejxs;
+                // iana
+                case jxsc:
+                    return imagejxsc;
+                // iana
+                case jxsi:
+                    return imagejxsi;
+                // iana
+                case jxss:
+                    return imagejxss;
                 case k25:
                     return imagexkodakk25;
-                // Thomson cassette
                 case k7:
                     return applicationxthomsoncassette;
-                // Karbon14 drawing
                 case karbon:
                     return applicationxkarbon;
-                // Kodak KDC raw image
+                case kdbx:
+                    return applicationxkeepass2;
                 case kdc:
                     return imagexkodakkdc;
-                // Kexi database file-based project
                 case kexi:
                     return applicationxkexiprojectsqlite2;
-                // Kexi settings for database server connection
                 case kexic:
                     return applicationxkexiconnectiondata;
-                // shortcut to Kexi project on database server
                 case kexis:
                     return applicationxkexiprojectshortcut;
-                // Apple Keynote 5 presentation
-                case key:
-                    return applicationxiworkkeynotesffkey;
                 // iana
                 case keynote:
                     return applicationvndapplekeynote;
-                // KFormula formula
                 case kfo:
                     return applicationxkformula;
                 // iana
                 case kia:
                     return applicationvndkidspiration;
-                // KIllustrator drawing
                 case kil:
                     return applicationxkillustrator;
-                // KML geographic data
                 case kml:
                     return applicationvndgoogleearthkmlxml;
-                // KML geographic compressed data
                 case kmz:
                     return applicationvndgoogleearthkmz;
                 // iana
                 case kne:
                 case knp:
                     return applicationvndkinar;
-                // Kontour drawing
                 case kon:
                     return applicationxkontour;
-                // KPovModeler scene
                 case kpm:
                     return applicationxkpovmodeler;
-                // KPresenter presentation
                 case kpr:
                 case kpt:
                     return applicationxkpresenter;
                 // apache
                 case kpxx:
                     return applicationvnddskeypoint;
-                // Krita document
                 case kra:
                     return applicationxkrita;
-                // KSpread spreadsheet
                 case ksp:
                     return applicationxkspread;
-                // Khronos texture image
                 case ktx:
                     return imagektx;
                 // iana
                 case ktz:
                 case ktr:
                     return applicationvndkahootz;
-                // Kugar document
                 case kud:
                     return applicationxkugar;
-                // KWord document
                 case kwd:
                 case kwt:
                     return applicationxkword;
-                // libtool shared library
                 case la:
                     return applicationxsharedlibraryla;
                 // iana
@@ -4424,7 +4399,6 @@ namespace FTTLib
                 // iana
                 case lbe:
                     return applicationvndllamagraphicslifebalanceexchangexml;
-                // LDIF address book
                 case ldif:
                     return textxldif;
                 // iana
@@ -4432,14 +4406,14 @@ namespace FTTLib
                     return applicationvndhhelessonplayer;
                 case less:
                     return textless;
-                // LHA archive
+                // iana
+                case lgr:
+                    return applicationlgrxml;
                 case lha:
                 case lzh:
                     return applicationxlha;
-                // LHS source code
                 case lhs:
                     return textxliteratehaskell;
-                // LHZ archive
                 case lhz:
                     return applicationxlhz;
                 // iana
@@ -4450,14 +4424,11 @@ namespace FTTLib
                 // apache
                 case lnk:
                     return applicationxmsshortcut;
-                // Atari Lynx
                 case lnx:
                     return applicationxatarilynxrom;
-                // USAC audio
                 case loas:
                 case xhe:
                     return audiousac;
-                // application log
                 case log:
                     return textxlog;
                 // iana
@@ -4466,13 +4437,11 @@ namespace FTTLib
                 // iana
                 case lrm:
                     return applicationvndmslrm;
-                // Lrzip archive
                 case lrz:
                     return applicationxlrzip;
                 // iana
                 case ltf:
                     return applicationvndfrogansltf;
-                // Lua script
                 case lua:
                     return textxlua;
                 case luac:
@@ -4480,38 +4449,27 @@ namespace FTTLib
                 // iana
                 case lvp:
                     return audiovndlucentvoice;
-                // LightWave object
                 case lwo:
                 case lwob:
                     return imagexlwo;
-                // Lotus Word Pro
                 case lwp:
                     return applicationvndlotuswordpro;
-                // LightWave scene
                 case lws:
                     return imagexlws;
-                // Lilypond music sheet
                 case ly:
                     return textxlilypond;
-                // LyX document
                 case lyx:
                     return applicationxlyx;
-                // Lzip archive
                 case lz:
                     return applicationxlzip;
-                // LZ4 archive
                 case lz4:
                     return applicationxlz4;
-                // LZMA archive
                 case lzma:
                     return applicationxlzma;
-                // LZO archive
                 case lzo:
                     return applicationxlzop;
-                // Objective-C source code
                 case m:
                     return textxobjcsrc;
-                // MPEG video (streamed)
                 case m1u:
                 case m4u:
                 case mxu:
@@ -4520,7 +4478,6 @@ namespace FTTLib
                 case m21:
                 case mp21:
                     return applicationmp21;
-                // MPEG-2 transport stream
                 case m2t:
                 case m2ts:
                 case mts:
@@ -4531,88 +4488,75 @@ namespace FTTLib
                 case bdm:
                 case bdmv:
                     return videomp2t;
-                // MP3 audio (streamed)
                 case m3u:
                 case m3u8:
                 case vlc:
                     return audioxmpegurl;
-                // M4 macro
                 case m4:
                     return applicationxm4;
-                // MPEG-4 audio
                 case m4a:
                 case f4a:
                 case mp4a:
                     return audiomp4;
-                // MPEG-4 audio book
                 case m4b:
                 case f4b:
                     return audioxm4b;
-                // MPEG-4 Ringtone
                 case m4r:
                     return audioxm4r;
-                // Thomson Mémo7 cartridge
                 case m7:
                     return applicationxthomsoncartridgememo7;
-                // Markaby script
                 case mab:
                     return applicationxmarkaby;
                 // iana
                 case mads:
                     return applicationmadsxml;
                 // iana
+                case maei:
+                    return applicationmmtaeixml;
+                // iana
                 case mag:
                     return applicationvndecowinchart;
-                // Makefile
                 case makefile:
                 case gnumakefile:
                 case mk:
                 case mak:
                     return textxmakefile;
-                // Manpage manual document
                 case man:
                     return applicationxtroffman;
-                // Web application cache manifest
                 case manifest:
                 case appcache:
                     return textcachemanifest;
                 // iana
                 case mbk:
                     return applicationvndmobiusmbk;
-                // mailbox file
                 case mbox:
                     return applicationmbox;
                 // iana
                 case mc1:
                     return applicationvndmedcalcdata;
+                case mc2:
+                    return textvndsenxwarpscript;
                 // iana
                 case mcd:
                     return applicationvndmcd;
                 // apache
                 case mcurl:
                     return textvndcurlmcurl;
-                // Markdown document
                 case md:
                 case mkd:
                 case markdown:
                     return textmarkdown;
-                // JET database
                 case mdb:
                     return applicationvndmsaccess;
-                // Microsoft Document Imaging format
                 case mdi:
                     return imagevndmsmodi;
-                // Troff ME input document
                 case me:
                     return textxtroffme;
-                // Meson source code
                 case mesonbuild:
                 case mesonoptionstxt:
                     return textxmeson;
-                // Metalink file
                 case meta4:
                     return applicationmetalink4xml;
-                // Metalink file
                 case metalink:
                     return applicationmetalinkxml;
                 // iana
@@ -4624,17 +4568,14 @@ namespace FTTLib
                 // iana
                 case mft:
                     return applicationrpkimanifest;
-                // MagicPoint presentation
                 case mgp:
                     return applicationxmagicpoint;
                 // iana
                 case mgz:
                     return applicationvndproteusmagazine;
-                // MHTML web archive
                 case mhtml:
                 case mht:
                     return applicationxmimearchive;
-                // MIDI audio
                 case mid:
                 case midi:
                 case kar:
@@ -4643,71 +4584,55 @@ namespace FTTLib
                 // apache
                 case mie:
                     return applicationxmie;
-                // Adobe FrameMaker MIF document
                 case mif:
                     return applicationxmif;
-                // MiniPSF audio
                 case minipsf:
                     return audioxminipsf;
-                // JPEG-2000 MJ2 video
                 case mj2:
                 case mjp2:
                     return videomj2;
-                // MJPEG video stream
                 case mjpeg:
                 case mjpg:
                     return videoxmjpeg;
-                // Matroska 3D video
                 case mk3d:
                     return videoxmatroska3d;
-                // Matroska audio
                 case mka:
                     return audioxmatroska;
-                // Matroska video
                 case mkv:
                 case mks:
                     return videoxmatroska;
-                // OCaml source code
                 case ml:
                 case mli:
                     return textxocaml;
                 // apache
                 case mlp:
                     return applicationvnddolbymlp;
-                // Troff MM input document
                 case mm:
                     return textxtroffmm;
                 // iana
                 case mmd:
                     return applicationvndchipnutskaraokemmd;
-                // SMAF audio
                 case mmf:
                 case smaf:
                     return applicationxsmaf;
-                // MathML document
                 case mml:
                 case mathml:
                     return applicationmathmlxml;
                 // iana
                 case mmr:
                     return imagevndfujixeroxedmicsmmr;
-                // MNG animation
                 case mng:
                     return videoxmng;
                 // apache
                 case mny:
                     return applicationxmsmoney;
-                // compressed Tracker audio
                 case mo3:
                     return audioxmo3;
-                // Mobipocket e-book
                 case mobi:
                 case prc:
                     return applicationxmobipocketebook;
-                // Qt MOC file
                 case moc:
                     return textxmoc;
-                // Amiga SoundTracker audio
                 case mod:
                 case ult:
                 case uni:
@@ -4719,23 +4644,18 @@ namespace FTTLib
                 // iana
                 case mods:
                     return applicationmodsxml;
-                // Managed Object Format
                 case mof:
                     return textxmof;
-                // SGI video
                 case movie:
                     return videoxsgimovie;
-                // MP2 audio
                 case mp2:
                     return audiomp2;
-                // MP3 audio
                 case mp3:
                 case mpga:
                 case mp2a:
                 case m2a:
                 case m3a:
                     return audiompeg;
-                // MPEG-4 video
                 case mp4:
                 case m4v:
                 case f4v:
@@ -4747,7 +4667,6 @@ namespace FTTLib
                 case mp4s:
                 case m4p:
                     return applicationmp4;
-                // Musepack audio
                 case mpc:
                 case mpp:
                 case mp:
@@ -4755,7 +4674,6 @@ namespace FTTLib
                 // iana
                 case mpd:
                     return applicationdashxml;
-                // MPEG video
                 case mpeg:
                 case mpg:
                 case mpe:
@@ -4788,14 +4706,11 @@ namespace FTTLib
                 // iana
                 case mrcx:
                     return applicationmarcxmlxml;
-                // MRML playlist
                 case mrml:
                 case mrl:
                     return textxmrml;
-                // Minolta MRW raw image
                 case mrw:
                     return imagexminoltamrw;
-                // Troff MS input document
                 case ms:
                     return textxtroffms;
                 // iana
@@ -4817,28 +4732,30 @@ namespace FTTLib
                 case mesh:
                 case silo:
                     return modelmesh;
-                // Windows Installer package
                 case msi:
                     return applicationxmsi;
                 // iana
                 case msl:
                     return applicationvndmobiusmsl;
-                // Office drawing
                 case msod:
                     return imagexmsod;
                 // iana
                 case msty:
                     return applicationvndmuveestyle;
-                // MSX ROM
                 case msx:
                     return applicationxmsxrom;
-                // Mup publication
+                // iana
+                case mtl:
+                    return modelmtl;
                 case mup:
                 case not:
                     return textxmup;
                 // iana
                 case mus:
                     return applicationvndmusician;
+                // iana
+                case musd:
+                    return applicationmmtusdxml;
                 // iana
                 case musicxml:
                     return applicationvndrecordaremusicxmlxml;
@@ -4850,12 +4767,14 @@ namespace FTTLib
                 // iana
                 case mwf:
                     return applicationvndmfer;
-                // MXF video
                 case mxf:
                     return applicationmxf;
                 // iana
                 case mxl:
                     return applicationvndrecordaremusicxml;
+                // iana
+                case mxmf:
+                    return audiomobilexmf;
                 // iana
                 case mxml:
                 case xhvml:
@@ -4868,12 +4787,10 @@ namespace FTTLib
                 // iana
                 case n3:
                     return textn3;
-                // Nintendo64 ROM
                 case n64:
                 case z64:
                 case v64:
                     return applicationxn64rom;
-                // Mathematica Notebook
                 case nb:
                 case ma:
                 case mb:
@@ -4884,31 +4801,25 @@ namespace FTTLib
                 // apache
                 case ncx:
                     return applicationxdtbncxxml;
-                // Nintendo DS ROM
                 case nds:
                     return applicationxnintendodsrom;
-                // Nikon NEF raw image
                 case nef:
                     return imagexnikonnef;
-                // NES ROM
                 case nes:
                 case nez:
                 case unf:
                 case unif:
                     return applicationxnesrom;
-                // NFO document
                 case nfo:
                     return textxnfo;
                 // iana
                 case ngage:
                     return applicationvndnokiangagesymbianinstall;
-                // Neo-Geo Pocket Color ROM
                 case ngc:
                     return applicationxneogeopocketcolorrom;
                 // iana
                 case ngdat:
                     return applicationvndnokiangagedata;
-                // Neo-Geo Pocket ROM
                 case ngp:
                     return applicationxneogeopocketrom;
                 // iana
@@ -4929,15 +4840,19 @@ namespace FTTLib
                 // iana
                 case npx:
                     return imagevndnetfpx;
-                // Windows Media Station file
+                // iana
+                case nq:
+                    return applicationnquads;
                 case nsc:
                     return applicationxnetshowchannel;
                 // iana
                 case nsf:
                     return applicationvndlotusnotes;
-                // NullSoft video
                 case nsv:
                     return videoxnsv;
+                // iana
+                case nt:
+                    return applicationntriples;
                 // iana
                 case ntf:
                 case nitf:
@@ -4945,10 +4860,8 @@ namespace FTTLib
                 // iana
                 case numbers:
                     return applicationvndapplenumbers;
-                // NewzBin usenet index
                 case nzb:
                     return applicationxnzb;
-                // object code
                 case o:
                     return applicationxobject;
                 // iana
@@ -4963,57 +4876,46 @@ namespace FTTLib
                 // apache
                 case obd:
                     return applicationxmsbinder;
-                // TGIF document
+                // iana
+                case obgx:
+                    return applicationvndopenbloxgamexml;
                 case obj:
                     return applicationxtgif;
-                // OCL file
                 case ocl:
                     return textxocl;
-                // ODA document
                 case oda:
                     return applicationoda;
-                // ODB database
                 case odb:
                     return applicationvndoasisopendocumentdatabase;
-                // ODC chart
                 case odc:
                     return applicationvndoasisopendocumentchart;
-                // ODF formula
                 case odf:
                     return applicationvndoasisopendocumentformula;
-                // ODG drawing
                 case odg:
                     return applicationvndoasisopendocumentgraphics;
-                // ODI image
                 case odi:
                     return applicationvndoasisopendocumentimage;
-                // ODM document
                 case odm:
                     return applicationvndoasisopendocumenttextmaster;
-                // ODP presentation
                 case odp:
                     return applicationvndoasisopendocumentpresentation;
-                // ODS spreadsheet
                 case ods:
                     return applicationvndoasisopendocumentspreadsheet;
-                // ODT document
                 case odt:
                     return applicationvndoasisopendocumenttext;
-                // Ogg Audio
                 case oga:
                 case ogg:
                 case opus:
                     return audioogg;
-                // OGM video
+                // iana
+                case ogex:
+                    return modelvndopengex;
                 case ogm:
                     return videoxogmogg;
-                // Ogg Video
                 case ogv:
                     return videoogg;
-                // Ogg multimedia file
                 case ogx:
                     return applicationogg;
-                // GNU Oleo spreadsheet
                 case oleo:
                     return applicationxoleo;
                 // apache
@@ -5025,19 +4927,15 @@ namespace FTTLib
                 case onetmp:
                 case onepkg:
                     return applicationonenote;
-                // OOC source code
                 case ooc:
                     return textxooc;
                 // iana
                 case opf:
                     return applicationoebpspackagexml;
-                // OPML syndication feed
                 case opml:
                     return textxopmlxml;
-                // OpenRaster archiving image
                 case ora:
                     return imageopenraster;
-                // Olympus ORF raw image
                 case orf:
                     return imagexolympusorf;
                 // iana
@@ -5049,96 +4947,76 @@ namespace FTTLib
                 // iana
                 case osfpvg:
                     return applicationvndyamahaopenscoreformatosfpvgxml;
-                // ODC template
+                // iana
+                case osm:
+                    return applicationvndopenstreetmapdataxml;
                 case otc:
                     return applicationvndoasisopendocumentcharttemplate;
-                // ODF template
                 case otf:
                 case odft:
                     return applicationvndoasisopendocumentformulatemplate;
-                // ODG template
                 case otg:
                     return applicationvndoasisopendocumentgraphicstemplate;
-                // OTH template
                 case oth:
                     return applicationvndoasisopendocumenttextweb;
                 // iana
                 case oti:
                     return applicationvndoasisopendocumentimagetemplate;
-                // ODP template
                 case otp:
                     return applicationvndoasisopendocumentpresentationtemplate;
-                // ODS template
                 case ots:
                     return applicationvndoasisopendocumentspreadsheettemplate;
-                // ODT template
                 case ott:
                     return applicationvndoasisopendocumenttexttemplate;
                 case ova:
                     return applicationxvirtualboxova;
                 case ovf:
                     return applicationxvirtualboxovf;
-                // OWL XML file
                 case owx:
                     return applicationowlxml;
-                // XPS document
                 case oxps:
                 case xps:
                     return applicationoxps;
-                // OpenOffice.org extension
                 case oxt:
                     return applicationvndopenofficeorgextension;
-                // Pascal source code
                 case p:
                 case pas:
                     return textxpascal;
-                // PKCS#10 certification request
                 case p10:
                     return applicationpkcs10;
-                // PKCS#12 certificate bundle
                 case p12:
                 case pfx:
                     return applicationpkcs12;
-                // Adobe PageMaker
                 case p65:
                 case pm6:
                 case pmd:
                     return applicationxpagemaker;
-                // PKCS#7 certificate bundle
                 case p7b:
                 case spc:
                     return applicationxpkcs7certificates;
-                // PKCS#7 Message or Certificate
                 case p7c:
                 case p7m:
                     return applicationpkcs7mime;
                 // apache
                 case p7r:
                     return applicationxpkcs7certreqresp;
-                // detached S/MIME signature
                 case p7s:
                     return applicationpkcs7signature;
-                // PKCS#8 private key
                 case p8:
                     return applicationpkcs8;
-                // PKCS#8 private key (encrypted)
                 case p8e:
                     return applicationpkcs8encrypted;
                 case pac:
                     return applicationxnsproxyautoconfig;
-                // Pack200 Java archive
                 case pack:
                     return applicationxjavapack200;
                 // iana
                 case pages:
                     return applicationvndapplepages;
-                // PAK archive
                 case pak:
                     return applicationxpak;
-                // Parchive archive
                 case par2:
                     return applicationxpar2;
-                // GIMP pattern
                 case pat:
                     return imagexgimppat;
                 // iana
@@ -5147,32 +5025,25 @@ namespace FTTLib
                 // iana
                 case pbd:
                     return applicationvndpowerbuilder6;
-                // PBM image
                 case pbm:
                     return imagexportablebitmap;
-                // Network Packet Capture
                 case pcap:
                 case cap:
                 case dmp:
                     return applicationvndtcpdumppcap;
-                // PCD image
                 case pcd:
                     return imagexphotocd;
-                // PC Engine ROM
                 case pce:
                     return applicationxpcenginerom;
-                // PCF font
                 case pcf:
                 case pcfz:
                 case pcfgz:
                     return applicationxfontpcf;
-                // PCL file
                 case pcl:
                     return applicationvndhppcl;
                 // iana
                 case pclxl:
                     return applicationvndhppclxl;
-                // Macintosh Quickdraw/PICT drawing
                 case pct:
                 case pict:
                 case pict1:
@@ -5182,34 +5053,25 @@ namespace FTTLib
                 // apache
                 case pcurl:
                     return applicationvndcurlpcurl;
-                // PCX image
                 case pcx:
                     return imagevndzbrushpcx;
-                // AportisDoc document
                 case pdb:
                 case pdc:
                     return applicationxaportisdoc;
                 case pde:
                     return textxprocessing;
-                // PDF document
                 case pdf:
                     return applicationpdf;
-                // PDF document (bzip-compressed)
                 case pdfbz2:
                     return applicationxbzpdf;
-                // PDF document (gzip-compressed)
                 case pdfgz:
                     return applicationxgzpdf;
-                // PDF document (lzip-compressed)
                 case pdflz:
                     return applicationxlzpdf;
-                // PDF document (XZ-compressed)
                 case pdfxz:
                     return applicationxxzpdf;
-                // Pentax PEF raw image
                 case pef:
                     return imagexpentaxpef;
-                // PostScript type-1 font
                 case pfa:
                 case pfb:
                 case gsf:
@@ -5218,36 +5080,29 @@ namespace FTTLib
                 // iana
                 case pfr:
                     return applicationfonttdpfr;
-                // PGM image
                 case pgm:
                     return imagexportablegraymap;
-                // PGN chess game notation
                 case pgn:
                     return applicationvndchesspgn;
-                // PGP/MIME-encrypted message header
                 case pgp:
                 case gpg:
                 case asc:
                     return applicationpgpencrypted;
-                // PHP script
                 case php:
                 case php3:
                 case php4:
                 case php5:
                 case phps:
                     return applicationxphp;
-                // packed font file
                 case pk:
                     return applicationxtexpk;
                 // iana
                 case pki:
                     return applicationpkixcmp;
-                // PkiPath certification path
                 case pkipath:
                     return applicationpkixpkipath;
                 case pkpass:
                     return applicationvndapplepkpass;
-                // Perl script
                 case pl:
                 case pm:
                 case al:
@@ -5255,7 +5110,6 @@ namespace FTTLib
                 case pod:
                 case t:
                     return applicationxperl;
-                // iRiver Playlist
                 case pla:
                     return audioxiriverpla;
                 // iana
@@ -5267,71 +5121,53 @@ namespace FTTLib
                 // iana
                 case plf:
                     return applicationvndpocketlearn;
-                // PlanPerfect spreadsheet
                 case pln:
                     return applicationxplanperfect;
-                // MP3 ShoutCast playlist
                 case pls:
                     return audioxscpls;
                 // iana
                 case pml:
                     return applicationvndctcposml;
-                // PNG image
                 case png:
                     return imagepng;
-                // PNM image
                 case pnm:
                     return imagexportableanymap;
-                // MacPaint Bitmap image
                 case pntg:
                     return imagexmacpaint;
-                // translation file
                 case po:
                     return textxgettexttranslation;
-                // Maven description file
                 case pomxml:
                 case settingsxml:
                     return textxmavenxml;
-                // SPSS Portable Data File
                 case por:
                     return applicationxspsspor;
                 // iana
                 case portpkg:
                     return applicationvndmacportsportpkg;
-                // PowerPoint presentation template
                 case potm:
                     return applicationvndmspowerpointtemplatemacroenabled12;
-                // PowerPoint 2007 presentation template
                 case potx:
                     return applicationvndopenxmlformatsofficedocumentpresentationmltemplate;
-                // PowerPoint add-in
                 case ppam:
                     return applicationvndmspowerpointaddinmacroenabled12;
                 // iana
                 case ppd:
                     return applicationvndcupsppd;
-                // PPM image
                 case ppm:
                     return imagexportablepixmap;
-                // PowerPoint presentation
                 case ppsm:
                     return applicationvndmspowerpointslideshowmacroenabled12;
-                // PowerPoint 2007 show
                 case ppsx:
                     return applicationvndopenxmlformatsofficedocumentpresentationmlslideshow;
-                // PowerPoint presentation
                 case pptm:
                     return applicationvndmspowerpointpresentationmacroenabled12;
-                // PowerPoint 2007 presentation
                 case pptx:
                     return applicationvndopenxmlformatsofficedocumentpresentationmlpresentation;
-                // PowerPoint presentation
                 case ppz:
                 case ppt:
                 case pps:
                 case pot:
                     return applicationvndmspowerpoint;
-                // Palm OS database
                 case pqa:
                 case oprc:
                     return applicationvndpalm;
@@ -5341,34 +5177,29 @@ namespace FTTLib
                 // apache
                 case prf:
                     return applicationpicsrules;
-                // PS document
+                // iana
+                case provx:
+                    return applicationprovenancexml;
                 case ps:
                     return applicationpostscript;
                 // iana
                 case psb:
                     return applicationvnd3gpppicbwsmall;
-                // PostScript document (bzip-compressed)
                 case psbz2:
                     return applicationxbzpostscript;
-                // Photoshop image
                 case psd:
                     return imagevndadobephotoshop;
-                // Linux PSF console font
                 case psf:
                     return applicationxfontlinuxpsf;
-                // Linux PSF console font (gzip-compressed)
                 case psfgz:
                     return applicationxgzfontlinuxpsf;
-                // PSFlib audio library
                 case psflib:
                     return audioxpsflib;
-                // PostScript document (gzip-compressed)
                 case psgz:
                     return applicationxgzpostscript;
                 // iana
                 case pskcxml:
                     return applicationpskcxml;
-                // Pocket Word document
                 case psw:
                     return applicationxpocketword;
                 // iana
@@ -5377,19 +5208,16 @@ namespace FTTLib
                 // iana
                 case ptid:
                     return applicationvndpviptid1;
-                // Microsoft Publisher document
                 case pub:
                     return applicationvndmspublisher;
                 // iana
                 case pvb:
                     return applicationvnd3gpppicbwvar;
-                // Pathetic Writer document
                 case pw:
                     return applicationxpw;
                 // iana
                 case pwn:
                     return applicationvnd3mpostitnotes;
-                // Python 3 script
                 case py:
                 case py3:
                 case py3x:
@@ -5397,14 +5225,16 @@ namespace FTTLib
                 // iana
                 case pya:
                     return audiovndmsplayreadymediapya;
-                // Python bytecode
                 case pyc:
                 case pyo:
                     return applicationxpythonbytecode;
+                case pys:
+                    return applicationxpyspreadbzspreadsheet;
+                case pysu:
+                    return applicationxpyspreadspreadsheet;
                 // iana
                 case pyv:
                     return videovndmsplayreadymediapyv;
-                // Python script
                 case pyx:
                 case wsgi:
                     return textxpython;
@@ -5414,37 +5244,33 @@ namespace FTTLib
                 // iana
                 case qbo:
                     return applicationvndintuqbo;
+                case qcow2:
+                case qcow:
+                    return applicationxqemudisk;
                 // iana
                 case qfx:
                     return applicationvndintuqfx;
-                // Quicken document
                 case qif:
                     return applicationxqw;
-                // Qt Markup Language file
                 case qml:
                 case qmltypes:
                 case qmlproject:
                     return textxqml;
-                // Qpress archive
                 case qp:
                     return applicationxqpress;
                 // iana
                 case qps:
                     return applicationvndpublisharedeltatree;
-                // QuickTime video
                 case qt:
                 case mov:
                 case moov:
                 case qtvr:
                     return videoquicktime;
-                // QtiPlot document
                 case qti:
                 case qtigz:
                     return applicationxqtiplot;
-                // QuickTime image
                 case qtif:
                     return imagexquicktime;
-                // QuickTime metalink playlist
                 case qtl:
                     return applicationxquicktimemedialink;
                 // iana
@@ -5455,43 +5281,35 @@ namespace FTTLib
                 case qxl:
                 case qxb:
                     return applicationvndquarkquarkxpress;
-                // RealAudio document
                 case ra:
                 case rax:
                     return audiovndrnrealaudio;
-                // Fuji RAF raw image
                 case raf:
                     return imagexfujiraf;
-                // RealMedia Metafile
                 case ram:
                     return applicationram;
-                // RAML document
                 case raml:
                     return applicationramlyaml;
-                // RAR archive
+                // iana
+                case rapd:
+                    return applicationrouteapdxml;
                 case rar:
                     return applicationvndrar;
-                // CMU raster image
                 case ras:
                     return imagexcmuraster;
-                // Panasonic raw image
                 case raw:
                     return imagexpanasonicrw;
-                // Raw disk image
                 case rawdiskimage:
                 case img:
                     return applicationxrawdiskimage;
-                // Raw disk image (XZ-compressed)
                 case rawdiskimagexz:
                 case imgxz:
                     return applicationxrawdiskimagexzcompressed;
-                // Ruby script
                 case rb:
                     return applicationxruby;
                 // iana
                 case rcprofile:
                     return applicationvndipunpluggedrcprofile;
-                // RDF file
                 case rdf:
                 case rdfs:
                 case owl:
@@ -5499,22 +5317,21 @@ namespace FTTLib
                 // iana
                 case rdz:
                     return applicationvnddatavisionrdz;
-                // README document
                 case readme:
                     return textxreadme;
-                // Windows Registry extract
                 case reg:
                     return textxmsregedit;
-                // rejected patch
                 case rej:
                     return textxreject;
+                // iana
+                case relo:
+                    return applicationp2poverlayxml;
                 // iana
                 case rep:
                     return applicationvndbusinessobjects;
                 // apache
                 case res:
                     return applicationxdtbresourcexml;
-                // RGB image
                 case rgb:
                     return imagexrgb;
                 // iana
@@ -5535,10 +5352,8 @@ namespace FTTLib
                 // iana
                 case rld:
                     return applicationresourcelistsdiffxml;
-                // Run Length Encoded bitmap image
                 case rle:
                     return imagerle;
-                // RealMedia document
                 case rm:
                 case rmj:
                 case rmm:
@@ -5546,25 +5361,21 @@ namespace FTTLib
                 case rmx:
                 case rmvb:
                     return applicationvndrnrealmedia;
-                // GNU mail message
                 case rmail:
                     return messagexgnurmail;
                 // apache
                 case rmp:
                     return audioxpnrealaudioplugin;
-                // RELAX NG XML schema
                 case rnc:
                     return applicationrelaxngcompactsyntax;
                 // iana
                 case roa:
                     return applicationrpkiroa;
-                // RealPix document
                 case rp:
                     return imagevndrnrealpix;
                 // iana
                 case rp9:
                     return applicationvndcloantorp9;
-                // RPM package
                 case rpm:
                     return applicationxrpm;
                 // iana
@@ -5576,60 +5387,55 @@ namespace FTTLib
                 // iana
                 case rq:
                     return applicationsparqlquery;
-                // Rust source code
                 case rs:
                     return textrust;
+                // iana
+                case rsat:
+                    return applicationatscrsatxml;
                 // apache
                 case rsd:
                     return applicationrsdxml;
-                // RSS summary
+                // iana
+                case rsheet:
+                    return applicationurcressheetxml;
                 case rss:
                     return applicationrssxml;
-                // reStructuredText document
                 case rst:
                     return textxrst;
-                // RealText document
                 case rt:
                     return textvndrnrealtext;
-                // RTF document
                 case rtf:
                     return applicationrtf;
-                // rich text document
                 case rtx:
                     return textrichtext;
                 // nginx
                 case run:
                     return applicationxmakeself;
-                // RealVideo document
+                // iana
+                case rusd:
+                    return applicationrouteusdxml;
                 case rv:
                 case rvx:
                     return videovndrnrealvideo;
-                // Panasonic raw2 image
                 case rw2:
                     return imagexpanasonicrw2;
                 // apache
                 case s:
                 case asm:
                     return textxasm;
-                // Scream Tracker 3 audio
                 case s3m:
                     return audioxs3m;
                 // iana
                 case saf:
                     return applicationvndyamahasmafaudio;
-                // Lotus AmiPro document
                 case sam:
                     return applicationxamipro;
-                // SAMI subtitles
                 case sami:
                     return applicationxsami;
-                // SAP Thomson floppy disk image
                 case sap:
                     return applicationxthomsonsapimage;
-                // Sass CSS pre-processor file
                 case sass:
                     return textxsass;
-                // SPSS Data File
                 case sav:
                 case zsav:
                     return applicationxspsssav;
@@ -5639,17 +5445,14 @@ namespace FTTLib
                 // iana
                 case sc:
                     return applicationvndibmsecurecontainer;
-                // Scala source code
                 case scala:
                     return textxscala;
                 // apache
                 case scd:
                     return applicationxmsschedule;
-                // Scheme source code
                 case scm:
                 case ss:
                     return textxscheme;
-                // SCons configuration file
                 case sconstruct:
                 case sconscript:
                     return textxscons;
@@ -5659,19 +5462,15 @@ namespace FTTLib
                 // iana
                 case scs:
                     return applicationscvpcvresponse;
-                // Sass CSS pre-processor file
                 case scss:
                     return textxscss;
                 // apache
                 case scurl:
                     return textvndcurlscurl;
-                // StarDraw drawing
                 case sda:
                     return applicationvndstardivisiondraw;
-                // StarCalc spreadsheet
                 case sdc:
                     return applicationvndstardivisioncalc;
-                // StarImpress presentation
                 case sdd:
                 case sdp:
                     return applicationvndstardivisionimpress;
@@ -5679,10 +5478,8 @@ namespace FTTLib
                 case sdkm:
                 case sdkd:
                     return applicationvndsolentsdkmxml;
-                // StarChart chart
                 case sds:
                     return applicationvndstardivisionchart;
-                // StarWriter document
                 case sdw:
                 case vor:
                 case sgl:
@@ -5706,10 +5503,15 @@ namespace FTTLib
                 // iana
                 case semf:
                     return applicationvndsemf;
+                // iana
+                case senmlx:
+                    return applicationsenmlxml;
+                // iana
+                case sensmlx:
+                    return applicationsensmlxml;
                 // apache
                 case ser:
                     return applicationjavaserializedobject;
-                // D-Bus service file
                 case service:
                     return textxdbusservice;
                 // iana
@@ -5718,7 +5520,6 @@ namespace FTTLib
                 // iana
                 case setreg:
                     return applicationsetregistrationinitiation;
-                // Super NES ROM
                 case sfc:
                 case smc:
                     return applicationvndnintendosnesrom;
@@ -5731,26 +5532,19 @@ namespace FTTLib
                 // apache
                 case sfv:
                     return textxsfv;
-                // SG-1000 ROM
                 case sg:
                     return applicationxsg1000rom;
-                // SGF record
                 case sgf:
                     return applicationxgosgf;
-                // SGI image
                 case sgi:
                     return imagexsgi;
-                // SGML document
                 case sgml:
                 case sgm:
                     return textsgml;
-                // shell script
                 case sh:
                     return applicationxshellscript;
-                // Dia shape
                 case shape:
                     return applicationxdiashape;
-                // shell archive
                 case shar:
                     return applicationxshar;
                 case shex:
@@ -5758,41 +5552,33 @@ namespace FTTLib
                 // iana
                 case shf:
                     return applicationshfxml;
-                // Shorten audio
                 case shn:
                     return applicationxshorten;
                 // iana
                 case shtml:
                     return texthtml;
-                // Siag spreadsheet
                 case siag:
                     return applicationxsiag;
-                // Commodore 64 audio
                 case sid:
                 case psid:
                     return audioprssid;
-                // detached OpenPGP signature
                 case sig:
                     return applicationpgpsignature;
                 // apache
                 case sil:
                     return audiosilk;
-                // SIS package
                 case sis:
                     return applicationvndsymbianinstall;
-                // SISX package
                 case sisx:
                     return xepocxsisxapp;
-                // StuffIt archive
                 case sit:
                     return applicationxstuffit;
                 // apache
                 case sitx:
                     return applicationxstuffitx;
-                // Sieve mail filter script
                 case siv:
+                case sieve:
                     return applicationsieve;
-                // Skencil document
                 case sk:
                 case sk1:
                     return imagexskencil;
@@ -5802,38 +5588,35 @@ namespace FTTLib
                 case skt:
                 case skm:
                     return applicationvndkoan;
-                // PGP keys
                 case skr:
                 case pkr:
+                case key:
                     return applicationpgpkeys;
-                // PowerPoint slide
                 case sldm:
                     return applicationvndmspowerpointslidemacroenabled12;
-                // PowerPoint 2007 slide
                 case sldx:
                     return applicationvndopenxmlformatsofficedocumentpresentationmlslide;
                 case slim:
                 case slm:
                     return textslim;
                 // iana
+                case sls:
+                    return applicationroutestsidxml;
+                // iana
                 case slt:
                     return applicationvndepsonsalt;
                 // iana
                 case sm:
                     return applicationvndstepmaniastepchart;
-                // StarMail email
                 case smd:
                     return applicationvndstardivisionmail;
-                // StarMath formula
                 case smf:
                     return applicationvndstardivisionmath;
-                // SMIL document
                 case smil:
                 case smi:
                 case sml:
                 case kino:
                     return applicationsmilxml;
-                // Master System ROM
                 case sms:
                     return applicationxsmsrom;
                 // apache
@@ -5842,19 +5625,15 @@ namespace FTTLib
                 // iana
                 case smzip:
                     return applicationvndstepmaniapackage;
-                // Snap package
                 case snap:
                     return applicationvndsnap;
                 // apache
                 case snf:
                     return applicationxfontsnf;
-                // shared library
                 case so:
                     return applicationxsharedlib;
-                // Speedo font
                 case spd:
                     return applicationxfontspeedo;
-                // RPM spec file
                 case spec:
                     return textxrpmspec;
                 // iana
@@ -5869,35 +5648,25 @@ namespace FTTLib
                 // iana
                 case spq:
                     return applicationscvpvprequest;
-                // Speex audio
                 case spx:
                     return audioxspeex;
-                // SQL code
                 case sql:
                     return applicationsql;
-                // SQLite2 database
                 case sqlite2:
                     return applicationxsqlite2;
-                // SQLite3 database
                 case sqlite3:
                     return applicationvndsqlite3;
-                // Squashfs filesystem
                 case sqsh:
                     return applicationvndsquashfs;
-                // Sony SR2 raw image
                 case sr2:
                     return imagexsonysr2;
-                // WAIS source code
                 case src:
                     return applicationxwaissource;
-                // Source RPM package
                 case srcrpm:
                 case spm:
                     return applicationxsourcerpm;
-                // Sony SRF raw image
                 case srf:
                     return imagexsonysrf;
-                // SubRip subtitles
                 case srt:
                     return applicationxsubrip;
                 // iana
@@ -5906,7 +5675,6 @@ namespace FTTLib
                 // iana
                 case srx:
                     return applicationsparqlresultsxml;
-                // SSA subtitles
                 case ssa:
                 case ass:
                     return textxssa;
@@ -5925,53 +5693,42 @@ namespace FTTLib
                 // iana
                 case st:
                     return applicationvndsailingtrackertrack;
-                // OpenOffice Calc template
                 case stc:
                     return applicationvndsunxmlcalctemplate;
-                // OpenOffice Draw template
                 case std:
                     return applicationvndsunxmldrawtemplate;
                 // iana
                 case stf:
                     return applicationvndwtstf;
-                // OpenOffice Impress template
                 case sti:
                     return applicationvndsunxmlimpresstemplate;
                 // iana
                 case stk:
                     return applicationhyperstudio;
-                // STL 3D model
                 case stl:
                     return modelstl;
-                // Scream Tracker audio
                 case stm:
                     return audioxstm;
                 // iana
                 case str:
                     return applicationvndpgformat;
-                // OpenOffice Writer template
                 case stw:
                     return applicationvndsunxmlwritertemplate;
                 case stylus:
                 case styl:
                     return textstylus;
-                // MicroDVD subtitles
                 case sub:
                     return textxmicrodvd;
-                // Sun raster image
                 case sun:
                     return imagexsunraster;
                 // iana
                 case sus:
                 case susp:
                     return applicationvndsuscalendar;
-                // SystemVerilog source code
                 case sv:
                     return textxsvsrc;
-                // SV4 CPIO archive
                 case sv4cpio:
                     return applicationxsv4cpio;
-                // SV4 CPIO archive (with CRC)
                 case sv4crc:
                     return applicationxsv4crc;
                 // iana
@@ -5980,45 +5737,36 @@ namespace FTTLib
                 // iana
                 case svd:
                     return applicationvndsvd;
-                // SVG image
                 case svg:
                     return imagesvgxml;
-                // compressed SVG image
                 case svgz:
                     return imagesvgxmlcompressed;
-                // SystemVerilog header
                 case svh:
                     return textxsvhdr;
-                // Shockwave Flash file
                 case swf:
                 case spl:
                     return applicationvndadobeflashmovie;
                 // iana
                 case swi:
                     return applicationvndaristanetworksswi;
-                // OpenOffice Calc spreadsheet
+                // iana
+                case swidtag:
+                    return applicationswidxml;
                 case sxc:
                     return applicationvndsunxmlcalc;
-                // OpenOffice Draw drawing
                 case sxd:
                     return applicationvndsunxmldraw;
-                // OpenOffice Writer global document
                 case sxg:
                     return applicationvndsunxmlwriterglobal;
-                // OpenOffice Impress presentation
                 case sxi:
                     return applicationvndsunxmlimpress;
-                // OpenOffice Math formula
                 case sxm:
                     return applicationvndsunxmlmath;
-                // OpenOffice Writer document
                 case sxw:
                     return applicationvndsunxmlwriter;
-                // spreadsheet interchange document
                 case sylk:
                 case slk:
                     return textspreadsheet;
-                // txt2tags document
                 case t2t:
                     return textxtxt2tags;
                 // apache
@@ -6036,55 +5784,47 @@ namespace FTTLib
                 // iana
                 case tap:
                     return imagevndtencenttap;
-                // Tar archive
                 case tar:
                 case gtar:
                 case gem:
                     return applicationxtar;
-                // Tar archive (bzip-compressed)
                 case tarbz2:
                 case tarbz:
                 case tbz2:
                 case tbz:
                 case tb2:
                     return applicationxbzipcompressedtar;
-                // Tar archive (gzip-compressed)
                 case targz:
                 case tgz:
                     return applicationxcompressedtar;
-                // Tar archive (lrzip-compressed)
                 case tarlrz:
                 case tlrz:
                     return applicationxlrzipcompressedtar;
-                // Tar archive (lzip-compressed)
                 case tarlz:
                     return applicationxlzipcompressedtar;
-                // Tar archive (LZ4-compressed)
                 case tarlz4:
                     return applicationxlz4compressedtar;
-                // Tar archive (LZMA-compressed)
                 case tarlzma:
                 case tlz:
                     return applicationxlzmacompressedtar;
-                // Tar archive (LZO-compressed)
                 case tarlzo:
                 case tzo:
                     return applicationxtzo;
-                // Tar archive (XZ-compressed)
                 case tarxz:
                 case txz:
                     return applicationxxzcompressedtar;
-                // Tar archive (compressed)
                 case tarz:
                 case taz:
                     return applicationxtarz;
+                case tarzst:
+                case tzst:
+                    return applicationxzstdcompressedtar;
                 // iana
                 case tcap:
                     return applicationvnd3gpp2tcap;
-                // Tcl script
                 case tcl:
                 case tk:
-                    return textxtcl;
+                    return texttcl;
                 // iana
                 case teacher:
                     return applicationvndsmartteacher;
@@ -6092,7 +5832,6 @@ namespace FTTLib
                 case tei:
                 case teicorpus:
                     return applicationteixml;
-                // TeX document
                 case tex:
                 case ltx:
                 case sty:
@@ -6101,7 +5840,6 @@ namespace FTTLib
                 case ins:
                 case latex:
                     return textxtex;
-                // TeXInfo document
                 case texi:
                 case texinfo:
                     return textxtexinfo;
@@ -6114,37 +5852,32 @@ namespace FTTLib
                 // iana
                 case tfx:
                     return imagetifffx;
-                // TGA image
                 case tga:
                 case icb:
                 case tpic:
                 case vda:
                     return imagextga;
-                // theme
                 case theme:
                     return applicationxtheme;
-                // Microsoft Windows theme pack
                 case themepack:
                     return applicationxwindowsthemepack;
                 // iana
                 case thmx:
                     return applicationvndmsofficetheme;
-                // TIFF image
                 case tif:
                 case tiff:
                     return imagetiff;
                 // iana
                 case tmo:
                     return applicationvndtmobilelivetv;
-                // TNEF message
                 case tnef:
                 case tnf:
                 case winmaildat:
                     return applicationvndmstnef;
-                // CD Table Of Contents
                 case toc:
                     return applicationxcdrdaotoc;
-                // BitTorrent seed file
+                case toml:
+                    return applicationtoml;
                 case torrent:
                     return applicationxbittorrent;
                 // iana
@@ -6153,48 +5886,41 @@ namespace FTTLib
                 // iana
                 case tpt:
                     return applicationvndtridtpt;
-                // Troff document
                 case tr:
                 case roff:
                     return texttroff;
                 // iana
                 case tra:
                     return applicationvndtrueapp;
-                // TriG RDF document
                 case trig:
                     return applicationtrig;
                 // apache
                 case trm:
                     return applicationxmsterminal;
-                // message catalog
                 case ts:
                     return textvndqtlinguist;
                 // iana
                 case tsd:
                     return applicationtimestampeddata;
-                // TSV document
                 case tsv:
                     return texttabseparatedvalues;
-                // TrueAudio audio
                 case tta:
                     return audioxtta;
-                // Font collection
                 case ttc:
                     return fontcollection;
-                // TrueType font
                 case ttf:
                     return fontttf;
-                // Turtle document
                 case ttl:
                     return textturtle;
-                // TrueType XML font
+                // iana
+                case ttml:
+                    return applicationttmlxml;
                 case ttx:
                     return applicationxfontttx;
                 // iana
                 case twd:
                 case twds:
                     return applicationvndsimtechmindmapper;
-                // Twig template
                 case twig:
                     return textxtwig;
                 // iana
@@ -6203,7 +5929,6 @@ namespace FTTLib
                 // iana
                 case txf:
                     return applicationvndmobiustxf;
-                // plain text document
                 case txt:
                 case text:
                 case conf:
@@ -6228,13 +5953,10 @@ namespace FTTLib
                 case ufd:
                 case ufdl:
                     return applicationvndufdl;
-                // UFRaw ID image
                 case ufraw:
                     return applicationxufraw;
-                // Qt Designer file
                 case ui:
                     return applicationxdesigner;
-                // X-Motif UIL table
                 case uil:
                     return textxuil;
                 // apache
@@ -6254,16 +5976,16 @@ namespace FTTLib
                 case uris:
                 case urls:
                     return texturilist;
-                // Internet shortcut
                 case url:
                     return applicationxmswinurl;
-                // Ustar archive
+                // iana
+                case usdz:
+                    return modelvndusdzzip;
                 case ustar:
                     return applicationxustar;
                 // iana
                 case utz:
                     return applicationvnduiqtheme;
-                // uuencoded file
                 case uue:
                 case uu:
                     return textxuuencode;
@@ -6319,21 +6041,19 @@ namespace FTTLib
                 case uvz:
                 case uvvz:
                     return applicationvnddecezip;
-                // Verilog source code
                 case v:
                     return textxverilog;
-                // Vala source code
                 case vala:
                 case vapi:
                     return textxvala;
-                // Virtual Boy ROM
                 case vb:
                     return applicationxvirtualboyrom;
                 case vbox:
                     return applicationxvirtualboxvbox;
                 case vboxextpack:
                     return applicationxvirtualboxvboxextpack;
-                // electronic business card
+                case vbs:
+                    return textvbscript;
                 case vcard:
                 case vcf:
                 case vct:
@@ -6345,7 +6065,6 @@ namespace FTTLib
                 // iana
                 case vcg:
                     return applicationvndgroovevcard;
-                // VCS/ICS calendar
                 case vcs:
                 case ics:
                 case ifb:
@@ -6355,58 +6074,46 @@ namespace FTTLib
                     return applicationvndvcx;
                 case vdi:
                     return applicationxvirtualboxvdi;
-                // VHDL source code
                 case vhd:
                 case vhdl:
                     return textxvhdl;
                 // iana
                 case vis:
                     return applicationvndvisionary;
-                // Vivo video
                 case viv:
                 case vivo:
                     return videovndvivo;
                 case vmdk:
                     return applicationxvirtualboxvmdk;
-                // VOC audio
                 case voc:
                     return audioxvoc;
-                // VRML document
                 case vrm:
                 case vrml:
                 case wrl:
                     return modelvrml;
-                // Microsoft Visio document
                 case vsd:
                 case vst:
                 case vsw:
                 case vss:
                     return applicationvndvisio;
-                // Office Open XML Visio Drawing
                 case vsdm:
                     return applicationvndmsvisiodrawingmacroenabledmainxml;
-                // Office Open XML Visio Drawing
                 case vsdx:
                     return applicationvndmsvisiodrawingmainxml;
                 // iana
                 case vsf:
                     return applicationvndvsf;
-                // Office Open XML Visio Stencil
                 case vssm:
                     return applicationvndmsvisiostencilmacroenabledmainxml;
-                // Office Open XML Visio Stencil
                 case vssx:
                     return applicationvndmsvisiostencilmainxml;
-                // Office Open XML Visio Template
                 case vstm:
                     return applicationvndmsvisiotemplatemacroenabledmainxml;
-                // Office Open XML Visio Template
                 case vstx:
                     return applicationvndmsvisiotemplatemainxml;
                 // iana
                 case vtf:
                     return imagevndvalvesourcetexture;
-                // WebVTT subtitles
                 case vtt:
                     return textvtt;
                 // iana
@@ -6415,7 +6122,6 @@ namespace FTTLib
                 // iana
                 case vxml:
                     return applicationvoicexmlxml;
-                // WiiWare bundle
                 case wad:
                     return applicationxwiiwad;
                 // iana
@@ -6427,15 +6133,12 @@ namespace FTTLib
                     return applicationjavaarchive;
                 case wasm:
                     return applicationwasm;
-                // WAV audio
                 case wav:
                     return audioxwav;
-                // Quattro Pro spreadsheet
                 case wb1:
                 case wb2:
                 case wb3:
                     return applicationxquattropro;
-                // WBMP image
                 case wbmp:
                     return imagevndwapwbmp;
                 // iana
@@ -6444,7 +6147,6 @@ namespace FTTLib
                 // iana
                 case wbxml:
                     return applicationvndwapwbxml;
-                // Microsoft Works document
                 case wcm:
                 case wdb:
                 case wps:
@@ -6458,12 +6160,10 @@ namespace FTTLib
                     return audiowebm;
                 case webapp:
                     return applicationxwebappmanifestjson;
-                // WebM video
                 case webm:
                     return videowebm;
                 case webmanifest:
                     return applicationmanifestjson;
-                // WebP image
                 case webp:
                     return imagewebp;
                 // iana
@@ -6472,11 +6172,9 @@ namespace FTTLib
                 // iana
                 case wgt:
                     return applicationwidget;
-                // WIM disk Image
                 case wim:
                 case swm:
                     return applicationxmswim;
-                // Partially downloaded file
                 case wkdownload:
                 case crdownload:
                 case part:
@@ -6484,38 +6182,32 @@ namespace FTTLib
                 // apache
                 case wm:
                     return videoxmswm;
-                // Windows Media audio
                 case wma:
                     return audioxmswma;
                 // apache
                 case wmd:
                     return applicationxmswmd;
-                // WMF image
                 case wmf:
                     return imagewmf;
-                // WML document
                 case wml:
                     return textvndwapwml;
                 // iana
                 case wmlc:
                     return applicationvndwapwmlc;
-                // WMLScript program
                 case wmls:
                     return textvndwapwmlscript;
                 // iana
                 case wmlsc:
                     return applicationvndwapwmlscriptc;
-                // Windows Media video
                 case wmv:
                     return videoxmswmv;
                 // apache
                 case wmz:
                     return applicationxmswmz;
-                // WOFF font
                 case woff:
-                case woff2:
                     return fontwoff;
-                // WordPerfect document
+                case woff2:
+                    return fontwoff2;
                 case wp:
                 case wp4:
                 case wp5:
@@ -6523,22 +6215,17 @@ namespace FTTLib
                 case wpd:
                 case wpp:
                     return applicationvndwordperfect;
-                // WordPerfect/Drawperfect image
                 case wpg:
                     return applicationxwpg;
-                // WPL playlist
                 case wpl:
                     return applicationvndmswpl;
                 // iana
                 case wqd:
                     return applicationvndwqd;
-                // WRI document
                 case wri:
                     return applicationxmswrite;
-                // Bandai WonderSwan ROM
                 case ws:
                     return applicationxwonderswanrom;
-                // Bandai WonderSwan Color ROM
                 case wsc:
                     return applicationxwonderswancolorrom;
                 // iana
@@ -6550,16 +6237,19 @@ namespace FTTLib
                 // iana
                 case wtb:
                     return applicationvndwebturbo;
-                // WavPack audio
                 case wv:
                 case wvp:
                     return audioxwavpack;
-                // WavPack audio correction file
                 case wvc:
                     return audioxwavpackcorrection;
-                // WWF document
                 case wwf:
                     return applicationxwwf;
+                // iana
+                case xb:
+                    return modelvndparasolidtransmitbinary;
+                // iana
+                case xt:
+                    return modelvndparasolidtransmittext;
                 // iana
                 case x3d:
                 case x3dz:
@@ -6572,7 +6262,6 @@ namespace FTTLib
                 case x3dv:
                 case x3dvz:
                     return modelx3dvrml;
-                // Sigma X3F raw image
                 case x3f:
                     return imagexsigmax3f;
                 // apache
@@ -6581,32 +6270,36 @@ namespace FTTLib
                 // apache
                 case xap:
                     return applicationxsilverlightapp;
-                // XAR archive
                 case xar:
                 case pkg:
                     return applicationxxar;
+                // iana
+                case xav:
+                    return applicationxcapattxml;
                 // apache
                 case xbap:
                     return applicationxmsxbap;
                 // iana
                 case xbd:
                     return applicationvndfujixeroxdocuworksbinder;
-                // XBEL bookmarks
                 case xbel:
                     return applicationxxbel;
-                // XBM image
                 case xbm:
                     return imagexxbitmap;
-                // GIMP image
+                // iana
+                case xca:
+                    return applicationxcapcapsxml;
                 case xcf:
                     return imagexxcf;
-                // compressed GIMP image
                 case xcfgz:
                 case xcfbz2:
                     return imagexcompressedxcf;
                 // iana
+                case xcs:
+                    return applicationcalendarxml;
+                // iana
                 case xdf:
-                    return applicationxcapdiffxml;
+                    return applicationmrbconsumerxml;
                 // iana
                 case xdm:
                     return applicationvndsyncmldmxml;
@@ -6620,6 +6313,9 @@ namespace FTTLib
                 case xdw:
                     return applicationvndfujixeroxdocuworks;
                 // iana
+                case xel:
+                    return applicationxcapelxml;
+                // iana
                 case xenc:
                     return applicationxencxml;
                 // iana
@@ -6631,26 +6327,21 @@ namespace FTTLib
                 // iana
                 case xfdl:
                     return applicationvndxfdl;
-                // XHTML page
                 case xhtml:
                 case xht:
                 case html:
                 case htm:
                     return applicationxhtmlxml;
-                // Scream Tracker instrument
                 case xi:
                     return audioxxi;
                 // iana
                 case xif:
                     return imagevndxiff;
-                // Excel add-in
                 case xlam:
                     return applicationvndmsexceladdinmacroenabled12;
-                // XLIFF translation file
                 case xlf:
                 case xliff:
                     return applicationxliffxml;
-                // Excel spreadsheet
                 case xls:
                 case xlc:
                 case xll:
@@ -6660,49 +6351,41 @@ namespace FTTLib
                 case xlt:
                 case xld:
                     return applicationvndmsexcel;
-                // Excel 2007 binary spreadsheet
                 case xlsb:
                     return applicationvndmsexcelsheetbinarymacroenabled12;
-                // Excel spreadsheet
                 case xlsm:
                     return applicationvndmsexcelsheetmacroenabled12;
-                // Excel 2007 spreadsheet
                 case xlsx:
                     return applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet;
-                // Excel spreadsheet template
                 case xltm:
                     return applicationvndmsexceltemplatemacroenabled12;
-                // Excel 2007 spreadsheet template
                 case xltx:
                     return applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate;
-                // FastTracker II audio
                 case xm:
                     return audioxxm;
-                // XMF audio
                 case xmf:
                     return audioxxmf;
-                // XMI file
                 case xmi:
                     return textxxmi;
-                // XML document
                 case xml:
                 case xbl:
                 case xsd:
                 case rng:
                     return applicationxml;
                 // iana
+                case xns:
+                    return applicationxcapnsxml;
+                // iana
                 case xo:
                     return applicationvndolpcsugar;
                 // iana
                 case xop:
                     return applicationxopxml;
-                // XPInstall installer module
                 case xpi:
                     return applicationxxpinstall;
                 // apache
                 case xpl:
                     return applicationxprocxml;
-                // XPM image
                 case xpm:
                     return imagexxpixmap;
                 // iana
@@ -6712,29 +6395,23 @@ namespace FTTLib
                 case xpw:
                 case xpx:
                     return applicationvndinterconformnet;
-                // XSLT stylesheet
                 case xsl:
                 case xslt:
                     return applicationxsltxml;
                 // iana
                 case xsm:
                     return applicationvndsyncmlxml;
-                // XSPF playlist
                 case xspf:
                     return applicationxspfxml;
-                // XUL interface document
                 case xul:
                     return applicationvndmozillaxulxml;
-                // X window image
                 case xwd:
                     return imagexxwindowdump;
                 // apache
                 case xyz:
                     return chemicalxxyz;
-                // XZ archive
                 case xz:
                     return applicationxxz;
-                // YAML document
                 case yaml:
                 case yml:
                     return applicationxyaml;
@@ -6746,10 +6423,8 @@ namespace FTTLib
                     return applicationyinxml;
                 case ymp:
                     return textxsuseymp;
-                // YouTube Media Archive
                 case yt:
                     return applicationvndyoutubeyt;
-                // UNIX-compressed file
                 case z:
                     return applicationxcompress;
                 // apache
@@ -6765,7 +6440,6 @@ namespace FTTLib
                 // iana
                 case zaz:
                     return applicationvndzzazzdeckxml;
-                // Zip archive
                 case zip:
                     return applicationzip;
                 // iana
@@ -6775,10 +6449,10 @@ namespace FTTLib
                 // iana
                 case zmm:
                     return applicationvndhandheldentertainmentxml;
-                // Zoo archive
                 case zoo:
                     return applicationxzoo;
-                // Zlib archive
+                case zst:
+                    return applicationzstd;
                 case zz:
                     return applicationzlib;
             }
@@ -6790,6 +6464,8 @@ namespace FTTLib
             {
                 case applicationvndlotus123:
                     return new string[] { "123", "wk1", "wk3", "wk4", "wks" };
+                case applicationvnd1000mindsdecisionmodelxml:
+                    return new string[] { "1km" };
                 case applicationxgenesis32xrom:
                     return new string[] { "32x", "mdx" };
                 case textvndin3d3dml:
@@ -6800,6 +6476,8 @@ namespace FTTLib
                     return new string[] { "3g2", "3gp2", "3gpp2" };
                 case video3gpp:
                     return new string[] { "3gp", "3gpp", "3ga" };
+                case model3mf:
+                    return new string[] { "3mf" };
                 case applicationxt602:
                     return new string[] { "602" };
                 case applicationx7zcompressed:
@@ -6892,6 +6570,8 @@ namespace FTTLib
                     return new string[] { "arw" };
                 case applicationxapplixspreadsheet:
                     return new string[] { "as" };
+                case textxcommonlisp:
+                    return new string[] { "asd", "fasl", "lisp", "ros" };
                 case applicationvndmsasf:
                     return new string[] { "asf" };
                 case applicationvndaccpacsimplyaso:
@@ -6906,6 +6586,8 @@ namespace FTTLib
                     return new string[] { "atom" };
                 case applicationatomcatxml:
                     return new string[] { "atomcat" };
+                case applicationatomdeletedxml:
+                    return new string[] { "atomdeleted" };
                 case applicationatomsvcxml:
                     return new string[] { "atomsvc" };
                 case applicationvndantixgamecomponent:
@@ -6936,6 +6618,8 @@ namespace FTTLib
                     return new string[] { "azv" };
                 case applicationvndamazonebook:
                     return new string[] { "azw" };
+                case applicationvndamazonmobi8ebook:
+                    return new string[] { "azw3", "kfx" };
                 case applicationxtrash:
                     return new string[] { "bak", "old", "sik" };
                 case applicationxbcpio:
@@ -6950,22 +6634,28 @@ namespace FTTLib
                     return new string[] { "bh2" };
                 case textxbibtex:
                     return new string[] { "bib" };
-                case applicationxsegacdrom:
-                    return new string[] { "bin" };
+                case applicationoctetstream:
+                    return new string[] { "bin", "dms", "lrf", "mar", "dist", "distz", "bpk", "dump", "elc", "deploy", "dll", "msp", "msm", "buffer" };
                 case applicationxblorb:
                     return new string[] { "blb", "blorb" };
                 case applicationxblender:
                     return new string[] { "blender", "blend" };
                 case applicationvndbmi:
                     return new string[] { "bmi" };
+                case applicationvndbalsamiqbmmlxml:
+                    return new string[] { "bmml" };
                 case imagebmp:
                     return new string[] { "bmp", "dib" };
                 case applicationvndpreviewsystemsbox:
                     return new string[] { "box" };
                 case applicationxbzip2:
                     return new string[] { "boz" };
+                case applicationxbpspatch:
+                    return new string[] { "bps" };
                 case applicationxbsdiff:
                     return new string[] { "bsdiff" };
+                case modelvndvalvesourcecompiledmap:
+                    return new string[] { "bsp" };
                 case imageprsbtif:
                     return new string[] { "btif" };
                 case applicationxbzip:
@@ -7006,6 +6696,8 @@ namespace FTTLib
                     return new string[] { "cdbcmsg" };
                 case applicationxnetcdf:
                     return new string[] { "cdf", "nc" };
+                case applicationcdfxxml:
+                    return new string[] { "cdfx" };
                 case applicationvndmediastationcdkey:
                     return new string[] { "cdkey" };
                 case applicationcdmicapability:
@@ -7046,6 +6738,8 @@ namespace FTTLib
                     return new string[] { "cii" };
                 case applicationvndmsartgalry:
                     return new string[] { "cil" };
+                case applicationnode:
+                    return new string[] { "cjs" };
                 case textxopenclsrc:
                     return new string[] { "cl" };
                 case applicationvndclaymore:
@@ -7132,6 +6826,8 @@ namespace FTTLib
                     return new string[] { "cur" };
                 case textvndcurl:
                     return new string[] { "curl" };
+                case applicationxappleworksdocument:
+                    return new string[] { "cwk" };
                 case applicationprscww:
                     return new string[] { "cww" };
                 case textxdsrc:
@@ -7162,6 +6858,8 @@ namespace FTTLib
                     return new string[] { "dd2" };
                 case applicationvndfujixeroxddd:
                     return new string[] { "ddd" };
+                case applicationvndsyncmldmddfxml:
+                    return new string[] { "ddf" };
                 case imagexdds:
                     return new string[] { "dds" };
                 case applicationvnddebianbinarypackage:
@@ -7192,8 +6890,6 @@ namespace FTTLib
                     return new string[] { "djvu", "djv" };
                 case applicationxapplediskimage:
                     return new string[] { "dmg" };
-                case applicationoctetstream:
-                    return new string[] { "dms", "lrf", "mar", "dist", "distz", "bpk", "dump", "elc", "deploy", "dll", "msp", "msm", "buffer" };
                 case applicationvnddna:
                     return new string[] { "dna" };
                 case imagexadobedng:
@@ -7242,6 +6938,8 @@ namespace FTTLib
                     return new string[] { "dvibz2" };
                 case applicationxgzdvi:
                     return new string[] { "dvigz" };
+                case applicationatscdwdxml:
+                    return new string[] { "dwd" };
                 case modelvnddwf:
                     return new string[] { "dwf" };
                 case imagevnddwg:
@@ -7276,6 +6974,8 @@ namespace FTTLib
                     return new string[] { "eml", "mime" };
                 case applicationemmaxml:
                     return new string[] { "emma" };
+                case applicationemotionmlxml:
+                    return new string[] { "emotionml" };
                 case applicationvndemusicemusicpackage:
                     return new string[] { "emp" };
                 case applicationxmsmetafile:
@@ -7344,6 +7044,8 @@ namespace FTTLib
                     return new string[] { "fdf" };
                 case applicationxfdsdisk:
                     return new string[] { "fds" };
+                case applicationfdtxml:
+                    return new string[] { "fdt" };
                 case applicationvnddenovofcselayoutlink:
                     return new string[] { "fe_launch" };
                 case textxgherkin:
@@ -7439,7 +7141,7 @@ namespace FTTLib
                 case applicationxgedcom:
                     return new string[] { "ged", "gedcom" };
                 case applicationxgenesisrom:
-                    return new string[] { "gen" };
+                    return new string[] { "gen", "sgd" };
                 case applicationvnddynageo:
                     return new string[] { "geo" };
                 case applicationgeojson:
@@ -7501,7 +7203,7 @@ namespace FTTLib
                 case applicationxgrampsxml:
                     return new string[] { "gramps" };
                 case textxgroovy:
-                    return new string[] { "groovy" };
+                    return new string[] { "groovy", "gvy", "gy", "gsh" };
                 case applicationvndgrooveinjector:
                     return new string[] { "grv" };
                 case applicationsrgsxml:
@@ -7550,6 +7252,10 @@ namespace FTTLib
                     return new string[] { "heics" };
                 case imageheifsequence:
                     return new string[] { "heifs" };
+                case imagehej2k:
+                    return new string[] { "hej2" };
+                case applicationatscheldxml:
+                    return new string[] { "held" };
                 case applicationxhfefloppyimage:
                     return new string[] { "hfe" };
                 case textxchdr:
@@ -7568,6 +7274,8 @@ namespace FTTLib
                     return new string[] { "hqx" };
                 case textxhaskell:
                     return new string[] { "hs" };
+                case imagehsj2:
+                    return new string[] { "hsj2" };
                 case textxcomponent:
                     return new string[] { "htc" };
                 case applicationvndkenameaapp:
@@ -7628,6 +7336,8 @@ namespace FTTLib
                     return new string[] { "ipfix" };
                 case applicationvndshanainformedpackage:
                     return new string[] { "ipk" };
+                case applicationxipspatch:
+                    return new string[] { "ips" };
                 case textxiptables:
                     return new string[] { "iptables" };
                 case applicationxipynbjson:
@@ -7644,6 +7354,8 @@ namespace FTTLib
                     return new string[] { "it87" };
                 case applicationvndshanainformedformtemplate:
                     return new string[] { "itp" };
+                case applicationitsxml:
+                    return new string[] { "its" };
                 case applicationvndimmervisionivp:
                     return new string[] { "ivp" };
                 case applicationvndimmervisionivu:
@@ -7664,6 +7376,8 @@ namespace FTTLib
                     return new string[] { "java" };
                 case applicationxjavajcekeystore:
                     return new string[] { "jceks" };
+                case imagejphc:
+                    return new string[] { "jhc" };
                 case applicationvndjisp:
                     return new string[] { "jisp" };
                 case applicationxjavakeystore:
@@ -7686,6 +7400,8 @@ namespace FTTLib
                     return new string[] { "jpg", "jpeg", "jpe" };
                 case videojpeg:
                     return new string[] { "jpgv" };
+                case imagejph:
+                    return new string[] { "jph" };
                 case imagejpm:
                     return new string[] { "jpm", "jpgm" };
                 case applicationxjbuilderproject:
@@ -7706,12 +7422,28 @@ namespace FTTLib
                     return new string[] { "jsonpatch" };
                 case textjsx:
                     return new string[] { "jsx" };
+                case imagejxr:
+                    return new string[] { "jxr" };
+                case imagejxra:
+                    return new string[] { "jxra" };
+                case imagejxrs:
+                    return new string[] { "jxrs" };
+                case imagejxs:
+                    return new string[] { "jxs" };
+                case imagejxsc:
+                    return new string[] { "jxsc" };
+                case imagejxsi:
+                    return new string[] { "jxsi" };
+                case imagejxss:
+                    return new string[] { "jxss" };
                 case imagexkodakk25:
                     return new string[] { "k25" };
                 case applicationxthomsoncassette:
                     return new string[] { "k7" };
                 case applicationxkarbon:
                     return new string[] { "karbon" };
+                case applicationxkeepass2:
+                    return new string[] { "kdbx" };
                 case imagexkodakkdc:
                     return new string[] { "kdc" };
                 case applicationxkexiprojectsqlite2:
@@ -7720,8 +7452,6 @@ namespace FTTLib
                     return new string[] { "kexic" };
                 case applicationxkexiprojectshortcut:
                     return new string[] { "kexis" };
-                case applicationxiworkkeynotesffkey:
-                    return new string[] { "key" };
                 case applicationvndapplekeynote:
                     return new string[] { "keynote" };
                 case applicationxkformula:
@@ -7770,6 +7500,8 @@ namespace FTTLib
                     return new string[] { "les" };
                 case textless:
                     return new string[] { "less" };
+                case applicationlgrxml:
+                    return new string[] { "lgr" };
                 case applicationxlha:
                     return new string[] { "lha", "lzh" };
                 case textxliteratehaskell:
@@ -7844,6 +7576,8 @@ namespace FTTLib
                     return new string[] { "mab" };
                 case applicationmadsxml:
                     return new string[] { "mads" };
+                case applicationmmtaeixml:
+                    return new string[] { "maei" };
                 case applicationvndecowinchart:
                     return new string[] { "mag" };
                 case textxmakefile:
@@ -7858,6 +7592,8 @@ namespace FTTLib
                     return new string[] { "mbox" };
                 case applicationvndmedcalcdata:
                     return new string[] { "mc1" };
+                case textvndsenxwarpscript:
+                    return new string[] { "mc2" };
                 case applicationvndmcd:
                     return new string[] { "mcd" };
                 case textvndcurlmcurl:
@@ -7996,10 +7732,14 @@ namespace FTTLib
                     return new string[] { "msty" };
                 case applicationxmsxrom:
                     return new string[] { "msx" };
+                case modelmtl:
+                    return new string[] { "mtl" };
                 case textxmup:
                     return new string[] { "mup", "not" };
                 case applicationvndmusician:
                     return new string[] { "mus" };
+                case applicationmmtusdxml:
+                    return new string[] { "musd" };
                 case applicationvndrecordaremusicxmlxml:
                     return new string[] { "musicxml" };
                 case applicationxmsmediaview:
@@ -8010,6 +7750,8 @@ namespace FTTLib
                     return new string[] { "mxf" };
                 case applicationvndrecordaremusicxml:
                     return new string[] { "mxl" };
+                case audiomobilexmf:
+                    return new string[] { "mxmf" };
                 case applicationxvxml:
                     return new string[] { "mxml", "xhvml", "xvml", "xvm" };
                 case applicationvndtriscapemxs:
@@ -8052,12 +7794,16 @@ namespace FTTLib
                     return new string[] { "nnw" };
                 case imagevndnetfpx:
                     return new string[] { "npx" };
+                case applicationnquads:
+                    return new string[] { "nq" };
                 case applicationxnetshowchannel:
                     return new string[] { "nsc" };
                 case applicationvndlotusnotes:
                     return new string[] { "nsf" };
                 case videoxnsv:
                     return new string[] { "nsv" };
+                case applicationntriples:
+                    return new string[] { "nt" };
                 case applicationvndnitf:
                     return new string[] { "ntf", "nitf" };
                 case applicationvndapplenumbers:
@@ -8074,6 +7820,8 @@ namespace FTTLib
                     return new string[] { "oas" };
                 case applicationxmsbinder:
                     return new string[] { "obd" };
+                case applicationvndopenbloxgamexml:
+                    return new string[] { "obgx" };
                 case applicationxtgif:
                     return new string[] { "obj" };
                 case textxocl:
@@ -8100,6 +7848,8 @@ namespace FTTLib
                     return new string[] { "odt" };
                 case audioogg:
                     return new string[] { "oga", "ogg", "opus" };
+                case modelvndopengex:
+                    return new string[] { "ogex" };
                 case videoxogmogg:
                     return new string[] { "ogm" };
                 case videoogg:
@@ -8128,6 +7878,8 @@ namespace FTTLib
                     return new string[] { "osf" };
                 case applicationvndyamahaopenscoreformatosfpvgxml:
                     return new string[] { "osfpvg" };
+                case applicationvndopenstreetmapdataxml:
+                    return new string[] { "osm" };
                 case applicationvndoasisopendocumentcharttemplate:
                     return new string[] { "otc" };
                 case applicationvndoasisopendocumentformulatemplate:
@@ -8302,6 +8054,8 @@ namespace FTTLib
                     return new string[] { "pre" };
                 case applicationpicsrules:
                     return new string[] { "prf" };
+                case applicationprovenancexml:
+                    return new string[] { "provx" };
                 case applicationpostscript:
                     return new string[] { "ps" };
                 case applicationvnd3gpppicbwsmall:
@@ -8340,6 +8094,10 @@ namespace FTTLib
                     return new string[] { "pya" };
                 case applicationxpythonbytecode:
                     return new string[] { "pyc", "pyo" };
+                case applicationxpyspreadbzspreadsheet:
+                    return new string[] { "pys" };
+                case applicationxpyspreadspreadsheet:
+                    return new string[] { "pysu" };
                 case videovndmsplayreadymediapyv:
                     return new string[] { "pyv" };
                 case textxpython:
@@ -8348,6 +8106,8 @@ namespace FTTLib
                     return new string[] { "qam" };
                 case applicationvndintuqbo:
                     return new string[] { "qbo" };
+                case applicationxqemudisk:
+                    return new string[] { "qcow2", "qcow" };
                 case applicationvndintuqfx:
                     return new string[] { "qfx" };
                 case applicationxqw:
@@ -8376,6 +8136,8 @@ namespace FTTLib
                     return new string[] { "ram" };
                 case applicationramlyaml:
                     return new string[] { "raml" };
+                case applicationrouteapdxml:
+                    return new string[] { "rapd" };
                 case applicationvndrar:
                     return new string[] { "rar" };
                 case imagexcmuraster:
@@ -8400,6 +8162,8 @@ namespace FTTLib
                     return new string[] { "reg" };
                 case textxreject:
                     return new string[] { "rej" };
+                case applicationp2poverlayxml:
+                    return new string[] { "relo" };
                 case applicationvndbusinessobjects:
                     return new string[] { "rep" };
                 case applicationxdtbresourcexml:
@@ -8444,8 +8208,12 @@ namespace FTTLib
                     return new string[] { "rq" };
                 case textrust:
                     return new string[] { "rs" };
+                case applicationatscrsatxml:
+                    return new string[] { "rsat" };
                 case applicationrsdxml:
                     return new string[] { "rsd" };
+                case applicationurcressheetxml:
+                    return new string[] { "rsheet" };
                 case applicationrssxml:
                     return new string[] { "rss" };
                 case textxrst:
@@ -8458,6 +8226,8 @@ namespace FTTLib
                     return new string[] { "rtx" };
                 case applicationxmakeself:
                     return new string[] { "run" };
+                case applicationrouteusdxml:
+                    return new string[] { "rusd" };
                 case videovndrnrealvideo:
                     return new string[] { "rv", "rvx" };
                 case imagexpanasonicrw2:
@@ -8522,6 +8292,10 @@ namespace FTTLib
                     return new string[] { "semd" };
                 case applicationvndsemf:
                     return new string[] { "semf" };
+                case applicationsenmlxml:
+                    return new string[] { "senmlx" };
+                case applicationsensmlxml:
+                    return new string[] { "sensmlx" };
                 case applicationjavaserializedobject:
                     return new string[] { "ser" };
                 case textxdbusservice:
@@ -8577,19 +8351,21 @@ namespace FTTLib
                 case applicationxstuffitx:
                     return new string[] { "sitx" };
                 case applicationsieve:
-                    return new string[] { "siv" };
+                    return new string[] { "siv", "sieve" };
                 case imagexskencil:
                     return new string[] { "sk", "sk1" };
                 case applicationvndkoan:
                     return new string[] { "skp", "skd", "skt", "skm" };
                 case applicationpgpkeys:
-                    return new string[] { "skr", "pkr" };
+                    return new string[] { "skr", "pkr", "key" };
                 case applicationvndmspowerpointslidemacroenabled12:
                     return new string[] { "sldm" };
                 case applicationvndopenxmlformatsofficedocumentpresentationmlslide:
                     return new string[] { "sldx" };
                 case textslim:
                     return new string[] { "slim", "slm" };
+                case applicationroutestsidxml:
+                    return new string[] { "sls" };
                 case applicationvndepsonsalt:
                     return new string[] { "slt" };
                 case applicationvndstepmaniastepchart:
@@ -8706,6 +8482,8 @@ namespace FTTLib
                     return new string[] { "swf", "spl" };
                 case applicationvndaristanetworksswi:
                     return new string[] { "swi" };
+                case applicationswidxml:
+                    return new string[] { "swidtag" };
                 case applicationvndsunxmlcalc:
                     return new string[] { "sxc" };
                 case applicationvndsunxmldraw:
@@ -8752,9 +8530,11 @@ namespace FTTLib
                     return new string[] { "tarxz", "txz" };
                 case applicationxtarz:
                     return new string[] { "tarz", "taz" };
+                case applicationxzstdcompressedtar:
+                    return new string[] { "tarzst", "tzst" };
                 case applicationvnd3gpp2tcap:
                     return new string[] { "tcap" };
-                case textxtcl:
+                case texttcl:
                     return new string[] { "tcl", "tk" };
                 case applicationvndsmartteacher:
                     return new string[] { "teacher" };
@@ -8786,6 +8566,8 @@ namespace FTTLib
                     return new string[] { "tnef", "tnf", "winmaildat" };
                 case applicationxcdrdaotoc:
                     return new string[] { "toc" };
+                case applicationtoml:
+                    return new string[] { "toml" };
                 case applicationxbittorrent:
                     return new string[] { "torrent" };
                 case applicationvndgroovetooltemplate:
@@ -8814,6 +8596,8 @@ namespace FTTLib
                     return new string[] { "ttf" };
                 case textturtle:
                     return new string[] { "ttl" };
+                case applicationttmlxml:
+                    return new string[] { "ttml" };
                 case applicationxfontttx:
                     return new string[] { "ttx" };
                 case applicationvndsimtechmindmapper:
@@ -8854,6 +8638,8 @@ namespace FTTLib
                     return new string[] { "uri", "uris", "urls" };
                 case applicationxmswinurl:
                     return new string[] { "url" };
+                case modelvndusdzzip:
+                    return new string[] { "usdz" };
                 case applicationxustar:
                     return new string[] { "ustar" };
                 case applicationvnduiqtheme:
@@ -8894,6 +8680,8 @@ namespace FTTLib
                     return new string[] { "vbox" };
                 case applicationxvirtualboxvboxextpack:
                     return new string[] { "vbox-extpack" };
+                case textvbscript:
+                    return new string[] { "vbs" };
                 case textvcard:
                     return new string[] { "vcard", "vcf", "vct", "gcrd" };
                 case applicationxcdlink:
@@ -9003,7 +8791,9 @@ namespace FTTLib
                 case applicationxmswmz:
                     return new string[] { "wmz" };
                 case fontwoff:
-                    return new string[] { "woff", "woff2" };
+                    return new string[] { "woff" };
+                case fontwoff2:
+                    return new string[] { "woff2" };
                 case applicationvndwordperfect:
                     return new string[] { "wp", "wp4", "wp5", "wp6", "wpd", "wpp" };
                 case applicationxwpg:
@@ -9030,6 +8820,10 @@ namespace FTTLib
                     return new string[] { "wvc" };
                 case applicationxwwf:
                     return new string[] { "wwf" };
+                case modelvndparasolidtransmitbinary:
+                    return new string[] { "x_b" };
+                case modelvndparasolidtransmittext:
+                    return new string[] { "x_t" };
                 case modelx3dxml:
                     return new string[] { "x3d", "x3dz" };
                 case modelx3dbinary:
@@ -9044,6 +8838,8 @@ namespace FTTLib
                     return new string[] { "xap" };
                 case applicationxxar:
                     return new string[] { "xar", "pkg" };
+                case applicationxcapattxml:
+                    return new string[] { "xav" };
                 case applicationxmsxbap:
                     return new string[] { "xbap" };
                 case applicationvndfujixeroxdocuworksbinder:
@@ -9052,11 +8848,15 @@ namespace FTTLib
                     return new string[] { "xbel" };
                 case imagexxbitmap:
                     return new string[] { "xbm" };
+                case applicationxcapcapsxml:
+                    return new string[] { "xca" };
                 case imagexxcf:
                     return new string[] { "xcf" };
                 case imagexcompressedxcf:
                     return new string[] { "xcfgz", "xcfbz2" };
-                case applicationxcapdiffxml:
+                case applicationcalendarxml:
+                    return new string[] { "xcs" };
+                case applicationmrbconsumerxml:
                     return new string[] { "xdf" };
                 case applicationvndsyncmldmxml:
                     return new string[] { "xdm" };
@@ -9066,6 +8866,8 @@ namespace FTTLib
                     return new string[] { "xdssc" };
                 case applicationvndfujixeroxdocuworks:
                     return new string[] { "xdw" };
+                case applicationxcapelxml:
+                    return new string[] { "xel" };
                 case applicationxencxml:
                     return new string[] { "xenc" };
                 case applicationpatchopserrorxml:
@@ -9104,6 +8906,8 @@ namespace FTTLib
                     return new string[] { "xmi" };
                 case applicationxml:
                     return new string[] { "xml", "xbl", "xsd", "rng" };
+                case applicationxcapnsxml:
+                    return new string[] { "xns" };
                 case applicationvndolpcsugar:
                     return new string[] { "xo" };
                 case applicationxopxml:
@@ -9156,6 +8960,8 @@ namespace FTTLib
                     return new string[] { "zmm" };
                 case applicationxzoo:
                     return new string[] { "zoo" };
+                case applicationzstd:
+                    return new string[] { "zst" };
                 case applicationzlib:
                     return new string[] { "zz" };
             }

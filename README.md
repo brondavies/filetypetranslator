@@ -5,7 +5,8 @@ A library of helper methods for your .Net project to get [mime types](https://en
 
 # Releases
 Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll) 
-#### 1.1.0 - Updated sources, added  PDF, Presentation, and Spreadsheet file categories - formerly part of Document
+#### 1.1.1 - Updated sources, switched to .netstandard runtime
+#### 1.1.0 - Updated sources, added PDF, Presentation, and Spreadsheet file categories - formerly part of Document
 #### 1.0.3 - Initial public release
 
 # Examples

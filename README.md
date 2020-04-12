@@ -86,6 +86,6 @@ While it is unrealistic to expect this library to provide a comprehensive list w
 ### Information sources for this library are provided through the following and in order of preference:
 
 1. http://www.iana.org/assignments/media-types/media-types.xhtml
-1. https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in
+1. https://gitlab.freedesktop.org/xdg/shared-mime-info
 1. https://cdn.rawgit.com/jshttp/mime-db/master/db.json
 1. http://www.file-extensions.org/

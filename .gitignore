@@ -251,3 +251,7 @@ paket-files/
 .idea/
 *.sln.iml
 *.exe
+
+#Python
+src/python/build/
+src/python/dist/

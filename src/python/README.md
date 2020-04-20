@@ -1,23 +1,30 @@
-# ![https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png](FTT Logo) File Type Translator (FTT)
+# ![FTT Logo](https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png) File Type Translator (FTT)
 
 A library of helper methods for your Python project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
 
 # Releases
-Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll) 
+Available as a [pypi package](https://pypi.org/packages/fttlib)
+#### 1.2.1 - Initial python release
 #### 1.1.1 - Updated sources, switched to .netstandard runtime
 #### 1.1.0 - Updated sources, added PDF, Presentation, and Spreadsheet file categories - formerly part of Document
 #### 1.0.3 - Initial public release
 
 # Examples
 
+#### Import the library
+
+```python
+from FTTLib import FTT
+```
+
 ####  When you need to know the mime type of a file based on its extension.
 
-```csharp
-string mimeType = FTT.GetMimeType(@"Path\To\My\File.doc");
-Console.WriteLine(mimeType);
+```python
+mimeType = FTT.getMimeType("Path/To/My/File.doc")
+print(mimeType)
 
-mimeType = FTT.GetMimeType(@"Path\To\My\File.docx");
-Console.WriteLine(mimeType);
+mimeType = FTT.getMimeType("Path/To/My/File.docx")
+print(mimeType)
 
 >  application/msword
 >  application/vnd.openxmlformats-officedocument.wordprocessingml.document
@@ -25,12 +32,12 @@ Console.WriteLine(mimeType);
 
 ####  When you need to know the file type category of a file based on its extension.
 
-```csharp
-FileCategory category = FTT.GetFileCategory(@"Path\To\My\File.docx");
-Console.WriteLine(category);
+```python
+FileCategory category = FTT.getFileCategory("Path/To/My/File.docx")
+print(category)
 
-category = FTT.GetFileCategory(@"Path\To\My\File.jpg");
-Console.WriteLine(category);
+category = FTT.getFileCategory("Path/To/My/File.jpg")
+print(category)
 
 >  Document
 >  Image
@@ -38,9 +45,9 @@ Console.WriteLine(category);
 
 ####  When you need to know the preferred file extension for a file based on its mime type.
 
-```csharp
-string[] extensions = FTT.GetMimeTypeFileExtension("text/csv");
-Console.WriteLine(extensions[0]);
+```python
+string[] extensions = FTT.getMimeTypeFileExtension("text/csv")
+print(extensions[0])
 
 >  csv
 ```

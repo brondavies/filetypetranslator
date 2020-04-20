@@ -255,3 +255,4 @@ paket-files/
 #Python
 src/python/build/
 src/python/dist/
+__pycache__

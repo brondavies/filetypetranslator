@@ -1,5 +1,6 @@
-﻿using System;
-using System.IO;
+﻿using FTT.generators;
+using System;
+using System.Net;
 
 namespace FTT
 {
@@ -9,8 +10,12 @@ namespace FTT
         {
             try
             {
-                string generatedFile = Path.GetFullPath(@"..\..\..\FTTLib\FTT.generated.cs");
-                File.WriteAllText(generatedFile, Sources.Parse());
+                ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
+                Sources.Parse(
+                    typeof(CsharpGenerator)
+                    //,typeof(PythonGenerator)
+                    );
             }
             catch (Exception e)
             {

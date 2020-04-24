@@ -2,7 +2,7 @@
 
 namespace FTT
 {
-    internal class MimeType
+    public class MimeType
     {
         internal string comment;
         internal List<string> extensions = new List<string>();

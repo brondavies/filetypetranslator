@@ -4,17 +4,14 @@ A library of helper methods for your Python project to get [mime types](https://
 
 # Releases
 Available as a [pypi package](https://pypi.org/packages/fttlib)
-#### 1.2.1 - Initial python release
-#### 1.1.1 - Updated sources, switched to .netstandard runtime
-#### 1.1.0 - Updated sources, added PDF, Presentation, and Spreadsheet file categories - formerly part of Document
-#### 1.0.3 - Initial public release
+#### 1.1.2 - Initial python release
 
 # Examples
 
 #### Import the library
 
 ```python
-from FTTLib import FTT
+from fttlib import FTT
 ```
 
 ####  When you need to know the mime type of a file based on its extension.
@@ -61,7 +58,7 @@ This library is designed along the following tenets:
 * Small memory footprint
 * Simple static methods (no extension methods and no instantiatable classes)
 * Case-insensitive
-* Portable - works in applications targeting any CLR
+* Portable - works in applications targeting any runtime
 
 # File Categories
 

@@ -182,6 +182,10 @@ namespace FTTLib
         const string avi = "avi";
         const string avf = "avf";
         const string divx = "divx";
+        const string imageavif = "image/avif";
+        const string avif = "avif";
+        const string imageavifsequence = "image/avif-sequence";
+        const string avifs = "avifs";
         const string applicationxapplixword = "application/x-applix-word";
         const string aw = "aw";
         const string audioamrwb = "audio/amr-wb";
@@ -1179,6 +1183,8 @@ namespace FTTLib
         const string kra = "kra";
         const string applicationxkspread = "application/x-kspread";
         const string ksp = "ksp";
+        const string textxkotlin = "text/x-kotlin";
+        const string kt = "kt";
         const string imagektx = "image/ktx";
         const string ktx = "ktx";
         const string applicationvndkahootz = "application/vnd.kahootz";
@@ -3167,6 +3173,10 @@ namespace FTTLib
                 case avf:
                 case divx:
                     return videoxmsvideo;
+                case avif:
+                    return imageavif;
+                case avifs:
+                    return imageavifsequence;
                 case aw:
                     return applicationxapplixword;
                 case awb:
@@ -4377,6 +4387,8 @@ namespace FTTLib
                     return applicationxkrita;
                 case ksp:
                     return applicationxkspread;
+                case kt:
+                    return textxkotlin;
                 case ktx:
                     return imagektx;
                 // iana
@@ -6600,6 +6612,10 @@ namespace FTTLib
                     return new string[] { "automount", "device", "mount", "path", "scope", "slice", "socket", "swap", "target", "timer" };
                 case videoxmsvideo:
                     return new string[] { "avi", "avf", "divx" };
+                case imageavif:
+                    return new string[] { "avif" };
+                case imageavifsequence:
+                    return new string[] { "avifs" };
                 case applicationxapplixword:
                     return new string[] { "aw" };
                 case audioamrwb:
@@ -7478,6 +7494,8 @@ namespace FTTLib
                     return new string[] { "kra" };
                 case applicationxkspread:
                     return new string[] { "ksp" };
+                case textxkotlin:
+                    return new string[] { "kt" };
                 case imagektx:
                     return new string[] { "ktx" };
                 case applicationvndkahootz:

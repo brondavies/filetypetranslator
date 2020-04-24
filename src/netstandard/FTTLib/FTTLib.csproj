@@ -6,7 +6,7 @@
     <DocumentationFile>bin\Release\FTTLib.xml</DocumentationFile>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FTTLib.snk</AssemblyOriginatorKeyFile>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <Authors>Bron Davies</Authors>
     <Company>Brontech, LLC</Company>
     <Description>A library of helper methods for your .Net project to get mime types and general file category based on the file extension</Description>

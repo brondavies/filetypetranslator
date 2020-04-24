@@ -1,4 +1,4 @@
-from enum import Enum, unique, auto
+﻿from enum import Enum, unique, auto
 """
 Methods for translating between mime-types and file extensions
 """
@@ -7,65 +7,65 @@ def getMimeType(fileName):
     Returns the mime type for the given file name
     :param str fileName A file name, file extension or file path specification
     """
-    return "text/plain"
+    #getMimeType body
 
 def getMimeTypeFileExtensions(mimeType):
     """
     Returns a list of possible file extensions for the given mime type
     :param str mimeType A mime Type
     """
-    return "txt"
+    #getMimeTypeFileExtensions body
 
 def getFileCategory(fileName):
     """
     Returns a file category for the given file name
     :param str fileName A file name, file extension or file path specification
     """
-    return FileCategory.Binary
+    #getFileCategory body
 
 @unique
 class FileCategory(Enum):
     """
     Any file that can be extracted into several files
     """
-    Archive = auto(),
+    Archive = auto()
     """
     Any file that can only contain an audio stream
     """
-    Audio = auto(),
+    Audio = auto()
     """
     Any file that is unclassified or does not have a text representation
     """
-    Binary = auto(),
+    Binary = auto()
     """
     Any file that contains instructions that are compilable or machine-readable
     """
-    Code = auto(),
+    Code = auto()
     """
     Any file that is designed for conveying structured information between people
     """
-    Document = auto(),
+    Document = auto()
     """
     Any file that can only contain a single image or series of images
     """
-    Image = auto(),
+    Image = auto()
     """
     Any file that is considered a document archive format
     """
-    PDF = auto(),
+    PDF = auto()
     """
     Any file that is designed for electronic presentations consisting of a series of separate pages or slides
     """
-    Presentation = auto(),
+    Presentation = auto()
     """
     Any file in which data is arranged in rows and columns and can be manipulated and used in calculations
     """
-    Spreadsheet = auto(),
+    Spreadsheet = auto()
     """
     Any file that is not classified under another category and is not binary
     """
-    Text = auto(),
+    Text = auto()
     """
     Any file that is designed to be a container for a video stream
     """
-    Video = auto(),
+    Video = auto()

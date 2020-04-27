@@ -1,10 +1,8 @@
 ﻿using FTT.Properties;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace FTT.generators
 {
@@ -29,30 +27,29 @@ namespace FTT.generators
                     result.AppendLine(GenerateConstantFor(ext));
                 }
             }
-            format.Replace("# constants", result.ToString());
+            format = format.InsertAfter("#constants", result.ToString());
         }
 
         public void GenerateBeginFunction()
         {
-            format.Append(@"
-        private static string GetMimeTypeInternal(string extension)
-        {
-            switch (extension)
-            {
-");
+            //no-op
         }
 
         public void GenerateFunctionBody(MimeType mimeType)
         {
+            string value = "";
             if (!string.IsNullOrEmpty(mimeType.comment))
             {
-                format.AppendLine(GenerateComment(mimeType.comment));
+                value = value.AppendLine(GenerateComment(mimeType.comment));
             }
-            foreach (string extension in mimeType.extensions)
-            {
-                format.AppendLine(GenerateCase(extension));
-            }
-            format.AppendLine(GenerateReturn(GetConstantFor(mimeType.type)));
+            value = value.AppendLine(GenerateCase(mimeType.extensions))
+                .AppendLine(GenerateReturn(GetConstantFor(mimeType.type)));
+            format = format.InsertAfter("#getMimeType body", value);
+        }
+
+        private string GenerateReturn(string value)
+        {
+            return $"{indent}{indent}return {value}";
         }
 
         public void GenerateEndFunction()
@@ -74,7 +71,7 @@ namespace FTT.generators
 
         public void GenerateFunctionBody2(MimeType mimeType)
         {
-            format.AppendLine(GenerateCase(mimeType.type));
+            format.AppendLine(GenerateCase(new[] { mimeType.type }));
             string extensions = @"new string[] { ";
             string strings = string.Join("\", \"", mimeType.extensions);
             if (strings.Length > 0)
@@ -103,14 +100,33 @@ namespace FTT.generators
 
         public void Finish()
         {
-            string generatedFile = Path.GetFullPath(@"..\..\..\..\src\python\FTTLib\FTT.py");
+            string generatedFile = Path.GetFullPath(@"..\..\..\..\python\FTTLib\FTT.py");
             File.WriteAllText(generatedFile, format.ToString());
+        }
+
+        #region Private Methods
+
+        private string GenerateCase(IEnumerable<string> extensions)
+        {
+            var joined = string.Join(", ", extensions.Select(e => GetConstantFor(e)));
+            if (extensions.Count() == 1)
+            {
+                return $"{indent}if extension == {joined}:";
+            }
+            return string.Format($"{indent}if extension in ({{0}}):", joined);
+        }
+
+        private string GenerateComment(string comment)
+        {
+            return $"{indent}# {comment}";
         }
 
         private static string GenerateConstantFor(string type)
         {
             string name = GetConstantFor(type);
-            return $"{indent}{name} = \"{type}\"";
+            return $"{name} = \"{type}\"";
         }
+        
+        #endregion
     }
 }

@@ -1509,7 +1509,7 @@ namespace FTTLib
         const string mtl = "mtl";
         const string textxmup = "text/x-mup";
         const string mup = "mup";
-        const string not = "not";
+        const string _not = "not";
         const string applicationvndmusician = "application/vnd.musician";
         const string mus = "mus";
         const string applicationmmtusdxml = "application/mmt-usd+xml";
@@ -2526,7 +2526,7 @@ namespace FTTLib
         const string txt = "txt";
         const string text = "text";
         const string conf = "conf";
-        const string def = "def";
+        const string _def = "def";
         const string list = "list";
         const string _in = "in";
         const string ini = "ini";
@@ -4760,7 +4760,7 @@ namespace FTTLib
                 case mtl:
                     return modelmtl;
                 case mup:
-                case not:
+                case _not:
                     return textxmup;
                 // iana
                 case mus:
@@ -5944,7 +5944,7 @@ namespace FTTLib
                 case txt:
                 case text:
                 case conf:
-                case def:
+                case _def:
                 case list:
                 case _in:
                 case ini:

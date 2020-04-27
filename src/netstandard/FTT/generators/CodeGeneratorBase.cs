@@ -23,9 +23,11 @@ namespace FTT.generators
             {
                 case "as":
                 case "class":
+                case "def":
                 case "for":
                 case "in":
                 case "is":
+                case "not":
                     return true;
             }
             return false;

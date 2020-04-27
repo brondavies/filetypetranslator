@@ -1,4 +1,12 @@
-﻿from enum import Enum, unique, auto
+﻿import os
+from enum import Enum, unique, auto
+
+#constants
+
+def __getExt(fileName):
+    if '.' in fileName: return os.path.splitext(fileName)[1].replace('.', '')
+    else: return fileName
+
 """
 Methods for translating between mime-types and file extensions
 """
@@ -7,6 +15,7 @@ def getMimeType(fileName):
     Returns the mime type for the given file name
     :param str fileName A file name, file extension or file path specification
     """
+    extension = __getExt(fileName)
     #getMimeType body
 
 def getMimeTypeFileExtensions(mimeType):

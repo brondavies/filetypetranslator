@@ -4,7 +4,7 @@
     {
         public static string AppendLine(this string value, string append = null)
         {
-            return $"{value}\r\n{append}";
+            return $"{value}\n{append}";
         }
 
         public static string Append(this string value, string append)
@@ -17,7 +17,7 @@
             int index = value.IndexOf(after);
             if (index >= 0)
             {
-                return value.Insert(index + after.Length, "\r\n" + insert);
+                return value.Insert(index + after.Length, "\n" + insert);
             }
             return value;
         }

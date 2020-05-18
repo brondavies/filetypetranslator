@@ -40,7 +40,6 @@ namespace FTTLib
         const string a78 = "a78";
         const string audioxpnaudibleaudio = "audio/x-pn-audibleaudio";
         const string aa = "aa";
-        const string aax = "aax";
         const string applicationxauthorwarebin = "application/x-authorware-bin";
         const string aab = "aab";
         const string x32 = "x32";
@@ -53,6 +52,8 @@ namespace FTTLib
         const string aam = "aam";
         const string applicationxauthorwareseg = "application/x-authorware-seg";
         const string aas = "aas";
+        const string audiovndaudibleaax = "audio/vnd.audible.aax";
+        const string aax = "aax";
         const string applicationxabiword = "application/x-abiword";
         const string abw = "abw";
         const string abwcrashed = "abwcrashed";
@@ -1155,8 +1156,6 @@ namespace FTTLib
         const string kexic = "kexic";
         const string applicationxkexiprojectshortcut = "application/x-kexiproject-shortcut";
         const string kexis = "kexis";
-        const string applicationvndapplekeynote = "application/vnd.apple.keynote";
-        const string keynote = "keynote";
         const string applicationxkformula = "application/x-kformula";
         const string kfo = "kfo";
         const string applicationvndkidspiration = "application/vnd.kidspiration";
@@ -2268,6 +2267,8 @@ namespace FTTLib
         const string so = "so";
         const string applicationxfontspeedo = "application/x-font-speedo";
         const string spd = "spd";
+        const string textspdx = "text/spdx";
+        const string spdx = "spdx";
         const string textxrpmspec = "text/x-rpm-spec";
         const string spec = "spec";
         const string applicationvndyamahasmafphrase = "application/vnd.yamaha.smaf-phrase";
@@ -2278,7 +2279,7 @@ namespace FTTLib
         const string spp = "spp";
         const string applicationscvpvprequest = "application/scvp-vp-request";
         const string spq = "spq";
-        const string audioxspeex = "audio/x-speex";
+        const string applicationxapplesystemprofilerxml = "application/x-apple-systemprofiler+xml";
         const string spx = "spx";
         const string applicationsql = "application/sql";
         const string sql = "sql";
@@ -3008,7 +3009,6 @@ namespace FTTLib
                 case a78:
                     return applicationxatari7800rom;
                 case aa:
-                case aax:
                     return audioxpnaudibleaudio;
                 // apache
                 case aab:
@@ -3025,6 +3025,8 @@ namespace FTTLib
                 // apache
                 case aas:
                     return applicationxauthorwareseg;
+                case aax:
+                    return audiovndaudibleaax;
                 case abw:
                 case abwcrashed:
                 case abwgz:
@@ -4355,9 +4357,6 @@ namespace FTTLib
                     return applicationxkexiconnectiondata;
                 case kexis:
                     return applicationxkexiprojectshortcut;
-                // iana
-                case keynote:
-                    return applicationvndapplekeynote;
                 case kfo:
                     return applicationxkformula;
                 // iana
@@ -5646,6 +5645,9 @@ namespace FTTLib
                     return applicationxsharedlib;
                 case spd:
                     return applicationxfontspeedo;
+                // iana
+                case spdx:
+                    return textspdx;
                 case spec:
                     return textxrpmspec;
                 // iana
@@ -5661,7 +5663,7 @@ namespace FTTLib
                 case spq:
                     return applicationscvpvprequest;
                 case spx:
-                    return audioxspeex;
+                    return applicationxapplesystemprofilerxml;
                 case sql:
                     return applicationsql;
                 case sqlite2:
@@ -6501,7 +6503,7 @@ namespace FTTLib
                 case applicationxatari7800rom:
                     return new string[] { "a78" };
                 case audioxpnaudibleaudio:
-                    return new string[] { "aa", "aax" };
+                    return new string[] { "aa" };
                 case applicationxauthorwarebin:
                     return new string[] { "aab", "x32", "u32", "vox" };
                 case audioaac:
@@ -6510,6 +6512,8 @@ namespace FTTLib
                     return new string[] { "aam" };
                 case applicationxauthorwareseg:
                     return new string[] { "aas" };
+                case audiovndaudibleaax:
+                    return new string[] { "aax" };
                 case applicationxabiword:
                     return new string[] { "abw", "abwcrashed", "abwgz", "zabw" };
                 case applicationpkixattrcert:
@@ -7468,8 +7472,6 @@ namespace FTTLib
                     return new string[] { "kexic" };
                 case applicationxkexiprojectshortcut:
                     return new string[] { "kexis" };
-                case applicationvndapplekeynote:
-                    return new string[] { "keynote" };
                 case applicationxkformula:
                     return new string[] { "kfo" };
                 case applicationvndkidspiration:
@@ -8408,6 +8410,8 @@ namespace FTTLib
                     return new string[] { "so" };
                 case applicationxfontspeedo:
                     return new string[] { "spd" };
+                case textspdx:
+                    return new string[] { "spdx" };
                 case textxrpmspec:
                     return new string[] { "spec" };
                 case applicationvndyamahasmafphrase:
@@ -8418,7 +8422,7 @@ namespace FTTLib
                     return new string[] { "spp" };
                 case applicationscvpvprequest:
                     return new string[] { "spq" };
-                case audioxspeex:
+                case applicationxapplesystemprofilerxml:
                     return new string[] { "spx" };
                 case applicationsql:
                     return new string[] { "sql" };

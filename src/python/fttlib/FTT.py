@@ -40,7 +40,6 @@ applicationxatari7800rom = "application/x-atari-7800-rom"
 a78 = "a78"
 audioxpnaudibleaudio = "audio/x-pn-audibleaudio"
 aa = "aa"
-aax = "aax"
 applicationxauthorwarebin = "application/x-authorware-bin"
 aab = "aab"
 x32 = "x32"
@@ -53,6 +52,8 @@ applicationxauthorwaremap = "application/x-authorware-map"
 aam = "aam"
 applicationxauthorwareseg = "application/x-authorware-seg"
 aas = "aas"
+audiovndaudibleaax = "audio/vnd.audible.aax"
+aax = "aax"
 applicationxabiword = "application/x-abiword"
 abw = "abw"
 abwcrashed = "abwcrashed"
@@ -1155,8 +1156,6 @@ applicationxkexiconnectiondata = "application/x-kexi-connectiondata"
 kexic = "kexic"
 applicationxkexiprojectshortcut = "application/x-kexiproject-shortcut"
 kexis = "kexis"
-applicationvndapplekeynote = "application/vnd.apple.keynote"
-keynote = "keynote"
 applicationxkformula = "application/x-kformula"
 kfo = "kfo"
 applicationvndkidspiration = "application/vnd.kidspiration"
@@ -2268,6 +2267,8 @@ applicationxsharedlib = "application/x-sharedlib"
 so = "so"
 applicationxfontspeedo = "application/x-font-speedo"
 spd = "spd"
+textspdx = "text/spdx"
+spdx = "spdx"
 textxrpmspec = "text/x-rpm-spec"
 spec = "spec"
 applicationvndyamahasmafphrase = "application/vnd.yamaha.smaf-phrase"
@@ -2278,7 +2279,7 @@ applicationscvpvpresponse = "application/scvp-vp-response"
 spp = "spp"
 applicationscvpvprequest = "application/scvp-vp-request"
 spq = "spq"
-audioxspeex = "audio/x-speex"
+applicationxapplesystemprofilerxml = "application/x-apple-systemprofiler+xml"
 spx = "spx"
 applicationsql = "application/sql"
 sql = "sql"
@@ -3946,7 +3947,7 @@ def getMimeType(fileName):
         return applicationsql
 
     if extension == spx:
-        return audioxspeex
+        return applicationxapplesystemprofilerxml
 
     # iana
     if extension == spq:
@@ -3966,6 +3967,10 @@ def getMimeType(fileName):
 
     if extension == spec:
         return textxrpmspec
+
+    # iana
+    if extension == spdx:
+        return textspdx
 
     if extension == spd:
         return applicationxfontspeedo
@@ -5550,10 +5555,6 @@ def getMimeType(fileName):
 
     if extension == kfo:
         return applicationxkformula
-
-    # iana
-    if extension == keynote:
-        return applicationvndapplekeynote
 
     if extension == kexis:
         return applicationxkexiprojectshortcut
@@ -7220,6 +7221,9 @@ def getMimeType(fileName):
     if extension in (abw, abwcrashed, abwgz, zabw):
         return applicationxabiword
 
+    if extension == aax:
+        return audiovndaudibleaax
+
     # apache
     if extension == aas:
         return applicationxauthorwareseg
@@ -7235,7 +7239,7 @@ def getMimeType(fileName):
     if extension in (aab, x32, u32, vox):
         return applicationxauthorwarebin
 
-    if extension in (aa, aax):
+    if extension == aa:
         return audioxpnaudibleaudio
 
     if extension == a78:
@@ -7287,12 +7291,3810 @@ def getMimeTypeFileExtensions(mimeType):
     """
     #getMimeTypeFileExtensions body
 
+    if mimeType == applicationzlib:
+        return [ "zz" ]
+
+    if mimeType == applicationzstd:
+        return [ "zst" ]
+
+    if mimeType == applicationxzoo:
+        return [ "zoo" ]
+
+    if mimeType == applicationvndhandheldentertainmentxml:
+        return [ "zmm" ]
+
+    if mimeType == applicationvndzul:
+        return [ "zir", "zirz" ]
+
+    if mimeType == applicationzip:
+        return [ "zip" ]
+
+    if mimeType == applicationvndzzazzdeckxml:
+        return [ "zaz" ]
+
+    if mimeType == applicationxzmachine:
+        return [ "z1", "z2", "z3", "z4", "z5", "z6", "z7", "z8" ]
+
+    if mimeType == applicationxcompress:
+        return [ "z" ]
+
+    if mimeType == applicationvndyoutubeyt:
+        return [ "yt" ]
+
+    if mimeType == textxsuseymp:
+        return [ "ymp" ]
+
+    if mimeType == applicationyinxml:
+        return [ "yin" ]
+
+    if mimeType == applicationyang:
+        return [ "yang" ]
+
+    if mimeType == applicationxyaml:
+        return [ "yaml", "yml" ]
+
+    if mimeType == applicationxxz:
+        return [ "xz" ]
+
+    if mimeType == chemicalxxyz:
+        return [ "xyz" ]
+
+    if mimeType == imagexxwindowdump:
+        return [ "xwd" ]
+
+    if mimeType == applicationvndmozillaxulxml:
+        return [ "xul" ]
+
+    if mimeType == applicationxspfxml:
+        return [ "xspf" ]
+
+    if mimeType == applicationvndsyncmlxml:
+        return [ "xsm" ]
+
+    if mimeType == applicationxsltxml:
+        return [ "xsl", "xslt" ]
+
+    if mimeType == applicationvndinterconformnet:
+        return [ "xpw", "xpx" ]
+
+    if mimeType == applicationvndisxpr:
+        return [ "xpr" ]
+
+    if mimeType == imagexxpixmap:
+        return [ "xpm" ]
+
+    if mimeType == applicationxprocxml:
+        return [ "xpl" ]
+
+    if mimeType == applicationxxpinstall:
+        return [ "xpi" ]
+
+    if mimeType == applicationxopxml:
+        return [ "xop" ]
+
+    if mimeType == applicationvndolpcsugar:
+        return [ "xo" ]
+
+    if mimeType == applicationxcapnsxml:
+        return [ "xns" ]
+
+    if mimeType == applicationxml:
+        return [ "xml", "xbl", "xsd", "rng" ]
+
+    if mimeType == textxxmi:
+        return [ "xmi" ]
+
+    if mimeType == audioxxmf:
+        return [ "xmf" ]
+
+    if mimeType == audioxxm:
+        return [ "xm" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate:
+        return [ "xltx" ]
+
+    if mimeType == applicationvndmsexceltemplatemacroenabled12:
+        return [ "xltm" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet:
+        return [ "xlsx" ]
+
+    if mimeType == applicationvndmsexcelsheetmacroenabled12:
+        return [ "xlsm" ]
+
+    if mimeType == applicationvndmsexcelsheetbinarymacroenabled12:
+        return [ "xlsb" ]
+
+    if mimeType == applicationvndmsexcel:
+        return [ "xls", "xlc", "xll", "xlm", "xlw", "xla", "xlt", "xld" ]
+
+    if mimeType == applicationxliffxml:
+        return [ "xlf", "xliff" ]
+
+    if mimeType == applicationvndmsexceladdinmacroenabled12:
+        return [ "xlam" ]
+
+    if mimeType == imagevndxiff:
+        return [ "xif" ]
+
+    if mimeType == audioxxi:
+        return [ "xi" ]
+
+    if mimeType == applicationxhtmlxml:
+        return [ "xhtml", "xht", "html", "htm" ]
+
+    if mimeType == applicationvndxfdl:
+        return [ "xfdl" ]
+
+    if mimeType == applicationvndadobexfdf:
+        return [ "xfdf" ]
+
+    if mimeType == applicationpatchopserrorxml:
+        return [ "xer" ]
+
+    if mimeType == applicationxencxml:
+        return [ "xenc" ]
+
+    if mimeType == applicationxcapelxml:
+        return [ "xel" ]
+
+    if mimeType == applicationvndfujixeroxdocuworks:
+        return [ "xdw" ]
+
+    if mimeType == applicationdsscxml:
+        return [ "xdssc" ]
+
+    if mimeType == applicationvndadobexdpxml:
+        return [ "xdp" ]
+
+    if mimeType == applicationvndsyncmldmxml:
+        return [ "xdm" ]
+
+    if mimeType == applicationmrbconsumerxml:
+        return [ "xdf" ]
+
+    if mimeType == applicationcalendarxml:
+        return [ "xcs" ]
+
+    if mimeType == imagexcompressedxcf:
+        return [ "xcfgz", "xcfbz2" ]
+
+    if mimeType == imagexxcf:
+        return [ "xcf" ]
+
+    if mimeType == applicationxcapcapsxml:
+        return [ "xca" ]
+
+    if mimeType == imagexxbitmap:
+        return [ "xbm" ]
+
+    if mimeType == applicationxxbel:
+        return [ "xbel" ]
+
+    if mimeType == applicationvndfujixeroxdocuworksbinder:
+        return [ "xbd" ]
+
+    if mimeType == applicationxmsxbap:
+        return [ "xbap" ]
+
+    if mimeType == applicationxcapattxml:
+        return [ "xav" ]
+
+    if mimeType == applicationxxar:
+        return [ "xar", "pkg" ]
+
+    if mimeType == applicationxsilverlightapp:
+        return [ "xap" ]
+
+    if mimeType == applicationxamlxml:
+        return [ "xaml" ]
+
+    if mimeType == imagexsigmax3f:
+        return [ "x3f" ]
+
+    if mimeType == modelx3dvrml:
+        return [ "x3dv", "x3dvz" ]
+
+    if mimeType == modelx3dbinary:
+        return [ "x3db", "x3dbz" ]
+
+    if mimeType == modelx3dxml:
+        return [ "x3d", "x3dz" ]
+
+    if mimeType == modelvndparasolidtransmittext:
+        return [ "x_t" ]
+
+    if mimeType == modelvndparasolidtransmitbinary:
+        return [ "x_b" ]
+
+    if mimeType == applicationxwwf:
+        return [ "wwf" ]
+
+    if mimeType == audioxwavpackcorrection:
+        return [ "wvc" ]
+
+    if mimeType == audioxwavpack:
+        return [ "wv", "wvp" ]
+
+    if mimeType == applicationvndwebturbo:
+        return [ "wtb" ]
+
+    if mimeType == applicationwspolicyxml:
+        return [ "wspolicy" ]
+
+    if mimeType == applicationwsdlxml:
+        return [ "wsdl" ]
+
+    if mimeType == applicationxwonderswancolorrom:
+        return [ "wsc" ]
+
+    if mimeType == applicationxwonderswanrom:
+        return [ "ws" ]
+
+    if mimeType == applicationxmswrite:
+        return [ "wri" ]
+
+    if mimeType == applicationvndwqd:
+        return [ "wqd" ]
+
+    if mimeType == applicationvndmswpl:
+        return [ "wpl" ]
+
+    if mimeType == applicationxwpg:
+        return [ "wpg" ]
+
+    if mimeType == applicationvndwordperfect:
+        return [ "wp", "wp4", "wp5", "wp6", "wpd", "wpp" ]
+
+    if mimeType == fontwoff2:
+        return [ "woff2" ]
+
+    if mimeType == fontwoff:
+        return [ "woff" ]
+
+    if mimeType == applicationxmswmz:
+        return [ "wmz" ]
+
+    if mimeType == videoxmswmv:
+        return [ "wmv" ]
+
+    if mimeType == applicationvndwapwmlscriptc:
+        return [ "wmlsc" ]
+
+    if mimeType == textvndwapwmlscript:
+        return [ "wmls" ]
+
+    if mimeType == applicationvndwapwmlc:
+        return [ "wmlc" ]
+
+    if mimeType == textvndwapwml:
+        return [ "wml" ]
+
+    if mimeType == imagewmf:
+        return [ "wmf" ]
+
+    if mimeType == applicationxmswmd:
+        return [ "wmd" ]
+
+    if mimeType == audioxmswma:
+        return [ "wma" ]
+
+    if mimeType == videoxmswm:
+        return [ "wm" ]
+
+    if mimeType == applicationxpartialdownload:
+        return [ "wkdownload", "crdownload", "part" ]
+
+    if mimeType == applicationxmswim:
+        return [ "wim", "swm" ]
+
+    if mimeType == applicationwidget:
+        return [ "wgt" ]
+
+    if mimeType == applicationvndpmiwidget:
+        return [ "wg" ]
+
+    if mimeType == imagewebp:
+        return [ "webp" ]
+
+    if mimeType == applicationmanifestjson:
+        return [ "webmanifest" ]
+
+    if mimeType == videowebm:
+        return [ "webm" ]
+
+    if mimeType == applicationxwebappmanifestjson:
+        return [ "webapp" ]
+
+    if mimeType == audiowebm:
+        return [ "weba" ]
+
+    if mimeType == imagevndmsphoto:
+        return [ "wdp" ]
+
+    if mimeType == applicationvndmsworks:
+        return [ "wcm", "wdb", "wps", "xlr" ]
+
+    if mimeType == applicationvndwapwbxml:
+        return [ "wbxml" ]
+
+    if mimeType == applicationvndcriticaltoolswbsxml:
+        return [ "wbs" ]
+
+    if mimeType == imagevndwapwbmp:
+        return [ "wbmp" ]
+
+    if mimeType == applicationxquattropro:
+        return [ "wb1", "wb2", "wb3" ]
+
+    if mimeType == audioxwav:
+        return [ "wav" ]
+
+    if mimeType == applicationwasm:
+        return [ "wasm" ]
+
+    if mimeType == applicationjavaarchive:
+        return [ "war", "ear" ]
+
+    if mimeType == applicationvndsunwadlxml:
+        return [ "wadl" ]
+
+    if mimeType == applicationxwiiwad:
+        return [ "wad" ]
+
+    if mimeType == applicationvoicexmlxml:
+        return [ "vxml" ]
+
+    if mimeType == modelvndvtu:
+        return [ "vtu" ]
+
+    if mimeType == textvtt:
+        return [ "vtt" ]
+
+    if mimeType == imagevndvalvesourcetexture:
+        return [ "vtf" ]
+
+    if mimeType == applicationvndmsvisiotemplatemainxml:
+        return [ "vstx" ]
+
+    if mimeType == applicationvndmsvisiotemplatemacroenabledmainxml:
+        return [ "vstm" ]
+
+    if mimeType == applicationvndmsvisiostencilmainxml:
+        return [ "vssx" ]
+
+    if mimeType == applicationvndmsvisiostencilmacroenabledmainxml:
+        return [ "vssm" ]
+
+    if mimeType == applicationvndvsf:
+        return [ "vsf" ]
+
+    if mimeType == applicationvndmsvisiodrawingmainxml:
+        return [ "vsdx" ]
+
+    if mimeType == applicationvndmsvisiodrawingmacroenabledmainxml:
+        return [ "vsdm" ]
+
+    if mimeType == applicationvndvisio:
+        return [ "vsd", "vst", "vsw", "vss" ]
+
+    if mimeType == modelvrml:
+        return [ "vrm", "vrml", "wrl" ]
+
+    if mimeType == audioxvoc:
+        return [ "voc" ]
+
+    if mimeType == applicationxvirtualboxvmdk:
+        return [ "vmdk" ]
+
+    if mimeType == videovndvivo:
+        return [ "viv", "vivo" ]
+
+    if mimeType == applicationvndvisionary:
+        return [ "vis" ]
+
+    if mimeType == textxvhdl:
+        return [ "vhd", "vhdl" ]
+
+    if mimeType == applicationxvirtualboxvdi:
+        return [ "vdi" ]
+
+    if mimeType == applicationvndvcx:
+        return [ "vcx" ]
+
+    if mimeType == textcalendar:
+        return [ "vcs", "ics", "ifb" ]
+
+    if mimeType == applicationvndgroovevcard:
+        return [ "vcg" ]
+
+    if mimeType == applicationxcdlink:
+        return [ "vcd" ]
+
+    if mimeType == textvcard:
+        return [ "vcard", "vcf", "vct", "gcrd" ]
+
+    if mimeType == textvbscript:
+        return [ "vbs" ]
+
+    if mimeType == applicationxvirtualboxvboxextpack:
+        return [ "vbox-extpack" ]
+
+    if mimeType == applicationxvirtualboxvbox:
+        return [ "vbox" ]
+
+    if mimeType == applicationxvirtualboyrom:
+        return [ "vb" ]
+
+    if mimeType == textxvala:
+        return [ "vala", "vapi" ]
+
+    if mimeType == textxverilog:
+        return [ "v" ]
+
+    if mimeType == applicationvnddecezip:
+        return [ "uvz", "uvvz" ]
+
+    if mimeType == applicationvnddeceunspecified:
+        return [ "uvx", "uvvx" ]
+
+    if mimeType == videovnddecevideo:
+        return [ "uvv", "uvvv" ]
+
+    if mimeType == videovnduvvump4:
+        return [ "uvu", "uvvu" ]
+
+    if mimeType == applicationvnddecettmlxml:
+        return [ "uvt", "uvvt" ]
+
+    if mimeType == videovnddecesd:
+        return [ "uvs", "uvvs" ]
+
+    if mimeType == videovnddecepd:
+        return [ "uvp", "uvvp" ]
+
+    if mimeType == videovnddecemobile:
+        return [ "uvm", "uvvm" ]
+
+    if mimeType == imagevnddecegraphic:
+        return [ "uvi", "uvvi", "uvg", "uvvg" ]
+
+    if mimeType == videovnddecehd:
+        return [ "uvh", "uvvh" ]
+
+    if mimeType == applicationvnddecedata:
+        return [ "uvf", "uvvf", "uvd", "uvvd" ]
+
+    if mimeType == audiovnddeceaudio:
+        return [ "uva", "uvva" ]
+
+    if mimeType == textxuuencode:
+        return [ "uue", "uu" ]
+
+    if mimeType == applicationvnduiqtheme:
+        return [ "utz" ]
+
+    if mimeType == applicationxustar:
+        return [ "ustar" ]
+
+    if mimeType == modelvndusdzzip:
+        return [ "usdz" ]
+
+    if mimeType == applicationxmswinurl:
+        return [ "url" ]
+
+    if mimeType == texturilist:
+        return [ "uri", "uris", "urls" ]
+
+    if mimeType == applicationvnduomlxml:
+        return [ "uoml" ]
+
+    if mimeType == applicationvndunity:
+        return [ "unityweb" ]
+
+    if mimeType == applicationvndumajin:
+        return [ "umj" ]
+
+    if mimeType == applicationxglulx:
+        return [ "ulx" ]
+
+    if mimeType == textxuil:
+        return [ "uil" ]
+
+    if mimeType == applicationxdesigner:
+        return [ "ui" ]
+
+    if mimeType == applicationxufraw:
+        return [ "ufraw" ]
+
+    if mimeType == applicationvndufdl:
+        return [ "ufd", "ufdl" ]
+
+    if mimeType == messageglobal:
+        return [ "u8msg" ]
+
+    if mimeType == messageglobaldispositionnotification:
+        return [ "u8mdn" ]
+
+    if mimeType == messageglobalheaders:
+        return [ "u8hdr" ]
+
+    if mimeType == messageglobaldeliverystatus:
+        return [ "u8dsn" ]
+
+    if mimeType == textplain:
+        return [ "txt", "text", "conf", "def", "list", "in", "ini" ]
+
+    if mimeType == applicationvndmobiustxf:
+        return [ "txf" ]
+
+    if mimeType == applicationvndgenomatixtuxedo:
+        return [ "txd" ]
+
+    if mimeType == textxtwig:
+        return [ "twig" ]
+
+    if mimeType == applicationvndsimtechmindmapper:
+        return [ "twd", "twds" ]
+
+    if mimeType == applicationxfontttx:
+        return [ "ttx" ]
+
+    if mimeType == applicationttmlxml:
+        return [ "ttml" ]
+
+    if mimeType == textturtle:
+        return [ "ttl" ]
+
+    if mimeType == fontttf:
+        return [ "ttf" ]
+
+    if mimeType == fontcollection:
+        return [ "ttc" ]
+
+    if mimeType == audioxtta:
+        return [ "tta" ]
+
+    if mimeType == texttabseparatedvalues:
+        return [ "tsv" ]
+
+    if mimeType == applicationtimestampeddata:
+        return [ "tsd" ]
+
+    if mimeType == textvndqtlinguist:
+        return [ "ts" ]
+
+    if mimeType == applicationxmsterminal:
+        return [ "trm" ]
+
+    if mimeType == applicationtrig:
+        return [ "trig" ]
+
+    if mimeType == applicationvndtrueapp:
+        return [ "tra" ]
+
+    if mimeType == texttroff:
+        return [ "tr", "roff" ]
+
+    if mimeType == applicationvndtridtpt:
+        return [ "tpt" ]
+
+    if mimeType == applicationvndgroovetooltemplate:
+        return [ "tpl" ]
+
+    if mimeType == applicationxbittorrent:
+        return [ "torrent" ]
+
+    if mimeType == applicationtoml:
+        return [ "toml" ]
+
+    if mimeType == applicationxcdrdaotoc:
+        return [ "toc" ]
+
+    if mimeType == applicationvndmstnef:
+        return [ "tnef", "tnf", "winmaildat" ]
+
+    if mimeType == applicationvndtmobilelivetv:
+        return [ "tmo" ]
+
+    if mimeType == imagetiff:
+        return [ "tif", "tiff" ]
+
+    if mimeType == applicationvndmsofficetheme:
+        return [ "thmx" ]
+
+    if mimeType == applicationxwindowsthemepack:
+        return [ "themepack" ]
+
+    if mimeType == applicationxtheme:
+        return [ "theme" ]
+
+    if mimeType == imagextga:
+        return [ "tga", "icb", "tpic", "vda" ]
+
+    if mimeType == imagetifffx:
+        return [ "tfx" ]
+
+    if mimeType == applicationxtextfm:
+        return [ "tfm" ]
+
+    if mimeType == applicationthraudxml:
+        return [ "tfi" ]
+
+    if mimeType == textxtexinfo:
+        return [ "texi", "texinfo" ]
+
+    if mimeType == textxtex:
+        return [ "tex", "ltx", "sty", "cls", "dtx", "ins", "latex" ]
+
+    if mimeType == applicationteixml:
+        return [ "tei", "teicorpus" ]
+
+    if mimeType == applicationvndsmartteacher:
+        return [ "teacher" ]
+
+    if mimeType == texttcl:
+        return [ "tcl", "tk" ]
+
+    if mimeType == applicationvnd3gpp2tcap:
+        return [ "tcap" ]
+
+    if mimeType == applicationxzstdcompressedtar:
+        return [ "tarzst", "tzst" ]
+
+    if mimeType == applicationxtarz:
+        return [ "tarz", "taz" ]
+
+    if mimeType == applicationxxzcompressedtar:
+        return [ "tarxz", "txz" ]
+
+    if mimeType == applicationxtzo:
+        return [ "tarlzo", "tzo" ]
+
+    if mimeType == applicationxlzmacompressedtar:
+        return [ "tarlzma", "tlz" ]
+
+    if mimeType == applicationxlz4compressedtar:
+        return [ "tarlz4" ]
+
+    if mimeType == applicationxlzipcompressedtar:
+        return [ "tarlz" ]
+
+    if mimeType == applicationxlrzipcompressedtar:
+        return [ "tarlrz", "tlrz" ]
+
+    if mimeType == applicationxcompressedtar:
+        return [ "targz", "tgz" ]
+
+    if mimeType == applicationxbzipcompressedtar:
+        return [ "tarbz2", "tarbz", "tbz2", "tbz", "tb2" ]
+
+    if mimeType == applicationxtar:
+        return [ "tar", "gtar", "gem" ]
+
+    if mimeType == imagevndtencenttap:
+        return [ "tap" ]
+
+    if mimeType == applicationvndtaointentmodulearchive:
+        return [ "tao" ]
+
+    if mimeType == applicationvndmynfc:
+        return [ "taglet" ]
+
+    if mimeType == imaget38:
+        return [ "t38" ]
+
+    if mimeType == applicationxt3vmimage:
+        return [ "t3" ]
+
+    if mimeType == textxtxt2tags:
+        return [ "t2t" ]
+
+    if mimeType == textspreadsheet:
+        return [ "sylk", "slk" ]
+
+    if mimeType == applicationvndsunxmlwriter:
+        return [ "sxw" ]
+
+    if mimeType == applicationvndsunxmlmath:
+        return [ "sxm" ]
+
+    if mimeType == applicationvndsunxmlimpress:
+        return [ "sxi" ]
+
+    if mimeType == applicationvndsunxmlwriterglobal:
+        return [ "sxg" ]
+
+    if mimeType == applicationvndsunxmldraw:
+        return [ "sxd" ]
+
+    if mimeType == applicationvndsunxmlcalc:
+        return [ "sxc" ]
+
+    if mimeType == applicationswidxml:
+        return [ "swidtag" ]
+
+    if mimeType == applicationvndaristanetworksswi:
+        return [ "swi" ]
+
+    if mimeType == applicationvndadobeflashmovie:
+        return [ "swf", "spl" ]
+
+    if mimeType == textxsvhdr:
+        return [ "svh" ]
+
+    if mimeType == imagesvgxmlcompressed:
+        return [ "svgz" ]
+
+    if mimeType == imagesvgxml:
+        return [ "svg" ]
+
+    if mimeType == applicationvndsvd:
+        return [ "svd" ]
+
+    if mimeType == applicationvnddvbservice:
+        return [ "svc" ]
+
+    if mimeType == applicationxsv4crc:
+        return [ "sv4crc" ]
+
+    if mimeType == applicationxsv4cpio:
+        return [ "sv4cpio" ]
+
+    if mimeType == textxsvsrc:
+        return [ "sv" ]
+
+    if mimeType == applicationvndsuscalendar:
+        return [ "sus", "susp" ]
+
+    if mimeType == imagexsunraster:
+        return [ "sun" ]
+
+    if mimeType == textxmicrodvd:
+        return [ "sub" ]
+
+    if mimeType == textstylus:
+        return [ "stylus", "styl" ]
+
+    if mimeType == applicationvndsunxmlwritertemplate:
+        return [ "stw" ]
+
+    if mimeType == applicationvndpgformat:
+        return [ "str" ]
+
+    if mimeType == audioxstm:
+        return [ "stm" ]
+
+    if mimeType == modelstl:
+        return [ "stl" ]
+
+    if mimeType == applicationhyperstudio:
+        return [ "stk" ]
+
+    if mimeType == applicationvndsunxmlimpresstemplate:
+        return [ "sti" ]
+
+    if mimeType == applicationvndwtstf:
+        return [ "stf" ]
+
+    if mimeType == applicationvndsunxmldrawtemplate:
+        return [ "std" ]
+
+    if mimeType == applicationvndsunxmlcalctemplate:
+        return [ "stc" ]
+
+    if mimeType == applicationvndsailingtrackertrack:
+        return [ "st" ]
+
+    if mimeType == applicationssmlxml:
+        return [ "ssml" ]
+
+    if mimeType == applicationvndepsonssf:
+        return [ "ssf" ]
+
+    if mimeType == applicationvndkodakdescriptor:
+        return [ "sse" ]
+
+    if mimeType == applicationssdlxml:
+        return [ "ssdl" ]
+
+    if mimeType == textxssa:
+        return [ "ssa", "ass" ]
+
+    if mimeType == applicationsparqlresultsxml:
+        return [ "srx" ]
+
+    if mimeType == applicationsruxml:
+        return [ "sru" ]
+
+    if mimeType == applicationxsubrip:
+        return [ "srt" ]
+
+    if mimeType == imagexsonysrf:
+        return [ "srf" ]
+
+    if mimeType == applicationxsourcerpm:
+        return [ "srcrpm", "spm" ]
+
+    if mimeType == applicationxwaissource:
+        return [ "src" ]
+
+    if mimeType == imagexsonysr2:
+        return [ "sr2" ]
+
+    if mimeType == applicationvndsquashfs:
+        return [ "sqsh" ]
+
+    if mimeType == applicationvndsqlite3:
+        return [ "sqlite3" ]
+
+    if mimeType == applicationxsqlite2:
+        return [ "sqlite2" ]
+
+    if mimeType == applicationsql:
+        return [ "sql" ]
+
+    if mimeType == applicationxapplesystemprofilerxml:
+        return [ "spx" ]
+
+    if mimeType == applicationscvpvprequest:
+        return [ "spq" ]
+
+    if mimeType == applicationscvpvpresponse:
+        return [ "spp" ]
+
+    if mimeType == textvndin3dspot:
+        return [ "spot" ]
+
+    if mimeType == applicationvndyamahasmafphrase:
+        return [ "spf" ]
+
+    if mimeType == textxrpmspec:
+        return [ "spec" ]
+
+    if mimeType == textspdx:
+        return [ "spdx" ]
+
+    if mimeType == applicationxfontspeedo:
+        return [ "spd" ]
+
+    if mimeType == applicationxsharedlib:
+        return [ "so" ]
+
+    if mimeType == applicationxfontsnf:
+        return [ "snf" ]
+
+    if mimeType == applicationvndsnap:
+        return [ "snap" ]
+
+    if mimeType == applicationvndstepmaniapackage:
+        return [ "smzip" ]
+
+    if mimeType == videoxsmv:
+        return [ "smv" ]
+
+    if mimeType == applicationxsmsrom:
+        return [ "sms" ]
+
+    if mimeType == applicationsmilxml:
+        return [ "smil", "smi", "sml", "kino" ]
+
+    if mimeType == applicationvndstardivisionmath:
+        return [ "smf" ]
+
+    if mimeType == applicationvndstardivisionmail:
+        return [ "smd" ]
+
+    if mimeType == applicationvndstepmaniastepchart:
+        return [ "sm" ]
+
+    if mimeType == applicationvndepsonsalt:
+        return [ "slt" ]
+
+    if mimeType == applicationroutestsidxml:
+        return [ "sls" ]
+
+    if mimeType == textslim:
+        return [ "slim", "slm" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentpresentationmlslide:
+        return [ "sldx" ]
+
+    if mimeType == applicationvndmspowerpointslidemacroenabled12:
+        return [ "sldm" ]
+
+    if mimeType == applicationpgpkeys:
+        return [ "skr", "pkr", "key" ]
+
+    if mimeType == applicationvndkoan:
+        return [ "skp", "skd", "skt", "skm" ]
+
+    if mimeType == imagexskencil:
+        return [ "sk", "sk1" ]
+
+    if mimeType == applicationsieve:
+        return [ "siv", "sieve" ]
+
+    if mimeType == applicationxstuffitx:
+        return [ "sitx" ]
+
+    if mimeType == applicationxstuffit:
+        return [ "sit" ]
+
+    if mimeType == xepocxsisxapp:
+        return [ "sisx" ]
+
+    if mimeType == applicationvndsymbianinstall:
+        return [ "sis" ]
+
+    if mimeType == audiosilk:
+        return [ "sil" ]
+
+    if mimeType == applicationpgpsignature:
+        return [ "sig" ]
+
+    if mimeType == audioprssid:
+        return [ "sid", "psid" ]
+
+    if mimeType == applicationxsiag:
+        return [ "siag" ]
+
+    if mimeType == texthtml:
+        return [ "shtml" ]
+
+    if mimeType == applicationxshorten:
+        return [ "shn" ]
+
+    if mimeType == applicationshfxml:
+        return [ "shf" ]
+
+    if mimeType == textshex:
+        return [ "shex" ]
+
+    if mimeType == applicationxshar:
+        return [ "shar" ]
+
+    if mimeType == applicationxdiashape:
+        return [ "shape" ]
+
+    if mimeType == applicationxshellscript:
+        return [ "sh" ]
+
+    if mimeType == textsgml:
+        return [ "sgml", "sgm" ]
+
+    if mimeType == imagexsgi:
+        return [ "sgi" ]
+
+    if mimeType == applicationxgosgf:
+        return [ "sgf" ]
+
+    if mimeType == applicationxsg1000rom:
+        return [ "sg" ]
+
+    if mimeType == textxsfv:
+        return [ "sfv" ]
+
+    if mimeType == applicationvndspotfiresfs:
+        return [ "sfs" ]
+
+    if mimeType == applicationvndhydrostatixsofdata:
+        return [ "sfd-hdstx" ]
+
+    if mimeType == applicationvndnintendosnesrom:
+        return [ "sfc", "smc" ]
+
+    if mimeType == applicationsetregistrationinitiation:
+        return [ "setreg" ]
+
+    if mimeType == applicationsetpaymentinitiation:
+        return [ "setpay" ]
+
+    if mimeType == textxdbusservice:
+        return [ "service" ]
+
+    if mimeType == applicationjavaserializedobject:
+        return [ "ser" ]
+
+    if mimeType == applicationsensmlxml:
+        return [ "sensmlx" ]
+
+    if mimeType == applicationsenmlxml:
+        return [ "senmlx" ]
+
+    if mimeType == applicationvndsemf:
+        return [ "semf" ]
+
+    if mimeType == applicationvndsemd:
+        return [ "semd" ]
+
+    if mimeType == applicationvndsema:
+        return [ "sema" ]
+
+    if mimeType == applicationvndfdsnseed:
+        return [ "seed", "dataless" ]
+
+    if mimeType == applicationvndseemail:
+        return [ "see" ]
+
+    if mimeType == applicationxsea:
+        return [ "sea" ]
+
+    if mimeType == applicationvndstardivisionwriter:
+        return [ "sdw", "vor", "sgl" ]
+
+    if mimeType == applicationvndstardivisionchart:
+        return [ "sds" ]
+
+    if mimeType == applicationvndsolentsdkmxml:
+        return [ "sdkm", "sdkd" ]
+
+    if mimeType == applicationvndstardivisionimpress:
+        return [ "sdd", "sdp" ]
+
+    if mimeType == applicationvndstardivisioncalc:
+        return [ "sdc" ]
+
+    if mimeType == applicationvndstardivisiondraw:
+        return [ "sda" ]
+
+    if mimeType == textvndcurlscurl:
+        return [ "scurl" ]
+
+    if mimeType == textxscss:
+        return [ "scss" ]
+
+    if mimeType == applicationscvpcvresponse:
+        return [ "scs" ]
+
+    if mimeType == applicationscvpcvrequest:
+        return [ "scq" ]
+
+    if mimeType == textxscons:
+        return [ "sconstruct", "sconscript" ]
+
+    if mimeType == textxscheme:
+        return [ "scm", "ss" ]
+
+    if mimeType == applicationxmsschedule:
+        return [ "scd" ]
+
+    if mimeType == textxscala:
+        return [ "scala" ]
+
+    if mimeType == applicationvndibmsecurecontainer:
+        return [ "sc" ]
+
+    if mimeType == applicationsbmlxml:
+        return [ "sbml" ]
+
+    if mimeType == applicationxspsssav:
+        return [ "sav", "zsav" ]
+
+    if mimeType == textxsass:
+        return [ "sass" ]
+
+    if mimeType == applicationxthomsonsapimage:
+        return [ "sap" ]
+
+    if mimeType == applicationxsami:
+        return [ "sami" ]
+
+    if mimeType == applicationxamipro:
+        return [ "sam" ]
+
+    if mimeType == applicationvndyamahasmafaudio:
+        return [ "saf" ]
+
+    if mimeType == audioxs3m:
+        return [ "s3m" ]
+
+    if mimeType == textxasm:
+        return [ "s", "asm" ]
+
+    if mimeType == imagexpanasonicrw2:
+        return [ "rw2" ]
+
+    if mimeType == videovndrnrealvideo:
+        return [ "rv", "rvx" ]
+
+    if mimeType == applicationrouteusdxml:
+        return [ "rusd" ]
+
+    if mimeType == applicationxmakeself:
+        return [ "run" ]
+
+    if mimeType == textrichtext:
+        return [ "rtx" ]
+
+    if mimeType == applicationrtf:
+        return [ "rtf" ]
+
+    if mimeType == textvndrnrealtext:
+        return [ "rt" ]
+
+    if mimeType == textxrst:
+        return [ "rst" ]
+
+    if mimeType == applicationrssxml:
+        return [ "rss" ]
+
+    if mimeType == applicationurcressheetxml:
+        return [ "rsheet" ]
+
+    if mimeType == applicationrsdxml:
+        return [ "rsd" ]
+
+    if mimeType == applicationatscrsatxml:
+        return [ "rsat" ]
+
+    if mimeType == textrust:
+        return [ "rs" ]
+
+    if mimeType == applicationsparqlquery:
+        return [ "rq" ]
+
+    if mimeType == applicationvndnokiaradiopreset:
+        return [ "rpst" ]
+
+    if mimeType == applicationvndnokiaradiopresets:
+        return [ "rpss" ]
+
+    if mimeType == applicationxrpm:
+        return [ "rpm" ]
+
+    if mimeType == applicationvndcloantorp9:
+        return [ "rp9" ]
+
+    if mimeType == imagevndrnrealpix:
+        return [ "rp" ]
+
+    if mimeType == applicationrpkiroa:
+        return [ "roa" ]
+
+    if mimeType == applicationrelaxngcompactsyntax:
+        return [ "rnc" ]
+
+    if mimeType == audioxpnrealaudioplugin:
+        return [ "rmp" ]
+
+    if mimeType == messagexgnurmail:
+        return [ "rmail" ]
+
+    if mimeType == applicationvndrnrealmedia:
+        return [ "rm", "rmj", "rmm", "rms", "rmx", "rmvb" ]
+
+    if mimeType == imagerle:
+        return [ "rle" ]
+
+    if mimeType == applicationresourcelistsdiffxml:
+        return [ "rld" ]
+
+    if mimeType == imagevndfujixeroxedmicsrlc:
+        return [ "rlc" ]
+
+    if mimeType == applicationresourcelistsxml:
+        return [ "rl" ]
+
+    if mimeType == applicationxresearchinfosystems:
+        return [ "ris" ]
+
+    if mimeType == audiovndrip:
+        return [ "rip" ]
+
+    if mimeType == applicationreginfoxml:
+        return [ "rif" ]
+
+    if mimeType == imagexrgb:
+        return [ "rgb" ]
+
+    if mimeType == applicationxdtbresourcexml:
+        return [ "res" ]
+
+    if mimeType == applicationvndbusinessobjects:
+        return [ "rep" ]
+
+    if mimeType == applicationp2poverlayxml:
+        return [ "relo" ]
+
+    if mimeType == textxreject:
+        return [ "rej" ]
+
+    if mimeType == textxmsregedit:
+        return [ "reg" ]
+
+    if mimeType == textxreadme:
+        return [ "readme" ]
+
+    if mimeType == applicationvnddatavisionrdz:
+        return [ "rdz" ]
+
+    if mimeType == applicationrdfxml:
+        return [ "rdf", "rdfs", "owl" ]
+
+    if mimeType == applicationvndipunpluggedrcprofile:
+        return [ "rcprofile" ]
+
+    if mimeType == applicationxruby:
+        return [ "rb" ]
+
+    if mimeType == applicationxrawdiskimagexzcompressed:
+        return [ "rawdiskimagexz", "imgxz" ]
+
+    if mimeType == applicationxrawdiskimage:
+        return [ "rawdiskimage", "img" ]
+
+    if mimeType == imagexpanasonicrw:
+        return [ "raw" ]
+
+    if mimeType == imagexcmuraster:
+        return [ "ras" ]
+
+    if mimeType == applicationvndrar:
+        return [ "rar" ]
+
+    if mimeType == applicationrouteapdxml:
+        return [ "rapd" ]
+
+    if mimeType == applicationramlyaml:
+        return [ "raml" ]
+
+    if mimeType == applicationram:
+        return [ "ram" ]
+
+    if mimeType == imagexfujiraf:
+        return [ "raf" ]
+
+    if mimeType == audiovndrnrealaudio:
+        return [ "ra", "rax" ]
+
+    if mimeType == applicationvndquarkquarkxpress:
+        return [ "qxd", "qxt", "qwd", "qwt", "qxl", "qxb" ]
+
+    if mimeType == applicationxquicktimemedialink:
+        return [ "qtl" ]
+
+    if mimeType == imagexquicktime:
+        return [ "qtif" ]
+
+    if mimeType == applicationxqtiplot:
+        return [ "qti", "qtigz" ]
+
+    if mimeType == videoquicktime:
+        return [ "qt", "mov", "moov", "qtvr" ]
+
+    if mimeType == applicationvndpublisharedeltatree:
+        return [ "qps" ]
+
+    if mimeType == applicationxqpress:
+        return [ "qp" ]
+
+    if mimeType == textxqml:
+        return [ "qml", "qmltypes", "qmlproject" ]
+
+    if mimeType == applicationxqw:
+        return [ "qif" ]
+
+    if mimeType == applicationvndintuqfx:
+        return [ "qfx" ]
+
+    if mimeType == applicationxqemudisk:
+        return [ "qcow2", "qcow" ]
+
+    if mimeType == applicationvndintuqbo:
+        return [ "qbo" ]
+
+    if mimeType == applicationvndepsonquickanime:
+        return [ "qam" ]
+
+    if mimeType == textxpython:
+        return [ "pyx", "wsgi" ]
+
+    if mimeType == videovndmsplayreadymediapyv:
+        return [ "pyv" ]
+
+    if mimeType == applicationxpyspreadspreadsheet:
+        return [ "pysu" ]
+
+    if mimeType == applicationxpyspreadbzspreadsheet:
+        return [ "pys" ]
+
+    if mimeType == applicationxpythonbytecode:
+        return [ "pyc", "pyo" ]
+
+    if mimeType == audiovndmsplayreadymediapya:
+        return [ "pya" ]
+
+    if mimeType == textxpython3:
+        return [ "py", "py3", "py3x" ]
+
+    if mimeType == applicationvnd3mpostitnotes:
+        return [ "pwn" ]
+
+    if mimeType == applicationxpw:
+        return [ "pw" ]
+
+    if mimeType == applicationvnd3gpppicbwvar:
+        return [ "pvb" ]
+
+    if mimeType == applicationvndmspublisher:
+        return [ "pub" ]
+
+    if mimeType == applicationvndpviptid1:
+        return [ "ptid" ]
+
+    if mimeType == imageprspti:
+        return [ "pti" ]
+
+    if mimeType == applicationxpocketword:
+        return [ "psw" ]
+
+    if mimeType == applicationpskcxml:
+        return [ "pskcxml" ]
+
+    if mimeType == applicationxgzpostscript:
+        return [ "psgz" ]
+
+    if mimeType == audioxpsflib:
+        return [ "psflib" ]
+
+    if mimeType == applicationxgzfontlinuxpsf:
+        return [ "psfgz" ]
+
+    if mimeType == applicationxfontlinuxpsf:
+        return [ "psf" ]
+
+    if mimeType == imagevndadobephotoshop:
+        return [ "psd" ]
+
+    if mimeType == applicationxbzpostscript:
+        return [ "psbz2" ]
+
+    if mimeType == applicationvnd3gpppicbwsmall:
+        return [ "psb" ]
+
+    if mimeType == applicationpostscript:
+        return [ "ps" ]
+
+    if mimeType == applicationprovenancexml:
+        return [ "provx" ]
+
+    if mimeType == applicationpicsrules:
+        return [ "prf" ]
+
+    if mimeType == applicationvndlotusfreelance:
+        return [ "pre" ]
+
+    if mimeType == applicationvndpalm:
+        return [ "pqa", "oprc" ]
+
+    if mimeType == applicationvndmspowerpoint:
+        return [ "ppz", "ppt", "pps", "pot" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentpresentationmlpresentation:
+        return [ "pptx" ]
+
+    if mimeType == applicationvndmspowerpointpresentationmacroenabled12:
+        return [ "pptm" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentpresentationmlslideshow:
+        return [ "ppsx" ]
+
+    if mimeType == applicationvndmspowerpointslideshowmacroenabled12:
+        return [ "ppsm" ]
+
+    if mimeType == imagexportablepixmap:
+        return [ "ppm" ]
+
+    if mimeType == applicationvndcupsppd:
+        return [ "ppd" ]
+
+    if mimeType == applicationvndmspowerpointaddinmacroenabled12:
+        return [ "ppam" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentpresentationmltemplate:
+        return [ "potx" ]
+
+    if mimeType == applicationvndmspowerpointtemplatemacroenabled12:
+        return [ "potm" ]
+
+    if mimeType == applicationvndmacportsportpkg:
+        return [ "portpkg" ]
+
+    if mimeType == applicationxspsspor:
+        return [ "por" ]
+
+    if mimeType == textxmavenxml:
+        return [ "pomxml", "settingsxml" ]
+
+    if mimeType == textxgettexttranslation:
+        return [ "po" ]
+
+    if mimeType == imagexmacpaint:
+        return [ "pntg" ]
+
+    if mimeType == imagexportableanymap:
+        return [ "pnm" ]
+
+    if mimeType == imagepng:
+        return [ "png" ]
+
+    if mimeType == applicationvndctcposml:
+        return [ "pml" ]
+
+    if mimeType == audioxscpls:
+        return [ "pls" ]
+
+    if mimeType == applicationxplanperfect:
+        return [ "pln" ]
+
+    if mimeType == applicationvndpocketlearn:
+        return [ "plf" ]
+
+    if mimeType == applicationvndmobiusplc:
+        return [ "plc" ]
+
+    if mimeType == applicationvnd3gpppicbwlarge:
+        return [ "plb" ]
+
+    if mimeType == audioxiriverpla:
+        return [ "pla" ]
+
+    if mimeType == applicationxperl:
+        return [ "pl", "pm", "al", "perl", "pod", "t" ]
+
+    if mimeType == applicationvndapplepkpass:
+        return [ "pkpass" ]
+
+    if mimeType == applicationpkixpkipath:
+        return [ "pkipath" ]
+
+    if mimeType == applicationpkixcmp:
+        return [ "pki" ]
+
+    if mimeType == applicationxtexpk:
+        return [ "pk" ]
+
+    if mimeType == applicationxphp:
+        return [ "php", "php3", "php4", "php5", "phps" ]
+
+    if mimeType == applicationpgpencrypted:
+        return [ "pgp", "gpg", "asc" ]
+
+    if mimeType == applicationvndchesspgn:
+        return [ "pgn" ]
+
+    if mimeType == imagexportablegraymap:
+        return [ "pgm" ]
+
+    if mimeType == applicationfonttdpfr:
+        return [ "pfr" ]
+
+    if mimeType == applicationxfonttype1:
+        return [ "pfa", "pfb", "gsf", "pfm" ]
+
+    if mimeType == imagexpentaxpef:
+        return [ "pef" ]
+
+    if mimeType == applicationxxzpdf:
+        return [ "pdfxz" ]
+
+    if mimeType == applicationxlzpdf:
+        return [ "pdflz" ]
+
+    if mimeType == applicationxgzpdf:
+        return [ "pdfgz" ]
+
+    if mimeType == applicationxbzpdf:
+        return [ "pdfbz2" ]
+
+    if mimeType == applicationpdf:
+        return [ "pdf" ]
+
+    if mimeType == textxprocessing:
+        return [ "pde" ]
+
+    if mimeType == applicationxaportisdoc:
+        return [ "pdb", "pdc" ]
+
+    if mimeType == imagevndzbrushpcx:
+        return [ "pcx" ]
+
+    if mimeType == applicationvndcurlpcurl:
+        return [ "pcurl" ]
+
+    if mimeType == imagexpict:
+        return [ "pct", "pict", "pict1", "pict2", "pic" ]
+
+    if mimeType == applicationvndhppclxl:
+        return [ "pclxl" ]
+
+    if mimeType == applicationvndhppcl:
+        return [ "pcl" ]
+
+    if mimeType == applicationxfontpcf:
+        return [ "pcf", "pcfz", "pcfgz" ]
+
+    if mimeType == applicationxpcenginerom:
+        return [ "pce" ]
+
+    if mimeType == imagexphotocd:
+        return [ "pcd" ]
+
+    if mimeType == applicationvndtcpdumppcap:
+        return [ "pcap", "cap", "dmp" ]
+
+    if mimeType == imagexportablebitmap:
+        return [ "pbm" ]
+
+    if mimeType == applicationvndpowerbuilder6:
+        return [ "pbd" ]
+
+    if mimeType == applicationvndpawaafile:
+        return [ "paw" ]
+
+    if mimeType == imagexgimppat:
+        return [ "pat" ]
+
+    if mimeType == applicationxpar2:
+        return [ "par2" ]
+
+    if mimeType == applicationxpak:
+        return [ "pak" ]
+
+    if mimeType == applicationvndapplepages:
+        return [ "pages" ]
+
+    if mimeType == applicationxjavapack200:
+        return [ "pack" ]
+
+    if mimeType == applicationxnsproxyautoconfig:
+        return [ "pac" ]
+
+    if mimeType == applicationpkcs8encrypted:
+        return [ "p8e" ]
+
+    if mimeType == applicationpkcs8:
+        return [ "p8" ]
+
+    if mimeType == applicationpkcs7signature:
+        return [ "p7s" ]
+
+    if mimeType == applicationxpkcs7certreqresp:
+        return [ "p7r" ]
+
+    if mimeType == applicationpkcs7mime:
+        return [ "p7c", "p7m" ]
+
+    if mimeType == applicationxpkcs7certificates:
+        return [ "p7b", "spc" ]
+
+    if mimeType == applicationxpagemaker:
+        return [ "p65", "pm6", "pmd" ]
+
+    if mimeType == applicationpkcs12:
+        return [ "p12", "pfx" ]
+
+    if mimeType == applicationpkcs10:
+        return [ "p10" ]
+
+    if mimeType == textxpascal:
+        return [ "p", "pas" ]
+
+    if mimeType == applicationvndopenofficeorgextension:
+        return [ "oxt" ]
+
+    if mimeType == applicationoxps:
+        return [ "oxps", "xps" ]
+
+    if mimeType == applicationowlxml:
+        return [ "owx" ]
+
+    if mimeType == applicationxvirtualboxovf:
+        return [ "ovf" ]
+
+    if mimeType == applicationxvirtualboxova:
+        return [ "ova" ]
+
+    if mimeType == applicationvndoasisopendocumenttexttemplate:
+        return [ "ott" ]
+
+    if mimeType == applicationvndoasisopendocumentspreadsheettemplate:
+        return [ "ots" ]
+
+    if mimeType == applicationvndoasisopendocumentpresentationtemplate:
+        return [ "otp" ]
+
+    if mimeType == applicationvndoasisopendocumentimagetemplate:
+        return [ "oti" ]
+
+    if mimeType == applicationvndoasisopendocumenttextweb:
+        return [ "oth" ]
+
+    if mimeType == applicationvndoasisopendocumentgraphicstemplate:
+        return [ "otg" ]
+
+    if mimeType == applicationvndoasisopendocumentformulatemplate:
+        return [ "otf", "odft" ]
+
+    if mimeType == applicationvndoasisopendocumentcharttemplate:
+        return [ "otc" ]
+
+    if mimeType == applicationvndopenstreetmapdataxml:
+        return [ "osm" ]
+
+    if mimeType == applicationvndyamahaopenscoreformatosfpvgxml:
+        return [ "osfpvg" ]
+
+    if mimeType == applicationvndyamahaopenscoreformat:
+        return [ "osf" ]
+
+    if mimeType == applicationvndlotusorganizer:
+        return [ "org" ]
+
+    if mimeType == imagexolympusorf:
+        return [ "orf" ]
+
+    if mimeType == imageopenraster:
+        return [ "ora" ]
+
+    if mimeType == textxopmlxml:
+        return [ "opml" ]
+
+    if mimeType == applicationoebpspackagexml:
+        return [ "opf" ]
+
+    if mimeType == textxooc:
+        return [ "ooc" ]
+
+    if mimeType == applicationonenote:
+        return [ "onetoc", "onetoc2", "onetmp", "onepkg" ]
+
+    if mimeType == applicationomdocxml:
+        return [ "omdoc" ]
+
+    if mimeType == applicationxoleo:
+        return [ "oleo" ]
+
+    if mimeType == applicationogg:
+        return [ "ogx" ]
+
+    if mimeType == videoogg:
+        return [ "ogv" ]
+
+    if mimeType == videoxogmogg:
+        return [ "ogm" ]
+
+    if mimeType == modelvndopengex:
+        return [ "ogex" ]
+
+    if mimeType == audioogg:
+        return [ "oga", "ogg", "opus" ]
+
+    if mimeType == applicationvndoasisopendocumenttext:
+        return [ "odt" ]
+
+    if mimeType == applicationvndoasisopendocumentspreadsheet:
+        return [ "ods" ]
+
+    if mimeType == applicationvndoasisopendocumentpresentation:
+        return [ "odp" ]
+
+    if mimeType == applicationvndoasisopendocumenttextmaster:
+        return [ "odm" ]
+
+    if mimeType == applicationvndoasisopendocumentimage:
+        return [ "odi" ]
+
+    if mimeType == applicationvndoasisopendocumentgraphics:
+        return [ "odg" ]
+
+    if mimeType == applicationvndoasisopendocumentformula:
+        return [ "odf" ]
+
+    if mimeType == applicationvndoasisopendocumentchart:
+        return [ "odc" ]
+
+    if mimeType == applicationvndoasisopendocumentdatabase:
+        return [ "odb" ]
+
+    if mimeType == applicationoda:
+        return [ "oda" ]
+
+    if mimeType == textxocl:
+        return [ "ocl" ]
+
+    if mimeType == applicationxtgif:
+        return [ "obj" ]
+
+    if mimeType == applicationvndopenbloxgamexml:
+        return [ "obgx" ]
+
+    if mimeType == applicationxmsbinder:
+        return [ "obd" ]
+
+    if mimeType == applicationvndfujitsuoasys:
+        return [ "oas" ]
+
+    if mimeType == applicationvndfujitsuoasys3:
+        return [ "oa3" ]
+
+    if mimeType == applicationvndfujitsuoasys2:
+        return [ "oa2" ]
+
+    if mimeType == applicationxobject:
+        return [ "o" ]
+
+    if mimeType == applicationxnzb:
+        return [ "nzb" ]
+
+    if mimeType == applicationvndapplenumbers:
+        return [ "numbers" ]
+
+    if mimeType == applicationvndnitf:
+        return [ "ntf", "nitf" ]
+
+    if mimeType == applicationntriples:
+        return [ "nt" ]
+
+    if mimeType == videoxnsv:
+        return [ "nsv" ]
+
+    if mimeType == applicationvndlotusnotes:
+        return [ "nsf" ]
+
+    if mimeType == applicationxnetshowchannel:
+        return [ "nsc" ]
+
+    if mimeType == applicationnquads:
+        return [ "nq" ]
+
+    if mimeType == imagevndnetfpx:
+        return [ "npx" ]
+
+    if mimeType == applicationvndnoblenetweb:
+        return [ "nnw" ]
+
+    if mimeType == applicationvndnoblenetsealer:
+        return [ "nns" ]
+
+    if mimeType == applicationvndnoblenetdirectory:
+        return [ "nnd" ]
+
+    if mimeType == applicationvndenliven:
+        return [ "nml" ]
+
+    if mimeType == applicationvndneurolanguagenlu:
+        return [ "nlu" ]
+
+    if mimeType == applicationxneogeopocketrom:
+        return [ "ngp" ]
+
+    if mimeType == applicationvndnokiangagedata:
+        return [ "ngdat" ]
+
+    if mimeType == applicationxneogeopocketcolorrom:
+        return [ "ngc" ]
+
+    if mimeType == applicationvndnokiangagesymbianinstall:
+        return [ "n-gage" ]
+
+    if mimeType == textxnfo:
+        return [ "nfo" ]
+
+    if mimeType == applicationxnesrom:
+        return [ "nes", "nez", "unf", "unif" ]
+
+    if mimeType == imagexnikonnef:
+        return [ "nef" ]
+
+    if mimeType == applicationxnintendodsrom:
+        return [ "nds" ]
+
+    if mimeType == applicationxdtbncxxml:
+        return [ "ncx" ]
+
+    if mimeType == applicationvndwolframplayer:
+        return [ "nbp" ]
+
+    if mimeType == applicationmathematica:
+        return [ "nb", "ma", "mb" ]
+
+    if mimeType == applicationxn64rom:
+        return [ "n64", "z64", "v64" ]
+
+    if mimeType == textn3:
+        return [ "n3" ]
+
+    if mimeType == applicationvndtriscapemxs:
+        return [ "mxs" ]
+
+    if mimeType == applicationxvxml:
+        return [ "mxml", "xhvml", "xvml", "xvm" ]
+
+    if mimeType == audiomobilexmf:
+        return [ "mxmf" ]
+
+    if mimeType == applicationvndrecordaremusicxml:
+        return [ "mxl" ]
+
+    if mimeType == applicationmxf:
+        return [ "mxf" ]
+
+    if mimeType == applicationvndmfer:
+        return [ "mwf" ]
+
+    if mimeType == applicationxmsmediaview:
+        return [ "mvb", "m13", "m14" ]
+
+    if mimeType == applicationvndrecordaremusicxmlxml:
+        return [ "musicxml" ]
+
+    if mimeType == applicationmmtusdxml:
+        return [ "musd" ]
+
+    if mimeType == applicationvndmusician:
+        return [ "mus" ]
+
+    if mimeType == textxmup:
+        return [ "mup", "not" ]
+
+    if mimeType == modelmtl:
+        return [ "mtl" ]
+
+    if mimeType == applicationxmsxrom:
+        return [ "msx" ]
+
+    if mimeType == applicationvndmuveestyle:
+        return [ "msty" ]
+
+    if mimeType == imagexmsod:
+        return [ "msod" ]
+
+    if mimeType == applicationvndmobiusmsl:
+        return [ "msl" ]
+
+    if mimeType == applicationxmsi:
+        return [ "msi" ]
+
+    if mimeType == modelmesh:
+        return [ "msh", "mesh", "silo" ]
+
+    if mimeType == applicationvndmsoutlook:
+        return [ "msg" ]
+
+    if mimeType == applicationvndepsonmsf:
+        return [ "msf" ]
+
+    if mimeType == applicationvndmseq:
+        return [ "mseq" ]
+
+    if mimeType == applicationvndfdsnmseed:
+        return [ "mseed" ]
+
+    if mimeType == applicationmediaservercontrolxml:
+        return [ "mscml" ]
+
+    if mimeType == textxtroffms:
+        return [ "ms" ]
+
+    if mimeType == imagexminoltamrw:
+        return [ "mrw" ]
+
+    if mimeType == textxmrml:
+        return [ "mrml", "mrl" ]
+
+    if mimeType == applicationmarcxmlxml:
+        return [ "mrcx" ]
+
+    if mimeType == applicationmarc:
+        return [ "mrc" ]
+
+    if mimeType == applicationvndmobiusmqy:
+        return [ "mqy" ]
+
+    if mimeType == applicationvndibmminipay:
+        return [ "mpy" ]
+
+    if mimeType == applicationvndmsproject:
+        return [ "mpt" ]
+
+    if mimeType == applicationvndmophunapplication:
+        return [ "mpn" ]
+
+    if mimeType == applicationvndblueicemultipass:
+        return [ "mpm" ]
+
+    if mimeType == applicationvndappleinstallerxml:
+        return [ "mpkg" ]
+
+    if mimeType == videompeg:
+        return [ "mpeg", "mpg", "mpe", "vob", "090909vdr", "m1v", "m2v" ]
+
+    if mimeType == applicationdashxml:
+        return [ "mpd" ]
+
+    if mimeType == audioxmusepack:
+        return [ "mpc", "mpp", "mp" ]
+
+    if mimeType == applicationmp4:
+        return [ "mp4s", "m4p" ]
+
+    if mimeType == videomp4:
+        return [ "mp4", "m4v", "f4v", "lrv", "mp4v", "mpg4" ]
+
+    if mimeType == audiompeg:
+        return [ "mp3", "mpga", "mp2a", "m2a", "m3a" ]
+
+    if mimeType == audiomp2:
+        return [ "mp2" ]
+
+    if mimeType == videoxsgimovie:
+        return [ "movie" ]
+
+    if mimeType == textxmof:
+        return [ "mof" ]
+
+    if mimeType == applicationmodsxml:
+        return [ "mods" ]
+
+    if mimeType == audioxmod:
+        return [ "mod", "ult", "uni", "m15", "mtm", "669", "med" ]
+
+    if mimeType == textxmoc:
+        return [ "moc" ]
+
+    if mimeType == applicationxmobipocketebook:
+        return [ "mobi", "prc" ]
+
+    if mimeType == audioxmo3:
+        return [ "mo3" ]
+
+    if mimeType == applicationxmsmoney:
+        return [ "mny" ]
+
+    if mimeType == videoxmng:
+        return [ "mng" ]
+
+    if mimeType == imagevndfujixeroxedmicsmmr:
+        return [ "mmr" ]
+
+    if mimeType == applicationmathmlxml:
+        return [ "mml", "mathml" ]
+
+    if mimeType == applicationxsmaf:
+        return [ "mmf", "smaf" ]
+
+    if mimeType == applicationvndchipnutskaraokemmd:
+        return [ "mmd" ]
+
+    if mimeType == textxtroffmm:
+        return [ "mm" ]
+
+    if mimeType == applicationvnddolbymlp:
+        return [ "mlp" ]
+
+    if mimeType == textxocaml:
+        return [ "ml", "mli" ]
+
+    if mimeType == videoxmatroska:
+        return [ "mkv", "mks" ]
+
+    if mimeType == audioxmatroska:
+        return [ "mka" ]
+
+    if mimeType == videoxmatroska3d:
+        return [ "mk3d" ]
+
+    if mimeType == videoxmjpeg:
+        return [ "mjpeg", "mjpg" ]
+
+    if mimeType == videomj2:
+        return [ "mj2", "mjp2" ]
+
+    if mimeType == audioxminipsf:
+        return [ "minipsf" ]
+
+    if mimeType == applicationxmif:
+        return [ "mif" ]
+
+    if mimeType == applicationxmie:
+        return [ "mie" ]
+
+    if mimeType == audiomidi:
+        return [ "mid", "midi", "kar", "rmi" ]
+
+    if mimeType == applicationxmimearchive:
+        return [ "mhtml", "mht" ]
+
+    if mimeType == applicationvndproteusmagazine:
+        return [ "mgz" ]
+
+    if mimeType == applicationxmagicpoint:
+        return [ "mgp" ]
+
+    if mimeType == applicationrpkimanifest:
+        return [ "mft" ]
+
+    if mimeType == applicationvndmfmp:
+        return [ "mfm" ]
+
+    if mimeType == applicationmetsxml:
+        return [ "mets" ]
+
+    if mimeType == applicationmetalinkxml:
+        return [ "metalink" ]
+
+    if mimeType == applicationmetalink4xml:
+        return [ "meta4" ]
+
+    if mimeType == textxmeson:
+        return [ "mesonbuild", "mesonoptionstxt" ]
+
+    if mimeType == textxtroffme:
+        return [ "me" ]
+
+    if mimeType == imagevndmsmodi:
+        return [ "mdi" ]
+
+    if mimeType == applicationvndmsaccess:
+        return [ "mdb" ]
+
+    if mimeType == textmarkdown:
+        return [ "md", "mkd", "markdown" ]
+
+    if mimeType == textvndcurlmcurl:
+        return [ "mcurl" ]
+
+    if mimeType == applicationvndmcd:
+        return [ "mcd" ]
+
+    if mimeType == textvndsenxwarpscript:
+        return [ "mc2" ]
+
+    if mimeType == applicationvndmedcalcdata:
+        return [ "mc1" ]
+
+    if mimeType == applicationmbox:
+        return [ "mbox" ]
+
+    if mimeType == applicationvndmobiusmbk:
+        return [ "mbk" ]
+
+    if mimeType == textcachemanifest:
+        return [ "manifest", "appcache" ]
+
+    if mimeType == applicationxtroffman:
+        return [ "man" ]
+
+    if mimeType == textxmakefile:
+        return [ "makefile", "gnumakefile", "mk", "mak" ]
+
+    if mimeType == applicationvndecowinchart:
+        return [ "mag" ]
+
+    if mimeType == applicationmmtaeixml:
+        return [ "maei" ]
+
+    if mimeType == applicationmadsxml:
+        return [ "mads" ]
+
+    if mimeType == applicationxmarkaby:
+        return [ "mab" ]
+
+    if mimeType == applicationxthomsoncartridgememo7:
+        return [ "m7" ]
+
+    if mimeType == audioxm4r:
+        return [ "m4r" ]
+
+    if mimeType == audioxm4b:
+        return [ "m4b", "f4b" ]
+
+    if mimeType == audiomp4:
+        return [ "m4a", "f4a", "mp4a" ]
+
+    if mimeType == applicationxm4:
+        return [ "m4" ]
+
+    if mimeType == audioxmpegurl:
+        return [ "m3u", "m3u8", "vlc" ]
+
+    if mimeType == videomp2t:
+        return [ "m2t", "m2ts", "mts", "cpi", "clpi", "mpl", "mpls", "bdm", "bdmv" ]
+
+    if mimeType == applicationmp21:
+        return [ "m21", "mp21" ]
+
+    if mimeType == videovndmpegurl:
+        return [ "m1u", "m4u", "mxu" ]
+
+    if mimeType == textxobjcsrc:
+        return [ "m" ]
+
+    if mimeType == applicationxlzop:
+        return [ "lzo" ]
+
+    if mimeType == applicationxlzma:
+        return [ "lzma" ]
+
+    if mimeType == applicationxlz4:
+        return [ "lz4" ]
+
+    if mimeType == applicationxlzip:
+        return [ "lz" ]
+
+    if mimeType == applicationxlyx:
+        return [ "lyx" ]
+
+    if mimeType == textxlilypond:
+        return [ "ly" ]
+
+    if mimeType == imagexlws:
+        return [ "lws" ]
+
+    if mimeType == applicationvndlotuswordpro:
+        return [ "lwp" ]
+
+    if mimeType == imagexlwo:
+        return [ "lwo", "lwob" ]
+
+    if mimeType == audiovndlucentvoice:
+        return [ "lvp" ]
+
+    if mimeType == applicationxluabytecode:
+        return [ "luac" ]
+
+    if mimeType == textxlua:
+        return [ "lua" ]
+
+    if mimeType == applicationvndfrogansltf:
+        return [ "ltf" ]
+
+    if mimeType == applicationxlrzip:
+        return [ "lrz" ]
+
+    if mimeType == applicationvndmslrm:
+        return [ "lrm" ]
+
+    if mimeType == applicationlostxml:
+        return [ "lostxml" ]
+
+    if mimeType == textxlog:
+        return [ "log" ]
+
+    if mimeType == audiousac:
+        return [ "loas", "xhe" ]
+
+    if mimeType == applicationxatarilynxrom:
+        return [ "lnx" ]
+
+    if mimeType == applicationxmsshortcut:
+        return [ "lnk" ]
+
+    if mimeType == textcoffeescript:
+        return [ "litcoffee" ]
+
+    if mimeType == applicationvndroute66link66xml:
+        return [ "link66" ]
+
+    if mimeType == applicationxlhz:
+        return [ "lhz" ]
+
+    if mimeType == textxliteratehaskell:
+        return [ "lhs" ]
+
+    if mimeType == applicationxlha:
+        return [ "lha", "lzh" ]
+
+    if mimeType == applicationlgrxml:
+        return [ "lgr" ]
+
+    if mimeType == textless:
+        return [ "less" ]
+
+    if mimeType == applicationvndhhelessonplayer:
+        return [ "les" ]
+
+    if mimeType == textxldif:
+        return [ "ldif" ]
+
+    if mimeType == applicationvndllamagraphicslifebalanceexchangexml:
+        return [ "lbe" ]
+
+    if mimeType == applicationvndllamagraphicslifebalancedesktop:
+        return [ "lbd" ]
+
+    if mimeType == applicationvndlaslasxml:
+        return [ "lasxml" ]
+
+    if mimeType == applicationxsharedlibraryla:
+        return [ "la" ]
+
+    if mimeType == applicationxkword:
+        return [ "kwd", "kwt" ]
+
+    if mimeType == applicationxkugar:
+        return [ "kud" ]
+
+    if mimeType == applicationvndkahootz:
+        return [ "ktz", "ktr" ]
+
+    if mimeType == imagektx:
+        return [ "ktx" ]
+
+    if mimeType == textxkotlin:
+        return [ "kt" ]
+
+    if mimeType == applicationxkspread:
+        return [ "ksp" ]
+
+    if mimeType == applicationxkrita:
+        return [ "kra" ]
+
+    if mimeType == applicationvnddskeypoint:
+        return [ "kpxx" ]
+
+    if mimeType == applicationxkpresenter:
+        return [ "kpr", "kpt" ]
+
+    if mimeType == applicationxkpovmodeler:
+        return [ "kpm" ]
+
+    if mimeType == applicationxkontour:
+        return [ "kon" ]
+
+    if mimeType == applicationvndkinar:
+        return [ "kne", "knp" ]
+
+    if mimeType == applicationvndgoogleearthkmz:
+        return [ "kmz" ]
+
+    if mimeType == applicationvndgoogleearthkmlxml:
+        return [ "kml" ]
+
+    if mimeType == applicationxkillustrator:
+        return [ "kil" ]
+
+    if mimeType == applicationvndkidspiration:
+        return [ "kia" ]
+
+    if mimeType == applicationxkformula:
+        return [ "kfo" ]
+
+    if mimeType == applicationxkexiprojectshortcut:
+        return [ "kexis" ]
+
+    if mimeType == applicationxkexiconnectiondata:
+        return [ "kexic" ]
+
+    if mimeType == applicationxkexiprojectsqlite2:
+        return [ "kexi" ]
+
+    if mimeType == imagexkodakkdc:
+        return [ "kdc" ]
+
+    if mimeType == applicationxkeepass2:
+        return [ "kdbx" ]
+
+    if mimeType == applicationxkarbon:
+        return [ "karbon" ]
+
+    if mimeType == applicationxthomsoncassette:
+        return [ "k7" ]
+
+    if mimeType == imagexkodakk25:
+        return [ "k25" ]
+
+    if mimeType == imagejxss:
+        return [ "jxss" ]
+
+    if mimeType == imagejxsi:
+        return [ "jxsi" ]
+
+    if mimeType == imagejxsc:
+        return [ "jxsc" ]
+
+    if mimeType == imagejxs:
+        return [ "jxs" ]
+
+    if mimeType == imagejxrs:
+        return [ "jxrs" ]
+
+    if mimeType == imagejxra:
+        return [ "jxra" ]
+
+    if mimeType == imagejxr:
+        return [ "jxr" ]
+
+    if mimeType == textjsx:
+        return [ "jsx" ]
+
+    if mimeType == applicationjsonpatchjson:
+        return [ "jsonpatch" ]
+
+    if mimeType == applicationjsonmljson:
+        return [ "jsonml" ]
+
+    if mimeType == applicationldjson:
+        return [ "jsonld" ]
+
+    if mimeType == applicationjson5:
+        return [ "json5" ]
+
+    if mimeType == applicationjson:
+        return [ "json", "map" ]
+
+    if mimeType == applicationjavascript:
+        return [ "js", "jsm", "mjs" ]
+
+    if mimeType == applicationjrdjson:
+        return [ "jrd" ]
+
+    if mimeType == applicationxjbuilderproject:
+        return [ "jpr", "jpx" ]
+
+    if mimeType == imagejpm:
+        return [ "jpm", "jpgm" ]
+
+    if mimeType == imagejph:
+        return [ "jph" ]
+
+    if mimeType == videojpeg:
+        return [ "jpgv" ]
+
+    if mimeType == imagejpeg:
+        return [ "jpg", "jpeg", "jpe" ]
+
+    if mimeType == imagejpx:
+        return [ "jpf" ]
+
+    if mimeType == imagejp2:
+        return [ "jp2", "jpg2" ]
+
+    if mimeType == applicationvndjoostjodaarchive:
+        return [ "joda" ]
+
+    if mimeType == applicationxjavajnlpfile:
+        return [ "jnlp" ]
+
+    if mimeType == imagexjng:
+        return [ "jng" ]
+
+    if mimeType == applicationvndhpjlyt:
+        return [ "jlt" ]
+
+    if mimeType == imagejls:
+        return [ "jls" ]
+
+    if mimeType == applicationxjavakeystore:
+        return [ "jks", "ks", "cacerts" ]
+
+    if mimeType == applicationvndjisp:
+        return [ "jisp" ]
+
+    if mimeType == imagejphc:
+        return [ "jhc" ]
+
+    if mimeType == applicationxjavajcekeystore:
+        return [ "jceks" ]
+
+    if mimeType == textxjava:
+        return [ "java" ]
+
+    if mimeType == applicationxjavaarchivediff:
+        return [ "jardiff" ]
+
+    if mimeType == applicationxjavaarchive:
+        return [ "jar" ]
+
+    if mimeType == applicationvndjam:
+        return [ "jam" ]
+
+    if mimeType == textjade:
+        return [ "jade" ]
+
+    if mimeType == textvndsunj2meappdescriptor:
+        return [ "jad" ]
+
+    if mimeType == imagexjp2codestream:
+        return [ "j2c", "j2k", "jpc" ]
+
+    if mimeType == applicationvndimmervisionivu:
+        return [ "ivu" ]
+
+    if mimeType == applicationvndimmervisionivp:
+        return [ "ivp" ]
+
+    if mimeType == applicationitsxml:
+        return [ "its" ]
+
+    if mimeType == applicationvndshanainformedformtemplate:
+        return [ "itp" ]
+
+    if mimeType == applicationxit87:
+        return [ "it87" ]
+
+    if mimeType == audioxit:
+        return [ "it" ]
+
+    if mimeType == applicationxcdimage:
+        return [ "iso", "iso9660" ]
+
+    if mimeType == applicationvndirepositorypackagexml:
+        return [ "irp" ]
+
+    if mimeType == applicationvndibmrightsmanagement:
+        return [ "irm" ]
+
+    if mimeType == applicationxipynbjson:
+        return [ "ipynb" ]
+
+    if mimeType == textxiptables:
+        return [ "iptables" ]
+
+    if mimeType == applicationxipspatch:
+        return [ "ips" ]
+
+    if mimeType == applicationvndshanainformedpackage:
+        return [ "ipk" ]
+
+    if mimeType == applicationipfix:
+        return [ "ipfix" ]
+
+    if mimeType == applicationvndastraeasoftwareiota:
+        return [ "iota" ]
+
+    if mimeType == textxinstall:
+        return [ "install" ]
+
+    if mimeType == applicationinkmlxml:
+        return [ "ink", "inkml" ]
+
+    if mimeType == textximelody:
+        return [ "imy", "ime" ]
+
+    if mimeType == applicationvndmsims:
+        return [ "ims" ]
+
+    if mimeType == applicationvndaccpacsimplyimp:
+        return [ "imp" ]
+
+    if mimeType == applicationvndshanainformedinterchange:
+        return [ "iif" ]
+
+    if mimeType == applicationvndmicrografxigx:
+        return [ "igx" ]
+
+    if mimeType == modeliges:
+        return [ "igs", "iges" ]
+
+    if mimeType == applicationvndinsorsigm:
+        return [ "igm" ]
+
+    if mimeType == applicationvndigloader:
+        return [ "igl" ]
+
+    if mimeType == applicationvndshanainformedformdata:
+        return [ "ifm" ]
+
+    if mimeType == imagexilbm:
+        return [ "iff", "ilbm", "lbm" ]
+
+    if mimeType == imageief:
+        return [ "ief" ]
+
+    if mimeType == textxidl:
+        return [ "idl" ]
+
+    if mimeType == imagevndmicrosofticon:
+        return [ "ico" ]
+
+    if mimeType == imagexicns:
+        return [ "icns" ]
+
+    if mimeType == xconferencexcooltalk:
+        return [ "ice" ]
+
+    if mimeType == applicationvndiccprofile:
+        return [ "icc", "icm" ]
+
+    if mimeType == applicationxica:
+        return [ "ica" ]
+
+    if mimeType == applicationvndintergeo:
+        return [ "i2g" ]
+
+    if mimeType == applicationxhwt:
+        return [ "hwt" ]
+
+    if mimeType == applicationxhwp:
+        return [ "hwp" ]
+
+    if mimeType == applicationvndyamahahvscript:
+        return [ "hvs" ]
+
+    if mimeType == applicationvndyamahahvvoice:
+        return [ "hvp" ]
+
+    if mimeType == applicationvndyamahahvdic:
+        return [ "hvd" ]
+
+    if mimeType == applicationvndkenameaapp:
+        return [ "htke" ]
+
+    if mimeType == textxcomponent:
+        return [ "htc" ]
+
+    if mimeType == imagehsj2:
+        return [ "hsj2" ]
+
+    if mimeType == textxhaskell:
+        return [ "hs" ]
+
+    if mimeType == applicationmacbinhex40:
+        return [ "hqx" ]
+
+    if mimeType == applicationvndhphps:
+        return [ "hps" ]
+
+    if mimeType == applicationvndhphpid:
+        return [ "hpid" ]
+
+    if mimeType == applicationvndhphpgl:
+        return [ "hpgl" ]
+
+    if mimeType == applicationwinhlp:
+        return [ "hlp" ]
+
+    if mimeType == applicationhjson:
+        return [ "hjson" ]
+
+    if mimeType == textxchdr:
+        return [ "hh", "hp", "hpp", "h", "hxx" ]
+
+    if mimeType == applicationxhfefloppyimage:
+        return [ "hfe" ]
+
+    if mimeType == applicationatscheldxml:
+        return [ "held" ]
+
+    if mimeType == imagehej2k:
+        return [ "hej2" ]
+
+    if mimeType == imageheifsequence:
+        return [ "heifs" ]
+
+    if mimeType == imageheicsequence:
+        return [ "heics" ]
+
+    if mimeType == imageheif:
+        return [ "heic", "heif" ]
+
+    if mimeType == applicationxhdf:
+        return [ "hdf", "hdf4", "h4", "hdf5", "h5" ]
+
+    if mimeType == applicationxvirtualboxhdd:
+        return [ "hdd" ]
+
+    if mimeType == textxhandlebarstemplate:
+        return [ "hbs" ]
+
+    if mimeType == applicationvndhbci:
+        return [ "hbci" ]
+
+    if mimeType == applicationvndhalxml:
+        return [ "hal" ]
+
+    if mimeType == videoh264:
+        return [ "h264" ]
+
+    if mimeType == videoh263:
+        return [ "h263" ]
+
+    if mimeType == videoh261:
+        return [ "h261" ]
+
+    if mimeType == applicationgzip:
+        return [ "gz" ]
+
+    if mimeType == applicationvndgeonext:
+        return [ "gxt" ]
+
+    if mimeType == applicationgxf:
+        return [ "gxf" ]
+
+    if mimeType == textxgooglevideopointer:
+        return [ "gvp" ]
+
+    if mimeType == textvndgraphviz:
+        return [ "gv" ]
+
+    if mimeType == modelvndgtw:
+        return [ "gtw" ]
+
+    if mimeType == applicationvndgroovetoolmessage:
+        return [ "gtm" ]
+
+    if mimeType == audioxgsm:
+        return [ "gsm" ]
+
+    if mimeType == applicationvndgoogleappspresentation:
+        return [ "gslides" ]
+
+    if mimeType == applicationvndgoogleappsspreadsheet:
+        return [ "gsheet" ]
+
+    if mimeType == textxgenie:
+        return [ "gs" ]
+
+    if mimeType == applicationsrgsxml:
+        return [ "grxml" ]
+
+    if mimeType == applicationvndgrooveinjector:
+        return [ "grv" ]
+
+    if mimeType == textxgroovy:
+        return [ "groovy", "gvy", "gy", "gsh" ]
+
+    if mimeType == applicationxgrampsxml:
+        return [ "gramps" ]
+
+    if mimeType == applicationsrgs:
+        return [ "gram" ]
+
+    if mimeType == textxgradle:
+        return [ "gradle" ]
+
+    if mimeType == applicationxgraphite:
+        return [ "gra" ]
+
+    if mimeType == applicationvndgrafeq:
+        return [ "gqf", "gqs" ]
+
+    if mimeType == applicationgpxxml:
+        return [ "gpx" ]
+
+    if mimeType == applicationvndflographit:
+        return [ "gph" ]
+
+    if mimeType == applicationxgnuplot:
+        return [ "gp", "gplt", "gnuplot" ]
+
+    if mimeType == textxgo:
+        return [ "go" ]
+
+    if mimeType == applicationxgnumeric:
+        return [ "gnumeric" ]
+
+    if mimeType == applicationxgnucash:
+        return [ "gnucash", "gnc", "xac" ]
+
+    if mimeType == applicationgnunetdirectory:
+        return [ "gnd" ]
+
+    if mimeType == applicationvndgmx:
+        return [ "gmx" ]
+
+    if mimeType == applicationxprofile:
+        return [ "gmonout" ]
+
+    if mimeType == applicationxgettexttranslation:
+        return [ "gmo", "mo" ]
+
+    if mimeType == applicationgmlxml:
+        return [ "gml" ]
+
+    if mimeType == modelgltfjson:
+        return [ "gltf" ]
+
+    if mimeType == modelgltfbinary:
+        return [ "glb" ]
+
+    if mimeType == applicationxglade:
+        return [ "glade" ]
+
+    if mimeType == applicationvndgrooveidentitymessage:
+        return [ "gim" ]
+
+    if mimeType == imagexgimpgih:
+        return [ "gih" ]
+
+    if mimeType == imagegif:
+        return [ "gif" ]
+
+    if mimeType == applicationvndgroovehelp:
+        return [ "ghf" ]
+
+    if mimeType == applicationvndgeogebratool:
+        return [ "ggt" ]
+
+    if mimeType == applicationvndgeogebrafile:
+        return [ "ggb" ]
+
+    if mimeType == applicationxgamegearrom:
+        return [ "gg" ]
+
+    if mimeType == applicationxtexgf:
+        return [ "gf" ]
+
+    if mimeType == applicationvndgeometryexplorer:
+        return [ "gex", "gre" ]
+
+    if mimeType == applicationgeojson:
+        return [ "geojson" ]
+
+    if mimeType == applicationvnddynageo:
+        return [ "geo" ]
+
+    if mimeType == applicationxgenesisrom:
+        return [ "gen", "sgd" ]
+
+    if mimeType == applicationxgedcom:
+        return [ "ged", "gedcom" ]
+
+    if mimeType == applicationvndgoogleappsdocument:
+        return [ "gdoc" ]
+
+    if mimeType == modelvndgdl:
+        return [ "gdl" ]
+
+    if mimeType == textxgcode:
+        return [ "gcode" ]
+
+    if mimeType == applicationxgcacompressed:
+        return [ "gca" ]
+
+    if mimeType == imagexgimpgbr:
+        return [ "gbr" ]
+
+    if mimeType == applicationxgameboycolorrom:
+        return [ "gbc", "cgb" ]
+
+    if mimeType == applicationxgbarom:
+        return [ "gba", "agb" ]
+
+    if mimeType == applicationxgameboyrom:
+        return [ "gb", "sgb" ]
+
+    if mimeType == applicationxtads:
+        return [ "gam" ]
+
+    if mimeType == applicationvndgrooveaccount:
+        return [ "gac" ]
+
+    if mimeType == applicationvndgeospace:
+        return [ "g3w" ]
+
+    if mimeType == imagefaxg3:
+        return [ "g3" ]
+
+    if mimeType == applicationvndgeoplan:
+        return [ "g2w" ]
+
+    if mimeType == applicationvndfuzzysheet:
+        return [ "fzs" ]
+
+    if mimeType == applicationvndadobefxp:
+        return [ "fxp", "fxpl" ]
+
+    if mimeType == videoxjavafx:
+        return [ "fxm" ]
+
+    if mimeType == videovndfvt:
+        return [ "fvt" ]
+
+    if mimeType == applicationvndanserwebfundstransferinitiation:
+        return [ "fti" ]
+
+    if mimeType == applicationvndfluxtimeclip:
+        return [ "ftc" ]
+
+    if mimeType == imagevndfst:
+        return [ "fst" ]
+
+    if mimeType == applicationvndfscweblaunch:
+        return [ "fsc" ]
+
+    if mimeType == imagevndfpx:
+        return [ "fpx" ]
+
+    if mimeType == applicationvndoasisopendocumenttextflatxml:
+        return [ "fodt" ]
+
+    if mimeType == applicationvndoasisopendocumentspreadsheetflatxml:
+        return [ "fods" ]
+
+    if mimeType == applicationvndoasisopendocumentpresentationflatxml:
+        return [ "fodp" ]
+
+    if mimeType == applicationvndoasisopendocumentgraphicsflatxml:
+        return [ "fodg" ]
+
+    if mimeType == textxxslfo:
+        return [ "fo", "xslfo" ]
+
+    if mimeType == applicationvndfrogansfnc:
+        return [ "fnc" ]
+
+    if mimeType == applicationvndframemaker:
+        return [ "fm", "frame", "maker", "book" ]
+
+    if mimeType == textvndfly:
+        return [ "fly" ]
+
+    if mimeType == textvndfmiflexstor:
+        return [ "flx" ]
+
+    if mimeType == applicationxkivio:
+        return [ "flw" ]
+
+    if mimeType == videoxflv:
+        return [ "flv" ]
+
+    if mimeType == applicationvndmicrografxflo:
+        return [ "flo" ]
+
+    if mimeType == videoxflic:
+        return [ "fli", "flc" ]
+
+    if mimeType == applicationvndflatpakrepo:
+        return [ "flatpakrepo" ]
+
+    if mimeType == applicationvndflatpakref:
+        return [ "flatpakref" ]
+
+    if mimeType == applicationvndflatpak:
+        return [ "flatpak", "xdgapp" ]
+
+    if mimeType == audioflac:
+        return [ "flac" ]
+
+    if mimeType == applicationxfluid:
+        return [ "fl" ]
+
+    if mimeType == imagefits:
+        return [ "fits" ]
+
+    if mimeType == imagexxfig:
+        return [ "fig" ]
+
+    if mimeType == imagexfreehand:
+        return [ "fh", "fhc", "fh4", "fh5", "fh7" ]
+
+    if mimeType == applicationvndfujitsuoasysgp:
+        return [ "fg5" ]
+
+    if mimeType == textxgherkin:
+        return [ "feature" ]
+
+    if mimeType == applicationvnddenovofcselayoutlink:
+        return [ "fe_launch" ]
+
+    if mimeType == applicationfdtxml:
+        return [ "fdt" ]
+
+    if mimeType == applicationxfdsdisk:
+        return [ "fds" ]
+
+    if mimeType == applicationvndfdf:
+        return [ "fdf" ]
+
+    if mimeType == applicationxrawfloppydiskimage:
+        return [ "fd", "qd" ]
+
+    if mimeType == applicationvndisacfcs:
+        return [ "fcs" ]
+
+    if mimeType == applicationvndadobeformscentralfcdt:
+        return [ "fcdt" ]
+
+    if mimeType == imagevndfastbidsheet:
+        return [ "fbs" ]
+
+    if mimeType == applicationxzipcompressedfb2:
+        return [ "fb2zip" ]
+
+    if mimeType == applicationxfictionbookxml:
+        return [ "fb2" ]
+
+    if mimeType == textxfortran:
+        return [ "f", "f90", "f95", "for", "f77" ]
+
+    if mimeType == applicationvndezpixpackage:
+        return [ "ez3" ]
+
+    if mimeType == applicationvndezpixalbum:
+        return [ "ez2" ]
+
+    if mimeType == applicationandrewinset:
+        return [ "ez" ]
+
+    if mimeType == applicationvndnovadigmext:
+        return [ "ext" ]
+
+    if mimeType == imagexexr:
+        return [ "exr" ]
+
+    if mimeType == applicationexi:
+        return [ "exi" ]
+
+    if mimeType == applicationxmsdosexecutable:
+        return [ "exe" ]
+
+    if mimeType == applicationxenvoy:
+        return [ "evy" ]
+
+    if mimeType == applicationxeva:
+        return [ "eva" ]
+
+    if mimeType == textxsetext:
+        return [ "etx" ]
+
+    if mimeType == applicationxetheme:
+        return [ "etheme" ]
+
+    if mimeType == applicationvndepsonesf:
+        return [ "esf" ]
+
+    if mimeType == applicationvndosgisubsystem:
+        return [ "esa" ]
+
+    if mimeType == applicationvndeszigno3xml:
+        return [ "es3", "et3" ]
+
+    if mimeType == applicationecmascript:
+        return [ "es", "ecma" ]
+
+    if mimeType == textxerlang:
+        return [ "erl" ]
+
+    if mimeType == applicationepubzip:
+        return [ "epub" ]
+
+    if mimeType == imagexgzeps:
+        return [ "epsgz", "epsigz", "epsfgz" ]
+
+    if mimeType == imagexbzeps:
+        return [ "epsbz2", "epsibz2", "epsfbz2" ]
+
+    if mimeType == imagexeps:
+        return [ "eps", "epsi", "epsf" ]
+
+    if mimeType == applicationvndmsfontobject:
+        return [ "eot" ]
+
+    if mimeType == audiovnddigitalwinds:
+        return [ "eol" ]
+
+    if mimeType == applicationxmlexternalparsedentity:
+        return [ "ent" ]
+
+    if mimeType == applicationxmsmetafile:
+        return [ "emz" ]
+
+    if mimeType == applicationvndemusicemusicpackage:
+        return [ "emp" ]
+
+    if mimeType == applicationemotionmlxml:
+        return [ "emotionml" ]
+
+    if mimeType == applicationemmaxml:
+        return [ "emma" ]
+
+    if mimeType == messagerfc822:
+        return [ "eml", "mime" ]
+
+    if mimeType == imageemf:
+        return [ "emf" ]
+
+    if mimeType == textxemacslisp:
+        return [ "el" ]
+
+    if mimeType == applicationvndpgosasli:
+        return [ "ei6" ]
+
+    if mimeType == applicationxegon:
+        return [ "egon" ]
+
+    if mimeType == applicationvndpicsel:
+        return [ "efif" ]
+
+    if mimeType == applicationvndnovadigmedx:
+        return [ "edx" ]
+
+    if mimeType == applicationvndnovadigmedm:
+        return [ "edm" ]
+
+    if mimeType == audiovndnueraecelp9600:
+        return [ "ecelp9600" ]
+
+    if mimeType == audiovndnueraecelp7470:
+        return [ "ecelp7470" ]
+
+    if mimeType == audiovndnueraecelp4800:
+        return [ "ecelp4800" ]
+
+    if mimeType == textxeiffel:
+        return [ "e", "eif" ]
+
+    if mimeType == applicationvndspotfiredxp:
+        return [ "dxp" ]
+
+    if mimeType == imagevnddxf:
+        return [ "dxf" ]
+
+    if mimeType == imagevnddwg:
+        return [ "dwg" ]
+
+    if mimeType == modelvnddwf:
+        return [ "dwf" ]
+
+    if mimeType == applicationatscdwdxml:
+        return [ "dwd" ]
+
+    if mimeType == applicationxgzdvi:
+        return [ "dvigz" ]
+
+    if mimeType == applicationxbzdvi:
+        return [ "dvibz2" ]
+
+    if mimeType == applicationxdvi:
+        return [ "dvi" ]
+
+    if mimeType == videovnddvbfile:
+        return [ "dvb" ]
+
+    if mimeType == videodv:
+        return [ "dv" ]
+
+    if mimeType == audiovnddtshd:
+        return [ "dtshd" ]
+
+    if mimeType == audiovnddts:
+        return [ "dts" ]
+
+    if mimeType == applicationxmldtd:
+        return [ "dtd" ]
+
+    if mimeType == applicationxdtbookxml:
+        return [ "dtb" ]
+
+    if mimeType == applicationdsscder:
+        return [ "dssc" ]
+
+    if mimeType == textxdsl:
+        return [ "dsl" ]
+
+    if mimeType == textprslinestag:
+        return [ "dsc" ]
+
+    if mimeType == imagedicomrle:
+        return [ "drle" ]
+
+    if mimeType == audiovnddra:
+        return [ "dra" ]
+
+    if mimeType == applicationvnddpgraph:
+        return [ "dpg" ]
+
+    if mimeType == applicationvndosgidp:
+        return [ "dp" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate:
+        return [ "dotx" ]
+
+    if mimeType == applicationvndmswordtemplatemacroenabled12:
+        return [ "dotm" ]
+
+    if mimeType == applicationmswordtemplate:
+        return [ "dot" ]
+
+    if mimeType == applicationvndopenxmlformatsofficedocumentwordprocessingmldocument:
+        return [ "docx" ]
+
+    if mimeType == applicationvndmsworddocumentmacroenabled12:
+        return [ "docm" ]
+
+    if mimeType == applicationmsword:
+        return [ "doc" ]
+
+    if mimeType == imagexadobedng:
+        return [ "dng" ]
+
+    if mimeType == applicationvnddna:
+        return [ "dna" ]
+
+    if mimeType == applicationxapplediskimage:
+        return [ "dmg" ]
+
+    if mimeType == imagevnddjvu:
+        return [ "djvu", "djv" ]
+
+    if mimeType == messagedispositionnotification:
+        return [ "disposition-notification" ]
+
+    if mimeType == applicationvndmobiusdis:
+        return [ "dis" ]
+
+    if mimeType == applicationxdirector:
+        return [ "dir", "dxr", "cst", "cct", "cxt", "w3d", "fgd", "swa" ]
+
+    if mimeType == textxpatch:
+        return [ "diff", "patch" ]
+
+    if mimeType == applicationdicom:
+        return [ "dicomdir", "dcm" ]
+
+    if mimeType == textxc:
+        return [ "dic" ]
+
+    if mimeType == applicationxdiadiagram:
+        return [ "dia" ]
+
+    if mimeType == applicationxdgccompressed:
+        return [ "dgc" ]
+
+    if mimeType == applicationvnddreamfactory:
+        return [ "dfac" ]
+
+    if mimeType == applicationxdesktop:
+        return [ "desktop", "kdelnk" ]
+
+    if mimeType == applicationxx509cacert:
+        return [ "der", "crt", "cert", "pem" ]
+
+    if mimeType == applicationvnddebianbinarypackage:
+        return [ "deb", "udeb" ]
+
+    if mimeType == imagexdds:
+        return [ "dds" ]
+
+    if mimeType == applicationvndsyncmldmddfxml:
+        return [ "ddf" ]
+
+    if mimeType == applicationvndfujixeroxddd:
+        return [ "ddd" ]
+
+    if mimeType == applicationvndomadd2xml:
+        return [ "dd2" ]
+
+    if mimeType == textvndcurldcurl:
+        return [ "dcurl" ]
+
+    if mimeType == imagexkodakdcr:
+        return [ "dcr" ]
+
+    if mimeType == textxdcl:
+        return [ "dcl" ]
+
+    if mimeType == applicationxdcrom:
+        return [ "dc" ]
+
+    if mimeType == applicationxdocbookxml:
+        return [ "dbk", "docbook" ]
+
+    if mimeType == applicationxdbf:
+        return [ "dbf" ]
+
+    if mimeType == applicationdavmountxml:
+        return [ "davmount" ]
+
+    if mimeType == applicationvnddart:
+        return [ "dart" ]
+
+    if mimeType == applicationxdar:
+        return [ "dar" ]
+
+    if mimeType == applicationvndmobiusdaf:
+        return [ "daf" ]
+
+    if mimeType == modelvndcolladaxml:
+        return [ "dae" ]
+
+    if mimeType == textxdsrc:
+        return [ "d", "di" ]
+
+    if mimeType == applicationprscww:
+        return [ "cww" ]
+
+    if mimeType == applicationxappleworksdocument:
+        return [ "cwk" ]
+
+    if mimeType == textvndcurl:
+        return [ "curl" ]
+
+    if mimeType == imagexwinbitmap:
+        return [ "cur" ]
+
+    if mimeType == applicationxcue:
+        return [ "cue" ]
+
+    if mimeType == applicationcuseeme:
+        return [ "cu" ]
+
+    if mimeType == textcsvschema:
+        return [ "csvs" ]
+
+    if mimeType == textcsv:
+        return [ "csv" ]
+
+    if mimeType == textcss:
+        return [ "css" ]
+
+    if mimeType == applicationvndcommonspace:
+        return [ "csp" ]
+
+    if mimeType == chemicalxcsml:
+        return [ "csml" ]
+
+    if mimeType == applicationvndcitationstylesstylexml:
+        return [ "csl" ]
+
+    if mimeType == applicationxcsh:
+        return [ "csh" ]
+
+    if mimeType == textxcsharp:
+        return [ "cs" ]
+
+    if mimeType == applicationvndrigcryptonote:
+        return [ "cryptonote" ]
+
+    if mimeType == applicationxchromeextension:
+        return [ "crx" ]
+
+    if mimeType == imagexcanoncrw:
+        return [ "crw" ]
+
+    if mimeType == applicationpkixcrl:
+        return [ "crl" ]
+
+    if mimeType == textxcredits:
+        return [ "credits" ]
+
+    if mimeType == applicationxmscardfile:
+        return [ "crd" ]
+
+    if mimeType == imagexcanoncr2:
+        return [ "cr2" ]
+
+    if mimeType == applicationmaccompactpro:
+        return [ "cpt" ]
+
+    if mimeType == textxcsrc:
+        return [ "cpp", "cxx", "cc", "c" ]
+
+    if mimeType == applicationxcpiocompressed:
+        return [ "cpiogz" ]
+
+    if mimeType == applicationxcpio:
+        return [ "cpio" ]
+
+    if mimeType == applicationxcore:
+        return [ "core" ]
+
+    if mimeType == textxcopying:
+        return [ "copying" ]
+
+    if mimeType == applicationxmsdownload:
+        return [ "com", "bat" ]
+
+    if mimeType == applicationvndcoffeescript:
+        return [ "coffee" ]
+
+    if mimeType == applicationvndrimcod:
+        return [ "cod" ]
+
+    if mimeType == imagexcmx:
+        return [ "cmx" ]
+
+    if mimeType == applicationvndyellowrivercustommenu:
+        return [ "cmp" ]
+
+    if mimeType == chemicalxcml:
+        return [ "cml" ]
+
+    if mimeType == chemicalxcmdf:
+        return [ "cmdf" ]
+
+    if mimeType == applicationvndcosmocaller:
+        return [ "cmc" ]
+
+    if mimeType == textxcmake:
+        return [ "cmake", "cmakeliststxt" ]
+
+    if mimeType == applicationxmsclip:
+        return [ "clp" ]
+
+    if mimeType == applicationvndcrickclicker:
+        return [ "clkx" ]
+
+    if mimeType == applicationvndcrickclickerwordbank:
+        return [ "clkw" ]
+
+    if mimeType == applicationvndcrickclickertemplate:
+        return [ "clkt" ]
+
+    if mimeType == applicationvndcrickclickerpalette:
+        return [ "clkp" ]
+
+    if mimeType == applicationvndcrickclickerkeyboard:
+        return [ "clkk" ]
+
+    if mimeType == applicationxjava:
+        return [ "class" ]
+
+    if mimeType == applicationvndclaymore:
+        return [ "cla" ]
+
+    if mimeType == textxopenclsrc:
+        return [ "cl" ]
+
+    if mimeType == applicationnode:
+        return [ "cjs" ]
+
+    if mimeType == applicationvndmsartgalry:
+        return [ "cil" ]
+
+    if mimeType == applicationvndanserwebcertificateissueinitiation:
+        return [ "cii" ]
+
+    if mimeType == chemicalxcif:
+        return [ "cif" ]
+
+    if mimeType == applicationxkchart:
+        return [ "chrt" ]
+
+    if mimeType == applicationvndmshtmlhelp:
+        return [ "chm" ]
+
+    if mimeType == applicationxchat:
+        return [ "chat" ]
+
+    if mimeType == textxchangelog:
+        return [ "changelog" ]
+
+    if mimeType == imagecgm:
+        return [ "cgm" ]
+
+    if mimeType == applicationxcfscompressed:
+        return [ "cfs" ]
+
+    if mimeType == applicationpkixcert:
+        return [ "cer" ]
+
+    if mimeType == applicationvndcinderella:
+        return [ "cdy" ]
+
+    if mimeType == applicationvndchemdrawxml:
+        return [ "cdxml" ]
+
+    if mimeType == chemicalxcdx:
+        return [ "cdx" ]
+
+    if mimeType == applicationvndcoreldraw:
+        return [ "cdr" ]
+
+    if mimeType == applicationcdmiqueue:
+        return [ "cdmiq" ]
+
+    if mimeType == applicationcdmiobject:
+        return [ "cdmio" ]
+
+    if mimeType == applicationcdmidomain:
+        return [ "cdmid" ]
+
+    if mimeType == applicationcdmicontainer:
+        return [ "cdmic" ]
+
+    if mimeType == applicationcdmicapability:
+        return [ "cdmia" ]
+
+    if mimeType == applicationvndmediastationcdkey:
+        return [ "cdkey" ]
+
+    if mimeType == applicationcdfxxml:
+        return [ "cdfx" ]
+
+    if mimeType == applicationxnetcdf:
+        return [ "cdf", "nc" ]
+
+    if mimeType == applicationvndcontactcmsg:
+        return [ "cdbcmsg" ]
+
+    if mimeType == applicationccxmlxml:
+        return [ "ccxml" ]
+
+    if mimeType == applicationxcocoa:
+        return [ "cco" ]
+
+    if mimeType == applicationxccmx:
+        return [ "ccmx" ]
+
+    if mimeType == applicationvndcomicbookzip:
+        return [ "cbz" ]
+
+    if mimeType == applicationxcbt:
+        return [ "cbt" ]
+
+    if mimeType == applicationvndcomicbookrar:
+        return [ "cbr" ]
+
+    if mimeType == textxcobol:
+        return [ "cbl", "cob" ]
+
+    if mimeType == applicationxcbr:
+        return [ "cba" ]
+
+    if mimeType == applicationxcb7:
+        return [ "cb7" ]
+
+    if mimeType == applicationvndmspkiseccat:
+        return [ "cat" ]
+
+    if mimeType == applicationvndcurlcar:
+        return [ "car" ]
+
+    if mimeType == audioxcaf:
+        return [ "caf" ]
+
+    if mimeType == applicationvndmscabcompressed:
+        return [ "cab" ]
+
+    if mimeType == applicationvndclonkc4group:
+        return [ "c4g", "c4d", "c4f", "c4p", "c4u" ]
+
+    if mimeType == applicationvndcluetrustcartomobileconfigpkg:
+        return [ "c11amz" ]
+
+    if mimeType == applicationvndcluetrustcartomobileconfig:
+        return [ "c11amc" ]
+
+    if mimeType == applicationxbzip:
+        return [ "bz2", "bz" ]
+
+    if mimeType == imageprsbtif:
+        return [ "btif" ]
+
+    if mimeType == modelvndvalvesourcecompiledmap:
+        return [ "bsp" ]
+
+    if mimeType == applicationxbsdiff:
+        return [ "bsdiff" ]
+
+    if mimeType == applicationxbpspatch:
+        return [ "bps" ]
+
+    if mimeType == applicationxbzip2:
+        return [ "boz" ]
+
+    if mimeType == applicationvndpreviewsystemsbox:
+        return [ "box" ]
+
+    if mimeType == imagebmp:
+        return [ "bmp", "dib" ]
+
+    if mimeType == applicationvndbalsamiqbmmlxml:
+        return [ "bmml" ]
+
+    if mimeType == applicationvndbmi:
+        return [ "bmi" ]
+
+    if mimeType == applicationxblender:
+        return [ "blender", "blend" ]
+
+    if mimeType == applicationxblorb:
+        return [ "blb", "blorb" ]
+
+    if mimeType == applicationoctetstream:
+        return [ "bin", "dms", "lrf", "mar", "dist", "distz", "bpk", "dump", "elc", "deploy", "dll", "msp", "msm", "buffer" ]
+
+    if mimeType == textxbibtex:
+        return [ "bib" ]
+
+    if mimeType == applicationvndfujitsuoasysprs:
+        return [ "bh2" ]
+
+    if mimeType == applicationvndrealvncbed:
+        return [ "bed" ]
+
+    if mimeType == applicationbdoc:
+        return [ "bdoc" ]
+
+    if mimeType == applicationxfontbdf:
+        return [ "bdf" ]
+
+    if mimeType == applicationxbcpio:
+        return [ "bcpio" ]
+
+    if mimeType == applicationxtrash:
+        return [ "bak", "old", "sik" ]
+
+    if mimeType == applicationvndamazonmobi8ebook:
+        return [ "azw3", "kfx" ]
+
+    if mimeType == applicationvndamazonebook:
+        return [ "azw" ]
+
+    if mimeType == imagevndairzipacceleratorazv:
+        return [ "azv" ]
+
+    if mimeType == applicationvndairzipfilesecureazs:
+        return [ "azs" ]
+
+    if mimeType == applicationvndairzipfilesecureazf:
+        return [ "azf" ]
+
+    if mimeType == videoannodex:
+        return [ "axv" ]
+
+    if mimeType == audioannodex:
+        return [ "axa" ]
+
+    if mimeType == applicationxawk:
+        return [ "awk" ]
+
+    if mimeType == audioamrwb:
+        return [ "awb" ]
+
+    if mimeType == applicationxapplixword:
+        return [ "aw" ]
+
+    if mimeType == imageavifsequence:
+        return [ "avifs" ]
+
+    if mimeType == imageavif:
+        return [ "avif" ]
+
+    if mimeType == videoxmsvideo:
+        return [ "avi", "avf", "divx" ]
+
+    if mimeType == textxsystemdunit:
+        return [ "automount", "device", "mount", "path", "scope", "slice", "socket", "swap", "target", "timer" ]
+
+    if mimeType == textxauthors:
+        return [ "authors" ]
+
+    if mimeType == audiobasic:
+        return [ "au", "snd" ]
+
+    if mimeType == applicationvndantixgamecomponent:
+        return [ "atx" ]
+
+    if mimeType == applicationatomsvcxml:
+        return [ "atomsvc" ]
+
+    if mimeType == applicationatomdeletedxml:
+        return [ "atomdeleted" ]
+
+    if mimeType == applicationatomcatxml:
+        return [ "atomcat" ]
+
+    if mimeType == applicationatomxml:
+        return [ "atom" ]
+
+    if mimeType == applicationvndacucorp:
+        return [ "atc", "acutc" ]
+
+    if mimeType == audioxmsasx:
+        return [ "asx", "wax", "wvx", "wmx" ]
+
+    if mimeType == applicationxasp:
+        return [ "asp" ]
+
+    if mimeType == applicationvndaccpacsimplyaso:
+        return [ "aso" ]
+
+    if mimeType == applicationvndmsasf:
+        return [ "asf" ]
+
+    if mimeType == textxcommonlisp:
+        return [ "asd", "fasl", "lisp", "ros" ]
+
+    if mimeType == applicationxapplixspreadsheet:
+        return [ "as" ]
+
+    if mimeType == imagexsonyarw:
+        return [ "arw" ]
+
+    if mimeType == applicationxarj:
+        return [ "arj" ]
+
+    if mimeType == applicationxfreearc:
+        return [ "arc" ]
+
+    if mimeType == applicationvndlotusapproach:
+        return [ "apr" ]
+
+    if mimeType == applicationxmsapplication:
+        return [ "application" ]
+
+    if mimeType == applicationxiso9660appimage:
+        return [ "appimage" ]
+
+    if mimeType == imageapng:
+        return [ "apng" ]
+
+    if mimeType == applicationvndandroidpackagearchive:
+        return [ "apk" ]
+
+    if mimeType == audioxape:
+        return [ "ape" ]
+
+    if mimeType == applicationannodex:
+        return [ "anx" ]
+
+    if mimeType == videoxanim:
+        return [ "anim19j" ]
+
+    if mimeType == applicationxnavianimation:
+        return [ "ani" ]
+
+    if mimeType == audioxamzxml:
+        return [ "amz" ]
+
+    if mimeType == audioamr:
+        return [ "amr" ]
+
+    if mimeType == applicationvndamigaami:
+        return [ "ami" ]
+
+    if mimeType == applicationxalz:
+        return [ "alz" ]
+
+    if mimeType == applicationvnddvbait:
+        return [ "ait" ]
+
+    if mimeType == applicationvndadobeairapplicationinstallerpackagezip:
+        return [ "air" ]
+
+    if mimeType == audioxaiff:
+        return [ "aiff", "aif" ]
+
+    if mimeType == audioxaifc:
+        return [ "aifc", "aiffc" ]
+
+    if mimeType == applicationillustrator:
+        return [ "ai" ]
+
+    if mimeType == applicationvndaheadspace:
+        return [ "ahead" ]
+
+    if mimeType == imagexapplixgraphics:
+        return [ "ag" ]
+
+    if mimeType == applicationvndibmmodcap:
+        return [ "afp", "listafp", "list3820" ]
+
+    if mimeType == applicationxfontafm:
+        return [ "afm" ]
+
+    if mimeType == applicationvndaudiograph:
+        return [ "aep" ]
+
+    if mimeType == audioadpcm:
+        return [ "adp" ]
+
+    if mimeType == applicationxamigadiskformat:
+        return [ "adf" ]
+
+    if mimeType == textxadasrc:
+        return [ "adb", "ads" ]
+
+    if mimeType == applicationvndacucobol:
+        return [ "acu" ]
+
+    if mimeType == applicationxace:
+        return [ "ace" ]
+
+    if mimeType == applicationvndamericandynamicsacc:
+        return [ "acc" ]
+
+    if mimeType == audioac3:
+        return [ "ac3" ]
+
+    if mimeType == applicationpkixattrcert:
+        return [ "ac" ]
+
+    if mimeType == applicationxabiword:
+        return [ "abw", "abwcrashed", "abwgz", "zabw" ]
+
+    if mimeType == audiovndaudibleaax:
+        return [ "aax" ]
+
+    if mimeType == applicationxauthorwareseg:
+        return [ "aas" ]
+
+    if mimeType == applicationxauthorwaremap:
+        return [ "aam" ]
+
+    if mimeType == audioaac:
+        return [ "aac", "adts" ]
+
+    if mimeType == applicationxauthorwarebin:
+        return [ "aab", "x32", "u32", "vox" ]
+
+    if mimeType == audioxpnaudibleaudio:
+        return [ "aa" ]
+
+    if mimeType == applicationxatari7800rom:
+        return [ "a78" ]
+
+    if mimeType == applicationxatari2600rom:
+        return [ "a26" ]
+
+    if mimeType == applicationxarchive:
+        return [ "a", "ar" ]
+
+    if mimeType == applicationx7zcompressed:
+        return [ "7z" ]
+
+    if mimeType == applicationxt602:
+        return [ "602" ]
+
+    if mimeType == model3mf:
+        return [ "3mf" ]
+
+    if mimeType == video3gpp:
+        return [ "3gp", "3gpp", "3ga" ]
+
+    if mimeType == video3gpp2:
+        return [ "3g2", "3gp2", "3gpp2" ]
+
+    if mimeType == imagex3ds:
+        return [ "3ds" ]
+
+    if mimeType == textvndin3d3dml:
+        return [ "3dml" ]
+
+    if mimeType == applicationxgenesis32xrom:
+        return [ "32x", "mdx" ]
+
+    if mimeType == applicationvnd1000mindsdecisionmodelxml:
+        return [ "1km" ]
+
+    if mimeType == applicationvndlotus123:
+        return [ "123", "wk1", "wk3", "wk4", "wks" ]
+    
+    return []
+
 def getFileCategory(fileName):
     """
     Returns a file category for the given file name
     :param str fileName A file name, file extension or file path specification
     """
-    #getFileCategory body
+    extension = __getExt(fileName)
+    if extension in (_7z, "7zip", ace, air, apk, "appxbundle", "arc", arj, "asec", "bar", bz2, "bzip", cab, "cso", deb, "dlc", dmg, gz, "gzip", hqx, "inv", "ipa", iso, "isz", jar, "msu", "nbh", pak, rar, rpm, sis, sisx, sit, "sitd", sitx, tar, targz, tgz, "webarchive", xap, z, zip):
+        return FileCategory.Archive
+
+    if extension in (_3ga, aac, aiff, amr, ape, "arf", asf, asx, "cda", "dvf", flac, "gp4", "gp5", gpx, "logic", m4a, m4b, "m4p", midi, mp3, ogg, "pcm", "rec", snd, "sng", "uax", wav, wma, wpl, "zab"):
+        return FileCategory.Audio
+
+    if extension in (_as, asm, asp, "aspx", bat, c, "cp", cpp, cs, css, "gradle", htm, "inc", jad, java, js, json, "jsp", kt, "lib", m, "matlab", ml, o, perl, php, pl, "ps1", py, rb, "rc", rss, "scpt", sh, sql, src, "swift", "vb", "vbs", "ws", "xaml", "xcodeproj", xml, xsd, xsl, xslt, yml):
+        return FileCategory.Code
+
+    if extension in (abw, "aww", azw, "azw3", "azw4", cbr, cbz, chm, "cnt", "dbx", djvu, doc, docm, docx, dot, dotm, dotx, epub, fb2, "iba", "ibooks", "ind", "indd", "lit", mht, mobi, mpp, odf, odt, ott, "pages", pmd, "prn", "prproj", ps, pub, "pwi", rep, rtf, sdd, sdw, "shs", "snp", sxw, tpl, vsd, "wlmp", wpd, wps, wri):
+        return FileCategory.Document
+
+    if extension in (bmp, cpt, dds, dib, dng, "dt2", emf, gif, ico, "icon", icns, jpeg, jpg, pcx, pic, png, psd, "psdx", raw, tga, "thm", tif, tiff, wbmp, "wdp", webp):
+        return FileCategory.Image
+
+    if extension in (oxps, pdf, xps):
+        return FileCategory.PDF
+
+    if extension in (key, "keynote", pot, potx, pps, ppsx, ppt, pptm, pptx):
+        return FileCategory.Presentation
+
+    if extension in (ods, "numbers", sdc, xls, xlsx, xlsb):
+        return FileCategory.Spreadsheet
+
+    if extension in ("alx", application, csv, "eng", html, log, "lrc", "lst", nfo, opml, "plist", reg, srt, sub, "tbl", text, txt):
+        return FileCategory.Text
+
+    if extension in ("264", _3g2, _3gp, avi, "bik", "dash", "dat", "dvr", flv, h264, m2t, m2ts, m4v, mkv, mod, mov, mp4, mpeg, mpg, "mswmm", mts, ogv, rmvb, swf, "tod", "tp", ts, vob, webm, wmv):
+        return FileCategory.Video
+
+    return FileCategory.Binary
 
 @unique
 class FileCategory(Enum):

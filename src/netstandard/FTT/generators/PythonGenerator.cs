@@ -54,48 +54,39 @@ namespace FTT.generators
 
         public void GenerateEndFunction()
         {
-            format.Append(@"            }
-            return """";
-        }");
+            //no-op
         }
 
         public void GenerateBeginFunction2()
         {
-            format.Append(@"
-        private static string[] GetMimeTypeFileExtensionsInternal(string mimeType)
-        {
-            switch(mimeType)
-            {
-");
+            //no-op
         }
 
         public void GenerateFunctionBody2(MimeType mimeType)
         {
-            format.AppendLine(GenerateCase(new[] { mimeType.type }));
-            string extensions = @"new string[] { ";
+            string value = "";
+            value = value.AppendLine(GenerateCase(new[] { mimeType.type }, "mimeType"));
+            string extensions = "[ ";
             string strings = string.Join("\", \"", mimeType.extensions);
             if (strings.Length > 0)
             {
-                strings = quote(strings) + " ";
+                strings = quote(strings);
             }
             extensions += strings;
-            extensions += "}";
-            format.AppendLine(GenerateReturn(extensions));
+            extensions += " ]";
+            value = value.AppendLine(GenerateReturn(extensions));
+
+            format = format.InsertAfter("#getMimeTypeFileExtensions body", value);
         }
 
         public void GenerateEndFunction2()
         {
-            format.Append(@"            }
-
-            return new string[] { };
-        }");
+            //no-op
         }
 
         public void GenerateFileEnd()
         {
-            format.Append(@"
-    }
-}");
+            //no-op
         }
 
         public void Finish()
@@ -106,14 +97,14 @@ namespace FTT.generators
 
         #region Private Methods
 
-        private string GenerateCase(IEnumerable<string> extensions)
+        private string GenerateCase(IEnumerable<string> values, string variable = "extension")
         {
-            var joined = string.Join(", ", extensions.Select(e => GetConstantFor(e)));
-            if (extensions.Count() == 1)
+            var joined = string.Join(", ", values.Select(e => GetConstantFor(e)));
+            if (values.Count() == 1)
             {
-                return $"{indent}if extension == {joined}:";
+                return $"{indent}if {variable} == {joined}:";
             }
-            return string.Format($"{indent}if extension in ({{0}}):", joined);
+            return string.Format($"{indent}if {variable} in ({{0}}):", joined);
         }
 
         private string GenerateComment(string comment)

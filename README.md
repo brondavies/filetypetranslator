@@ -1,4 +1,6 @@
 # ![FTT Logo](https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png) File Type Translator (FTT)
+
+[![NuGet version (FTTLib)](https://img.shields.io/nuget/v/FTTLib.dll.svg?style=flat-square)](https://www.nuget.org/packages/FTTLib.dll/)
 [![Language grade: C#](https://img.shields.io/lgtm/grade/csharp/g/brondavies/filetypetranslator.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/brondavies/filetypetranslator/context:csharp)
 
 A library of helper methods for your .Net project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category

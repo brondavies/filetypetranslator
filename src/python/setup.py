@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fttlib",
-    version="1.2.1",
+    version="1.1.3",
     author="Bron Davies",
     author_email="bron@brontech.com",
     description="A library of helper methods for your Python project to get mime types and general file category",
@@ -15,9 +15,8 @@ setuptools.setup(
     keywords=["file", "type", "mime", "mapping", "path", "inspection", "upload", "download", "email", "FTT"],
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=2.7',
 )

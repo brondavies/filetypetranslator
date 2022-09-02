@@ -30,7 +30,7 @@
         /// </summary>
         Image,
         /// <summary>
-        /// Any file that is considered a document archive format
+        /// Any file that is considered a document archive format including PDF, XPS and OXPS
         /// </summary>
         PDF,
         /// <summary>

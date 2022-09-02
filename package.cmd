@@ -1,1 +1,1 @@
-nuget pack src\FTTLib\FTTLib.dll.nuspec 
+nuget pack src\netstandard\FTTLib\FTTLib.dll.nuspec 

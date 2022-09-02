@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1062
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTT", "FTT.csproj", "{57A79D30-B12F-48FA-BCE2-BE5C68349695}"
 EndProject
@@ -9,6 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTTLib", "..\FTTLib\FTTLib.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{34595C7C-E5C6-4CC5-B435-08893FF38A6B}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\package.cmd = ..\..\..\package.cmd
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject

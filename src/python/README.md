@@ -12,7 +12,7 @@ Available as a [pypi package](https://pypi.org/packages/fttlib)
 #### Import the library
 
 ```python
-from fttlib import FTT
+from FTTLib import FTT
 ```
 
 ####  When you need to know the mime type of a file based on its extension.
@@ -31,14 +31,14 @@ print(mimeType)
 ####  When you need to know the file type category of a file based on its extension.
 
 ```python
-FileCategory category = FTT.getFileCategory("Path/To/My/File.docx")
+category = FTT.getFileCategory("Path/To/My/File.docx")
 print(category)
 
 category = FTT.getFileCategory("Path/To/My/File.jpg")
 print(category)
 
->  Document
->  Image
+>  FileCategory.Document
+>  FileCategory.Image
 ```
 
 ####  When you need to know the preferred file extension for a file based on its mime type.

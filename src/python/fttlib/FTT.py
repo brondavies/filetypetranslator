@@ -9619,7 +9619,7 @@ def getMimeTypeFileExtensions(mimeType):
         return [ "mmd" ]
 
     if mimeType == textxobjcsrc:
-        return [ "mm" ]
+        return [ "m", "mm" ]
 
     if mimeType == applicationvnddolbymlp:
         return [ "mlp" ]

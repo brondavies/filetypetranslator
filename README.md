@@ -7,6 +7,7 @@ A library of helper methods for your .Net project to get [mime types](https://en
 
 # Releases
 Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll) 
+#### 1.1.3 - Updated sources, Notably the mime type for .js is now text/javascript instead of application/javascript according to the [IANA standard specification](https://www.iana.org/assignments/media-types/application/javascript)
 #### 1.1.2 - Updated sources, Initial python release
 #### 1.1.1 - Updated sources, switched to .netstandard runtime
 #### 1.1.0 - Updated sources, added PDF, Presentation, and Spreadsheet file categories - formerly part of Document

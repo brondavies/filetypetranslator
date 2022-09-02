@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>FTTLib.dll</id>
-    <version>1.1.1</version>
+    <version>1.1.3</version>
     <authors>Bron Davies</authors>
     <owners>Bron Davies</owners>
     <title>File Type Translator (FTT) Library</title>
-    <licenseUrl>https://raw.githubusercontent.com/brondavies/filetypetranslator/master/LICENSE</licenseUrl>
+    <license>https://raw.githubusercontent.com/brondavies/filetypetranslator/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/brondavies/filetypetranslator/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png</iconUrl>
     <releaseNotes>See release notes on GitHub https://github.com/brondavies/filetypetranslator/</releaseNotes>

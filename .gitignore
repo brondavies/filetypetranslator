@@ -255,4 +255,5 @@ paket-files/
 #Python
 src/python/build/
 src/python/dist/
+src/python/fttlib.egg-info
 __pycache__

@@ -15,9 +15,8 @@ setuptools.setup(
     keywords=["file", "type", "mime", "mapping", "path", "inspection", "upload", "download", "email", "FTT"],
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=2.7',
 )

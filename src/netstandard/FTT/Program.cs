@@ -10,7 +10,7 @@ namespace FTT
         {
             try
             {
-                ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+                ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13;
 
                 Sources.Parse(
                     typeof(CsharpGenerator)

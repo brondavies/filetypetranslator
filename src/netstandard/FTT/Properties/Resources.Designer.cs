@@ -19,7 +19,7 @@ namespace FTT.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -61,7 +61,15 @@ namespace FTT.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to from enum import Enum, unique, auto
+        ///   Looks up a localized string similar to import os
+        ///from enum import Enum, unique, auto
+        ///
+        ///#constants
+        ///
+        ///def __getExt(fileName):
+        ///    if &apos;.&apos; in fileName: return os.path.splitext(fileName)[1].replace(&apos;.&apos;, &apos;&apos;)
+        ///    else: return fileName
+        ///
         ///&quot;&quot;&quot;
         ///Methods for translating between mime-types and file extensions
         ///&quot;&quot;&quot;
@@ -70,14 +78,10 @@ namespace FTT.Properties {
         ///    Returns the mime type for the given file name
         ///    :param str fileName A file name, file extension or file path specification
         ///    &quot;&quot;&quot;
+        ///    extension = __getExt(fileName)
         ///    #getMimeType body
         ///
-        ///def getMimeTypeFileExtensions(mimeType):
-        ///    &quot;&quot;&quot;
-        ///    Returns a list of possible file extensions for the given mime type
-        ///    :param str mimeType A mime Type
-        ///    &quot;&quot;&quot;
-        ///    #getMimeTypeFileExtensions [rest of string was truncated]&quot;;.
+        ///def [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string PythonClass {
             get {

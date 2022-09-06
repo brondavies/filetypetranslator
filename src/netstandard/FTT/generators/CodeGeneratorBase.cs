@@ -5,7 +5,7 @@ namespace FTT.generators
 {
     public class CodeGeneratorBase
     {
-        private static char[] numbers = new[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+        static readonly char[] numbers = new[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
         protected static string GetConstantFor(string type)
         {
             string name = CleanExtension(type);
@@ -33,10 +33,10 @@ namespace FTT.generators
             return false;
         }
 
-        private static Regex cleanregex = new Regex("[^a-z0-9]");
+        static readonly Regex cleanregex = new Regex(@"[^a-z0-9_]");
         protected static string CleanExtension(string ext)
         {
-            return cleanregex.Replace(ext.ToLowerInvariant().Trim(), "");
+            return cleanregex.Replace(ext.ToLowerInvariant().Replace('+', '_').Trim(), "");
         }
 
         protected static string quote(string value)

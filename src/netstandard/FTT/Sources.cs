@@ -11,30 +11,22 @@ namespace FTT
     class Sources
     {
         const string freedesktopUrl = "https://gitlab.freedesktop.org/xdg/shared-mime-info/-/raw/master/data/freedesktop.org.xml.in";
-        const string stdiconJsonUrl = "http://www.stdicon.com/mimetypes";
         const string mimedbJsonUrl = "https://cdn.rawgit.com/jshttp/mime-db/master/db.json";
 
         public static void Parse(params Type[] generators)
         {
             MimeInfo info = null;
-            JsonDict stdicon = null;
             MimeDbInfoDict mimedb = null;
             using (WebClient client = new WebClient())
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(MimeInfo));
                 info = (MimeInfo)serializer.Deserialize(client.OpenRead(freedesktopUrl));
                 mimedb = JsonConvert.DeserializeObject<MimeDbInfoDict>(client.DownloadString(mimedbJsonUrl));
-                // no longer exists :( 
-                // stdicon = JsonConvert.DeserializeObject<JsonDict>(client.DownloadString(stdiconJsonUrl));
             }
 
             List<MimeType> mimetypes = new List<MimeType>();
             ParseMimeInfo(info, mimetypes);
             ParseMimeDbInfo(mimedb, mimetypes);
-            if (stdicon != null)
-            {
-                ParseStdIcon(stdicon, mimetypes);
-            }
             mimetypes = mimetypes.OrderBy(m => m.extensions.First()).ToList();
 
             foreach(var type in generators)
@@ -60,29 +52,6 @@ namespace FTT
                 generator.GenerateEndFunction2();
                 generator.GenerateFileEnd();
                 generator.Finish();
-            }
-        }
-
-        private static void ParseStdIcon(JsonDict dict, List<MimeType> mimetypes)
-        {
-            foreach (var entry in dict)
-            {
-                string extension = CleanExtension(entry.Keys.First());
-                string type = entry.Values.First().Trim();
-                if (!string.IsNullOrEmpty(type) && !string.IsNullOrEmpty(extension))
-                {
-                    MimeType mimeType = mimetypes.Find(t => t.type == type) ?? new MimeType();
-
-                    if (!mimetypes.Exists(m => m.extensions.Contains(extension)))
-                    {
-                        mimeType.extensions.Add(extension);
-                        if (string.IsNullOrEmpty(mimeType.type))
-                        {
-                            mimeType.type = type;
-                            mimetypes.Add(mimeType);
-                        }
-                    }
-                }
             }
         }
 
@@ -143,7 +112,7 @@ namespace FTT
             }
         }
 
-        static Regex cleanregex = new Regex("[^a-z0-9]");
+        static readonly Regex cleanregex = new Regex("[^a-z0-9]");
         private static string CleanExtension(string ext)
         {
             return cleanregex.Replace(ext.ToLowerInvariant().Trim(), "");

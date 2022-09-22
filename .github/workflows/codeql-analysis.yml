@@ -58,7 +58,10 @@ jobs:
 
     - if: matrix.language == 'csharp'
       name: Build
-      run: msbuild src\netstandard\FTT\FTT.sln -t:rebuild -verbosity:diag -property:Configuration=Release
+      working-directory: .\src\netstandard\FTT
+      run: |
+        nuget restore
+        msbuild FTT.sln -t:rebuild -property:Configuration=Release
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2

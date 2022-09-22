@@ -10,7 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{34595C7C-E5C6-4CC5-B435-08893FF38A6B}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\package.cmd = ..\..\..\package.cmd
-		..\..\README.md = ..\..\README.md
+		..\..\..\README.md = ..\..\..\README.md
 	EndProjectSection
 EndProject
 Global

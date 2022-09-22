@@ -6,7 +6,7 @@ namespace FTTLib
     /// <summary>
     /// Methods for translating between mime-types and file extensions
     /// </summary>
-    public partial class FTT
+    public sealed partial class FTT
     {
         /// <summary>
         /// Returns the mime type for the given file name

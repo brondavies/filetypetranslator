@@ -1,6 +1,6 @@
 namespace FTTLib
 {
-    public partial class FTT
+    public sealed partial class FTT
     {
         const string applicationvndlotus123 = "application/vnd.lotus-1-2-3";
         const string _123 = "123";

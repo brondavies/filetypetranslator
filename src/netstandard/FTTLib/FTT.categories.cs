@@ -1,6 +1,6 @@
 ﻿namespace FTTLib
 {
-    public partial class FTT
+    public sealed partial class FTT
     {
         private static FileCategory GetFileCategoryInternal(string extension)
         {

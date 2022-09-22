@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace FTT.generators
 {
@@ -17,7 +14,7 @@ namespace FTT.generators
             format.Append(
             @"namespace FTTLib
 {
-    public partial class FTT
+    public sealed partial class FTT
     {
 ");
         }

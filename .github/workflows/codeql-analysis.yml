@@ -57,11 +57,15 @@ jobs:
       uses: microsoft/setup-msbuild@v1.1
 
     - if: matrix.language == 'csharp'
+      name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.0.7
+
+    - if: matrix.language == 'csharp'
       name: Build
       working-directory: .\src\netstandard\FTT
       run: |
         nuget restore
-        msbuild FTT.sln -t:rebuild -property:Configuration=Release
+        msbuild FTT.sln /t:rebuild /p:Configuration=Release /p:UseSharedCompilation=false
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2

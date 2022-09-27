@@ -2,6 +2,7 @@
 
 [![NuGet version (FTTLib)](https://img.shields.io/nuget/v/FTTLib.dll.svg?style=flat-square)](https://www.nuget.org/packages/FTTLib.dll/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/FTTLib.dll.svg)](https://www.nuget.org/packages/FTTLib.dll/)
+[![PyPI](https://badge.fury.io/py/fttlib.svg)](https://pypi.org/project/fttlib/)
 [![CodeQL](https://github.com/brondavies/filetypetranslator/workflows/CodeQL/badge.svg)](https://github.com/brondavies/filetypetranslator/actions?query=workflow%3ACodeQL)
 
 A library of helper methods for your .Net project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category

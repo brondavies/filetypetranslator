@@ -5,7 +5,7 @@
   "main": "dist/FTT.js",
   "files": [ "dist/FTT.js" ],
   "publishConfig": {
-    "ignore": [ "deploy.cmd" ]
+    "ignore": [ "deploy.cmd", "*.tgz", "test/*" ]
   },
   "scripts": {
     "test": "npm run tests-only"

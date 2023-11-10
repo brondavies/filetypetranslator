@@ -8262,4039 +8262,4039 @@ function getMimeType(fileName) {
  */
 function getMimeTypeFileExtensions(mimeType) {
   
-  switch(extension) {//getMimeTypeFileExtensions body
+  switch(mimeType) {//getMimeTypeFileExtensions body
 
     case applicationzlib:
-    return [ 'zz' ];
+    return [ zz ];
 
     case applicationzstd:
-    return [ 'zst' ];
+    return [ zst ];
 
     case applicationxzpaq:
-    return [ 'zpaq' ];
+    return [ zpaq ];
 
     case applicationxzoo:
-    return [ 'zoo' ];
+    return [ zoo ];
 
     case applicationvndhandheldentertainment_xml:
-    return [ 'zmm' ];
+    return [ zmm ];
 
     case applicationvndzul:
-    return [ 'zir', 'zirz' ];
+    return [ zir, zirz ];
 
     case applicationzip:
-    return [ 'zip', 'zipx' ];
+    return [ zip, zipx ];
 
     case applicationxopenzim:
-    return [ 'zim' ];
+    return [ zim ];
 
     case applicationvndzzazzdeck_xml:
-    return [ 'zaz' ];
+    return [ zaz ];
 
     case applicationxzmachine:
-    return [ 'z1', 'z2', 'z3', 'z4', 'z5', 'z6', 'z7', 'z8' ];
+    return [ z1, z2, z3, z4, z5, z6, z7, z8 ];
 
     case applicationxcompress:
-    return [ 'z' ];
+    return [ z ];
 
     case videovndyoutubeyt:
-    return [ 'yt' ];
+    return [ yt ];
 
     case textxsuseymp:
-    return [ 'ymp' ];
+    return [ ymp ];
 
     case applicationyin_xml:
-    return [ 'yin' ];
+    return [ yin ];
 
     case applicationyang:
-    return [ 'yang' ];
+    return [ yang ];
 
     case applicationyaml:
-    return [ 'yaml', 'yml' ];
+    return [ yaml, yml ];
 
     case applicationxxz:
-    return [ 'xz' ];
+    return [ xz ];
 
     case chemicalxxyz:
-    return [ 'xyz' ];
+    return [ xyz ];
 
     case imagexxwindowdump:
-    return [ 'xwd' ];
+    return [ xwd ];
 
     case applicationvndmozillaxul_xml:
-    return [ 'xul' ];
+    return [ xul ];
 
     case applicationxspf_xml:
-    return [ 'xspf' ];
+    return [ xspf ];
 
     case applicationvndsyncml_xml:
-    return [ 'xsm' ];
+    return [ xsm ];
 
     case applicationxslt_xml:
-    return [ 'xsl', 'xslt' ];
+    return [ xsl, xslt ];
 
     case applicationprsxsf_xml:
-    return [ 'xsf' ];
+    return [ xsf ];
 
     case applicationvndinterconformnet:
-    return [ 'xpw', 'xpx' ];
+    return [ xpw, xpx ];
 
     case applicationvndmsxpsdocument:
-    return [ 'xps' ];
+    return [ xps ];
 
     case applicationvndisxpr:
-    return [ 'xpr' ];
+    return [ xpr ];
 
     case imagexxpixmap:
-    return [ 'xpm' ];
+    return [ xpm ];
 
     case applicationxproc_xml:
-    return [ 'xpl' ];
+    return [ xpl ];
 
     case applicationxxpinstall:
-    return [ 'xpi' ];
+    return [ xpi ];
 
     case applicationxop_xml:
-    return [ 'xop' ];
+    return [ xop ];
 
     case applicationvndolpcsugar:
-    return [ 'xo' ];
+    return [ xo ];
 
     case applicationxcapns_xml:
-    return [ 'xns' ];
+    return [ xns ];
 
     case applicationxml:
-    return [ 'xml', 'xbl', 'xsd', 'rng' ];
+    return [ xml, xbl, xsd, rng ];
 
     case textxxmi:
-    return [ 'xmi' ];
+    return [ xmi ];
 
     case audioxxmf:
-    return [ 'xmf' ];
+    return [ xmf ];
 
     case audioxxm:
-    return [ 'xm' ];
+    return [ xm ];
 
     case applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate:
-    return [ 'xltx' ];
+    return [ xltx ];
 
     case applicationvndmsexceltemplatemacroenabled12:
-    return [ 'xltm' ];
+    return [ xltm ];
 
     case applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet:
-    return [ 'xlsx' ];
+    return [ xlsx ];
 
     case applicationvndmsexcelsheetmacroenabled12:
-    return [ 'xlsm' ];
+    return [ xlsm ];
 
     case applicationvndmsexcelsheetbinarymacroenabled12:
-    return [ 'xlsb' ];
+    return [ xlsb ];
 
     case applicationvndmsexcel:
-    return [ 'xls', 'xlc', 'xll', 'xlm', 'xlw', 'xla', 'xlt', 'xld' ];
+    return [ xls, xlc, xll, xlm, xlw, xla, xlt, xld ];
 
     case applicationxliff_xml:
-    return [ 'xlf', 'xliff' ];
+    return [ xlf, xliff ];
 
     case applicationvndmsexceladdinmacroenabled12:
-    return [ 'xlam' ];
+    return [ xlam ];
 
     case imagevndxiff:
-    return [ 'xif' ];
+    return [ xif ];
 
     case audioxxi:
-    return [ 'xi' ];
+    return [ xi ];
 
     case applicationxhtml_xml:
-    return [ 'xhtml', 'xht', 'html', 'htm' ];
+    return [ xhtml, xht, html, htm ];
 
     case applicationvndpwgxhtmlprint_xml:
-    return [ 'xhtm' ];
+    return [ xhtm ];
 
     case applicationvndxfdl:
-    return [ 'xfdl' ];
+    return [ xfdl ];
 
     case applicationvndadobexfdf:
-    return [ 'xfdf' ];
+    return [ xfdf ];
 
     case applicationpatchopserror_xml:
-    return [ 'xer' ];
+    return [ xer ];
 
     case applicationxenc_xml:
-    return [ 'xenc' ];
+    return [ xenc ];
 
     case applicationxcapel_xml:
-    return [ 'xel' ];
+    return [ xel ];
 
     case applicationvndfujixeroxdocuworks:
-    return [ 'xdw' ];
+    return [ xdw ];
 
     case applicationdssc_xml:
-    return [ 'xdssc' ];
+    return [ xdssc ];
 
     case applicationvndadobexdp_xml:
-    return [ 'xdp' ];
+    return [ xdp ];
 
     case applicationvndsyncmldm_xml:
-    return [ 'xdm' ];
+    return [ xdm ];
 
     case applicationxcapdiff_xml:
-    return [ 'xdf' ];
+    return [ xdf ];
 
     case applicationcalendar_xml:
-    return [ 'xcs' ];
+    return [ xcs ];
 
     case imagexcompressedxcf:
-    return [ 'xcfgz', 'xcfbz2' ];
+    return [ xcfgz, xcfbz2 ];
 
     case imagexxcf:
-    return [ 'xcf' ];
+    return [ xcf ];
 
     case applicationxcapcaps_xml:
-    return [ 'xca' ];
+    return [ xca ];
 
     case imagexxbitmap:
-    return [ 'xbm' ];
+    return [ xbm ];
 
     case applicationxxbel:
-    return [ 'xbel' ];
+    return [ xbel ];
 
     case applicationvndfujixeroxdocuworksbinder:
-    return [ 'xbd' ];
+    return [ xbd ];
 
     case applicationxmsxbap:
-    return [ 'xbap' ];
+    return [ xbap ];
 
     case applicationxcapatt_xml:
-    return [ 'xav' ];
+    return [ xav ];
 
     case applicationxxar:
-    return [ 'xar', 'pkg' ];
+    return [ xar, pkg ];
 
     case applicationxsilverlightapp:
-    return [ 'xap' ];
+    return [ xap ];
 
     case applicationxaml_xml:
-    return [ 'xaml' ];
+    return [ xaml ];
 
     case imagexsigmax3f:
-    return [ 'x3f' ];
+    return [ x3f ];
 
     case modelx3d_vrml:
-    return [ 'x3dv', 'x3dvz' ];
+    return [ x3dv, x3dvz ];
 
     case modelx3d_binary:
-    return [ 'x3db', 'x3dbz' ];
+    return [ x3db, x3dbz ];
 
     case modelx3d_xml:
-    return [ 'x3d', 'x3dz' ];
+    return [ x3d, x3dz ];
 
     case modelvndparasolidtransmittext:
-    return [ 'x_t' ];
+    return [ x_t ];
 
     case modelvndparasolidtransmitbinary:
-    return [ 'x_b' ];
+    return [ x_b ];
 
     case applicationxwwf:
-    return [ 'wwf' ];
+    return [ wwf ];
 
     case audioxwavpackcorrection:
-    return [ 'wvc' ];
+    return [ wvc ];
 
     case audioxwavpack:
-    return [ 'wv', 'wvp' ];
+    return [ wv, wvp ];
 
     case applicationvndwebturbo:
-    return [ 'wtb' ];
+    return [ wtb ];
 
     case applicationwspolicy_xml:
-    return [ 'wspolicy' ];
+    return [ wspolicy ];
 
     case applicationwsdl_xml:
-    return [ 'wsdl' ];
+    return [ wsdl ];
 
     case applicationxwonderswancolorrom:
-    return [ 'wsc' ];
+    return [ wsc ];
 
     case applicationxwonderswanrom:
-    return [ 'ws' ];
+    return [ ws ];
 
     case applicationxmswrite:
-    return [ 'wri' ];
+    return [ wri ];
 
     case applicationvndwqd:
-    return [ 'wqd' ];
+    return [ wqd ];
 
     case applicationvndmswpl:
-    return [ 'wpl' ];
+    return [ wpl ];
 
     case applicationxwpg:
-    return [ 'wpg' ];
+    return [ wpg ];
 
     case applicationvndwordperfect:
-    return [ 'wp', 'wp4', 'wp5', 'wp6', 'wpd', 'wpp' ];
+    return [ wp, wp4, wp5, wp6, wpd, wpp ];
 
     case fontwoff2:
-    return [ 'woff2' ];
+    return [ woff2 ];
 
     case fontwoff:
-    return [ 'woff' ];
+    return [ woff ];
 
     case applicationxmswmz:
-    return [ 'wmz' ];
+    return [ wmz ];
 
     case videoxmswmv:
-    return [ 'wmv' ];
+    return [ wmv ];
 
     case applicationvndwapwmlscriptc:
-    return [ 'wmlsc' ];
+    return [ wmlsc ];
 
     case textvndwapwmlscript:
-    return [ 'wmls' ];
+    return [ wmls ];
 
     case applicationvndwapwmlc:
-    return [ 'wmlc' ];
+    return [ wmlc ];
 
     case textvndwapwml:
-    return [ 'wml' ];
+    return [ wml ];
 
     case imagewmf:
-    return [ 'wmf' ];
+    return [ wmf ];
 
     case applicationxmswmd:
-    return [ 'wmd' ];
+    return [ wmd ];
 
     case audioxmswma:
-    return [ 'wma' ];
+    return [ wma ];
 
     case videoxmswm:
-    return [ 'wm' ];
+    return [ wm ];
 
     case applicationxpartialdownload:
-    return [ 'wkdownload', 'crdownload', 'part' ];
+    return [ wkdownload, crdownload, part ];
 
     case applicationxmswim:
-    return [ 'wim', 'swm' ];
+    return [ wim, swm ];
 
     case applicationwatcherinfo_xml:
-    return [ 'wif' ];
+    return [ wif ];
 
     case applicationwidget:
-    return [ 'wgt' ];
+    return [ wgt ];
 
     case textwgsl:
-    return [ 'wgsl' ];
+    return [ wgsl ];
 
     case applicationvndpmiwidget:
-    return [ 'wg' ];
+    return [ wg ];
 
     case imagewebp:
-    return [ 'webp' ];
+    return [ webp ];
 
     case applicationmanifest_json:
-    return [ 'webmanifest' ];
+    return [ webmanifest ];
 
     case videowebm:
-    return [ 'webm' ];
+    return [ webm ];
 
     case applicationxwebappmanifest_json:
-    return [ 'webapp' ];
+    return [ webapp ];
 
     case audiowebm:
-    return [ 'weba' ];
+    return [ weba ];
 
     case applicationvndmsworks:
-    return [ 'wcm', 'wdb', 'wps', 'xlr' ];
+    return [ wcm, wdb, wps, xlr ];
 
     case applicationvndwapwbxml:
-    return [ 'wbxml' ];
+    return [ wbxml ];
 
     case applicationvndcriticaltoolswbs_xml:
-    return [ 'wbs' ];
+    return [ wbs ];
 
     case imagevndwapwbmp:
-    return [ 'wbmp' ];
+    return [ wbmp ];
 
     case applicationxquattropro:
-    return [ 'wb1', 'wb2', 'wb3' ];
+    return [ wb1, wb2, wb3 ];
 
     case audiovndwave:
-    return [ 'wav' ];
+    return [ wav ];
 
     case applicationwasm:
-    return [ 'wasm' ];
+    return [ wasm ];
 
     case applicationvndsunwadl_xml:
-    return [ 'wadl' ];
+    return [ wadl ];
 
     case applicationxwiiwad:
-    return [ 'wad' ];
+    return [ wad ];
 
     case applicationvoicexml_xml:
-    return [ 'vxml' ];
+    return [ vxml ];
 
     case modelvndvtu:
-    return [ 'vtu' ];
+    return [ vtu ];
 
     case textvtt:
-    return [ 'vtt' ];
+    return [ vtt ];
 
     case imagevndvalvesourcetexture:
-    return [ 'vtf' ];
+    return [ vtf ];
 
     case applicationvndmsvisiotemplatemain_xml:
-    return [ 'vstx' ];
+    return [ vstx ];
 
     case applicationvndmsvisiotemplatemacroenabledmain_xml:
-    return [ 'vstm' ];
+    return [ vstm ];
 
     case applicationvndmsvisiostencilmain_xml:
-    return [ 'vssx' ];
+    return [ vssx ];
 
     case applicationvndmsvisiostencilmacroenabledmain_xml:
-    return [ 'vssm' ];
+    return [ vssm ];
 
     case applicationvndvsf:
-    return [ 'vsf' ];
+    return [ vsf ];
 
     case applicationvndmsvisiodrawingmain_xml:
-    return [ 'vsdx' ];
+    return [ vsdx ];
 
     case applicationvndmsvisiodrawingmacroenabledmain_xml:
-    return [ 'vsdm' ];
+    return [ vsdm ];
 
     case applicationvndvisio:
-    return [ 'vsd', 'vst', 'vsw', 'vss' ];
+    return [ vsd, vst, vsw, vss ];
 
     case modelvrml:
-    return [ 'vrm', 'vrml', 'wrl' ];
+    return [ vrm, vrml, wrl ];
 
     case applicationxvhddisk:
-    return [ 'vpc' ];
+    return [ vpc ];
 
     case audioxvoc:
-    return [ 'voc' ];
+    return [ voc ];
 
     case applicationxvmdkdisk:
-    return [ 'vmdk' ];
+    return [ vmdk ];
 
     case videovndvivo:
-    return [ 'viv', 'vivo' ];
+    return [ viv, vivo ];
 
     case applicationvndvisionary:
-    return [ 'vis' ];
+    return [ vis ];
 
     case applicationxvhdxdisk:
-    return [ 'vhdx' ];
+    return [ vhdx ];
 
     case textxvhdl:
-    return [ 'vhd', 'vhdl' ];
+    return [ vhd, vhdl ];
 
     case modelvndsapvds:
-    return [ 'vds' ];
+    return [ vds ];
 
     case applicationxvdidisk:
-    return [ 'vdi' ];
+    return [ vdi ];
 
     case applicationvndvcx:
-    return [ 'vcx' ];
+    return [ vcx ];
 
     case textcalendar:
-    return [ 'vcs', 'ics', 'ifb' ];
+    return [ vcs, ics, ifb ];
 
     case applicationvndgroovevcard:
-    return [ 'vcg' ];
+    return [ vcg ];
 
     case applicationxcdlink:
-    return [ 'vcd' ];
+    return [ vcd ];
 
     case textvcard:
-    return [ 'vcard', 'vcf', 'vct', 'gcrd' ];
+    return [ vcard, vcf, vct, gcrd ];
 
     case textvbscript:
-    return [ 'vbs' ];
+    return [ vbs ];
 
     case applicationxvirtualboxvboxextpack:
-    return [ 'vbox-extpack' ];
+    return [ vboxextpack ];
 
     case applicationxvirtualboxvbox:
-    return [ 'vbox' ];
+    return [ vbox ];
 
     case textvbscriptencode:
-    return [ 'vbe' ];
+    return [ vbe ];
 
     case applicationxvirtualboyrom:
-    return [ 'vb' ];
+    return [ vb ];
 
     case textxvala:
-    return [ 'vala', 'vapi' ];
+    return [ vala, vapi ];
 
     case textxverilog:
-    return [ 'v' ];
+    return [ v ];
 
     case applicationvnddecezip:
-    return [ 'uvz', 'uvvz' ];
+    return [ uvz, uvvz ];
 
     case applicationvnddeceunspecified:
-    return [ 'uvx', 'uvvx' ];
+    return [ uvx, uvvx ];
 
     case videovnddecevideo:
-    return [ 'uvv', 'uvvv' ];
+    return [ uvv, uvvv ];
 
     case videovnduvvump4:
-    return [ 'uvu', 'uvvu' ];
+    return [ uvu, uvvu ];
 
     case applicationvnddecettml_xml:
-    return [ 'uvt', 'uvvt' ];
+    return [ uvt, uvvt ];
 
     case videovnddecesd:
-    return [ 'uvs', 'uvvs' ];
+    return [ uvs, uvvs ];
 
     case videovnddecepd:
-    return [ 'uvp', 'uvvp' ];
+    return [ uvp, uvvp ];
 
     case videovnddecemobile:
-    return [ 'uvm', 'uvvm' ];
+    return [ uvm, uvvm ];
 
     case imagevnddecegraphic:
-    return [ 'uvi', 'uvvi', 'uvg', 'uvvg' ];
+    return [ uvi, uvvi, uvg, uvvg ];
 
     case videovnddecehd:
-    return [ 'uvh', 'uvvh' ];
+    return [ uvh, uvvh ];
 
     case applicationvnddecedata:
-    return [ 'uvf', 'uvvf', 'uvd', 'uvvd' ];
+    return [ uvf, uvvf, uvd, uvvd ];
 
     case audiovnddeceaudio:
-    return [ 'uva', 'uvva' ];
+    return [ uva, uvva ];
 
     case textxuuencode:
-    return [ 'uue', 'uu' ];
+    return [ uue, uu ];
 
     case applicationvnduiqtheme:
-    return [ 'utz' ];
+    return [ utz ];
 
     case applicationxustar:
-    return [ 'ustar' ];
+    return [ ustar ];
 
     case modelvndusdz_zip:
-    return [ 'usdz' ];
+    return [ usdz ];
 
     case modelvndusda:
-    return [ 'usda' ];
+    return [ usda ];
 
     case applicationxmswinurl:
-    return [ 'url' ];
+    return [ url ];
 
     case texturilist:
-    return [ 'uri', 'uris', 'urls' ];
+    return [ uri, uris, urls ];
 
     case applicationvnduoml_xml:
-    return [ 'uoml', 'uo' ];
+    return [ uoml, uo ];
 
     case applicationvndunity:
-    return [ 'unityweb' ];
+    return [ unityweb ];
 
     case applicationvndumajin:
-    return [ 'umj' ];
+    return [ umj ];
 
     case applicationxglulx:
-    return [ 'ulx' ];
+    return [ ulx ];
 
     case audioxmod:
-    return [ 'ult', 'uni', 'm15', 'mtm', '669', 'med' ];
+    return [ ult, uni, m15, mtm, _669, med ];
 
     case textxuil:
-    return [ 'uil' ];
+    return [ uil ];
 
     case applicationxdesigner:
-    return [ 'ui' ];
+    return [ ui ];
 
     case applicationxufraw:
-    return [ 'ufraw' ];
+    return [ ufraw ];
 
     case applicationvndufdl:
-    return [ 'ufd', 'ufdl' ];
+    return [ ufd, ufdl ];
 
     case applicationubjson:
-    return [ 'ubj' ];
+    return [ ubj ];
 
     case messageglobal:
-    return [ 'u8msg' ];
+    return [ u8msg ];
 
     case messageglobaldispositionnotification:
-    return [ 'u8mdn' ];
+    return [ u8mdn ];
 
     case messageglobalheaders:
-    return [ 'u8hdr' ];
+    return [ u8hdr ];
 
     case messageglobaldeliverystatus:
-    return [ 'u8dsn' ];
+    return [ u8dsn ];
 
     case modelu3d:
-    return [ 'u3d' ];
+    return [ u3d ];
 
     case textxtypst:
-    return [ 'typ' ];
+    return [ typ ];
 
     case textplain:
-    return [ 'txt', 'text', 'conf', 'def', 'list', 'in', 'ini' ];
+    return [ txt, text, conf, _def, list, _in, ini ];
 
     case applicationvndmobiustxf:
-    return [ 'txf' ];
+    return [ txf ];
 
     case applicationvndgenomatixtuxedo:
-    return [ 'txd' ];
+    return [ txd ];
 
     case textxtwig:
-    return [ 'twig' ];
+    return [ twig ];
 
     case applicationvndsimtechmindmapper:
-    return [ 'twd', 'twds' ];
+    return [ twd, twds ];
 
     case applicationxfontttx:
-    return [ 'ttx' ];
+    return [ ttx ];
 
     case applicationttml_xml:
-    return [ 'ttml' ];
+    return [ ttml ];
 
     case textturtle:
-    return [ 'ttl' ];
+    return [ ttl ];
 
     case fontttf:
-    return [ 'ttf' ];
+    return [ ttf ];
 
     case fontcollection:
-    return [ 'ttc' ];
+    return [ ttc ];
 
     case audioxtta:
-    return [ 'tta' ];
+    return [ tta ];
 
     case applicationxtiledtsx:
-    return [ 'tsx' ];
+    return [ tsx ];
 
     case texttabseparatedvalues:
-    return [ 'tsv' ];
+    return [ tsv ];
 
     case applicationtimestampeddata:
-    return [ 'tsd' ];
+    return [ tsd ];
 
     case textvndtrolltechlinguist:
-    return [ 'ts' ];
+    return [ ts ];
 
     case applicationxmsterminal:
-    return [ 'trm' ];
+    return [ trm ];
 
     case applicationtrig:
-    return [ 'trig' ];
+    return [ trig ];
 
     case applicationvndtrueapp:
-    return [ 'tra' ];
+    return [ tra ];
 
     case texttroff:
-    return [ 'tr', 'roff' ];
+    return [ tr, roff ];
 
     case applicationvndtridtpt:
-    return [ 'tpt' ];
+    return [ tpt ];
 
     case applicationvndgroovetooltemplate:
-    return [ 'tpl' ];
+    return [ tpl ];
 
     case applicationxbittorrent:
-    return [ 'torrent' ];
+    return [ torrent ];
 
     case applicationtoml:
-    return [ 'toml' ];
+    return [ toml ];
 
     case textxtodotxt:
-    return [ 'todotxt' ];
+    return [ todotxt ];
 
     case applicationxcdrdaotoc:
-    return [ 'toc' ];
+    return [ toc ];
 
     case applicationvndmstnef:
-    return [ 'tnef', 'tnf', 'winmaildat' ];
+    return [ tnef, tnf, winmaildat ];
 
     case applicationxtiledtmx:
-    return [ 'tmx' ];
+    return [ tmx ];
 
     case applicationvndtmobilelivetv:
-    return [ 'tmo' ];
+    return [ tmo ];
 
     case imagetiff:
-    return [ 'tif', 'tiff' ];
+    return [ tif, tiff ];
 
     case applicationvndmsofficetheme:
-    return [ 'thmx' ];
+    return [ thmx ];
 
     case applicationxwindowsthemepack:
-    return [ 'themepack' ];
+    return [ themepack ];
 
     case applicationxtheme:
-    return [ 'theme' ];
+    return [ theme ];
 
     case imagextga:
-    return [ 'tga', 'icb', 'tpic', 'vda' ];
+    return [ tga, icb, tpic, vda ];
 
     case imagetifffx:
-    return [ 'tfx' ];
+    return [ tfx ];
 
     case applicationxtextfm:
-    return [ 'tfm' ];
+    return [ tfm ];
 
     case applicationthraud_xml:
-    return [ 'tfi' ];
+    return [ tfi ];
 
     case textxtexinfo:
-    return [ 'texi', 'texinfo' ];
+    return [ texi, texinfo ];
 
     case textxtex:
-    return [ 'tex', 'ltx', 'sty', 'cls', 'dtx', 'ins', 'latex' ];
+    return [ tex, ltx, sty, cls, dtx, ins, latex ];
 
     case applicationtei_xml:
-    return [ 'tei', 'teicorpus' ];
+    return [ tei, teicorpus ];
 
     case applicationvndsmartteacher:
-    return [ 'teacher' ];
+    return [ teacher ];
 
     case applicationurctargetdesc_xml:
-    return [ 'td' ];
+    return [ td ];
 
     case texttcl:
-    return [ 'tcl', 'tk' ];
+    return [ tcl, tk ];
 
     case applicationvnd3gpp2tcap:
-    return [ 'tcap' ];
+    return [ tcap ];
 
     case applicationxzstdcompressedtar:
-    return [ 'tarzst', 'tzst' ];
+    return [ tarzst, tzst ];
 
     case applicationxtarz:
-    return [ 'tarz', 'taz' ];
+    return [ tarz, taz ];
 
     case applicationxxzcompressedtar:
-    return [ 'tarxz', 'txz' ];
+    return [ tarxz, txz ];
 
     case applicationxtzo:
-    return [ 'tarlzo', 'tzo' ];
+    return [ tarlzo, tzo ];
 
     case applicationxlzmacompressedtar:
-    return [ 'tarlzma', 'tlz' ];
+    return [ tarlzma, tlz ];
 
     case applicationxlz4compressedtar:
-    return [ 'tarlz4' ];
+    return [ tarlz4 ];
 
     case applicationxlzipcompressedtar:
-    return [ 'tarlz' ];
+    return [ tarlz ];
 
     case applicationxlrzipcompressedtar:
-    return [ 'tarlrz', 'tlrz' ];
+    return [ tarlrz, tlrz ];
 
     case applicationxcompressedtar:
-    return [ 'targz', 'tgz' ];
+    return [ targz, tgz ];
 
     case applicationxbzip3compressedtar:
-    return [ 'tarbz3', 'tbz3' ];
+    return [ tarbz3, tbz3 ];
 
     case applicationxbzip2compressedtar:
-    return [ 'tarbz2', 'tbz2', 'tb2' ];
+    return [ tarbz2, tbz2, tb2 ];
 
     case applicationxbzip1compressedtar:
-    return [ 'tarbz', 'tbz' ];
+    return [ tarbz, tbz ];
 
     case applicationxtar:
-    return [ 'tar', 'gtar', 'gem' ];
+    return [ tar, gtar, gem ];
 
     case imagevndtencenttap:
-    return [ 'tap' ];
+    return [ tap ];
 
     case applicationvndtaointentmodulearchive:
-    return [ 'tao' ];
+    return [ tao ];
 
     case audioxtak:
-    return [ 'tak' ];
+    return [ tak ];
 
     case applicationvndmynfc:
-    return [ 'taglet' ];
+    return [ taglet ];
 
     case imaget38:
-    return [ 't38' ];
+    return [ t38 ];
 
     case applicationxt3vmimage:
-    return [ 't3' ];
+    return [ t3 ];
 
     case textxtxt2tags:
-    return [ 't2t' ];
+    return [ t2t ];
 
     case textspreadsheet:
-    return [ 'sylk', 'slk' ];
+    return [ sylk, slk ];
 
     case applicationvndsunxmlwriter:
-    return [ 'sxw' ];
+    return [ sxw ];
 
     case applicationvndsunxmlmath:
-    return [ 'sxm' ];
+    return [ sxm ];
 
     case applicationvndsunxmlimpress:
-    return [ 'sxi' ];
+    return [ sxi ];
 
     case applicationvndsunxmlwriterglobal:
-    return [ 'sxg' ];
+    return [ sxg ];
 
     case applicationvndsunxmldraw:
-    return [ 'sxd' ];
+    return [ sxd ];
 
     case applicationvndsunxmlcalc:
-    return [ 'sxc' ];
+    return [ sxc ];
 
     case applicationswid_xml:
-    return [ 'swidtag' ];
+    return [ swidtag ];
 
     case applicationvndaristanetworksswi:
-    return [ 'swi' ];
+    return [ swi ];
 
     case applicationvndadobeflashmovie:
-    return [ 'swf', 'spl' ];
+    return [ swf, spl ];
 
     case textxsvhdr:
-    return [ 'svh' ];
+    return [ svh ];
 
     case imagesvg_xmlcompressed:
-    return [ 'svgz', 'svggz' ];
+    return [ svgz, svggz ];
 
     case imagesvg_xml:
-    return [ 'svg' ];
+    return [ svg ];
 
     case applicationvndsvd:
-    return [ 'svd' ];
+    return [ svd ];
 
     case applicationvnddvbservice:
-    return [ 'svc' ];
+    return [ svc ];
 
     case applicationxsv4crc:
-    return [ 'sv4crc' ];
+    return [ sv4crc ];
 
     case applicationxsv4cpio:
-    return [ 'sv4cpio' ];
+    return [ sv4cpio ];
 
     case textxsvsrc:
-    return [ 'sv' ];
+    return [ sv ];
 
     case applicationvndsuscalendar:
-    return [ 'sus', 'susp' ];
+    return [ sus, susp ];
 
     case imagexsunraster:
-    return [ 'sun' ];
+    return [ sun ];
 
     case textxmicrodvd:
-    return [ 'sub' ];
+    return [ sub ];
 
     case textstylus:
-    return [ 'stylus', 'styl' ];
+    return [ stylus, styl ];
 
     case applicationvndsunxmlwritertemplate:
-    return [ 'stw' ];
+    return [ stw ];
 
     case applicationvndpgformat:
-    return [ 'str' ];
+    return [ str ];
 
     case modelstep_zip:
-    return [ 'stpz' ];
+    return [ stpz ];
 
     case modelstepxml_zip:
-    return [ 'stpxz' ];
+    return [ stpxz ];
 
     case modelstep_xml:
-    return [ 'stpx' ];
+    return [ stpx ];
 
     case audioxstm:
-    return [ 'stm' ];
+    return [ stm ];
 
     case modelstl:
-    return [ 'stl' ];
+    return [ stl ];
 
     case applicationhyperstudio:
-    return [ 'stk' ];
+    return [ stk ];
 
     case applicationvndsunxmlimpresstemplate:
-    return [ 'sti' ];
+    return [ sti ];
 
     case applicationvndwtstf:
-    return [ 'stf' ];
+    return [ stf ];
 
     case applicationvndsunxmldrawtemplate:
-    return [ 'std' ];
+    return [ std ];
 
     case applicationvndsunxmlcalctemplate:
-    return [ 'stc' ];
+    return [ stc ];
 
     case applicationvndsailingtrackertrack:
-    return [ 'st' ];
+    return [ st ];
 
     case applicationssml_xml:
-    return [ 'ssml' ];
+    return [ ssml ];
 
     case applicationvndepsonssf:
-    return [ 'ssf' ];
+    return [ ssf ];
 
     case applicationvndkodakdescriptor:
-    return [ 'sse' ];
+    return [ sse ];
 
     case applicationssdl_xml:
-    return [ 'ssdl' ];
+    return [ ssdl ];
 
     case textxssa:
-    return [ 'ssa', 'ass' ];
+    return [ ssa, ass ];
 
     case applicationsparqlresults_xml:
-    return [ 'srx' ];
+    return [ srx ];
 
     case applicationsru_xml:
-    return [ 'sru' ];
+    return [ sru ];
 
     case applicationxsubrip:
-    return [ 'srt' ];
+    return [ srt ];
 
     case imagexsonysrf:
-    return [ 'srf' ];
+    return [ srf ];
 
     case applicationxsourcerpm:
-    return [ 'srcrpm', 'spm' ];
+    return [ srcrpm, spm ];
 
     case applicationxwaissource:
-    return [ 'src' ];
+    return [ src ];
 
     case imagexsonysr2:
-    return [ 'sr2' ];
+    return [ sr2 ];
 
     case applicationvndsquashfs:
-    return [ 'sqsh' ];
+    return [ sqsh ];
 
     case applicationvndsqlite3:
-    return [ 'sqlite3' ];
+    return [ sqlite3 ];
 
     case applicationxsqlite2:
-    return [ 'sqlite2' ];
+    return [ sqlite2 ];
 
     case applicationsql:
-    return [ 'sql' ];
+    return [ sql ];
 
     case applicationxapplesystemprofiler_xml:
-    return [ 'spx' ];
+    return [ spx ];
 
     case applicationscvpvprequest:
-    return [ 'spq' ];
+    return [ spq ];
 
     case applicationscvpvpresponse:
-    return [ 'spp' ];
+    return [ spp ];
 
     case textvndin3dspot:
-    return [ 'spot' ];
+    return [ spot ];
 
     case applicationvndyamahasmafphrase:
-    return [ 'spf' ];
+    return [ spf ];
 
     case textxrpmspec:
-    return [ 'spec' ];
+    return [ spec ];
 
     case textspdx:
-    return [ 'spdx' ];
+    return [ spdx ];
 
     case applicationxfontspeedo:
-    return [ 'spd' ];
+    return [ spd ];
 
     case applicationxsharedlib:
-    return [ 'so', 'so09' ];
+    return [ so, so09 ];
 
     case applicationxfontsnf:
-    return [ 'snf' ];
+    return [ snf ];
 
     case applicationvndsnap:
-    return [ 'snap' ];
+    return [ snap ];
 
     case applicationvndstepmaniapackage:
-    return [ 'smzip' ];
+    return [ smzip ];
 
     case videoxsmv:
-    return [ 'smv' ];
+    return [ smv ];
 
     case applicationxsmsrom:
-    return [ 'sms' ];
+    return [ sms ];
 
     case videovndradgamettoolssmacker:
-    return [ 'smk' ];
+    return [ smk ];
 
     case applicationsmil_xml:
-    return [ 'smil', 'smi', 'sml', 'kino' ];
+    return [ smil, smi, sml, kino ];
 
     case applicationvndstardivisionmath:
-    return [ 'smf' ];
+    return [ smf ];
 
     case applicationvndstardivisionmail:
-    return [ 'smd' ];
+    return [ smd ];
 
     case applicationvndstepmaniastepchart:
-    return [ 'sm' ];
+    return [ sm ];
 
     case applicationvndepsonsalt:
-    return [ 'slt' ];
+    return [ slt ];
 
     case applicationroutestsid_xml:
-    return [ 'sls' ];
+    return [ sls ];
 
     case textslim:
-    return [ 'slim', 'slm' ];
+    return [ slim, slm ];
 
     case applicationvndopenxmlformatsofficedocumentpresentationmlslide:
-    return [ 'sldx' ];
+    return [ sldx ];
 
     case applicationvndmspowerpointslidemacroenabled12:
-    return [ 'sldm' ];
+    return [ sldm ];
 
     case applicationpgpkeys:
-    return [ 'skr', 'pkr', 'key' ];
+    return [ skr, pkr, key ];
 
     case applicationvndkoan:
-    return [ 'skp', 'skd', 'skt', 'skm' ];
+    return [ skp, skd, skt, skm ];
 
     case imagexskencil:
-    return [ 'sk', 'sk1' ];
+    return [ sk, sk1 ];
 
     case applicationsieve:
-    return [ 'siv', 'sieve' ];
+    return [ siv, sieve ];
 
     case applicationxstuffitx:
-    return [ 'sitx' ];
+    return [ sitx ];
 
     case applicationxstuffit:
-    return [ 'sit' ];
+    return [ sit ];
 
     case xepocxsisxapp:
-    return [ 'sisx' ];
+    return [ sisx ];
 
     case applicationvndsymbianinstall:
-    return [ 'sis' ];
+    return [ sis ];
 
     case audiosilk:
-    return [ 'sil' ];
+    return [ sil ];
 
     case applicationpgpsignature:
-    return [ 'sig' ];
+    return [ sig ];
 
     case audioprssid:
-    return [ 'sid', 'psid' ];
+    return [ sid, psid ];
 
     case applicationxsiag:
-    return [ 'siag' ];
+    return [ siag ];
 
     case texthtml:
-    return [ 'shtml' ];
+    return [ shtml ];
 
     case applicationxshorten:
-    return [ 'shn' ];
+    return [ shn ];
 
     case applicationshf_xml:
-    return [ 'shf' ];
+    return [ shf ];
 
     case textshex:
-    return [ 'shex' ];
+    return [ shex ];
 
     case applicationxshar:
-    return [ 'shar' ];
+    return [ shar ];
 
     case applicationxdiashape:
-    return [ 'shape' ];
+    return [ shape ];
 
     case applicationxshellscript:
-    return [ 'sh' ];
+    return [ sh ];
 
     case textsgml:
-    return [ 'sgml', 'sgm' ];
+    return [ sgml, sgm ];
 
     case imagexsgi:
-    return [ 'sgi' ];
+    return [ sgi ];
 
     case applicationxgosgf:
-    return [ 'sgf' ];
+    return [ sgf ];
 
     case applicationxsg1000rom:
-    return [ 'sg' ];
+    return [ sg ];
 
     case textxsfv:
-    return [ 'sfv' ];
+    return [ sfv ];
 
     case applicationvndspotfiresfs:
-    return [ 'sfs' ];
+    return [ sfs ];
 
     case applicationvndhydrostatixsofdata:
-    return [ 'sfd-hdstx' ];
+    return [ sfdhdstx ];
 
     case applicationvndnintendosnesrom:
-    return [ 'sfc', 'smc' ];
+    return [ sfc, smc ];
 
     case applicationsetregistrationinitiation:
-    return [ 'setreg' ];
+    return [ setreg ];
 
     case applicationsetpaymentinitiation:
-    return [ 'setpay' ];
+    return [ setpay ];
 
     case textxdbusservice:
-    return [ 'service' ];
+    return [ service ];
 
     case applicationjavaserializedobject:
-    return [ 'ser' ];
+    return [ ser ];
 
     case applicationsensml_xml:
-    return [ 'sensmlx' ];
+    return [ sensmlx ];
 
     case applicationsenml_xml:
-    return [ 'senmlx' ];
+    return [ senmlx ];
 
     case applicationvndsemf:
-    return [ 'semf' ];
+    return [ semf ];
 
     case applicationvndsemd:
-    return [ 'semd' ];
+    return [ semd ];
 
     case applicationvndsema:
-    return [ 'sema' ];
+    return [ sema ];
 
     case applicationvndfdsnseed:
-    return [ 'seed', 'dataless' ];
+    return [ seed, dataless ];
 
     case applicationvndseemail:
-    return [ 'see' ];
+    return [ see ];
 
     case applicationxsea:
-    return [ 'sea' ];
+    return [ sea ];
 
     case applicationvndstardivisionwriter:
-    return [ 'sdw', 'vor', 'sgl' ];
+    return [ sdw, vor, sgl ];
 
     case applicationvndstardivisionchart:
-    return [ 'sds' ];
+    return [ sds ];
 
     case applicationvndsolentsdkm_xml:
-    return [ 'sdkm', 'sdkd' ];
+    return [ sdkm, sdkd ];
 
     case applicationvndstardivisionimpress:
-    return [ 'sdd', 'sdp' ];
+    return [ sdd, sdp ];
 
     case applicationvndstardivisioncalc:
-    return [ 'sdc' ];
+    return [ sdc ];
 
     case applicationvndstardivisiondraw:
-    return [ 'sda' ];
+    return [ sda ];
 
     case textvndcurlscurl:
-    return [ 'scurl' ];
+    return [ scurl ];
 
     case textxscss:
-    return [ 'scss' ];
+    return [ scss ];
 
     case applicationscvpcvresponse:
-    return [ 'scs' ];
+    return [ scs ];
 
     case applicationscvpcvrequest:
-    return [ 'scq' ];
+    return [ scq ];
 
     case textxscons:
-    return [ 'sconstruct', 'sconscript' ];
+    return [ sconstruct, sconscript ];
 
     case applicationxgodotscene:
-    return [ 'scn', 'tscn', 'escn' ];
+    return [ scn, tscn, escn ];
 
     case textxscheme:
-    return [ 'scm', 'ss' ];
+    return [ scm, ss ];
 
     case applicationxmsschedule:
-    return [ 'scd' ];
+    return [ scd ];
 
     case textxscala:
-    return [ 'scala', 'sc' ];
+    return [ scala, sc ];
 
     case applicationsbml_xml:
-    return [ 'sbml' ];
+    return [ sbml ];
 
     case applicationxspsssav:
-    return [ 'sav', 'zsav' ];
+    return [ sav, zsav ];
 
     case textxsass:
-    return [ 'sass' ];
+    return [ sass ];
 
     case applicationxthomsonsapimage:
-    return [ 'sap' ];
+    return [ sap ];
 
     case applicationxsami:
-    return [ 'sami' ];
+    return [ sami ];
 
     case applicationxamipro:
-    return [ 'sam' ];
+    return [ sam ];
 
     case textxsagemath:
-    return [ 'sage' ];
+    return [ sage ];
 
     case applicationvndyamahasmafaudio:
-    return [ 'saf' ];
+    return [ saf ];
 
     case audioxs3m:
-    return [ 's3m' ];
+    return [ s3m ];
 
     case textxasm:
-    return [ 's', 'asm' ];
+    return [ s, asm ];
 
     case imagexpanasonicrw2:
-    return [ 'rw2' ];
+    return [ rw2 ];
 
     case videovndrnrealvideo:
-    return [ 'rv', 'rvx' ];
+    return [ rv, rvx ];
 
     case applicationrouteusd_xml:
-    return [ 'rusd' ];
+    return [ rusd ];
 
     case applicationxmakeself:
-    return [ 'run' ];
+    return [ run ];
 
     case textrichtext:
-    return [ 'rtx' ];
+    return [ rtx ];
 
     case applicationrtf:
-    return [ 'rtf' ];
+    return [ rtf ];
 
     case textvndrnrealtext:
-    return [ 'rt' ];
+    return [ rt ];
 
     case textxrst:
-    return [ 'rst' ];
+    return [ rst ];
 
     case applicationrss_xml:
-    return [ 'rss' ];
+    return [ rss ];
 
     case applicationurcressheet_xml:
-    return [ 'rsheet' ];
+    return [ rsheet ];
 
     case applicationrsd_xml:
-    return [ 'rsd' ];
+    return [ rsd ];
 
     case applicationatscrsat_xml:
-    return [ 'rsat' ];
+    return [ rsat ];
 
     case textrust:
-    return [ 'rs' ];
+    return [ rs ];
 
     case applicationvndnokiaradiopreset:
-    return [ 'rpst' ];
+    return [ rpst ];
 
     case applicationvndnokiaradiopresets:
-    return [ 'rpss' ];
+    return [ rpss ];
 
     case applicationxrpm:
-    return [ 'rpm' ];
+    return [ rpm ];
 
     case applicationvndcloantorp9:
-    return [ 'rp9' ];
+    return [ rp9 ];
 
     case imagevndrnrealpix:
-    return [ 'rp' ];
+    return [ rp ];
 
     case applicationrpkiroa:
-    return [ 'roa' ];
+    return [ roa ];
 
     case applicationrelaxngcompactsyntax:
-    return [ 'rnc' ];
+    return [ rnc ];
 
     case audioxpnrealaudioplugin:
-    return [ 'rmp' ];
+    return [ rmp ];
 
     case messagexgnurmail:
-    return [ 'rmail' ];
+    return [ rmail ];
 
     case applicationvndrnrealmedia:
-    return [ 'rm', 'rmj', 'rmm', 'rms', 'rmx', 'rmvb' ];
+    return [ rm, rmj, rmm, rms, rmx, rmvb ];
 
     case imagerle:
-    return [ 'rle' ];
+    return [ rle ];
 
     case applicationresourcelistsdiff_xml:
-    return [ 'rld' ];
+    return [ rld ];
 
     case imagevndfujixeroxedmicsrlc:
-    return [ 'rlc' ];
+    return [ rlc ];
 
     case applicationresourcelists_xml:
-    return [ 'rl' ];
+    return [ rl ];
 
     case applicationxresearchinfosystems:
-    return [ 'ris' ];
+    return [ ris ];
 
     case audiovndrip:
-    return [ 'rip' ];
+    return [ rip ];
 
     case applicationreginfo_xml:
-    return [ 'rif' ];
+    return [ rif ];
 
     case imagexrgb:
-    return [ 'rgb' ];
+    return [ rgb ];
 
     case applicationxgodotresource:
-    return [ 'res', 'tres' ];
+    return [ res, tres ];
 
     case applicationvndbusinessobjects:
-    return [ 'rep' ];
+    return [ rep ];
 
     case applicationp2poverlay_xml:
-    return [ 'relo' ];
+    return [ relo ];
 
     case textxreject:
-    return [ 'rej' ];
+    return [ rej ];
 
     case textxmsregedit:
-    return [ 'reg' ];
+    return [ reg ];
 
     case textxreadme:
-    return [ 'readme' ];
+    return [ readme ];
 
     case applicationvnddatavisionrdz:
-    return [ 'rdz' ];
+    return [ rdz ];
 
     case applicationrdf_xml:
-    return [ 'rdf', 'rdfs', 'owl' ];
+    return [ rdf, rdfs, owl ];
 
     case applicationvndipunpluggedrcprofile:
-    return [ 'rcprofile' ];
+    return [ rcprofile ];
 
     case applicationxruby:
-    return [ 'rb' ];
+    return [ rb ];
 
     case applicationxrawdiskimagexzcompressed:
-    return [ 'rawdiskimagexz', 'imgxz' ];
+    return [ rawdiskimagexz, imgxz ];
 
     case applicationvndefiimg:
-    return [ 'rawdiskimage', 'img' ];
+    return [ rawdiskimage, img ];
 
     case imagexpanasonicrw:
-    return [ 'raw' ];
+    return [ raw ];
 
     case imagexcmuraster:
-    return [ 'ras' ];
+    return [ ras ];
 
     case applicationvndrar:
-    return [ 'rar' ];
+    return [ rar ];
 
     case applicationrouteapd_xml:
-    return [ 'rapd' ];
+    return [ rapd ];
 
     case applicationraml_yaml:
-    return [ 'raml' ];
+    return [ raml ];
 
     case applicationram:
-    return [ 'ram' ];
+    return [ ram ];
 
     case imagexfujiraf:
-    return [ 'raf' ];
+    return [ raf ];
 
     case audiovndrnrealaudio:
-    return [ 'ra', 'rax' ];
+    return [ ra, rax ];
 
     case applicationvndquarkquarkxpress:
-    return [ 'qxd', 'qxt', 'qwd', 'qwt', 'qxl', 'qxb' ];
+    return [ qxd, qxt, qwd, qwt, qxl, qxb ];
 
     case applicationxquicktimemedialink:
-    return [ 'qtl' ];
+    return [ qtl ];
 
     case imagexquicktime:
-    return [ 'qtif' ];
+    return [ qtif ];
 
     case applicationxqtiplot:
-    return [ 'qti', 'qtigz' ];
+    return [ qti, qtigz ];
 
     case videoquicktime:
-    return [ 'qt', 'mov', 'moov', 'qtvr' ];
+    return [ qt, mov, moov, qtvr ];
 
     case applicationsparqlquery:
-    return [ 'qs', 'rq' ];
+    return [ qs, rq ];
 
     case applicationvndpublisharedeltatree:
-    return [ 'qps' ];
+    return [ qps ];
 
     case applicationxqpress:
-    return [ 'qp' ];
+    return [ qp ];
 
     case imageqoi:
-    return [ 'qoi' ];
+    return [ qoi ];
 
     case textxqml:
-    return [ 'qml', 'qmltypes', 'qmlproject' ];
+    return [ qml, qmltypes, qmlproject ];
 
     case applicationxqw:
-    return [ 'qif' ];
+    return [ qif ];
 
     case applicationvndintuqfx:
-    return [ 'qfx' ];
+    return [ qfx ];
 
     case applicationxqeddisk:
-    return [ 'qed' ];
+    return [ qed ];
 
     case applicationxqemudisk:
-    return [ 'qcow2', 'qcow' ];
+    return [ qcow2, qcow ];
 
     case applicationvndintuqbo:
-    return [ 'qbo' ];
+    return [ qbo ];
 
     case applicationvndepsonquickanime:
-    return [ 'qam' ];
+    return [ qam ];
 
     case textxpython:
-    return [ 'pyx', 'wsgi' ];
+    return [ pyx, wsgi ];
 
     case videovndmsplayreadymediapyv:
-    return [ 'pyv' ];
+    return [ pyv ];
 
     case applicationxpyspreadspreadsheet:
-    return [ 'pysu' ];
+    return [ pysu ];
 
     case applicationxpyspreadbzspreadsheet:
-    return [ 'pys' ];
+    return [ pys ];
 
     case modelvndpythapyox:
-    return [ 'pyox' ];
+    return [ pyox ];
 
     case applicationxpythonbytecode:
-    return [ 'pyc', 'pyo' ];
+    return [ pyc, pyo ];
 
     case audiovndmsplayreadymediapya:
-    return [ 'pya' ];
+    return [ pya ];
 
     case textxpython3:
-    return [ 'py', 'py3', 'py3x', 'pyi' ];
+    return [ py, py3, py3x, pyi ];
 
     case applicationvnd3mpostitnotes:
-    return [ 'pwn' ];
+    return [ pwn ];
 
     case applicationxpw:
-    return [ 'pw' ];
+    return [ pw ];
 
     case applicationvnd3gpppicbwvar:
-    return [ 'pvb' ];
+    return [ pvb ];
 
     case applicationvndmspublisher:
-    return [ 'pub' ];
+    return [ pub ];
 
     case applicationvndpviptid1:
-    return [ 'ptid' ];
+    return [ ptid ];
 
     case imageprspti:
-    return [ 'pti' ];
+    return [ pti ];
 
     case applicationxpocketword:
-    return [ 'psw' ];
+    return [ psw ];
 
     case applicationpskc_xml:
-    return [ 'pskcxml' ];
+    return [ pskcxml ];
 
     case applicationxgzpostscript:
-    return [ 'psgz' ];
+    return [ psgz ];
 
     case audioxpsflib:
-    return [ 'psflib' ];
+    return [ psflib ];
 
     case applicationxgzfontlinuxpsf:
-    return [ 'psfgz' ];
+    return [ psfgz ];
 
     case applicationxfontlinuxpsf:
-    return [ 'psf' ];
+    return [ psf ];
 
     case imagevndadobephotoshop:
-    return [ 'psd' ];
+    return [ psd ];
 
     case applicationxbzpostscript:
-    return [ 'psbz2' ];
+    return [ psbz2 ];
 
     case applicationvnd3gpppicbwsmall:
-    return [ 'psb' ];
+    return [ psb ];
 
     case applicationxpowershell:
-    return [ 'ps1' ];
+    return [ ps1 ];
 
     case applicationpostscript:
-    return [ 'ps' ];
+    return [ ps ];
 
     case applicationprovenance_xml:
-    return [ 'provx' ];
+    return [ provx ];
 
     case applicationxgodotproject:
-    return [ 'projectgodot' ];
+    return [ projectgodot ];
 
     case applicationpicsrules:
-    return [ 'prf' ];
+    return [ prf ];
 
     case applicationvndlotusfreelance:
-    return [ 'pre' ];
+    return [ pre ];
 
     case applicationvndpalm:
-    return [ 'pqa', 'oprc' ];
+    return [ pqa, oprc ];
 
     case applicationvndmspowerpoint:
-    return [ 'ppz', 'ppt', 'pps', 'pot' ];
+    return [ ppz, ppt, pps, pot ];
 
     case applicationvndopenxmlformatsofficedocumentpresentationmlpresentation:
-    return [ 'pptx' ];
+    return [ pptx ];
 
     case applicationvndmspowerpointpresentationmacroenabled12:
-    return [ 'pptm' ];
+    return [ pptm ];
 
     case applicationvndopenxmlformatsofficedocumentpresentationmlslideshow:
-    return [ 'ppsx' ];
+    return [ ppsx ];
 
     case applicationvndmspowerpointslideshowmacroenabled12:
-    return [ 'ppsm' ];
+    return [ ppsm ];
 
     case imagexportablepixmap:
-    return [ 'ppm' ];
+    return [ ppm ];
 
     case applicationvndcupsppd:
-    return [ 'ppd' ];
+    return [ ppd ];
 
     case applicationvndmspowerpointaddinmacroenabled12:
-    return [ 'ppam' ];
+    return [ ppam ];
 
     case applicationvndopenxmlformatsofficedocumentpresentationmltemplate:
-    return [ 'potx' ];
+    return [ potx ];
 
     case applicationvndmspowerpointtemplatemacroenabled12:
-    return [ 'potm' ];
+    return [ potm ];
 
     case applicationvndmacportsportpkg:
-    return [ 'portpkg' ];
+    return [ portpkg ];
 
     case applicationxspsspor:
-    return [ 'por' ];
+    return [ por ];
 
     case textxmaven_xml:
-    return [ 'pomxml', 'settingsxml' ];
+    return [ pomxml, settingsxml ];
 
     case textxgettexttranslation:
-    return [ 'po' ];
+    return [ po ];
 
     case imagexmacpaint:
-    return [ 'pntg' ];
+    return [ pntg ];
 
     case imagexportableanymap:
-    return [ 'pnm' ];
+    return [ pnm ];
 
     case imagepng:
-    return [ 'png' ];
+    return [ png ];
 
     case applicationvndctcposml:
-    return [ 'pml' ];
+    return [ pml ];
 
     case audioxscpls:
-    return [ 'pls' ];
+    return [ pls ];
 
     case applicationxplanperfect:
-    return [ 'pln' ];
+    return [ pln ];
 
     case applicationvndpocketlearn:
-    return [ 'plf' ];
+    return [ plf ];
 
     case applicationvndmobiusplc:
-    return [ 'plc' ];
+    return [ plc ];
 
     case applicationvnd3gpppicbwlarge:
-    return [ 'plb' ];
+    return [ plb ];
 
     case audioxiriverpla:
-    return [ 'pla' ];
+    return [ pla ];
 
     case applicationxperl:
-    return [ 'pl', 'pm', 'al', 'perl', 'pod', 't' ];
+    return [ pl, pm, al, perl, pod, t ];
 
     case applicationvndapplepkpass:
-    return [ 'pkpass' ];
+    return [ pkpass ];
 
     case applicationpkixpkipath:
-    return [ 'pkipath' ];
+    return [ pkipath ];
 
     case applicationpkixcmp:
-    return [ 'pki' ];
+    return [ pki ];
 
     case applicationxtexpk:
-    return [ 'pk' ];
+    return [ pk ];
 
     case applicationxphp:
-    return [ 'php', 'php3', 'php4', 'php5', 'phps' ];
+    return [ php, php3, php4, php5, phps ];
 
     case applicationpgpencrypted:
-    return [ 'pgp', 'gpg', 'asc' ];
+    return [ pgp, gpg, asc ];
 
     case applicationvndchesspgn:
-    return [ 'pgn' ];
+    return [ pgn ];
 
     case imagexportablegraymap:
-    return [ 'pgm' ];
+    return [ pgm ];
 
     case applicationfonttdpfr:
-    return [ 'pfr' ];
+    return [ pfr ];
 
     case applicationxfonttype1:
-    return [ 'pfa', 'pfb', 'gsf', 'pfm' ];
+    return [ pfa, pfb, gsf, pfm ];
 
     case applicationxperfdata:
-    return [ 'perfdata' ];
+    return [ perfdata ];
 
     case imagexpentaxpef:
-    return [ 'pef' ];
+    return [ pef ];
 
     case applicationxxzpdf:
-    return [ 'pdfxz' ];
+    return [ pdfxz ];
 
     case applicationxlzpdf:
-    return [ 'pdflz' ];
+    return [ pdflz ];
 
     case applicationxgzpdf:
-    return [ 'pdfgz' ];
+    return [ pdfgz ];
 
     case applicationxbzpdf:
-    return [ 'pdfbz2' ];
+    return [ pdfbz2 ];
 
     case applicationpdf:
-    return [ 'pdf' ];
+    return [ pdf ];
 
     case textxprocessing:
-    return [ 'pde' ];
+    return [ pde ];
 
     case applicationxaportisdoc:
-    return [ 'pdb', 'pdc' ];
+    return [ pdb, pdc ];
 
     case imagevndzbrushpcx:
-    return [ 'pcx' ];
+    return [ pcx ];
 
     case applicationvndcurlpcurl:
-    return [ 'pcurl' ];
+    return [ pcurl ];
 
     case imagexpict:
-    return [ 'pct', 'pict', 'pict1', 'pict2', 'pic' ];
+    return [ pct, pict, pict1, pict2, pic ];
 
     case applicationvndhppclxl:
-    return [ 'pclxl' ];
+    return [ pclxl ];
 
     case applicationvndhppcl:
-    return [ 'pcl' ];
+    return [ pcl ];
 
     case applicationxfontpcf:
-    return [ 'pcf', 'pcfz', 'pcfgz' ];
+    return [ pcf, pcfz, pcfgz ];
 
     case applicationxpcenginerom:
-    return [ 'pce' ];
+    return [ pce ];
 
     case imagexphotocd:
-    return [ 'pcd' ];
+    return [ pcd ];
 
     case applicationvndtcpdumppcap:
-    return [ 'pcap', 'cap', 'dmp' ];
+    return [ pcap, cap, dmp ];
 
     case imagexportablebitmap:
-    return [ 'pbm' ];
+    return [ pbm ];
 
     case applicationvndpowerbuilder6:
-    return [ 'pbd' ];
+    return [ pbd ];
 
     case applicationvndpawaafile:
-    return [ 'paw' ];
+    return [ paw ];
 
     case imagexgimppat:
-    return [ 'pat' ];
+    return [ pat ];
 
     case applicationxpar2:
-    return [ 'par2' ];
+    return [ par2 ];
 
     case applicationxpak:
-    return [ 'pak' ];
+    return [ pak ];
 
     case applicationvndapplepages:
-    return [ 'pages' ];
+    return [ pages ];
 
     case applicationxjavapack200:
-    return [ 'pack' ];
+    return [ pack ];
 
     case applicationxnsproxyautoconfig:
-    return [ 'pac' ];
+    return [ pac ];
 
     case applicationpkcs8encrypted:
-    return [ 'p8e' ];
+    return [ p8e ];
 
     case applicationpkcs8:
-    return [ 'p8' ];
+    return [ p8 ];
 
     case applicationpkcs7signature:
-    return [ 'p7s' ];
+    return [ p7s ];
 
     case applicationxpkcs7certreqresp:
-    return [ 'p7r' ];
+    return [ p7r ];
 
     case applicationpkcs7mime:
-    return [ 'p7c', 'p7m' ];
+    return [ p7c, p7m ];
 
     case applicationxpkcs7certificates:
-    return [ 'p7b', 'spc' ];
+    return [ p7b, spc ];
 
     case applicationxpagemaker:
-    return [ 'p65', 'pm6', 'pmd' ];
+    return [ p65, pm6, pmd ];
 
     case applicationpkcs12:
-    return [ 'p12', 'pfx' ];
+    return [ p12, pfx ];
 
     case applicationpkcs10:
-    return [ 'p10' ];
+    return [ p10 ];
 
     case textxpascal:
-    return [ 'p', 'pas' ];
+    return [ p, pas ];
 
     case applicationvndopenofficeorgextension:
-    return [ 'oxt' ];
+    return [ oxt ];
 
     case applicationoxps:
-    return [ 'oxps' ];
+    return [ oxps ];
 
     case applicationowl_xml:
-    return [ 'owx' ];
+    return [ owx ];
 
     case applicationxvirtualboxovf:
-    return [ 'ovf' ];
+    return [ ovf ];
 
     case applicationovf:
-    return [ 'ova' ];
+    return [ ova ];
 
     case applicationvndoasisopendocumenttexttemplate:
-    return [ 'ott' ];
+    return [ ott ];
 
     case applicationvndoasisopendocumentspreadsheettemplate:
-    return [ 'ots' ];
+    return [ ots ];
 
     case applicationvndoasisopendocumentpresentationtemplate:
-    return [ 'otp' ];
+    return [ otp ];
 
     case applicationvndoasisopendocumentimagetemplate:
-    return [ 'oti' ];
+    return [ oti ];
 
     case applicationvndoasisopendocumenttextweb:
-    return [ 'oth' ];
+    return [ oth ];
 
     case applicationvndoasisopendocumentgraphicstemplate:
-    return [ 'otg' ];
+    return [ otg ];
 
     case applicationvndoasisopendocumentformulatemplate:
-    return [ 'otf', 'odft' ];
+    return [ otf, odft ];
 
     case applicationvndoasisopendocumentcharttemplate:
-    return [ 'otc' ];
+    return [ otc ];
 
     case applicationvndopenstreetmapdata_xml:
-    return [ 'osm' ];
+    return [ osm ];
 
     case applicationvndyamahaopenscoreformatosfpvg_xml:
-    return [ 'osfpvg' ];
+    return [ osfpvg ];
 
     case applicationvndyamahaopenscoreformat:
-    return [ 'osf' ];
+    return [ osf ];
 
     case textorg:
-    return [ 'org' ];
+    return [ org ];
 
     case imagexolympusorf:
-    return [ 'orf' ];
+    return [ orf ];
 
     case imageopenraster:
-    return [ 'ora' ];
+    return [ ora ];
 
     case textxopml_xml:
-    return [ 'opml' ];
+    return [ opml ];
 
     case applicationoebpspackage_xml:
-    return [ 'opf' ];
+    return [ opf ];
 
     case applicationxopenvpnprofile:
-    return [ 'openvpn', 'ovpn' ];
+    return [ openvpn, ovpn ];
 
     case textxooc:
-    return [ 'ooc' ];
+    return [ ooc ];
 
     case applicationonenote:
-    return [ 'onetoc', 'onetoc2', 'onetmp', 'onepkg' ];
+    return [ onetoc, onetoc2, onetmp, onepkg ];
 
     case applicationomdoc_xml:
-    return [ 'omdoc' ];
+    return [ omdoc ];
 
     case applicationxoleo:
-    return [ 'oleo' ];
+    return [ oleo ];
 
     case applicationogg:
-    return [ 'ogx' ];
+    return [ ogx ];
 
     case videoogg:
-    return [ 'ogv' ];
+    return [ ogv ];
 
     case videoxogm_ogg:
-    return [ 'ogm' ];
+    return [ ogm ];
 
     case modelvndopengex:
-    return [ 'ogex' ];
+    return [ ogex ];
 
     case audioogg:
-    return [ 'oga', 'ogg', 'opus' ];
+    return [ oga, ogg, opus ];
 
     case applicationvndoasisopendocumenttext:
-    return [ 'odt' ];
+    return [ odt ];
 
     case applicationvndoasisopendocumentspreadsheet:
-    return [ 'ods' ];
+    return [ ods ];
 
     case applicationvndoasisopendocumentpresentation:
-    return [ 'odp' ];
+    return [ odp ];
 
     case applicationvndoasisopendocumenttextmaster:
-    return [ 'odm' ];
+    return [ odm ];
 
     case applicationvndoasisopendocumentimage:
-    return [ 'odi' ];
+    return [ odi ];
 
     case applicationvndoasisopendocumentgraphics:
-    return [ 'odg' ];
+    return [ odg ];
 
     case applicationvndoasisopendocumentformula:
-    return [ 'odf' ];
+    return [ odf ];
 
     case applicationvndoasisopendocumentchart:
-    return [ 'odc' ];
+    return [ odc ];
 
     case applicationvndoasisopendocumentdatabase:
-    return [ 'odb' ];
+    return [ odb ];
 
     case applicationoda:
-    return [ 'oda' ];
+    return [ oda ];
 
     case textxocl:
-    return [ 'ocl' ];
+    return [ ocl ];
 
     case applicationxtgif:
-    return [ 'obj' ];
+    return [ obj ];
 
     case applicationvndopenbloxgame_xml:
-    return [ 'obgx' ];
+    return [ obgx ];
 
     case applicationxmsbinder:
-    return [ 'obd' ];
+    return [ obd ];
 
     case applicationvndfujitsuoasys:
-    return [ 'oas' ];
+    return [ oas ];
 
     case applicationvndfujitsuoasys3:
-    return [ 'oa3' ];
+    return [ oa3 ];
 
     case applicationvndfujitsuoasys2:
-    return [ 'oa2' ];
+    return [ oa2 ];
 
     case applicationxobject:
-    return [ 'o', 'mod' ];
+    return [ o, mod ];
 
     case applicationxnzb:
-    return [ 'nzb' ];
+    return [ nzb ];
 
     case applicationvndapplenumbers:
-    return [ 'numbers' ];
+    return [ numbers ];
 
     case applicationxnuscript:
-    return [ 'nu' ];
+    return [ nu ];
 
     case applicationvndnitf:
-    return [ 'ntf', 'nitf' ];
+    return [ ntf, nitf ];
 
     case applicationntriples:
-    return [ 'nt' ];
+    return [ nt ];
 
     case videoxnsv:
-    return [ 'nsv' ];
+    return [ nsv ];
 
     case applicationvndlotusnotes:
-    return [ 'nsf' ];
+    return [ nsf ];
 
     case applicationxnetshowchannel:
-    return [ 'nsc' ];
+    return [ nsc ];
 
     case imagexnikonnrw:
-    return [ 'nrw' ];
+    return [ nrw ];
 
     case applicationnquads:
-    return [ 'nq' ];
+    return [ nq ];
 
     case imagevndnetfpx:
-    return [ 'npx' ];
+    return [ npx ];
 
     case applicationvndnoblenetweb:
-    return [ 'nnw' ];
+    return [ nnw ];
 
     case applicationvndnoblenetsealer:
-    return [ 'nns' ];
+    return [ nns ];
 
     case applicationvndnoblenetdirectory:
-    return [ 'nnd' ];
+    return [ nnd ];
 
     case applicationvndenliven:
-    return [ 'nml' ];
+    return [ nml ];
 
     case applicationvndneurolanguagenlu:
-    return [ 'nlu' ];
+    return [ nlu ];
 
     case textxnimscript:
-    return [ 'nims', 'nimble' ];
+    return [ nims, nimble ];
 
     case textxnim:
-    return [ 'nim' ];
+    return [ nim ];
 
     case applicationxneogeopocketrom:
-    return [ 'ngp' ];
+    return [ ngp ];
 
     case applicationvndnokiangagedata:
-    return [ 'ngdat' ];
+    return [ ngdat ];
 
     case applicationxneogeopocketcolorrom:
-    return [ 'ngc' ];
+    return [ ngc ];
 
     case applicationvndnokiangagesymbianinstall:
-    return [ 'n-gage' ];
+    return [ ngage ];
 
     case textxnfo:
-    return [ 'nfo' ];
+    return [ nfo ];
 
     case applicationxnesrom:
-    return [ 'nes', 'nez', 'unf', 'unif' ];
+    return [ nes, nez, unf, unif ];
 
     case imagexnikonnef:
-    return [ 'nef' ];
+    return [ nef ];
 
     case applicationxnintendodsrom:
-    return [ 'nds' ];
+    return [ nds ];
 
     case applicationxdtbncx_xml:
-    return [ 'ncx' ];
+    return [ ncx ];
 
     case applicationvndwolframplayer:
-    return [ 'nbp' ];
+    return [ nbp ];
 
     case applicationmathematica:
-    return [ 'nb', 'ma', 'mb' ];
+    return [ nb, ma, mb ];
 
     case applicationxn64rom:
-    return [ 'n64', 'z64', 'v64' ];
+    return [ n64, z64, v64 ];
 
     case textn3:
-    return [ 'n3' ];
+    return [ n3 ];
 
     case applicationvndtriscapemxs:
-    return [ 'mxs' ];
+    return [ mxs ];
 
     case applicationxv_xml:
-    return [ 'mxml', 'xhvml', 'xvml', 'xvm' ];
+    return [ mxml, xhvml, xvml, xvm ];
 
     case audiomobilexmf:
-    return [ 'mxmf' ];
+    return [ mxmf ];
 
     case applicationvndrecordaremusicxml:
-    return [ 'mxl' ];
+    return [ mxl ];
 
     case applicationmxf:
-    return [ 'mxf' ];
+    return [ mxf ];
 
     case applicationvndmfer:
-    return [ 'mwf' ];
+    return [ mwf ];
 
     case applicationvndmapboxvectortile:
-    return [ 'mvt' ];
+    return [ mvt ];
 
     case applicationxmsmediaview:
-    return [ 'mvb', 'm13', 'm14' ];
+    return [ mvb, m13, m14 ];
 
     case applicationvndrecordaremusicxml_xml:
-    return [ 'musicxml' ];
+    return [ musicxml ];
 
     case applicationmmtusd_xml:
-    return [ 'musd' ];
+    return [ musd ];
 
     case applicationvndmusician:
-    return [ 'mus' ];
+    return [ mus ];
 
     case textxmup:
-    return [ 'mup', 'not' ];
+    return [ mup, _not ];
 
     case modelmtl:
-    return [ 'mtl' ];
+    return [ mtl ];
 
     case applicationxmsxrom:
-    return [ 'msx' ];
+    return [ msx ];
 
     case applicationvndmuveestyle:
-    return [ 'msty' ];
+    return [ msty ];
 
     case imagexmsod:
-    return [ 'msod' ];
+    return [ msod ];
 
     case applicationvndmobiusmsl:
-    return [ 'msl' ];
+    return [ msl ];
 
     case applicationmsixbundle:
-    return [ 'msixbundle' ];
+    return [ msixbundle ];
 
     case applicationmsix:
-    return [ 'msix' ];
+    return [ msix ];
 
     case applicationxmsi:
-    return [ 'msi' ];
+    return [ msi ];
 
     case modelmesh:
-    return [ 'msh', 'mesh', 'silo' ];
+    return [ msh, mesh, silo ];
 
     case applicationvndmsoutlook:
-    return [ 'msg' ];
+    return [ msg ];
 
     case applicationvndepsonmsf:
-    return [ 'msf' ];
+    return [ msf ];
 
     case applicationvndmseq:
-    return [ 'mseq' ];
+    return [ mseq ];
 
     case applicationvndfdsnmseed:
-    return [ 'mseed' ];
+    return [ mseed ];
 
     case applicationmediaservercontrol_xml:
-    return [ 'mscml' ];
+    return [ mscml ];
 
     case textxtroffms:
-    return [ 'ms' ];
+    return [ ms ];
 
     case imagexminoltamrw:
-    return [ 'mrw' ];
+    return [ mrw ];
 
     case applicationxmodrinthmodpack_zip:
-    return [ 'mrpack' ];
+    return [ mrpack ];
 
     case textxmrml:
-    return [ 'mrml', 'mrl' ];
+    return [ mrml, mrl ];
 
     case applicationmarcxml_xml:
-    return [ 'mrcx' ];
+    return [ mrcx ];
 
     case applicationmarc:
-    return [ 'mrc' ];
+    return [ mrc ];
 
     case applicationvndmobiusmqy:
-    return [ 'mqy' ];
+    return [ mqy ];
 
     case applicationvndibmminipay:
-    return [ 'mpy' ];
+    return [ mpy ];
 
     case applicationvndmsproject:
-    return [ 'mpt' ];
+    return [ mpt ];
 
     case applicationvndmophunapplication:
-    return [ 'mpn' ];
+    return [ mpn ];
 
     case applicationvndblueicemultipass:
-    return [ 'mpm' ];
+    return [ mpm ];
 
     case textxmpl2:
-    return [ 'mpl' ];
+    return [ mpl ];
 
     case applicationvndappleinstaller_xml:
-    return [ 'mpkg' ];
+    return [ mpkg ];
 
     case applicationmp4:
-    return [ 'mpg4', 'mp4s', 'm4p' ];
+    return [ mpg4, mp4s, m4p ];
 
     case applicationmediapolicydataset_xml:
-    return [ 'mpf' ];
+    return [ mpf ];
 
     case videompeg:
-    return [ 'mpeg', 'mpg', 'mpe', 'vob', '090909vdr', 'm1v', 'm2v' ];
+    return [ mpeg, mpg, mpe, vob, _090909vdr, m1v, m2v ];
 
     case applicationdash_xml:
-    return [ 'mpd' ];
+    return [ mpd ];
 
     case audioxmusepack:
-    return [ 'mpc', 'mpp', 'mp' ];
+    return [ mpc, mpp, mp ];
 
     case videomp4:
-    return [ 'mp4', 'm4v', 'f4v', 'lrv', 'mp4v' ];
+    return [ mp4, m4v, f4v, lrv, mp4v ];
 
     case audiompeg:
-    return [ 'mp3', 'mpga', 'mp2a', 'm2a', 'm3a' ];
+    return [ mp3, mpga, mp2a, m2a, m3a ];
 
     case audiomp2:
-    return [ 'mp2' ];
+    return [ mp2 ];
 
     case videoxsgimovie:
-    return [ 'movie' ];
+    return [ movie ];
 
     case textxmof:
-    return [ 'mof' ];
+    return [ mof ];
 
     case applicationmods_xml:
-    return [ 'mods' ];
+    return [ mods ];
 
     case textxmoc:
-    return [ 'moc' ];
+    return [ moc ];
 
     case applicationxmobipocketebook:
-    return [ 'mobi', 'prc' ];
+    return [ mobi, prc ];
 
     case audioxmo3:
-    return [ 'mo3' ];
+    return [ mo3 ];
 
     case applicationxmsmoney:
-    return [ 'mny' ];
+    return [ mny ];
 
     case videoxmng:
-    return [ 'mng' ];
+    return [ mng ];
 
     case imagevndfujixeroxedmicsmmr:
-    return [ 'mmr' ];
+    return [ mmr ];
 
     case applicationmathml_xml:
-    return [ 'mml', 'mathml' ];
+    return [ mml, mathml ];
 
     case applicationvndsmaf:
-    return [ 'mmf', 'smaf' ];
+    return [ mmf, smaf ];
 
     case applicationvndchipnutskaraokemmd:
-    return [ 'mmd' ];
+    return [ mmd ];
 
     case textxobjc__src:
-    return [ 'mm' ];
+    return [ mm ];
 
     case applicationvnddolbymlp:
-    return [ 'mlp' ];
+    return [ mlp ];
 
     case textxocaml:
-    return [ 'ml', 'mli' ];
+    return [ ml, mli ];
 
     case videoxmatroska:
-    return [ 'mkv', 'mks' ];
+    return [ mkv, mks ];
 
     case audioxmatroska:
-    return [ 'mka' ];
+    return [ mka ];
 
     case videoxmatroska3d:
-    return [ 'mk3d' ];
+    return [ mk3d ];
 
     case videoxmjpeg:
-    return [ 'mjpeg', 'mjpg' ];
+    return [ mjpeg, mjpg ];
 
     case videomj2:
-    return [ 'mj2', 'mjp2' ];
+    return [ mj2, mjp2 ];
 
     case audioxminipsf:
-    return [ 'minipsf' ];
+    return [ minipsf ];
 
     case applicationxmif:
-    return [ 'mif' ];
+    return [ mif ];
 
     case applicationxmie:
-    return [ 'mie' ];
+    return [ mie ];
 
     case audiomidi:
-    return [ 'mid', 'midi', 'kar', 'rmi' ];
+    return [ mid, midi, kar, rmi ];
 
     case applicationxmimearchive:
-    return [ 'mhtml', 'mht' ];
+    return [ mhtml, mht ];
 
     case applicationvndproteusmagazine:
-    return [ 'mgz' ];
+    return [ mgz ];
 
     case applicationxmagicpoint:
-    return [ 'mgp' ];
+    return [ mgp ];
 
     case applicationrpkimanifest:
-    return [ 'mft' ];
+    return [ mft ];
 
     case applicationvndmfmp:
-    return [ 'mfm' ];
+    return [ mfm ];
 
     case applicationmets_xml:
-    return [ 'mets' ];
+    return [ mets ];
 
     case applicationmetalink_xml:
-    return [ 'metalink' ];
+    return [ metalink ];
 
     case applicationmetalink4_xml:
-    return [ 'meta4' ];
+    return [ meta4 ];
 
     case textxmeson:
-    return [ 'mesonbuild', 'mesonoptionstxt' ];
+    return [ mesonbuild, mesonoptionstxt ];
 
     case textxtroffme:
-    return [ 'me' ];
+    return [ me ];
 
     case imagevndmsmodi:
-    return [ 'mdi' ];
+    return [ mdi ];
 
     case applicationxlmdb:
-    return [ 'mdb', 'lmdb' ];
+    return [ mdb, lmdb ];
 
     case textmarkdown:
-    return [ 'md', 'mkd', 'markdown' ];
+    return [ md, mkd, markdown ];
 
     case textvndcurlmcurl:
-    return [ 'mcurl' ];
+    return [ mcurl ];
 
     case applicationvndmcd:
-    return [ 'mcd' ];
+    return [ mcd ];
 
     case textvndsenxwarpscript:
-    return [ 'mc2' ];
+    return [ mc2 ];
 
     case applicationvndmedcalcdata:
-    return [ 'mc1' ];
+    return [ mc1 ];
 
     case applicationmbox:
-    return [ 'mbox' ];
+    return [ mbox ];
 
     case applicationvndmobiusmbk:
-    return [ 'mbk' ];
+    return [ mbk ];
 
     case textcachemanifest:
-    return [ 'manifest', 'appcache' ];
+    return [ manifest, appcache ];
 
     case applicationxtroffman:
-    return [ 'man', '19' ];
+    return [ man, _19 ];
 
     case textxmakefile:
-    return [ 'makefile', 'gnumakefile', 'mk', 'mak' ];
+    return [ makefile, gnumakefile, mk, mak ];
 
     case applicationvndecowinchart:
-    return [ 'mag' ];
+    return [ mag ];
 
     case applicationmmtaei_xml:
-    return [ 'maei' ];
+    return [ maei ];
 
     case applicationmads_xml:
-    return [ 'mads' ];
+    return [ mads ];
 
     case applicationxmarkaby:
-    return [ 'mab' ];
+    return [ mab ];
 
     case applicationxthomsoncartridgememo7:
-    return [ 'm7' ];
+    return [ m7 ];
 
     case videoisosegment:
-    return [ 'm4s' ];
+    return [ m4s ];
 
     case audioxm4r:
-    return [ 'm4r' ];
+    return [ m4r ];
 
     case audioxm4b:
-    return [ 'm4b', 'f4b' ];
+    return [ m4b, f4b ];
 
     case audiomp4:
-    return [ 'm4a', 'f4a', 'mp4a' ];
+    return [ m4a, f4a, mp4a ];
 
     case applicationxm4:
-    return [ 'm4' ];
+    return [ m4 ];
 
     case audioxmpegurl:
-    return [ 'm3u', 'm3u8', 'vlc' ];
+    return [ m3u, m3u8, vlc ];
 
     case videomp2t:
-    return [ 'm2t', 'm2ts', 'mts', 'cpi', 'clpi', 'mpls', 'bdm', 'bdmv' ];
+    return [ m2t, m2ts, mts, cpi, clpi, mpls, bdm, bdmv ];
 
     case applicationmp21:
-    return [ 'm21', 'mp21' ];
+    return [ m21, mp21 ];
 
     case videovndmpegurl:
-    return [ 'm1u', 'm4u', 'mxu' ];
+    return [ m1u, m4u, mxu ];
 
     case textxobjcsrc:
-    return [ 'm' ];
+    return [ m ];
 
     case applicationxlzop:
-    return [ 'lzo' ];
+    return [ lzo ];
 
     case applicationxlzma:
-    return [ 'lzma' ];
+    return [ lzma ];
 
     case applicationxlz4:
-    return [ 'lz4' ];
+    return [ lz4 ];
 
     case applicationxlzip:
-    return [ 'lz' ];
+    return [ lz ];
 
     case applicationxlyx:
-    return [ 'lyx' ];
+    return [ lyx ];
 
     case textxlilypond:
-    return [ 'ly' ];
+    return [ ly ];
 
     case imagexlws:
-    return [ 'lws' ];
+    return [ lws ];
 
     case applicationvndlotuswordpro:
-    return [ 'lwp' ];
+    return [ lwp ];
 
     case imagexlwo:
-    return [ 'lwo', 'lwob' ];
+    return [ lwo, lwob ];
 
     case audiovndlucentvoice:
-    return [ 'lvp' ];
+    return [ lvp ];
 
     case applicationxluabytecode:
-    return [ 'luac' ];
+    return [ luac ];
 
     case textxlua:
-    return [ 'lua' ];
+    return [ lua ];
 
     case applicationvndfrogansltf:
-    return [ 'ltf' ];
+    return [ ltf ];
 
     case applicationxlrzip:
-    return [ 'lrz' ];
+    return [ lrz ];
 
     case applicationvndmslrm:
-    return [ 'lrm' ];
+    return [ lrm ];
 
     case applicationlost_xml:
-    return [ 'lostxml' ];
+    return [ lostxml ];
 
     case textxlog:
-    return [ 'log' ];
+    return [ log ];
 
     case audiousac:
-    return [ 'loas', 'xhe' ];
+    return [ loas, xhe ];
 
     case applicationxatarilynxrom:
-    return [ 'lnx' ];
+    return [ lnx ];
 
     case applicationxmsshortcut:
-    return [ 'lnk' ];
+    return [ lnk ];
 
     case textcoffeescript:
-    return [ 'litcoffee' ];
+    return [ litcoffee ];
 
     case applicationvndroute66link66_xml:
-    return [ 'link66' ];
+    return [ link66 ];
 
     case applicationxlhz:
-    return [ 'lhz' ];
+    return [ lhz ];
 
     case textxliteratehaskell:
-    return [ 'lhs' ];
+    return [ lhs ];
 
     case applicationxlha:
-    return [ 'lha', 'lzh' ];
+    return [ lha, lzh ];
 
     case applicationlgr_xml:
-    return [ 'lgr' ];
+    return [ lgr ];
 
     case textless:
-    return [ 'less' ];
+    return [ less ];
 
     case applicationvndhhelessonplayer:
-    return [ 'les' ];
+    return [ les ];
 
     case textxldif:
-    return [ 'ldif' ];
+    return [ ldif ];
 
     case applicationvndllamagraphicslifebalanceexchange_xml:
-    return [ 'lbe' ];
+    return [ lbe ];
 
     case applicationvndllamagraphicslifebalancedesktop:
-    return [ 'lbd' ];
+    return [ lbd ];
 
     case applicationvndlaslas_xml:
-    return [ 'lasxml' ];
+    return [ lasxml ];
 
     case applicationxsharedlibraryla:
-    return [ 'la' ];
+    return [ la ];
 
     case applicationxkword:
-    return [ 'kwd', 'kwt' ];
+    return [ kwd, kwt ];
 
     case applicationxkugar:
-    return [ 'kud' ];
+    return [ kud ];
 
     case applicationvndkahootz:
-    return [ 'ktz', 'ktr' ];
+    return [ ktz, ktr ];
 
     case imagektx2:
-    return [ 'ktx2' ];
+    return [ ktx2 ];
 
     case imagektx:
-    return [ 'ktx' ];
+    return [ ktx ];
 
     case textxkotlin:
-    return [ 'kt' ];
+    return [ kt ];
 
     case textxkaitaistruct:
-    return [ 'ksy' ];
+    return [ ksy ];
 
     case applicationxkspread:
-    return [ 'ksp' ];
+    return [ ksp ];
 
     case applicationxkrita:
-    return [ 'kra', 'krz' ];
+    return [ kra, krz ];
 
     case applicationvnddskeypoint:
-    return [ 'kpxx' ];
+    return [ kpxx ];
 
     case applicationxkpresenter:
-    return [ 'kpr', 'kpt' ];
+    return [ kpr, kpt ];
 
     case applicationxkpovmodeler:
-    return [ 'kpm' ];
+    return [ kpm ];
 
     case applicationxkontour:
-    return [ 'kon' ];
+    return [ kon ];
 
     case applicationvndkinar:
-    return [ 'kne', 'knp' ];
+    return [ kne, knp ];
 
     case applicationvndgoogleearthkmz:
-    return [ 'kmz' ];
+    return [ kmz ];
 
     case applicationvndgoogleearthkml_xml:
-    return [ 'kml' ];
+    return [ kml ];
 
     case applicationxkillustrator:
-    return [ 'kil' ];
+    return [ kil ];
 
     case applicationvndkidspiration:
-    return [ 'kia' ];
+    return [ kia ];
 
     case applicationxkformula:
-    return [ 'kfo' ];
+    return [ kfo ];
 
     case applicationxkexiprojectshortcut:
-    return [ 'kexis' ];
+    return [ kexis ];
 
     case applicationxkexiconnectiondata:
-    return [ 'kexic' ];
+    return [ kexic ];
 
     case applicationxkexiprojectsqlite2:
-    return [ 'kexi' ];
+    return [ kexi ];
 
     case imagexkodakkdc:
-    return [ 'kdc' ];
+    return [ kdc ];
 
     case applicationxkeepass2:
-    return [ 'kdbx' ];
+    return [ kdbx ];
 
     case applicationxkarbon:
-    return [ 'karbon' ];
+    return [ karbon ];
 
     case applicationxthomsoncassette:
-    return [ 'k7' ];
+    return [ k7 ];
 
     case imagexkodakk25:
-    return [ 'k25' ];
+    return [ k25 ];
 
     case imagejxss:
-    return [ 'jxss' ];
+    return [ jxss ];
 
     case imagejxsi:
-    return [ 'jxsi' ];
+    return [ jxsi ];
 
     case imagejxsc:
-    return [ 'jxsc' ];
+    return [ jxsc ];
 
     case imagejxs:
-    return [ 'jxs' ];
+    return [ jxs ];
 
     case imagejxrs:
-    return [ 'jxrs' ];
+    return [ jxrs ];
 
     case imagejxra:
-    return [ 'jxra' ];
+    return [ jxra ];
 
     case imagejxr:
-    return [ 'jxr', 'hdp', 'wdp' ];
+    return [ jxr, hdp, wdp ];
 
     case imagejxl:
-    return [ 'jxl' ];
+    return [ jxl ];
 
     case modeljt:
-    return [ 'jt' ];
+    return [ jt ];
 
     case textjsx:
-    return [ 'jsx' ];
+    return [ jsx ];
 
     case applicationjsonpatch_json:
-    return [ 'jsonpatch' ];
+    return [ jsonpatch ];
 
     case applicationjsonml_json:
-    return [ 'jsonml' ];
+    return [ jsonml ];
 
     case applicationld_json:
-    return [ 'jsonld' ];
+    return [ jsonld ];
 
     case applicationjson5:
-    return [ 'json5' ];
+    return [ json5 ];
 
     case applicationjson:
-    return [ 'json', 'map' ];
+    return [ json, map ];
 
     case textjscriptencode:
-    return [ 'jse' ];
+    return [ jse ];
 
     case textjavascript:
-    return [ 'js', 'jsm', 'mjs' ];
+    return [ js, jsm, mjs ];
 
     case applicationjrd_json:
-    return [ 'jrd' ];
+    return [ jrd ];
 
     case applicationxjbuilderproject:
-    return [ 'jpr', 'jpx' ];
+    return [ jpr, jpx ];
 
     case imagejpm:
-    return [ 'jpm', 'jpgm' ];
+    return [ jpm, jpgm ];
 
     case imagejph:
-    return [ 'jph' ];
+    return [ jph ];
 
     case videojpeg:
-    return [ 'jpgv' ];
+    return [ jpgv ];
 
     case imagejpeg:
-    return [ 'jpg', 'jpeg', 'jpe', 'jfif' ];
+    return [ jpg, jpeg, jpe, jfif ];
 
     case imagejpx:
-    return [ 'jpf' ];
+    return [ jpf ];
 
     case imagejp2:
-    return [ 'jp2', 'jpg2' ];
+    return [ jp2, jpg2 ];
 
     case applicationvndjoostjodaarchive:
-    return [ 'joda' ];
+    return [ joda ];
 
     case applicationxjavajnlpfile:
-    return [ 'jnlp' ];
+    return [ jnlp ];
 
     case imagexjng:
-    return [ 'jng' ];
+    return [ jng ];
 
     case applicationvndhpjlyt:
-    return [ 'jlt' ];
+    return [ jlt ];
 
     case imagejls:
-    return [ 'jls' ];
+    return [ jls ];
 
     case textjulia:
-    return [ 'jl' ];
+    return [ jl ];
 
     case applicationxjavakeystore:
-    return [ 'jks', 'ks', 'cacerts' ];
+    return [ jks, ks, cacerts ];
 
     case applicationvndjisp:
-    return [ 'jisp' ];
+    return [ jisp ];
 
     case imagejphc:
-    return [ 'jhc' ];
+    return [ jhc ];
 
     case applicationxjavajcekeystore:
-    return [ 'jceks' ];
+    return [ jceks ];
 
     case textxjava:
-    return [ 'java' ];
+    return [ java ];
 
     case applicationxjavaarchivediff:
-    return [ 'jardiff' ];
+    return [ jardiff ];
 
     case applicationjavaarchive:
-    return [ 'jar', 'war', 'ear' ];
+    return [ jar, war, ear ];
 
     case applicationvndjam:
-    return [ 'jam' ];
+    return [ jam ];
 
     case textjade:
-    return [ 'jade' ];
+    return [ jade ];
 
     case textvndsunj2meappdescriptor:
-    return [ 'jad' ];
+    return [ jad ];
 
     case imagexjp2codestream:
-    return [ 'j2c', 'j2k', 'jpc' ];
+    return [ j2c, j2k, jpc ];
 
     case applicationvndimmervisionivu:
-    return [ 'ivu' ];
+    return [ ivu ];
 
     case applicationvndimmervisionivp:
-    return [ 'ivp' ];
+    return [ ivp ];
 
     case applicationits_xml:
-    return [ 'its' ];
+    return [ its ];
 
     case applicationvndshanainformedformtemplate:
-    return [ 'itp' ];
+    return [ itp ];
 
     case applicationxit87:
-    return [ 'it87' ];
+    return [ it87 ];
 
     case audioxit:
-    return [ 'it' ];
+    return [ it ];
 
     case applicationvndefiiso:
-    return [ 'iso', 'iso9660' ];
+    return [ iso, iso9660 ];
 
     case applicationvndirepositorypackage_xml:
-    return [ 'irp' ];
+    return [ irp ];
 
     case applicationvndibmrightsmanagement:
-    return [ 'irm' ];
+    return [ irm ];
 
     case applicationxipynb_json:
-    return [ 'ipynb' ];
+    return [ ipynb ];
 
     case textxiptables:
-    return [ 'iptables' ];
+    return [ iptables ];
 
     case applicationxipspatch:
-    return [ 'ips' ];
+    return [ ips ];
 
     case applicationvndshanainformedpackage:
-    return [ 'ipk' ];
+    return [ ipk ];
 
     case applicationipfix:
-    return [ 'ipfix' ];
+    return [ ipfix ];
 
     case applicationvndastraeasoftwareiota:
-    return [ 'iota' ];
+    return [ iota ];
 
     case textxinstall:
-    return [ 'install' ];
+    return [ install ];
 
     case applicationinkml_xml:
-    return [ 'ink', 'inkml' ];
+    return [ ink, inkml ];
 
     case textximelody:
-    return [ 'imy', 'ime' ];
+    return [ imy, ime ];
 
     case applicationvndmsims:
-    return [ 'ims' ];
+    return [ ims ];
 
     case applicationvndaccpacsimplyimp:
-    return [ 'imp' ];
+    return [ imp ];
 
     case applicationvndshanainformedinterchange:
-    return [ 'iif' ];
+    return [ iif ];
 
     case applicationvndmicrografxigx:
-    return [ 'igx' ];
+    return [ igx ];
 
     case modeliges:
-    return [ 'igs', 'iges' ];
+    return [ igs, iges ];
 
     case applicationvndinsorsigm:
-    return [ 'igm' ];
+    return [ igm ];
 
     case applicationvndigloader:
-    return [ 'igl' ];
+    return [ igl ];
 
     case applicationvndshanainformedformdata:
-    return [ 'ifm' ];
+    return [ ifm ];
 
     case imagexilbm:
-    return [ 'iff', 'ilbm', 'lbm' ];
+    return [ iff, ilbm, lbm ];
 
     case imageief:
-    return [ 'ief' ];
+    return [ ief ];
 
     case textxidl:
-    return [ 'idl' ];
+    return [ idl ];
 
     case imagevndmicrosofticon:
-    return [ 'ico' ];
+    return [ ico ];
 
     case imagexicns:
-    return [ 'icns' ];
+    return [ icns ];
 
     case xconferencexcooltalk:
-    return [ 'ice' ];
+    return [ ice ];
 
     case applicationvndiccprofile:
-    return [ 'icc', 'icm' ];
+    return [ icc, icm ];
 
     case applicationxica:
-    return [ 'ica' ];
+    return [ ica ];
 
     case applicationvndintergeo:
-    return [ 'i2g' ];
+    return [ i2g ];
 
     case applicationxhwt:
-    return [ 'hwt' ];
+    return [ hwt ];
 
     case applicationxhwp:
-    return [ 'hwp' ];
+    return [ hwp ];
 
     case applicationvndyamahahvscript:
-    return [ 'hvs' ];
+    return [ hvs ];
 
     case applicationvndyamahahvvoice:
-    return [ 'hvp' ];
+    return [ hvp ];
 
     case applicationvndyamahahvdic:
-    return [ 'hvd' ];
+    return [ hvd ];
 
     case applicationvndkenameaapp:
-    return [ 'htke' ];
+    return [ htke ];
 
     case textxcomponent:
-    return [ 'htc' ];
+    return [ htc ];
 
     case imagehsj2:
-    return [ 'hsj2' ];
+    return [ hsj2 ];
 
     case textxhaskell:
-    return [ 'hs' ];
+    return [ hs ];
 
     case applicationmacbinhex40:
-    return [ 'hqx' ];
+    return [ hqx ];
 
     case applicationvndhphps:
-    return [ 'hps' ];
+    return [ hps ];
 
     case applicationvndhphpid:
-    return [ 'hpid' ];
+    return [ hpid ];
 
     case applicationvndhphpgl:
-    return [ 'hpgl' ];
+    return [ hpgl ];
 
     case applicationwinhlp:
-    return [ 'hlp' ];
+    return [ hlp ];
 
     case applicationhjson:
-    return [ 'hjson' ];
+    return [ hjson ];
 
     case textxc__hdr:
-    return [ 'hh', 'hp', 'hpp', 'h', 'hxx' ];
+    return [ hh, hp, hpp, h, hxx ];
 
     case applicationxhfefloppyimage:
-    return [ 'hfe' ];
+    return [ hfe ];
 
     case applicationatscheld_xml:
-    return [ 'held' ];
+    return [ held ];
 
     case imagehej2k:
-    return [ 'hej2' ];
+    return [ hej2 ];
 
     case imageheifsequence:
-    return [ 'heifs' ];
+    return [ heifs ];
 
     case imageheicsequence:
-    return [ 'heics' ];
+    return [ heics ];
 
     case imageheif:
-    return [ 'heic', 'heif', 'hif' ];
+    return [ heic, heif, hif ];
 
     case applicationxhdf:
-    return [ 'hdf', 'hdf4', 'h4', 'hdf5', 'h5' ];
+    return [ hdf, hdf4, h4, hdf5, h5 ];
 
     case applicationxvirtualboxhdd:
-    return [ 'hdd' ];
+    return [ hdd ];
 
     case textxhandlebarstemplate:
-    return [ 'hbs' ];
+    return [ hbs ];
 
     case applicationvndhbci:
-    return [ 'hbci' ];
+    return [ hbci ];
 
     case applicationvndhal_xml:
-    return [ 'hal' ];
+    return [ hal ];
 
     case videoh264:
-    return [ 'h264' ];
+    return [ h264 ];
 
     case videoh263:
-    return [ 'h263' ];
+    return [ h263 ];
 
     case videoh261:
-    return [ 'h261' ];
+    return [ h261 ];
 
     case applicationgzip:
-    return [ 'gz' ];
+    return [ gz ];
 
     case applicationvndgeonext:
-    return [ 'gxt' ];
+    return [ gxt ];
 
     case applicationgxf:
-    return [ 'gxf' ];
+    return [ gxf ];
 
     case textxgcodegx:
-    return [ 'gx' ];
+    return [ gx ];
 
     case textxgooglevideopointer:
-    return [ 'gvp' ];
+    return [ gvp ];
 
     case textvndgraphviz:
-    return [ 'gv' ];
+    return [ gv ];
 
     case modelvndgtw:
-    return [ 'gtw' ];
+    return [ gtw ];
 
     case applicationvndgroovetoolmessage:
-    return [ 'gtm' ];
+    return [ gtm ];
 
     case audioxgsm:
-    return [ 'gsm' ];
+    return [ gsm ];
 
     case applicationvndgoogleappspresentation:
-    return [ 'gslides' ];
+    return [ gslides ];
 
     case applicationvndgoogleappsspreadsheet:
-    return [ 'gsheet' ];
+    return [ gsheet ];
 
     case textxgenie:
-    return [ 'gs' ];
+    return [ gs ];
 
     case applicationsrgs_xml:
-    return [ 'grxml' ];
+    return [ grxml ];
 
     case applicationvndgrooveinjector:
-    return [ 'grv' ];
+    return [ grv ];
 
     case textxgroovy:
-    return [ 'groovy', 'gvy', 'gy', 'gsh' ];
+    return [ groovy, gvy, gy, gsh ];
 
     case applicationxgrampsxml:
-    return [ 'gramps' ];
+    return [ gramps ];
 
     case applicationsrgs:
-    return [ 'gram' ];
+    return [ gram ];
 
     case textxgradle:
-    return [ 'gradle' ];
+    return [ gradle ];
 
     case applicationxgraphite:
-    return [ 'gra' ];
+    return [ gra ];
 
     case applicationvndgrafeq:
-    return [ 'gqf', 'gqs' ];
+    return [ gqf, gqs ];
 
     case applicationgpx_xml:
-    return [ 'gpx' ];
+    return [ gpx ];
 
     case applicationvndflographit:
-    return [ 'gph' ];
+    return [ gph ];
 
     case applicationxgnuplot:
-    return [ 'gp', 'gplt', 'gnuplot' ];
+    return [ gp, gplt, gnuplot ];
 
     case textxgo:
-    return [ 'go' ];
+    return [ go ];
 
     case applicationxgnumeric:
-    return [ 'gnumeric' ];
+    return [ gnumeric ];
 
     case applicationxgnucash:
-    return [ 'gnucash', 'gnc', 'xac' ];
+    return [ gnucash, gnc, xac ];
 
     case applicationgnunetdirectory:
-    return [ 'gnd' ];
+    return [ gnd ];
 
     case applicationvndgmx:
-    return [ 'gmx' ];
+    return [ gmx ];
 
     case applicationxprofile:
-    return [ 'gmonout' ];
+    return [ gmonout ];
 
     case applicationxgettexttranslation:
-    return [ 'gmo', 'mo' ];
+    return [ gmo, mo ];
 
     case applicationgml_xml:
-    return [ 'gml' ];
+    return [ gml ];
 
     case modelgltf_json:
-    return [ 'gltf' ];
+    return [ gltf ];
 
     case modelgltfbinary:
-    return [ 'glb' ];
+    return [ glb ];
 
     case applicationxglade:
-    return [ 'glade' ];
+    return [ glade ];
 
     case applicationvndgrooveidentitymessage:
-    return [ 'gim' ];
+    return [ gim ];
 
     case imagexgimpgih:
-    return [ 'gih' ];
+    return [ gih ];
 
     case imagegif:
-    return [ 'gif' ];
+    return [ gif ];
 
     case applicationvndgroovehelp:
-    return [ 'ghf' ];
+    return [ ghf ];
 
     case applicationvndgeogebratool:
-    return [ 'ggt' ];
+    return [ ggt ];
 
     case applicationvndgeogebrafile:
-    return [ 'ggb' ];
+    return [ ggb ];
 
     case applicationxgamegearrom:
-    return [ 'gg' ];
+    return [ gg ];
 
     case applicationxtexgf:
-    return [ 'gf' ];
+    return [ gf ];
 
     case applicationvndgeometryexplorer:
-    return [ 'gex', 'gre' ];
+    return [ gex, gre ];
 
     case applicationgeo_json:
-    return [ 'geojson' ];
+    return [ geojson ];
 
     case applicationvnddynageo:
-    return [ 'geo' ];
+    return [ geo ];
 
     case applicationxgenesisrom:
-    return [ 'gen', 'sgd' ];
+    return [ gen, sgd ];
 
     case textvndfamilysearchgedcom:
-    return [ 'ged', 'gedcom' ];
+    return [ ged, gedcom ];
 
     case applicationxgodotshader:
-    return [ 'gdshader' ];
+    return [ gdshader ];
 
     case applicationvndgoogleappsdocument:
-    return [ 'gdoc' ];
+    return [ gdoc ];
 
     case modelvndgdl:
-    return [ 'gdl' ];
+    return [ gdl ];
 
     case applicationxgdromcue:
-    return [ 'gdi' ];
+    return [ gdi ];
 
     case applicationxgdscript:
-    return [ 'gd' ];
+    return [ gd ];
 
     case textxgcode:
-    return [ 'gcode' ];
+    return [ gcode ];
 
     case applicationxgcacompressed:
-    return [ 'gca' ];
+    return [ gca ];
 
     case applicationxgerberjob:
-    return [ 'gbrjob' ];
+    return [ gbrjob ];
 
     case imagexgimpgbr:
-    return [ 'gbr' ];
+    return [ gbr ];
 
     case applicationxgameboycolorrom:
-    return [ 'gbc', 'cgb' ];
+    return [ gbc, cgb ];
 
     case applicationxgbarom:
-    return [ 'gba', 'agb' ];
+    return [ gba, agb ];
 
     case applicationxgameboyrom:
-    return [ 'gb', 'sgb' ];
+    return [ gb, sgb ];
 
     case applicationxtads:
-    return [ 'gam' ];
+    return [ gam ];
 
     case applicationvndgrooveaccount:
-    return [ 'gac' ];
+    return [ gac ];
 
     case applicationvndgeospace:
-    return [ 'g3w' ];
+    return [ g3w ];
 
     case imageg3fax:
-    return [ 'g3' ];
+    return [ g3 ];
 
     case applicationvndgeoplan:
-    return [ 'g2w' ];
+    return [ g2w ];
 
     case applicationvndfuzzysheet:
-    return [ 'fzs' ];
+    return [ fzs ];
 
     case applicationvndadobefxp:
-    return [ 'fxp', 'fxpl' ];
+    return [ fxp, fxpl ];
 
     case videoxjavafx:
-    return [ 'fxm' ];
+    return [ fxm ];
 
     case videovndfvt:
-    return [ 'fvt' ];
+    return [ fvt ];
 
     case applicationvndanserwebfundstransferinitiation:
-    return [ 'fti' ];
+    return [ fti ];
 
     case applicationvndfluxtimeclip:
-    return [ 'ftc' ];
+    return [ ftc ];
 
     case imagevndfst:
-    return [ 'fst' ];
+    return [ fst ];
 
     case applicationvndfscweblaunch:
-    return [ 'fsc' ];
+    return [ fsc ];
 
     case imagevndfpx:
-    return [ 'fpx' ];
+    return [ fpx ];
 
     case applicationvndoasisopendocumenttextflatxml:
-    return [ 'fodt' ];
+    return [ fodt ];
 
     case applicationvndoasisopendocumentspreadsheetflatxml:
-    return [ 'fods' ];
+    return [ fods ];
 
     case applicationvndoasisopendocumentpresentationflatxml:
-    return [ 'fodp' ];
+    return [ fodp ];
 
     case applicationvndoasisopendocumentgraphicsflatxml:
-    return [ 'fodg' ];
+    return [ fodg ];
 
     case textxxslfo:
-    return [ 'fo', 'xslfo' ];
+    return [ fo, xslfo ];
 
     case applicationvndfrogansfnc:
-    return [ 'fnc' ];
+    return [ fnc ];
 
     case applicationvndframemaker:
-    return [ 'fm', 'frame', 'maker', 'book' ];
+    return [ fm, frame, maker, book ];
 
     case textvndfly:
-    return [ 'fly' ];
+    return [ fly ];
 
     case textvndfmiflexstor:
-    return [ 'flx' ];
+    return [ flx ];
 
     case applicationxkivio:
-    return [ 'flw' ];
+    return [ flw ];
 
     case videoxflv:
-    return [ 'flv' ];
+    return [ flv ];
 
     case applicationvndmicrografxflo:
-    return [ 'flo' ];
+    return [ flo ];
 
     case videoxflic:
-    return [ 'fli', 'flc' ];
+    return [ fli, flc ];
 
     case applicationvndflatpakrepo:
-    return [ 'flatpakrepo' ];
+    return [ flatpakrepo ];
 
     case applicationvndflatpakref:
-    return [ 'flatpakref' ];
+    return [ flatpakref ];
 
     case applicationvndflatpak:
-    return [ 'flatpak', 'xdgapp' ];
+    return [ flatpak, xdgapp ];
 
     case audioflac:
-    return [ 'flac' ];
+    return [ flac ];
 
     case applicationxfluid:
-    return [ 'fl' ];
+    return [ fl ];
 
     case applicationfits:
-    return [ 'fits', 'fit', 'fts' ];
+    return [ fits, fit, fts ];
 
     case applicationxfishscript:
-    return [ 'fish' ];
+    return [ fish ];
 
     case imagexxfig:
-    return [ 'fig' ];
+    return [ fig ];
 
     case imagexfreehand:
-    return [ 'fh', 'fhc', 'fh4', 'fh5', 'fh7' ];
+    return [ fh, fhc, fh4, fh5, fh7 ];
 
     case applicationvndfujitsuoasysgp:
-    return [ 'fg5' ];
+    return [ fg5 ];
 
     case textxgherkin:
-    return [ 'feature' ];
+    return [ feature ];
 
     case applicationvnddenovofcselayoutlink:
-    return [ 'fe_launch' ];
+    return [ fe_launch ];
 
     case applicationfdt_xml:
-    return [ 'fdt' ];
+    return [ fdt ];
 
     case applicationxfdsdisk:
-    return [ 'fds' ];
+    return [ fds ];
 
     case applicationfdf:
-    return [ 'fdf' ];
+    return [ fdf ];
 
     case applicationxrawfloppydiskimage:
-    return [ 'fd', 'qd' ];
+    return [ fd, qd ];
 
     case applicationvndisacfcs:
-    return [ 'fcs' ];
+    return [ fcs ];
 
     case applicationvndadobeformscentralfcdt:
-    return [ 'fcdt' ];
+    return [ fcdt ];
 
     case imagevndfastbidsheet:
-    return [ 'fbs' ];
+    return [ fbs ];
 
     case applicationxzipcompressedfb2:
-    return [ 'fb2zip' ];
+    return [ fb2zip ];
 
     case applicationxfictionbook_xml:
-    return [ 'fb2' ];
+    return [ fb2 ];
 
     case textxfortran:
-    return [ 'f', 'f90', 'f95', 'for', 'f77' ];
+    return [ f, f90, f95, _for, f77 ];
 
     case applicationvndezpixpackage:
-    return [ 'ez3' ];
+    return [ ez3 ];
 
     case applicationvndezpixalbum:
-    return [ 'ez2' ];
+    return [ ez2 ];
 
     case applicationandrewinset:
-    return [ 'ez' ];
+    return [ ez ];
 
     case applicationvndnovadigmext:
-    return [ 'ext' ];
+    return [ ext ];
 
     case imagexexr:
-    return [ 'exr' ];
+    return [ exr ];
 
     case applicationexpress:
-    return [ 'exp' ];
+    return [ exp ];
 
     case applicationexi:
-    return [ 'exi' ];
+    return [ exi ];
 
     case applicationxmsdownload:
-    return [ 'exe', 'dll', 'cpl', 'drv', 'scr', 'com' ];
+    return [ exe, dll, cpl, drv, scr, com ];
 
     case textxelixir:
-    return [ 'ex', 'exs' ];
+    return [ ex, exs ];
 
     case applicationxenvoy:
-    return [ 'evy' ];
+    return [ evy ];
 
     case applicationxeva:
-    return [ 'eva' ];
+    return [ eva ];
 
     case textxsetext:
-    return [ 'etx' ];
+    return [ etx ];
 
     case applicationxetheme:
-    return [ 'etheme' ];
+    return [ etheme ];
 
     case applicationvndepsonesf:
-    return [ 'esf' ];
+    return [ esf ];
 
     case applicationvndosgisubsystem:
-    return [ 'esa' ];
+    return [ esa ];
 
     case applicationvndeszigno3_xml:
-    return [ 'es3', 'et3' ];
+    return [ es3, et3 ];
 
     case applicationecmascript:
-    return [ 'es', 'ecma' ];
+    return [ es, ecma ];
 
     case textxerlang:
-    return [ 'erl' ];
+    return [ erl ];
 
     case applicationxerislink_cbor:
-    return [ 'eris' ];
+    return [ eris ];
 
     case applicationepub_zip:
-    return [ 'epub' ];
+    return [ epub ];
 
     case imagexgzeps:
-    return [ 'epsgz', 'epsigz', 'epsfgz' ];
+    return [ epsgz, epsigz, epsfgz ];
 
     case imagexbzeps:
-    return [ 'epsbz2', 'epsibz2', 'epsfbz2' ];
+    return [ epsbz2, epsibz2, epsfbz2 ];
 
     case imagexeps:
-    return [ 'eps', 'epsi', 'epsf' ];
+    return [ eps, epsi, epsf ];
 
     case applicationvndmsfontobject:
-    return [ 'eot' ];
+    return [ eot ];
 
     case audiovnddigitalwinds:
-    return [ 'eol' ];
+    return [ eol ];
 
     case applicationxmlexternalparsedentity:
-    return [ 'ent' ];
+    return [ ent ];
 
     case applicationxmsmetafile:
-    return [ 'emz' ];
+    return [ emz ];
 
     case applicationvndemusicemusic_package:
-    return [ 'emp' ];
+    return [ emp ];
 
     case applicationemotionml_xml:
-    return [ 'emotionml' ];
+    return [ emotionml ];
 
     case applicationemma_xml:
-    return [ 'emma' ];
+    return [ emma ];
 
     case messagerfc822:
-    return [ 'eml', 'mime' ];
+    return [ eml, mime ];
 
     case imageemf:
-    return [ 'emf' ];
+    return [ emf ];
 
     case textxemacslisp:
-    return [ 'el' ];
+    return [ el ];
 
     case applicationvndpgosasli:
-    return [ 'ei6' ];
+    return [ ei6 ];
 
     case applicationvndmicrosoftwindowsthumbnailcache:
-    return [ 'ehthumbsdb', 'ehthumbsvistadb', 'imagedb', 'musicthumbsdb', 'thumbsdb', 'tvthumbdb', 'videodb' ];
+    return [ ehthumbsdb, ehthumbsvistadb, imagedb, musicthumbsdb, thumbsdb, tvthumbdb, videodb ];
 
     case applicationxegon:
-    return [ 'egon' ];
+    return [ egon ];
 
     case applicationvndpicsel:
-    return [ 'efif' ];
+    return [ efif ];
 
     case applicationvndmicrosoftportableexecutable:
-    return [ 'efi', 'ocx', 'sys', 'lib' ];
+    return [ efi, ocx, sys, lib ];
 
     case applicationvndnovadigmedx:
-    return [ 'edx' ];
+    return [ edx ];
 
     case applicationvndnovadigmedm:
-    return [ 'edm' ];
+    return [ edm ];
 
     case audiovndnueraecelp9600:
-    return [ 'ecelp9600' ];
+    return [ ecelp9600 ];
 
     case audiovndnueraecelp7470:
-    return [ 'ecelp7470' ];
+    return [ ecelp7470 ];
 
     case audiovndnueraecelp4800:
-    return [ 'ecelp4800' ];
+    return [ ecelp4800 ];
 
     case textxeiffel:
-    return [ 'e', 'eif' ];
+    return [ e, eif ];
 
     case applicationvndspotfiredxp:
-    return [ 'dxp' ];
+    return [ dxp ];
 
     case imagevnddxf:
-    return [ 'dxf' ];
+    return [ dxf ];
 
     case imagevnddwg:
-    return [ 'dwg' ];
+    return [ dwg ];
 
     case modelvnddwf:
-    return [ 'dwf' ];
+    return [ dwf ];
 
     case applicationatscdwd_xml:
-    return [ 'dwd' ];
+    return [ dwd ];
 
     case applicationxgzdvi:
-    return [ 'dvigz' ];
+    return [ dvigz ];
 
     case applicationxbzdvi:
-    return [ 'dvibz2' ];
+    return [ dvibz2 ];
 
     case applicationxdvi:
-    return [ 'dvi' ];
+    return [ dvi ];
 
     case videovnddvbfile:
-    return [ 'dvb' ];
+    return [ dvb ];
 
     case videodv:
-    return [ 'dv' ];
+    return [ dv ];
 
     case textxdevicetreesource:
-    return [ 'dtsi' ];
+    return [ dtsi ];
 
     case audiovnddtshd:
-    return [ 'dtshd' ];
+    return [ dtshd ];
 
     case audiovnddts:
-    return [ 'dts' ];
+    return [ dts ];
 
     case applicationxmldtd:
-    return [ 'dtd' ];
+    return [ dtd ];
 
     case textxdevicetreebinary:
-    return [ 'dtb' ];
+    return [ dtb ];
 
     case applicationdssc_der:
-    return [ 'dssc' ];
+    return [ dssc ];
 
     case textxdsl:
-    return [ 'dsl' ];
+    return [ dsl ];
 
     case audioxdsf:
-    return [ 'dsf' ];
+    return [ dsf ];
 
     case textprslinestag:
-    return [ 'dsc' ];
+    return [ dsc ];
 
     case imagedicomrle:
-    return [ 'drle' ];
+    return [ drle ];
 
     case applicationxexcellon:
-    return [ 'drl' ];
+    return [ drl ];
 
     case audiovnddra:
-    return [ 'dra' ];
+    return [ dra ];
 
     case imagedpx:
-    return [ 'dpx' ];
+    return [ dpx ];
 
     case applicationvnddpgraph:
-    return [ 'dpg' ];
+    return [ dpg ];
 
     case applicationvndosgidp:
-    return [ 'dp' ];
+    return [ dp ];
 
     case applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate:
-    return [ 'dotx' ];
+    return [ dotx ];
 
     case applicationvndmswordtemplatemacroenabled12:
-    return [ 'dotm' ];
+    return [ dotm ];
 
     case applicationmswordtemplate:
-    return [ 'dot' ];
+    return [ dot ];
 
     case applicationvndopenxmlformatsofficedocumentwordprocessingmldocument:
-    return [ 'docx' ];
+    return [ docx ];
 
     case applicationvndmsworddocumentmacroenabled12:
-    return [ 'docm' ];
+    return [ docm ];
 
     case applicationmsword:
-    return [ 'doc' ];
+    return [ doc ];
 
     case imagexadobedng:
-    return [ 'dng' ];
+    return [ dng ];
 
     case applicationvnddna:
-    return [ 'dna' ];
+    return [ dna ];
 
     case applicationxapplediskimage:
-    return [ 'dmg' ];
+    return [ dmg ];
 
     case imagevnddjvu:
-    return [ 'djvu', 'djv' ];
+    return [ djvu, djv ];
 
     case messagedispositionnotification:
-    return [ 'disposition-notification' ];
+    return [ dispositionnotification ];
 
     case applicationvndmobiusdis:
-    return [ 'dis' ];
+    return [ dis ];
 
     case applicationxdirector:
-    return [ 'dir', 'dxr', 'cst', 'cct', 'cxt', 'w3d', 'fgd', 'swa' ];
+    return [ dir, dxr, cst, cct, cxt, w3d, fgd, swa ];
 
     case textxpatch:
-    return [ 'diff', 'patch' ];
+    return [ diff, patch ];
 
     case applicationdicom:
-    return [ 'dicomdir', 'dcm' ];
+    return [ dicomdir, dcm ];
 
     case textxc:
-    return [ 'dic' ];
+    return [ dic ];
 
     case applicationxdiadiagram:
-    return [ 'dia' ];
+    return [ dia ];
 
     case applicationxdgccompressed:
-    return [ 'dgc' ];
+    return [ dgc ];
 
     case audioxdff:
-    return [ 'dff' ];
+    return [ dff ];
 
     case applicationvnddreamfactory:
-    return [ 'dfac' ];
+    return [ dfac ];
 
     case applicationxdesktop:
-    return [ 'desktop', 'kdelnk' ];
+    return [ desktop, kdelnk ];
 
     case applicationxx509cacert:
-    return [ 'der', 'crt', 'cert', 'pem' ];
+    return [ der, crt, cert, pem ];
 
     case applicationvnddebianbinarypackage:
-    return [ 'deb', 'udeb' ];
+    return [ deb, udeb ];
 
     case imagexdds:
-    return [ 'dds' ];
+    return [ dds ];
 
     case applicationvndsyncmldmddf_xml:
-    return [ 'ddf' ];
+    return [ ddf ];
 
     case applicationvndfujixeroxddd:
-    return [ 'ddd' ];
+    return [ ddd ];
 
     case applicationvndomadd2_xml:
-    return [ 'dd2' ];
+    return [ dd2 ];
 
     case textvndcurldcurl:
-    return [ 'dcurl' ];
+    return [ dcurl ];
 
     case imagexkodakdcr:
-    return [ 'dcr' ];
+    return [ dcr ];
 
     case textxdcl:
-    return [ 'dcl' ];
+    return [ dcl ];
 
     case applicationxdocbook_xml:
-    return [ 'dbk', 'docbook' ];
+    return [ dbk, docbook ];
 
     case applicationvnddbf:
-    return [ 'dbf' ];
+    return [ dbf ];
 
     case applicationdavmount_xml:
-    return [ 'davmount' ];
+    return [ davmount ];
 
     case applicationvnddart:
-    return [ 'dart' ];
+    return [ dart ];
 
     case applicationxdar:
-    return [ 'dar' ];
+    return [ dar ];
 
     case applicationvndmobiusdaf:
-    return [ 'daf' ];
+    return [ daf ];
 
     case modelvndcollada_xml:
-    return [ 'dae' ];
+    return [ dae ];
 
     case textxdsrc:
-    return [ 'd', 'di' ];
+    return [ d, di ];
 
     case applicationprscww:
-    return [ 'cww' ];
+    return [ cww ];
 
     case applicationcwl:
-    return [ 'cwl' ];
+    return [ cwl ];
 
     case applicationxappleworksdocument:
-    return [ 'cwk' ];
+    return [ cwk ];
 
     case textvndcurl:
-    return [ 'curl' ];
+    return [ curl ];
 
     case imagexwinbitmap:
-    return [ 'cur' ];
+    return [ cur ];
 
     case applicationxcue:
-    return [ 'cue' ];
+    return [ cue ];
 
     case applicationcuseeme:
-    return [ 'cu' ];
+    return [ cu ];
 
     case textcsvschema:
-    return [ 'csvs' ];
+    return [ csvs ];
 
     case textcsv:
-    return [ 'csv' ];
+    return [ csv ];
 
     case textcss:
-    return [ 'css' ];
+    return [ css ];
 
     case applicationvndcommonspace:
-    return [ 'csp' ];
+    return [ csp ];
 
     case applicationxcompressediso:
-    return [ 'cso' ];
+    return [ cso ];
 
     case chemicalxcsml:
-    return [ 'csml' ];
+    return [ csml ];
 
     case applicationvndcitationstylesstyle_xml:
-    return [ 'csl' ];
+    return [ csl ];
 
     case applicationxcsh:
-    return [ 'csh' ];
+    return [ csh ];
 
     case textxcsharp:
-    return [ 'cs' ];
+    return [ cs ];
 
     case applicationvndrigcryptonote:
-    return [ 'cryptonote' ];
+    return [ cryptonote ];
 
     case applicationxchromeextension:
-    return [ 'crx' ];
+    return [ crx ];
 
     case imagexcanoncrw:
-    return [ 'crw' ];
+    return [ crw ];
 
     case applicationpkixcrl:
-    return [ 'crl' ];
+    return [ crl ];
 
     case textxcredits:
-    return [ 'credits' ];
+    return [ credits ];
 
     case applicationxmscardfile:
-    return [ 'crd' ];
+    return [ crd ];
 
     case imagexcanoncr3:
-    return [ 'cr3' ];
+    return [ cr3 ];
 
     case imagexcanoncr2:
-    return [ 'cr2' ];
+    return [ cr2 ];
 
     case textxcrystal:
-    return [ 'cr' ];
+    return [ cr ];
 
     case applicationmaccompactpro:
-    return [ 'cpt' ];
+    return [ cpt ];
 
     case textxc__src:
-    return [ 'cpp', 'cxx', 'cc', 'c' ];
+    return [ cpp, cxx, cc, c ];
 
     case applicationxcpiocompressed:
-    return [ 'cpiogz' ];
+    return [ cpiogz ];
 
     case applicationxcpio:
-    return [ 'cpio' ];
+    return [ cpio ];
 
     case applicationxcore:
-    return [ 'core' ];
+    return [ core ];
 
     case textxcopying:
-    return [ 'copying' ];
+    return [ copying ];
 
     case applicationvndcoffeescript:
-    return [ 'coffee' ];
+    return [ coffee ];
 
     case applicationvndrimcod:
-    return [ 'cod' ];
+    return [ cod ];
 
     case imagexcmx:
-    return [ 'cmx' ];
+    return [ cmx ];
 
     case applicationvndyellowrivercustommenu:
-    return [ 'cmp' ];
+    return [ cmp ];
 
     case chemicalxcml:
-    return [ 'cml' ];
+    return [ cml ];
 
     case chemicalxcmdf:
-    return [ 'cmdf' ];
+    return [ cmdf ];
 
     case applicationvndcosmocaller:
-    return [ 'cmc' ];
+    return [ cmc ];
 
     case textxcmake:
-    return [ 'cmake', 'cmakeliststxt' ];
+    return [ cmake, cmakeliststxt ];
 
     case applicationxmsclip:
-    return [ 'clp' ];
+    return [ clp ];
 
     case applicationvndcrickclicker:
-    return [ 'clkx' ];
+    return [ clkx ];
 
     case applicationvndcrickclickerwordbank:
-    return [ 'clkw' ];
+    return [ clkw ];
 
     case applicationvndcrickclickertemplate:
-    return [ 'clkt' ];
+    return [ clkt ];
 
     case applicationvndcrickclickerpalette:
-    return [ 'clkp' ];
+    return [ clkp ];
 
     case applicationvndcrickclickerkeyboard:
-    return [ 'clkk' ];
+    return [ clkk ];
 
     case modelvndcld:
-    return [ 'cld' ];
+    return [ cld ];
 
     case applicationxjava:
-    return [ 'class' ];
+    return [ _class ];
 
     case applicationvndclaymore:
-    return [ 'cla' ];
+    return [ cla ];
 
     case textxopenclsrc:
-    return [ 'cl' ];
+    return [ cl ];
 
     case applicationnode:
-    return [ 'cjs' ];
+    return [ cjs ];
 
     case applicationvndmsartgalry:
-    return [ 'cil' ];
+    return [ cil ];
 
     case applicationvndanserwebcertificateissueinitiation:
-    return [ 'cii' ];
+    return [ cii ];
 
     case chemicalxcif:
-    return [ 'cif' ];
+    return [ cif ];
 
     case applicationxkchart:
-    return [ 'chrt' ];
+    return [ chrt ];
 
     case applicationvndmshtmlhelp:
-    return [ 'chm' ];
+    return [ chm ];
 
     case applicationxmamechd:
-    return [ 'chd' ];
+    return [ chd ];
 
     case applicationxchat:
-    return [ 'chat' ];
+    return [ chat ];
 
     case textxchangelog:
-    return [ 'changelog' ];
+    return [ changelog ];
 
     case imagecgm:
-    return [ 'cgm' ];
+    return [ cgm ];
 
     case applicationxcfscompressed:
-    return [ 'cfs' ];
+    return [ cfs ];
 
     case applicationpkixcert:
-    return [ 'cer' ];
+    return [ cer ];
 
     case applicationvndcinderella:
-    return [ 'cdy' ];
+    return [ cdy ];
 
     case applicationvndchemdraw_xml:
-    return [ 'cdxml' ];
+    return [ cdxml ];
 
     case chemicalxcdx:
-    return [ 'cdx' ];
+    return [ cdx ];
 
     case applicationvndcoreldraw:
-    return [ 'cdr' ];
+    return [ cdr ];
 
     case applicationcdmiqueue:
-    return [ 'cdmiq' ];
+    return [ cdmiq ];
 
     case applicationcdmiobject:
-    return [ 'cdmio' ];
+    return [ cdmio ];
 
     case applicationcdmidomain:
-    return [ 'cdmid' ];
+    return [ cdmid ];
 
     case applicationcdmicontainer:
-    return [ 'cdmic' ];
+    return [ cdmic ];
 
     case applicationcdmicapability:
-    return [ 'cdmia' ];
+    return [ cdmia ];
 
     case applicationvndmediastationcdkey:
-    return [ 'cdkey' ];
+    return [ cdkey ];
 
     case applicationxdiscjugglercdimage:
-    return [ 'cdi' ];
+    return [ cdi ];
 
     case applicationcdfx_xml:
-    return [ 'cdfx' ];
+    return [ cdfx ];
 
     case applicationxnetcdf:
-    return [ 'cdf', 'nc' ];
+    return [ cdf, nc ];
 
     case applicationvndcontactcmsg:
-    return [ 'cdbcmsg' ];
+    return [ cdbcmsg ];
 
     case applicationccxml_xml:
-    return [ 'ccxml' ];
+    return [ ccxml ];
 
     case applicationxcocoa:
-    return [ 'cco' ];
+    return [ cco ];
 
     case applicationxccmx:
-    return [ 'ccmx' ];
+    return [ ccmx ];
 
     case applicationvndcomicbook_zip:
-    return [ 'cbz' ];
+    return [ cbz ];
 
     case applicationxcbt:
-    return [ 'cbt' ];
+    return [ cbt ];
 
     case applicationvndcomicbookrar:
-    return [ 'cbr' ];
+    return [ cbr ];
 
     case applicationcbor:
-    return [ 'cbor' ];
+    return [ cbor ];
 
     case textxcobol:
-    return [ 'cbl', 'cob' ];
+    return [ cbl, cob ];
 
     case applicationxcbr:
-    return [ 'cba' ];
+    return [ cba ];
 
     case applicationxcb7:
-    return [ 'cb7' ];
+    return [ cb7 ];
 
     case applicationvndmspkiseccat:
-    return [ 'cat' ];
+    return [ cat ];
 
     case applicationvndcurlcar:
-    return [ 'car' ];
+    return [ car ];
 
     case audioxcaf:
-    return [ 'caf' ];
+    return [ caf ];
 
     case applicationvndmscabcompressed:
-    return [ 'cab' ];
+    return [ cab ];
 
     case applicationvndclonkc4group:
-    return [ 'c4g', 'c4d', 'c4f', 'c4p', 'c4u' ];
+    return [ c4g, c4d, c4f, c4p, c4u ];
 
     case applicationvndcluetrustcartomobileconfigpkg:
-    return [ 'c11amz' ];
+    return [ c11amz ];
 
     case applicationvndcluetrustcartomobileconfig:
-    return [ 'c11amc' ];
+    return [ c11amc ];
 
     case applicationxbzip3:
-    return [ 'bz3' ];
+    return [ bz3 ];
 
     case applicationxbzip2:
-    return [ 'bz2', 'boz' ];
+    return [ bz2, boz ];
 
     case applicationxbzip1:
-    return [ 'bz' ];
+    return [ bz ];
 
     case imageprsbtif:
-    return [ 'btif', 'btf' ];
+    return [ btif, btf ];
 
     case modelvndvalvesourcecompiledmap:
-    return [ 'bsp' ];
+    return [ bsp ];
 
     case applicationxbsdiff:
-    return [ 'bsdiff' ];
+    return [ bsdiff ];
 
     case chemicalxpdb:
-    return [ 'brk' ];
+    return [ brk ];
 
     case applicationxbpspatch:
-    return [ 'bps' ];
+    return [ bps ];
 
     case applicationvndpreviewsystemsbox:
-    return [ 'box' ];
+    return [ box ];
 
     case imagebmp:
-    return [ 'bmp', 'dib' ];
+    return [ bmp, dib ];
 
     case applicationvndbalsamiqbmml_xml:
-    return [ 'bmml' ];
+    return [ bmml ];
 
     case applicationvndbmi:
-    return [ 'bmi' ];
+    return [ bmi ];
 
     case textxblueprint:
-    return [ 'blp' ];
+    return [ blp ];
 
     case applicationxblender:
-    return [ 'blend', 'blender' ];
+    return [ blend, blender ];
 
     case applicationxblorb:
-    return [ 'blb', 'blorb' ];
+    return [ blb, blorb ];
 
     case applicationoctetstream:
-    return [ 'bin', 'dms', 'lrf', 'mar', 'dist', 'distz', 'bpk', 'dump', 'elc', 'deploy', 'msp', 'msm', 'buffer' ];
+    return [ bin, dms, lrf, mar, dist, distz, bpk, dump, elc, deploy, msp, msm, buffer ];
 
     case videovndradgamettoolsbink:
-    return [ 'bik', 'bk2' ];
+    return [ bik, bk2 ];
 
     case textxbibtex:
-    return [ 'bib' ];
+    return [ bib ];
 
     case applicationvndfujitsuoasysprs:
-    return [ 'bh2' ];
+    return [ bh2 ];
 
     case applicationvndrealvncbed:
-    return [ 'bed' ];
+    return [ bed ];
 
     case applicationbdoc:
-    return [ 'bdoc' ];
+    return [ bdoc ];
 
     case applicationxfontbdf:
-    return [ 'bdf' ];
+    return [ bdf ];
 
     case applicationxbcpio:
-    return [ 'bcpio' ];
+    return [ bcpio ];
 
     case applicationxbat:
-    return [ 'bat' ];
+    return [ bat ];
 
     case textxbasic:
-    return [ 'bas' ];
+    return [ bas ];
 
     case applicationxtrash:
-    return [ 'bak', 'old', 'sik' ];
+    return [ bak, old, sik ];
 
     case imagevndpcob16:
-    return [ 'b16' ];
+    return [ b16 ];
 
     case applicationvndamazonmobi8ebook:
-    return [ 'azw3', 'kfx' ];
+    return [ azw3, kfx ];
 
     case applicationvndamazonebook:
-    return [ 'azw' ];
+    return [ azw ];
 
     case imagevndairzipacceleratorazv:
-    return [ 'azv' ];
+    return [ azv ];
 
     case applicationvndairzipfilesecureazs:
-    return [ 'azs' ];
+    return [ azs ];
 
     case applicationvndairzipfilesecureazf:
-    return [ 'azf' ];
+    return [ azf ];
 
     case videoannodex:
-    return [ 'axv' ];
+    return [ axv ];
 
     case audioannodex:
-    return [ 'axa' ];
+    return [ axa ];
 
     case applicationxawk:
-    return [ 'awk' ];
+    return [ awk ];
 
     case audioamrwb:
-    return [ 'awb' ];
+    return [ awb ];
 
     case applicationxapplixword:
-    return [ 'aw' ];
+    return [ aw ];
 
     case imageavif:
-    return [ 'avif', 'avifs' ];
+    return [ avif, avifs ];
 
     case videovndavi:
-    return [ 'avi', 'avf', 'divx' ];
+    return [ avi, avf, divx ];
 
     case imageavcs:
-    return [ 'avcs' ];
+    return [ avcs ];
 
     case imageavci:
-    return [ 'avci' ];
+    return [ avci ];
 
     case textxsystemdunit:
-    return [ 'automount', 'device', 'mount', 'path', 'scope', 'slice', 'socket', 'swap', 'target', 'timer' ];
+    return [ automount, device, mount, path, scope, slice, socket, swap, target, timer ];
 
     case textxauthors:
-    return [ 'authors' ];
+    return [ authors ];
 
     case audiobasic:
-    return [ 'au', 'snd' ];
+    return [ au, snd ];
 
     case applicationvndantixgamecomponent:
-    return [ 'atx' ];
+    return [ atx ];
 
     case applicationatomsvc_xml:
-    return [ 'atomsvc' ];
+    return [ atomsvc ];
 
     case applicationatomdeleted_xml:
-    return [ 'atomdeleted' ];
+    return [ atomdeleted ];
 
     case applicationatomcat_xml:
-    return [ 'atomcat' ];
+    return [ atomcat ];
 
     case applicationatom_xml:
-    return [ 'atom' ];
+    return [ atom ];
 
     case applicationvndacucorp:
-    return [ 'atc', 'acutc' ];
+    return [ atc, acutc ];
 
     case audioxmsasx:
-    return [ 'asx', 'wax', 'wvx', 'wmx' ];
+    return [ asx, wax, wvx, wmx ];
 
     case imageastc:
-    return [ 'astc' ];
+    return [ astc ];
 
     case applicationxasp:
-    return [ 'asp' ];
+    return [ asp ];
 
     case applicationvndaccpacsimplyaso:
-    return [ 'aso' ];
+    return [ aso ];
 
     case applicationvndmsasf:
-    return [ 'asf' ];
+    return [ asf ];
 
     case textxcommonlisp:
-    return [ 'asd', 'fasl', 'lisp', 'ros' ];
+    return [ asd, fasl, lisp, ros ];
 
     case applicationxasar:
-    return [ 'asar' ];
+    return [ asar ];
 
     case applicationxapplixspreadsheet:
-    return [ 'as' ];
+    return [ _as ];
 
     case imagexsonyarw:
-    return [ 'arw' ];
+    return [ arw ];
 
     case applicationxarj:
-    return [ 'arj' ];
+    return [ arj ];
 
     case applicationxfreearc:
-    return [ 'arc' ];
+    return [ arc ];
 
     case applicationvndlotusapproach:
-    return [ 'apr' ];
+    return [ apr ];
 
     case applicationappxbundle:
-    return [ 'appxbundle' ];
+    return [ appxbundle ];
 
     case applicationappx:
-    return [ 'appx' ];
+    return [ appx ];
 
     case applicationxmsapplication:
-    return [ 'application' ];
+    return [ application ];
 
     case applicationappinstaller:
-    return [ 'appinstaller' ];
+    return [ appinstaller ];
 
     case applicationxiso9660appimage:
-    return [ 'appimage' ];
+    return [ appimage ];
 
     case imageapng:
-    return [ 'apng' ];
+    return [ apng ];
 
     case applicationvndandroidpackagearchive:
-    return [ 'apk' ];
+    return [ apk ];
 
     case audioxape:
-    return [ 'ape' ];
+    return [ ape ];
 
     case applicationannodex:
-    return [ 'anx' ];
+    return [ anx ];
 
     case videoxanim:
-    return [ 'anim19j' ];
+    return [ anim19j ];
 
     case applicationxnavianimation:
-    return [ 'ani' ];
+    return [ ani ];
 
     case audioxamzxml:
-    return [ 'amz' ];
+    return [ amz ];
 
     case audioamr:
-    return [ 'amr' ];
+    return [ amr ];
 
     case applicationautomationmlamlx_zip:
-    return [ 'amlx' ];
+    return [ amlx ];
 
     case applicationautomationmlaml_xml:
-    return [ 'aml' ];
+    return [ aml ];
 
     case applicationvndamigaami:
-    return [ 'ami' ];
+    return [ ami ];
 
     case applicationxalz:
-    return [ 'alz' ];
+    return [ alz ];
 
     case applicationvnddvbait:
-    return [ 'ait' ];
+    return [ ait ];
 
     case applicationvndadobeairapplicationinstallerpackage_zip:
-    return [ 'air' ];
+    return [ air ];
 
     case audioxaiff:
-    return [ 'aiff', 'aif' ];
+    return [ aiff, aif ];
 
     case audioxaifc:
-    return [ 'aifc', 'aiffc' ];
+    return [ aifc, aiffc ];
 
     case applicationillustrator:
-    return [ 'ai' ];
+    return [ ai ];
 
     case applicationvndaheadspace:
-    return [ 'ahead' ];
+    return [ ahead ];
 
     case applicationvndage:
-    return [ 'age' ];
+    return [ age ];
 
     case imagexapplixgraphics:
-    return [ 'ag' ];
+    return [ ag ];
 
     case applicationvndibmmodcap:
-    return [ 'afp', 'listafp', 'list3820' ];
+    return [ afp, listafp, list3820 ];
 
     case applicationxfontafm:
-    return [ 'afm' ];
+    return [ afm ];
 
     case applicationvndaudiograph:
-    return [ 'aep' ];
+    return [ aep ];
 
     case audioadpcm:
-    return [ 'adp' ];
+    return [ adp ];
 
     case applicationxamigadiskformat:
-    return [ 'adf' ];
+    return [ adf ];
 
     case textxadasrc:
-    return [ 'adb', 'ads' ];
+    return [ adb, ads ];
 
     case applicationvndacucobol:
-    return [ 'acu' ];
+    return [ acu ];
 
     case applicationxace:
-    return [ 'ace' ];
+    return [ ace ];
 
     case applicationvndamericandynamicsacc:
-    return [ 'acc' ];
+    return [ acc ];
 
     case audioac3:
-    return [ 'ac3' ];
+    return [ ac3 ];
 
     case applicationpkixattrcert:
-    return [ 'ac' ];
+    return [ ac ];
 
     case applicationxabiword:
-    return [ 'abw', 'abwcrashed', 'abwgz', 'zabw' ];
+    return [ abw, abwcrashed, abwgz, zabw ];
 
     case audiovndaudibleaaxc:
-    return [ 'aaxc' ];
+    return [ aaxc ];
 
     case audiovndaudibleaax:
-    return [ 'aax' ];
+    return [ aax ];
 
     case applicationxauthorwareseg:
-    return [ 'aas' ];
+    return [ aas ];
 
     case applicationxauthorwaremap:
-    return [ 'aam' ];
+    return [ aam ];
 
     case audioaac:
-    return [ 'aac', 'adts' ];
+    return [ aac, adts ];
 
     case applicationxauthorwarebin:
-    return [ 'aab', 'x32', 'u32', 'vox' ];
+    return [ aab, x32, u32, vox ];
 
     case audioxpnaudibleaudio:
-    return [ 'aa' ];
+    return [ aa ];
 
     case applicationxatari7800rom:
-    return [ 'a78' ];
+    return [ a78 ];
 
     case applicationxatari2600rom:
-    return [ 'a26' ];
+    return [ a26 ];
 
     case applicationxarchive:
-    return [ 'a', 'ar' ];
+    return [ a, ar ];
 
     case applicationx7zcompressed:
-    return [ '7z', '7z001' ];
+    return [ _7z, _7z001 ];
 
     case applicationxt602:
-    return [ '602' ];
+    return [ _602 ];
 
     case model3mf:
-    return [ '3mf' ];
+    return [ _3mf ];
 
     case video3gpp:
-    return [ '3gp', '3gpp', '3ga' ];
+    return [ _3gp, _3gpp, _3ga ];
 
     case video3gpp2:
-    return [ '3g2', '3gp2', '3gpp2' ];
+    return [ _3g2, _3gp2, _3gpp2 ];
 
     case applicationxnintendo3dsexecutable:
-    return [ '3dsx' ];
+    return [ _3dsx ];
 
     case applicationxnintendo3dsrom:
-    return [ '3ds', 'cci' ];
+    return [ _3ds, cci ];
 
     case textvndin3d3dml:
-    return [ '3dml' ];
+    return [ _3dml ];
 
     case applicationxgenesis32xrom:
-    return [ '32x', 'mdx' ];
+    return [ _32x, mdx ];
 
     case applicationvnd1000mindsdecisionmodel_xml:
-    return [ '1km' ];
+    return [ _1km ];
 
     case applicationvndlotus123:
-    return [ '123', 'wk1', 'wk3', 'wk4', 'wks' ];
+    return [ _123, wk1, wk3, wk4, wks ];
   }
 
   return [];
@@ -12393,5 +12393,5 @@ const FileCategory = {
   Video: 'Video',
 }
 
-export { FileCategory, FTT };
-export default FTT;
+module.exports = { FileCategory, FTT };
+exports.default = FTT; 

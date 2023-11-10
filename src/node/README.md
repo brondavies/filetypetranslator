@@ -17,10 +17,10 @@ import { FTT } from 'fttlib'
 ####  When you need to know the mime type of a file based on its extension.
 
 ```js
-let mimeType = FTT.getMimeType("Path/To/My/File.doc")
+let mimeType = FTT.getMimeType('Path/To/My/File.doc')
 console.log(mimeType)
 
-mimeType = FTT.getMimeType("Path/To/My/File.docx")
+mimeType = FTT.getMimeType('Path/To/My/File.docx')
 console.log(mimeType)
 
 >  application/msword
@@ -30,10 +30,10 @@ console.log(mimeType)
 ####  When you need to know the file type category of a file based on its extension.
 
 ```js
-let category = FTT.getFileCategory("Path/To/My/File.docx")
+let category = FTT.getFileCategory('Path/To/My/File.docx')
 console.log(category)
 
-category = FTT.getFileCategory("Path/To/My/File.jpg")
+category = FTT.getFileCategory('Path/To/My/File.jpg')
 console.log(category)
 
 >  Document

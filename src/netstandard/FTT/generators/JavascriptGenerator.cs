@@ -76,11 +76,7 @@ namespace FTT.generators
             string value = "";
             value = value.AppendLine(GenerateCase(GetConstantFor(mimeType.type)));
             string extensions = "[ ";
-            string strings = string.Join("', '", mimeType.extensions);
-            if (strings.Length > 0)
-            {
-                strings = quote(strings, '\'');
-            }
+            string strings = string.Join(", ", mimeType.extensions.Select(e => GetConstantFor(e)));
             extensions += strings;
             extensions += " ]";
             value = value.AppendLine(GenerateReturn(extensions));

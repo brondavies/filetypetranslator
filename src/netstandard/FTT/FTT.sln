@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{382A5B
 		..\..\python\deploy.cmd = ..\..\python\deploy.cmd
 		..\..\python\fttlib\FTT.py = ..\..\python\fttlib\FTT.py
 		..\..\python\README.md = ..\..\python\README.md
+		..\..\python\setup.py = ..\..\python\setup.py
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node", "node", "{0116F007-D04C-4FBE-9C91-21EF657899E3}"

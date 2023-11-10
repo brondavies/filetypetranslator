@@ -2,6 +2,9 @@
 setlocal
 set path=%path%;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64
 
+::cleanup
+del /y dist\*.*
+
 ::Requirements
 ::python -m pip install --user --upgrade setuptools twine wheel
 

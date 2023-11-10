@@ -83,6 +83,35 @@ namespace FTT.Properties {
         ///
         ///def [rest of string was truncated]&quot;;.
         /// </summary>
+        internal static string JavascriptClass {
+            get {
+                return ResourceManager.GetString("JavascriptClass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to import os
+        ///from enum import Enum, unique, auto
+        ///
+        ///#constants
+        ///
+        ///def __getExt(fileName):
+        ///    if &apos;.&apos; in fileName: return os.path.splitext(fileName)[1].replace(&apos;.&apos;, &apos;&apos;)
+        ///    else: return fileName
+        ///
+        ///&quot;&quot;&quot;
+        ///Methods for translating between mime-types and file extensions
+        ///&quot;&quot;&quot;
+        ///def getMimeType(fileName):
+        ///    &quot;&quot;&quot;
+        ///    Returns the mime type for the given file name
+        ///    :param str fileName A file name, file extension or file path specification
+        ///    &quot;&quot;&quot;
+        ///    extension = __getExt(fileName)
+        ///    #getMimeType body
+        ///
+        ///def [rest of string was truncated]&quot;;.
+        /// </summary>
         internal static string PythonClass {
             get {
                 return ResourceManager.GetString("PythonClass", resourceCulture);

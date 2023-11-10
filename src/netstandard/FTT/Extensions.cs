@@ -21,5 +21,15 @@
             }
             return value;
         }
+
+        public static string InsertBefore(this string value, string before, string insert)
+        {
+            int index = value.IndexOf(before);
+            if (index >= 0)
+            {
+                return value.Insert(index, "\n" + insert);
+            }
+            return value;
+        }
     }
 }

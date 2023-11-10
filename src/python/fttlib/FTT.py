@@ -58,6 +58,8 @@ applicationxauthorwareseg = "application/x-authorware-seg"
 aas = "aas"
 audiovndaudibleaax = "audio/vnd.audible.aax"
 aax = "aax"
+audiovndaudibleaaxc = "audio/vnd.audible.aaxc"
+aaxc = "aaxc"
 applicationxabiword = "application/x-abiword"
 abw = "abw"
 abwcrashed = "abwcrashed"
@@ -110,6 +112,10 @@ applicationxalz = "application/x-alz"
 alz = "alz"
 applicationvndamigaami = "application/vnd.amiga.ami"
 ami = "ami"
+applicationautomationmlaml_xml = "application/automationml-aml+xml"
+aml = "aml"
+applicationautomationmlamlx_zip = "application/automationml-amlx+zip"
+amlx = "amlx"
 audioamr = "audio/amr"
 amr = "amr"
 audioxamzxml = "audio/x-amzxml"
@@ -128,8 +134,14 @@ imageapng = "image/apng"
 apng = "apng"
 applicationxiso9660appimage = "application/x-iso9660-appimage"
 appimage = "appimage"
+applicationappinstaller = "application/appinstaller"
+appinstaller = "appinstaller"
 applicationxmsapplication = "application/x-ms-application"
 application = "application"
+applicationappx = "application/appx"
+appx = "appx"
+applicationappxbundle = "application/appxbundle"
+appxbundle = "appxbundle"
 applicationvndlotusapproach = "application/vnd.lotus-approach"
 apr = "apr"
 applicationxfreearc = "application/x-freearc"
@@ -193,7 +205,7 @@ imageavci = "image/avci"
 avci = "avci"
 imageavcs = "image/avcs"
 avcs = "avcs"
-videoxmsvideo = "video/x-msvideo"
+videovndavi = "video/vnd.avi"
 avi = "avi"
 avf = "avf"
 divx = "divx"
@@ -227,6 +239,10 @@ applicationxtrash = "application/x-trash"
 bak = "bak"
 old = "old"
 sik = "sik"
+textxbasic = "text/x-basic"
+bas = "bas"
+applicationxbat = "application/x-bat"
+bat = "bat"
 applicationxbcpio = "application/x-bcpio"
 bcpio = "bcpio"
 applicationxfontbdf = "application/x-font-bdf"
@@ -253,7 +269,6 @@ bpk = "bpk"
 dump = "dump"
 elc = "elc"
 deploy = "deploy"
-dll = "dll"
 msp = "msp"
 msm = "msm"
 buffer = "buffer"
@@ -263,6 +278,8 @@ blorb = "blorb"
 applicationxblender = "application/x-blender"
 blend = "blend"
 blender = "blender"
+textxblueprint = "text/x-blueprint"
+blp = "blp"
 applicationvndbmi = "application/vnd.bmi"
 bmi = "bmi"
 applicationvndbalsamiqbmml_xml = "application/vnd.balsamiq.bmml+xml"
@@ -272,10 +289,10 @@ bmp = "bmp"
 dib = "dib"
 applicationvndpreviewsystemsbox = "application/vnd.previewsystems.box"
 box = "box"
-applicationxbzip2 = "application/x-bzip2"
-boz = "boz"
 applicationxbpspatch = "application/x-bps-patch"
 bps = "bps"
+chemicalxpdb = "chemical/x-pdb"
+brk = "brk"
 applicationxbsdiff = "application/x-bsdiff"
 bsdiff = "bsdiff"
 modelvndvalvesourcecompiledmap = "model/vnd.valve.source.compiled-map"
@@ -283,9 +300,13 @@ bsp = "bsp"
 imageprsbtif = "image/prs.btif"
 btif = "btif"
 btf = "btf"
-applicationxbzip = "application/x-bzip"
-bz2 = "bz2"
+applicationxbzip1 = "application/x-bzip1"
 bz = "bz"
+applicationxbzip2 = "application/x-bzip2"
+bz2 = "bz2"
+boz = "boz"
+applicationxbzip3 = "application/x-bzip3"
+bz3 = "bz3"
 applicationvndcluetrustcartomobileconfig = "application/vnd.cluetrust.cartomobile-config"
 c11amc = "c11amc"
 applicationvndcluetrustcartomobileconfigpkg = "application/vnd.cluetrust.cartomobile-config-pkg"
@@ -311,6 +332,8 @@ cba = "cba"
 textxcobol = "text/x-cobol"
 cbl = "cbl"
 cob = "cob"
+applicationcbor = "application/cbor"
+cbor = "cbor"
 applicationvndcomicbookrar = "application/vnd.comicbook-rar"
 cbr = "cbr"
 applicationxcbt = "application/x-cbt"
@@ -382,6 +405,8 @@ applicationvndclaymore = "application/vnd.claymore"
 cla = "cla"
 applicationxjava = "application/x-java"
 _class = "class"
+modelvndcld = "model/vnd.cld"
+cld = "cld"
 applicationvndcrickclickerkeyboard = "application/vnd.crick.clicker.keyboard"
 clkk = "clkk"
 applicationvndcrickclickerpalette = "application/vnd.crick.clicker.palette"
@@ -411,9 +436,6 @@ applicationvndrimcod = "application/vnd.rim.cod"
 cod = "cod"
 applicationvndcoffeescript = "application/vnd.coffeescript"
 coffee = "coffee"
-applicationxmsdownload = "application/x-msdownload"
-com = "com"
-bat = "bat"
 textxcopying = "text/x-copying"
 copying = "copying"
 applicationxcore = "application/x-core"
@@ -422,8 +444,6 @@ applicationxcpio = "application/x-cpio"
 cpio = "cpio"
 applicationxcpiocompressed = "application/x-cpio-compressed"
 cpiogz = "cpiogz"
-applicationcpl_xml = "application/cpl+xml"
-cpl = "cpl"
 textxc__src = "text/x-c++src"
 cpp = "cpp"
 cxx = "cxx"
@@ -490,11 +510,11 @@ applicationvndmobiusdaf = "application/vnd.mobius.daf"
 daf = "daf"
 applicationxdar = "application/x-dar"
 dar = "dar"
-textxdart = "text/x-dart"
+applicationvnddart = "application/vnd.dart"
 dart = "dart"
 applicationdavmount_xml = "application/davmount+xml"
 davmount = "davmount"
-applicationxdbf = "application/x-dbf"
+applicationvnddbf = "application/vnd.dbf"
 dbf = "dbf"
 applicationxdocbook_xml = "application/x-docbook+xml"
 dbk = "dbk"
@@ -578,8 +598,12 @@ applicationvndosgidp = "application/vnd.osgi.dp"
 dp = "dp"
 applicationvnddpgraph = "application/vnd.dpgraph"
 dpg = "dpg"
+imagedpx = "image/dpx"
+dpx = "dpx"
 audiovnddra = "audio/vnd.dra"
 dra = "dra"
+applicationxexcellon = "application/x-excellon"
+drl = "drl"
 imagedicomrle = "image/dicom-rle"
 drle = "drle"
 textprslinestag = "text/prs.lines.tag"
@@ -633,10 +657,23 @@ applicationvndnovadigmedm = "application/vnd.novadigm.edm"
 edm = "edm"
 applicationvndnovadigmedx = "application/vnd.novadigm.edx"
 edx = "edx"
+applicationvndmicrosoftportableexecutable = "application/vnd.microsoft.portable-executable"
+efi = "efi"
+ocx = "ocx"
+sys = "sys"
+lib = "lib"
 applicationvndpicsel = "application/vnd.picsel"
 efif = "efif"
 applicationxegon = "application/x-egon"
 egon = "egon"
+applicationvndmicrosoftwindowsthumbnailcache = "application/vnd.microsoft.windows.thumbnail-cache"
+ehthumbsdb = "ehthumbsdb"
+ehthumbsvistadb = "ehthumbsvistadb"
+imagedb = "imagedb"
+musicthumbsdb = "musicthumbsdb"
+thumbsdb = "thumbsdb"
+tvthumbdb = "tvthumbdb"
+videodb = "videodb"
 applicationvndpgosasli = "application/vnd.pg.osasli"
 ei6 = "ei6"
 textxemacslisp = "text/x-emacs-lisp"
@@ -674,6 +711,8 @@ epsigz = "epsigz"
 epsfgz = "epsfgz"
 applicationepub_zip = "application/epub+zip"
 epub = "epub"
+applicationxerislink_cbor = "application/x-eris-link+cbor"
+eris = "eris"
 textxerlang = "text/x-erlang"
 erl = "erl"
 applicationecmascript = "application/ecmascript"
@@ -697,8 +736,13 @@ evy = "evy"
 textxelixir = "text/x-elixir"
 ex = "ex"
 exs = "exs"
-applicationxmsdosexecutable = "application/x-ms-dos-executable"
+applicationxmsdownload = "application/x-msdownload"
 exe = "exe"
+dll = "dll"
+cpl = "cpl"
+drv = "drv"
+scr = "scr"
+com = "com"
 applicationexi = "application/exi"
 exi = "exi"
 applicationexpress = "application/express"
@@ -752,6 +796,8 @@ fh5 = "fh5"
 fh7 = "fh7"
 imagexxfig = "image/x-xfig"
 fig = "fig"
+applicationxfishscript = "application/x-fishscript"
+fish = "fish"
 applicationfits = "application/fits"
 fits = "fits"
 fit = "fit"
@@ -838,6 +884,8 @@ gbc = "gbc"
 cgb = "cgb"
 imagexgimpgbr = "image/x-gimp-gbr"
 gbr = "gbr"
+applicationxgerberjob = "application/x-gerber-job"
+gbrjob = "gbrjob"
 applicationxgcacompressed = "application/x-gca-compressed"
 gca = "gca"
 textxgcode = "text/x.gcode"
@@ -852,7 +900,7 @@ applicationvndgoogleappsdocument = "application/vnd.google-apps.document"
 gdoc = "gdoc"
 applicationxgodotshader = "application/x-godot-shader"
 gdshader = "gdshader"
-applicationxgedcom = "application/x-gedcom"
+textvndfamilysearchgedcom = "text/vnd.familysearch.gedcom"
 ged = "ged"
 gedcom = "gedcom"
 applicationxgenesisrom = "application/x-genesis-rom"
@@ -1090,7 +1138,7 @@ applicationvndibmrightsmanagement = "application/vnd.ibm.rights-management"
 irm = "irm"
 applicationvndirepositorypackage_xml = "application/vnd.irepository.package+xml"
 irp = "irp"
-applicationxcdimage = "application/x-cd-image"
+applicationvndefiiso = "application/vnd.efi.iso"
 iso = "iso"
 iso9660 = "iso9660"
 audioxit = "audio/x-it"
@@ -1115,8 +1163,10 @@ textjade = "text/jade"
 jade = "jade"
 applicationvndjam = "application/vnd.jam"
 jam = "jam"
-applicationxjavaarchive = "application/x-java-archive"
+applicationjavaarchive = "application/java-archive"
 jar = "jar"
+war = "war"
+ear = "ear"
 applicationxjavaarchivediff = "application/x-java-archive-diff"
 jardiff = "jardiff"
 textxjava = "text/x-java"
@@ -1131,6 +1181,8 @@ applicationxjavakeystore = "application/x-java-keystore"
 jks = "jks"
 ks = "ks"
 cacerts = "cacerts"
+textjulia = "text/julia"
+jl = "jl"
 imagejls = "image/jls"
 jls = "jls"
 applicationvndhpjlyt = "application/vnd.hp-jlyt"
@@ -1150,6 +1202,7 @@ imagejpeg = "image/jpeg"
 jpg = "jpg"
 jpeg = "jpeg"
 jpe = "jpe"
+jfif = "jfif"
 videojpeg = "video/jpeg"
 jpgv = "jpgv"
 imagejph = "image/jph"
@@ -1166,6 +1219,8 @@ textjavascript = "text/javascript"
 js = "js"
 jsm = "jsm"
 mjs = "mjs"
+textjscriptencode = "text/jscript.encode"
+jse = "jse"
 applicationjson = "application/json"
 json = "json"
 map = "map"
@@ -1179,10 +1234,14 @@ applicationjsonpatch_json = "application/json-patch+json"
 jsonpatch = "jsonpatch"
 textjsx = "text/jsx"
 jsx = "jsx"
+modeljt = "model/jt"
+jt = "jt"
 imagejxl = "image/jxl"
 jxl = "jxl"
 imagejxr = "image/jxr"
 jxr = "jxr"
+hdp = "hdp"
+wdp = "wdp"
 imagejxra = "image/jxra"
 jxra = "jxra"
 imagejxrs = "image/jxrs"
@@ -1395,8 +1454,9 @@ textmarkdown = "text/markdown"
 md = "md"
 mkd = "mkd"
 markdown = "markdown"
-applicationvndmsaccess = "application/vnd.ms-access"
+applicationxlmdb = "application/x-lmdb"
 mdb = "mdb"
+lmdb = "lmdb"
 imagevndmsmodi = "image/vnd.ms-modi"
 mdi = "mdi"
 textxtroffme = "text/x-troff-me"
@@ -1493,10 +1553,6 @@ m4v = "m4v"
 f4v = "f4v"
 lrv = "lrv"
 mp4v = "mp4v"
-mpg4 = "mpg4"
-applicationmp4 = "application/mp4"
-mp4s = "mp4s"
-m4p = "m4p"
 audioxmusepack = "audio/x-musepack"
 mpc = "mpc"
 mpp = "mpp"
@@ -1513,6 +1569,10 @@ m1v = "m1v"
 m2v = "m2v"
 applicationmediapolicydataset_xml = "application/media-policy-dataset+xml"
 mpf = "mpf"
+applicationmp4 = "application/mp4"
+mpg4 = "mpg4"
+mp4s = "mp4s"
+m4p = "m4p"
 applicationvndappleinstaller_xml = "application/vnd.apple.installer+xml"
 mpkg = "mpkg"
 textxmpl2 = "text/x-mpl2"
@@ -1534,6 +1594,8 @@ mrcx = "mrcx"
 textxmrml = "text/x-mrml"
 mrml = "mrml"
 mrl = "mrl"
+applicationxmodrinthmodpack_zip = "application/x-modrinth-modpack+zip"
+mrpack = "mrpack"
 imagexminoltamrw = "image/x-minolta-mrw"
 mrw = "mrw"
 textxtroffms = "text/x-troff-ms"
@@ -1554,6 +1616,10 @@ mesh = "mesh"
 silo = "silo"
 applicationxmsi = "application/x-msi"
 msi = "msi"
+applicationmsix = "application/msix"
+msix = "msix"
+applicationmsixbundle = "application/msixbundle"
+msixbundle = "msixbundle"
 applicationvndmobiusmsl = "application/vnd.mobius.msl"
 msl = "msl"
 imagexmsod = "image/x-msod"
@@ -1627,6 +1693,11 @@ applicationvndnokiangagedata = "application/vnd.nokia.n-gage.data"
 ngdat = "ngdat"
 applicationxneogeopocketrom = "application/x-neo-geo-pocket-rom"
 ngp = "ngp"
+textxnim = "text/x-nim"
+nim = "nim"
+textxnimscript = "text/x-nimscript"
+nims = "nims"
+nimble = "nimble"
 applicationvndneurolanguagenlu = "application/vnd.neurolanguage.nlu"
 nlu = "nlu"
 applicationvndenliven = "application/vnd.enliven"
@@ -1654,6 +1725,8 @@ nt = "nt"
 applicationvndnitf = "application/vnd.nitf"
 ntf = "ntf"
 nitf = "nitf"
+applicationxnuscript = "application/x-nuscript"
+nu = "nu"
 applicationvndapplenumbers = "application/vnd.apple.numbers"
 numbers = "numbers"
 applicationxnzb = "application/x-nzb"
@@ -1718,6 +1791,9 @@ onetmp = "onetmp"
 onepkg = "onepkg"
 textxooc = "text/x-ooc"
 ooc = "ooc"
+applicationxopenvpnprofile = "application/x-openvpn-profile"
+openvpn = "openvpn"
+ovpn = "ovpn"
 applicationoebpspackage_xml = "application/oebps-package+xml"
 opf = "opf"
 textxopml_xml = "text/x-opml+xml"
@@ -1848,6 +1924,8 @@ applicationxxzpdf = "application/x-xzpdf"
 pdfxz = "pdfxz"
 imagexpentaxpef = "image/x-pentax-pef"
 pef = "pef"
+applicationxperfdata = "application/x-perf-data"
+perfdata = "perfdata"
 applicationxfonttype1 = "application/x-font-type1"
 pfa = "pfa"
 pfb = "pfb"
@@ -1949,6 +2027,8 @@ applicationprovenance_xml = "application/provenance+xml"
 provx = "provx"
 applicationpostscript = "application/postscript"
 ps = "ps"
+applicationxpowershell = "application/x-powershell"
+ps1 = "ps1"
 applicationvnd3gpppicbwsmall = "application/vnd.3gpp.pic-bw-small"
 psb = "psb"
 applicationxbzpostscript = "application/x-bzpostscript"
@@ -2017,6 +2097,8 @@ textxqml = "text/x-qml"
 qml = "qml"
 qmltypes = "qmltypes"
 qmlproject = "qmlproject"
+imageqoi = "image/qoi"
+qoi = "qoi"
 applicationxqpress = "application/x-qpress"
 qp = "qp"
 applicationvndpublisharedeltatree = "application/vnd.publishare-delta-tree"
@@ -2060,7 +2142,7 @@ imagexcmuraster = "image/x-cmu-raster"
 ras = "ras"
 imagexpanasonicrw = "image/x-panasonic-rw"
 raw = "raw"
-applicationxrawdiskimage = "application/x-raw-disk-image"
+applicationvndefiimg = "application/vnd.efi.img"
 rawdiskimage = "rawdiskimage"
 img = "img"
 applicationxrawdiskimagexzcompressed = "application/x-raw-disk-image-xz-compressed"
@@ -2487,12 +2569,16 @@ applicationxtar = "application/x-tar"
 tar = "tar"
 gtar = "gtar"
 gem = "gem"
-applicationxbzipcompressedtar = "application/x-bzip-compressed-tar"
-tarbz2 = "tarbz2"
+applicationxbzip1compressedtar = "application/x-bzip1-compressed-tar"
 tarbz = "tarbz"
-tbz2 = "tbz2"
 tbz = "tbz"
+applicationxbzip2compressedtar = "application/x-bzip2-compressed-tar"
+tarbz2 = "tarbz2"
+tbz2 = "tbz2"
 tb2 = "tb2"
+applicationxbzip3compressedtar = "application/x-bzip3-compressed-tar"
+tarbz3 = "tarbz3"
+tbz3 = "tbz3"
 applicationxcompressedtar = "application/x-compressed-tar"
 targz = "targz"
 tgz = "tgz"
@@ -2563,12 +2649,16 @@ tif = "tif"
 tiff = "tiff"
 applicationvndtmobilelivetv = "application/vnd.tmobile-livetv"
 tmo = "tmo"
+applicationxtiledtmx = "application/x-tiled-tmx"
+tmx = "tmx"
 applicationvndmstnef = "application/vnd.ms-tnef"
 tnef = "tnef"
 tnf = "tnf"
 winmaildat = "winmaildat"
 applicationxcdrdaotoc = "application/x-cdrdao-toc"
 toc = "toc"
+textxtodotxt = "text/x-todo-txt"
+todotxt = "todotxt"
 applicationtoml = "application/toml"
 toml = "toml"
 applicationxbittorrent = "application/x-bittorrent"
@@ -2592,6 +2682,8 @@ applicationtimestampeddata = "application/timestamped-data"
 tsd = "tsd"
 texttabseparatedvalues = "text/tab-separated-values"
 tsv = "tsv"
+applicationxtiledtsx = "application/x-tiled-tsx"
+tsx = "tsx"
 audioxtta = "audio/x-tta"
 tta = "tta"
 fontcollection = "font/collection"
@@ -2621,6 +2713,8 @@ _def = "def"
 list = "list"
 _in = "in"
 ini = "ini"
+textxtypst = "text/x-typst"
+typ = "typ"
 modelu3d = "model/u3d"
 u3d = "u3d"
 messageglobaldeliverystatus = "message/global-delivery-status"
@@ -2664,6 +2758,8 @@ uris = "uris"
 urls = "urls"
 applicationxmswinurl = "application/x-mswinurl"
 url = "url"
+modelvndusda = "model/vnd.usda"
+usda = "usda"
 modelvndusdz_zip = "model/vnd.usdz+zip"
 usdz = "usdz"
 applicationxustar = "application/x-ustar"
@@ -2720,6 +2816,8 @@ vala = "vala"
 vapi = "vapi"
 applicationxvirtualboyrom = "application/x-virtual-boy-rom"
 vb = "vb"
+textvbscriptencode = "text/vbscript.encode"
+vbe = "vbe"
 applicationxvirtualboxvbox = "application/x-virtualbox-vbox"
 vbox = "vbox"
 applicationxvirtualboxvboxextpack = "application/x-virtualbox-vbox-extpack"
@@ -2796,12 +2894,9 @@ applicationxwiiwad = "application/x-wii-wad"
 wad = "wad"
 applicationvndsunwadl_xml = "application/vnd.sun.wadl+xml"
 wadl = "wadl"
-applicationjavaarchive = "application/java-archive"
-war = "war"
-ear = "ear"
 applicationwasm = "application/wasm"
 wasm = "wasm"
-audioxwav = "audio/x-wav"
+audiovndwave = "audio/vnd.wave"
 wav = "wav"
 applicationxquattropro = "application/x-quattropro"
 wb1 = "wb1"
@@ -2818,8 +2913,6 @@ wcm = "wcm"
 wdb = "wdb"
 wps = "wps"
 xlr = "xlr"
-imagevndmsphoto = "image/vnd.ms-photo"
-wdp = "wdp"
 audiowebm = "audio/webm"
 weba = "weba"
 applicationxwebappmanifest_json = "application/x-web-app-manifest+json"
@@ -2832,6 +2925,8 @@ imagewebp = "image/webp"
 webp = "webp"
 applicationvndpmiwidget = "application/vnd.pmi.widget"
 wg = "wg"
+textwgsl = "text/wgsl"
+wgsl = "wgsl"
 applicationwidget = "application/widget"
 wgt = "wgt"
 applicationwatcherinfo_xml = "application/watcherinfo+xml"
@@ -3042,7 +3137,7 @@ chemicalxxyz = "chemical/x-xyz"
 xyz = "xyz"
 applicationxxz = "application/x-xz"
 xz = "xz"
-applicationxyaml = "application/x-yaml"
+applicationyaml = "application/yaml"
 yaml = "yaml"
 yml = "yml"
 applicationyang = "application/yang"
@@ -3078,6 +3173,8 @@ applicationvndhandheldentertainment_xml = "application/vnd.handheld-entertainmen
 zmm = "zmm"
 applicationxzoo = "application/x-zoo"
 zoo = "zoo"
+applicationxzpaq = "application/x-zpaq"
+zpaq = "zpaq"
 applicationzstd = "application/zstd"
 zst = "zst"
 applicationzlib = "application/zlib"
@@ -3104,6 +3201,9 @@ def getMimeType(fileName):
 
     if extension == zst:
         return applicationzstd
+
+    if extension == zpaq:
+        return applicationxzpaq
 
     if extension == zoo:
         return applicationxzoo
@@ -3148,7 +3248,7 @@ def getMimeType(fileName):
         return applicationyang
 
     if extension in (yaml, yml):
-        return applicationxyaml
+        return applicationyaml
 
     if extension == xz:
         return applicationxxz
@@ -3465,6 +3565,10 @@ def getMimeType(fileName):
         return applicationwidget
 
     # iana
+    if extension == wgsl:
+        return textwgsl
+
+    # iana
     if extension == wg:
         return applicationvndpmiwidget
 
@@ -3485,10 +3589,6 @@ def getMimeType(fileName):
     if extension == weba:
         return audiowebm
 
-    # apache
-    if extension == wdp:
-        return imagevndmsphoto
-
     if extension in (wcm, wdb, wps, xlr):
         return applicationvndmsworks
 
@@ -3507,15 +3607,10 @@ def getMimeType(fileName):
         return applicationxquattropro
 
     if extension == wav:
-        return audioxwav
+        return audiovndwave
 
-    # iana
     if extension == wasm:
         return applicationwasm
-
-    # apache
-    if extension in (war, ear):
-        return applicationjavaarchive
 
     # iana
     if extension == wadl:
@@ -3623,6 +3718,9 @@ def getMimeType(fileName):
     if extension == vbox:
         return applicationxvirtualboxvbox
 
+    if extension == vbe:
+        return textvbscriptencode
+
     if extension == vb:
         return applicationxvirtualboyrom
 
@@ -3694,6 +3792,10 @@ def getMimeType(fileName):
     if extension == usdz:
         return modelvndusdz_zip
 
+    # iana
+    if extension == usda:
+        return modelvndusda
+
     if extension == url:
         return applicationxmswinurl
 
@@ -3756,6 +3858,9 @@ def getMimeType(fileName):
     if extension == u3d:
         return modelu3d
 
+    if extension == typ:
+        return textxtypst
+
     if extension in (txt, text, conf, _def, list, _in, ini):
         return textplain
 
@@ -3792,6 +3897,9 @@ def getMimeType(fileName):
 
     if extension == tta:
         return audioxtta
+
+    if extension == tsx:
+        return applicationxtiledtsx
 
     if extension == tsv:
         return texttabseparatedvalues
@@ -3831,11 +3939,17 @@ def getMimeType(fileName):
     if extension == toml:
         return applicationtoml
 
+    if extension == todotxt:
+        return textxtodotxt
+
     if extension == toc:
         return applicationxcdrdaotoc
 
     if extension in (tnef, tnf, winmaildat):
         return applicationvndmstnef
+
+    if extension == tmx:
+        return applicationxtiledtmx
 
     # iana
     if extension == tmo:
@@ -3844,7 +3958,6 @@ def getMimeType(fileName):
     if extension in (tif, tiff):
         return imagetiff
 
-    # iana
     if extension == thmx:
         return applicationvndmsofficetheme
 
@@ -3921,8 +4034,14 @@ def getMimeType(fileName):
     if extension in (targz, tgz):
         return applicationxcompressedtar
 
-    if extension in (tarbz2, tarbz, tbz2, tbz, tb2):
-        return applicationxbzipcompressedtar
+    if extension in (tarbz3, tbz3):
+        return applicationxbzip3compressedtar
+
+    if extension in (tarbz2, tbz2, tb2):
+        return applicationxbzip2compressedtar
+
+    if extension in (tarbz, tbz):
+        return applicationxbzip1compressedtar
 
     if extension in (tar, gtar, gem):
         return applicationxtar
@@ -4219,7 +4338,6 @@ def getMimeType(fileName):
     if extension in (siv, sieve):
         return applicationsieve
 
-    # apache
     if extension == sitx:
         return applicationxstuffitx
 
@@ -4573,7 +4691,7 @@ def getMimeType(fileName):
         return applicationxrawdiskimagexzcompressed
 
     if extension in (rawdiskimage, img):
-        return applicationxrawdiskimage
+        return applicationvndefiimg
 
     if extension == raw:
         return imagexpanasonicrw
@@ -4625,6 +4743,9 @@ def getMimeType(fileName):
 
     if extension == qp:
         return applicationxqpress
+
+    if extension == qoi:
+        return imageqoi
 
     if extension in (qml, qmltypes, qmlproject):
         return textxqml
@@ -4728,6 +4849,9 @@ def getMimeType(fileName):
     if extension == psb:
         return applicationvnd3gpppicbwsmall
 
+    if extension == ps1:
+        return applicationxpowershell
+
     if extension == ps:
         return applicationpostscript
 
@@ -4767,7 +4891,6 @@ def getMimeType(fileName):
     if extension == ppm:
         return imagexportablepixmap
 
-    # iana
     if extension == ppd:
         return applicationvndcupsppd
 
@@ -4855,12 +4978,14 @@ def getMimeType(fileName):
     if extension == pgm:
         return imagexportablegraymap
 
-    # iana
     if extension == pfr:
         return applicationfonttdpfr
 
     if extension in (pfa, pfb, gsf, pfm):
         return applicationxfonttype1
+
+    if extension == perfdata:
+        return applicationxperfdata
 
     if extension == pef:
         return imagexpentaxpef
@@ -5043,6 +5168,9 @@ def getMimeType(fileName):
     if extension == opf:
         return applicationoebpspackage_xml
 
+    if extension in (openvpn, ovpn):
+        return applicationxopenvpnprofile
+
     if extension == ooc:
         return textxooc
 
@@ -5138,6 +5266,9 @@ def getMimeType(fileName):
     if extension == numbers:
         return applicationvndapplenumbers
 
+    if extension == nu:
+        return applicationxnuscript
+
     # iana
     if extension in (ntf, nitf):
         return applicationvndnitf
@@ -5186,6 +5317,12 @@ def getMimeType(fileName):
     # iana
     if extension == nlu:
         return applicationvndneurolanguagenlu
+
+    if extension in (nims, nimble):
+        return textxnimscript
+
+    if extension == nim:
+        return textxnim
 
     if extension == ngp:
         return applicationxneogeopocketrom
@@ -5293,6 +5430,12 @@ def getMimeType(fileName):
     if extension == msl:
         return applicationvndmobiusmsl
 
+    if extension == msixbundle:
+        return applicationmsixbundle
+
+    if extension == msix:
+        return applicationmsix
+
     if extension == msi:
         return applicationxmsi
 
@@ -5324,6 +5467,9 @@ def getMimeType(fileName):
 
     if extension == mrw:
         return imagexminoltamrw
+
+    if extension == mrpack:
+        return applicationxmodrinthmodpack_zip
 
     if extension in (mrml, mrl):
         return textxmrml
@@ -5364,6 +5510,10 @@ def getMimeType(fileName):
         return applicationvndappleinstaller_xml
 
     # iana
+    if extension in (mpg4, mp4s, m4p):
+        return applicationmp4
+
+    # iana
     if extension == mpf:
         return applicationmediapolicydataset_xml
 
@@ -5377,11 +5527,7 @@ def getMimeType(fileName):
     if extension in (mpc, mpp, mp):
         return audioxmusepack
 
-    # iana
-    if extension in (mp4s, m4p):
-        return applicationmp4
-
-    if extension in (mp4, m4v, f4v, lrv, mp4v, mpg4):
+    if extension in (mp4, m4v, f4v, lrv, mp4v):
         return videomp4
 
     if extension in (mp3, mpga, mp2a, m2a, m3a):
@@ -5505,8 +5651,8 @@ def getMimeType(fileName):
     if extension == mdi:
         return imagevndmsmodi
 
-    if extension == mdb:
-        return applicationvndmsaccess
+    if extension in (mdb, lmdb):
+        return applicationxlmdb
 
     if extension in (md, mkd, markdown):
         return textmarkdown
@@ -5653,7 +5799,6 @@ def getMimeType(fileName):
     if extension == lnx:
         return applicationxatarilynxrom
 
-    # apache
     if extension == lnk:
         return applicationxmsshortcut
 
@@ -5811,12 +5956,15 @@ def getMimeType(fileName):
     if extension == jxra:
         return imagejxra
 
-    # iana
-    if extension == jxr:
+    if extension in (jxr, hdp, wdp):
         return imagejxr
 
     if extension == jxl:
         return imagejxl
+
+    # iana
+    if extension == jt:
+        return modeljt
 
     if extension == jsx:
         return textjsx
@@ -5836,6 +5984,9 @@ def getMimeType(fileName):
 
     if extension in (json, map):
         return applicationjson
+
+    if extension == jse:
+        return textjscriptencode
 
     if extension in (js, jsm, mjs):
         return textjavascript
@@ -5857,7 +6008,7 @@ def getMimeType(fileName):
     if extension == jpgv:
         return videojpeg
 
-    if extension in (jpg, jpeg, jpe):
+    if extension in (jpg, jpeg, jpe, jfif):
         return imagejpeg
 
     if extension == jpf:
@@ -5884,6 +6035,9 @@ def getMimeType(fileName):
     if extension == jls:
         return imagejls
 
+    if extension == jl:
+        return textjulia
+
     if extension in (jks, ks, cacerts):
         return applicationxjavakeystore
 
@@ -5905,8 +6059,8 @@ def getMimeType(fileName):
     if extension == jardiff:
         return applicationxjavaarchivediff
 
-    if extension == jar:
-        return applicationxjavaarchive
+    if extension in (jar, war, ear):
+        return applicationjavaarchive
 
     # iana
     if extension == jam:
@@ -5929,7 +6083,6 @@ def getMimeType(fileName):
     if extension == ivp:
         return applicationvndimmervisionivp
 
-    # iana
     if extension == its:
         return applicationits_xml
 
@@ -5944,7 +6097,7 @@ def getMimeType(fileName):
         return audioxit
 
     if extension in (iso, iso9660):
-        return applicationxcdimage
+        return applicationvndefiiso
 
     # iana
     if extension == irp:
@@ -6067,7 +6220,6 @@ def getMimeType(fileName):
     if extension == htke:
         return applicationvndkenameaapp
 
-    # nginx
     if extension == htc:
         return textxcomponent
 
@@ -6078,7 +6230,6 @@ def getMimeType(fileName):
     if extension == hs:
         return textxhaskell
 
-    # iana
     if extension == hqx:
         return applicationmacbinhex40
 
@@ -6309,7 +6460,7 @@ def getMimeType(fileName):
         return applicationxgenesisrom
 
     if extension in (ged, gedcom):
-        return applicationxgedcom
+        return textvndfamilysearchgedcom
 
     if extension == gdshader:
         return applicationxgodotshader
@@ -6333,6 +6484,9 @@ def getMimeType(fileName):
     # apache
     if extension == gca:
         return applicationxgcacompressed
+
+    if extension == gbrjob:
+        return applicationxgerberjob
 
     if extension == gbr:
         return imagexgimpgbr
@@ -6461,6 +6615,9 @@ def getMimeType(fileName):
     if extension in (fits, fit, fts):
         return applicationfits
 
+    if extension == fish:
+        return applicationxfishscript
+
     if extension == fig:
         return imagexxfig
 
@@ -6540,8 +6697,8 @@ def getMimeType(fileName):
     if extension == exi:
         return applicationexi
 
-    if extension == exe:
-        return applicationxmsdosexecutable
+    if extension in (exe, dll, cpl, drv, scr, com):
+        return applicationxmsdownload
 
     if extension in (ex, exs):
         return textxelixir
@@ -6577,6 +6734,9 @@ def getMimeType(fileName):
 
     if extension == erl:
         return textxerlang
+
+    if extension == eris:
+        return applicationxerislink_cbor
 
     if extension == epub:
         return applicationepub_zip
@@ -6629,12 +6789,18 @@ def getMimeType(fileName):
     if extension == ei6:
         return applicationvndpgosasli
 
+    if extension in (ehthumbsdb, ehthumbsvistadb, imagedb, musicthumbsdb, thumbsdb, tvthumbdb, videodb):
+        return applicationvndmicrosoftwindowsthumbnailcache
+
     if extension == egon:
         return applicationxegon
 
     # iana
     if extension == efif:
         return applicationvndpicsel
+
+    if extension in (efi, ocx, sys, lib):
+        return applicationvndmicrosoftportableexecutable
 
     # iana
     if extension == edx:
@@ -6726,9 +6892,16 @@ def getMimeType(fileName):
     if extension == drle:
         return imagedicomrle
 
+    if extension == drl:
+        return applicationxexcellon
+
     # iana
     if extension == dra:
         return audiovnddra
+
+    # iana
+    if extension == dpx:
+        return imagedpx
 
     # iana
     if extension == dpg:
@@ -6843,14 +7016,14 @@ def getMimeType(fileName):
         return applicationxdocbook_xml
 
     if extension == dbf:
-        return applicationxdbf
+        return applicationvnddbf
 
     # iana
     if extension == davmount:
         return applicationdavmount_xml
 
     if extension == dart:
-        return textxdart
+        return applicationvnddart
 
     if extension == dar:
         return applicationxdar
@@ -6957,10 +7130,6 @@ def getMimeType(fileName):
     if extension in (cpp, cxx, cc, c):
         return textxc__src
 
-    # iana
-    if extension == cpl:
-        return applicationcpl_xml
-
     if extension == cpiogz:
         return applicationxcpiocompressed
 
@@ -6972,10 +7141,6 @@ def getMimeType(fileName):
 
     if extension == copying:
         return textxcopying
-
-    # apache
-    if extension in (com, bat):
-        return applicationxmsdownload
 
     if extension == coffee:
         return applicationvndcoffeescript
@@ -7030,6 +7195,10 @@ def getMimeType(fileName):
     # iana
     if extension == clkk:
         return applicationvndcrickclickerkeyboard
+
+    # iana
+    if extension == cld:
+        return modelvndcld
 
     if extension == _class:
         return applicationxjava
@@ -7156,6 +7325,9 @@ def getMimeType(fileName):
     if extension == cbr:
         return applicationvndcomicbookrar
 
+    if extension == cbor:
+        return applicationcbor
+
     if extension in (cbl, cob):
         return textxcobol
 
@@ -7193,8 +7365,14 @@ def getMimeType(fileName):
     if extension == c11amc:
         return applicationvndcluetrustcartomobileconfig
 
-    if extension in (bz2, bz):
-        return applicationxbzip
+    if extension == bz3:
+        return applicationxbzip3
+
+    if extension in (bz2, boz):
+        return applicationxbzip2
+
+    if extension == bz:
+        return applicationxbzip1
 
     # iana
     if extension in (btif, btf):
@@ -7207,12 +7385,11 @@ def getMimeType(fileName):
     if extension == bsdiff:
         return applicationxbsdiff
 
+    if extension == brk:
+        return chemicalxpdb
+
     if extension == bps:
         return applicationxbpspatch
-
-    # apache
-    if extension == boz:
-        return applicationxbzip2
 
     # iana
     if extension == box:
@@ -7229,6 +7406,9 @@ def getMimeType(fileName):
     if extension == bmi:
         return applicationvndbmi
 
+    if extension == blp:
+        return textxblueprint
+
     if extension in (blend, blender):
         return applicationxblender
 
@@ -7237,7 +7417,7 @@ def getMimeType(fileName):
         return applicationxblorb
 
     # iana
-    if extension in (bin, dms, lrf, mar, dist, distz, bpk, dump, elc, deploy, dll, msp, msm, buffer):
+    if extension in (bin, dms, lrf, mar, dist, distz, bpk, dump, elc, deploy, msp, msm, buffer):
         return applicationoctetstream
 
     if extension in (bik, bk2):
@@ -7262,6 +7442,12 @@ def getMimeType(fileName):
 
     if extension == bcpio:
         return applicationxbcpio
+
+    if extension == bat:
+        return applicationxbat
+
+    if extension == bas:
+        return textxbasic
 
     if extension in (bak, old, sik):
         return applicationxtrash
@@ -7308,7 +7494,7 @@ def getMimeType(fileName):
         return imageavif
 
     if extension in (avi, avf, divx):
-        return videoxmsvideo
+        return videovndavi
 
     # iana
     if extension == avcs:
@@ -7389,9 +7575,18 @@ def getMimeType(fileName):
     if extension == apr:
         return applicationvndlotusapproach
 
+    if extension == appxbundle:
+        return applicationappxbundle
+
+    if extension == appx:
+        return applicationappx
+
     # apache
     if extension == application:
         return applicationxmsapplication
+
+    if extension == appinstaller:
+        return applicationappinstaller
 
     if extension == appimage:
         return applicationxiso9660appimage
@@ -7419,6 +7614,14 @@ def getMimeType(fileName):
 
     if extension == amr:
         return audioamr
+
+    # iana
+    if extension == amlx:
+        return applicationautomationmlamlx_zip
+
+    # iana
+    if extension == aml:
+        return applicationautomationmlaml_xml
 
     # iana
     if extension == ami:
@@ -7496,6 +7699,9 @@ def getMimeType(fileName):
 
     if extension in (abw, abwcrashed, abwgz, zabw):
         return applicationxabiword
+
+    if extension == aaxc:
+        return audiovndaudibleaaxc
 
     if extension == aax:
         return audiovndaudibleaax
@@ -7575,6 +7781,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationzstd:
         return [ "zst" ]
 
+    if mimeType == applicationxzpaq:
+        return [ "zpaq" ]
+
     if mimeType == applicationxzoo:
         return [ "zoo" ]
 
@@ -7611,7 +7820,7 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationyang:
         return [ "yang" ]
 
-    if mimeType == applicationxyaml:
+    if mimeType == applicationyaml:
         return [ "yaml", "yml" ]
 
     if mimeType == applicationxxz:
@@ -7884,6 +8093,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationwidget:
         return [ "wgt" ]
 
+    if mimeType == textwgsl:
+        return [ "wgsl" ]
+
     if mimeType == applicationvndpmiwidget:
         return [ "wg" ]
 
@@ -7902,9 +8114,6 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == audiowebm:
         return [ "weba" ]
 
-    if mimeType == imagevndmsphoto:
-        return [ "wdp" ]
-
     if mimeType == applicationvndmsworks:
         return [ "wcm", "wdb", "wps", "xlr" ]
 
@@ -7920,14 +8129,11 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxquattropro:
         return [ "wb1", "wb2", "wb3" ]
 
-    if mimeType == audioxwav:
+    if mimeType == audiovndwave:
         return [ "wav" ]
 
     if mimeType == applicationwasm:
         return [ "wasm" ]
-
-    if mimeType == applicationjavaarchive:
-        return [ "war", "ear" ]
 
     if mimeType == applicationvndsunwadl_xml:
         return [ "wadl" ]
@@ -8025,6 +8231,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxvirtualboxvbox:
         return [ "vbox" ]
 
+    if mimeType == textvbscriptencode:
+        return [ "vbe" ]
+
     if mimeType == applicationxvirtualboyrom:
         return [ "vb" ]
 
@@ -8082,6 +8291,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == modelvndusdz_zip:
         return [ "usdz" ]
 
+    if mimeType == modelvndusda:
+        return [ "usda" ]
+
     if mimeType == applicationxmswinurl:
         return [ "url" ]
 
@@ -8133,6 +8345,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == modelu3d:
         return [ "u3d" ]
 
+    if mimeType == textxtypst:
+        return [ "typ" ]
+
     if mimeType == textplain:
         return [ "txt", "text", "conf", "def", "list", "in", "ini" ]
 
@@ -8165,6 +8380,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == audioxtta:
         return [ "tta" ]
+
+    if mimeType == applicationxtiledtsx:
+        return [ "tsx" ]
 
     if mimeType == texttabseparatedvalues:
         return [ "tsv" ]
@@ -8199,11 +8417,17 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationtoml:
         return [ "toml" ]
 
+    if mimeType == textxtodotxt:
+        return [ "todotxt" ]
+
     if mimeType == applicationxcdrdaotoc:
         return [ "toc" ]
 
     if mimeType == applicationvndmstnef:
         return [ "tnef", "tnf", "winmaildat" ]
+
+    if mimeType == applicationxtiledtmx:
+        return [ "tmx" ]
 
     if mimeType == applicationvndtmobilelivetv:
         return [ "tmo" ]
@@ -8280,8 +8504,14 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxcompressedtar:
         return [ "targz", "tgz" ]
 
-    if mimeType == applicationxbzipcompressedtar:
-        return [ "tarbz2", "tarbz", "tbz2", "tbz", "tb2" ]
+    if mimeType == applicationxbzip3compressedtar:
+        return [ "tarbz3", "tbz3" ]
+
+    if mimeType == applicationxbzip2compressedtar:
+        return [ "tarbz2", "tbz2", "tb2" ]
+
+    if mimeType == applicationxbzip1compressedtar:
+        return [ "tarbz", "tbz" ]
 
     if mimeType == applicationxtar:
         return [ "tar", "gtar", "gem" ]
@@ -8850,7 +9080,7 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxrawdiskimagexzcompressed:
         return [ "rawdiskimagexz", "imgxz" ]
 
-    if mimeType == applicationxrawdiskimage:
+    if mimeType == applicationvndefiimg:
         return [ "rawdiskimage", "img" ]
 
     if mimeType == imagexpanasonicrw:
@@ -8900,6 +9130,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationxqpress:
         return [ "qp" ]
+
+    if mimeType == imageqoi:
+        return [ "qoi" ]
 
     if mimeType == textxqml:
         return [ "qml", "qmltypes", "qmlproject" ]
@@ -8990,6 +9223,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationvnd3gpppicbwsmall:
         return [ "psb" ]
+
+    if mimeType == applicationxpowershell:
+        return [ "ps1" ]
 
     if mimeType == applicationpostscript:
         return [ "ps" ]
@@ -9113,6 +9349,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationxfonttype1:
         return [ "pfa", "pfb", "gsf", "pfm" ]
+
+    if mimeType == applicationxperfdata:
+        return [ "perfdata" ]
 
     if mimeType == imagexpentaxpef:
         return [ "pef" ]
@@ -9285,6 +9524,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationoebpspackage_xml:
         return [ "opf" ]
 
+    if mimeType == applicationxopenvpnprofile:
+        return [ "openvpn", "ovpn" ]
+
     if mimeType == textxooc:
         return [ "ooc" ]
 
@@ -9372,6 +9614,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndapplenumbers:
         return [ "numbers" ]
 
+    if mimeType == applicationxnuscript:
+        return [ "nu" ]
+
     if mimeType == applicationvndnitf:
         return [ "ntf", "nitf" ]
 
@@ -9410,6 +9655,12 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationvndneurolanguagenlu:
         return [ "nlu" ]
+
+    if mimeType == textxnimscript:
+        return [ "nims", "nimble" ]
+
+    if mimeType == textxnim:
+        return [ "nim" ]
 
     if mimeType == applicationxneogeopocketrom:
         return [ "ngp" ]
@@ -9501,6 +9752,12 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndmobiusmsl:
         return [ "msl" ]
 
+    if mimeType == applicationmsixbundle:
+        return [ "msixbundle" ]
+
+    if mimeType == applicationmsix:
+        return [ "msix" ]
+
     if mimeType == applicationxmsi:
         return [ "msi" ]
 
@@ -9527,6 +9784,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == imagexminoltamrw:
         return [ "mrw" ]
+
+    if mimeType == applicationxmodrinthmodpack_zip:
+        return [ "mrpack" ]
 
     if mimeType == textxmrml:
         return [ "mrml", "mrl" ]
@@ -9558,6 +9818,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndappleinstaller_xml:
         return [ "mpkg" ]
 
+    if mimeType == applicationmp4:
+        return [ "mpg4", "mp4s", "m4p" ]
+
     if mimeType == applicationmediapolicydataset_xml:
         return [ "mpf" ]
 
@@ -9570,11 +9833,8 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == audioxmusepack:
         return [ "mpc", "mpp", "mp" ]
 
-    if mimeType == applicationmp4:
-        return [ "mp4s", "m4p" ]
-
     if mimeType == videomp4:
-        return [ "mp4", "m4v", "f4v", "lrv", "mp4v", "mpg4" ]
+        return [ "mp4", "m4v", "f4v", "lrv", "mp4v" ]
 
     if mimeType == audiompeg:
         return [ "mp3", "mpga", "mp2a", "m2a", "m3a" ]
@@ -9687,8 +9947,8 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == imagevndmsmodi:
         return [ "mdi" ]
 
-    if mimeType == applicationvndmsaccess:
-        return [ "mdb" ]
+    if mimeType == applicationxlmdb:
+        return [ "mdb", "lmdb" ]
 
     if mimeType == textmarkdown:
         return [ "md", "mkd", "markdown" ]
@@ -9964,10 +10224,13 @@ def getMimeTypeFileExtensions(mimeType):
         return [ "jxra" ]
 
     if mimeType == imagejxr:
-        return [ "jxr" ]
+        return [ "jxr", "hdp", "wdp" ]
 
     if mimeType == imagejxl:
         return [ "jxl" ]
+
+    if mimeType == modeljt:
+        return [ "jt" ]
 
     if mimeType == textjsx:
         return [ "jsx" ]
@@ -9986,6 +10249,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationjson:
         return [ "json", "map" ]
+
+    if mimeType == textjscriptencode:
+        return [ "jse" ]
 
     if mimeType == textjavascript:
         return [ "js", "jsm", "mjs" ]
@@ -10006,7 +10272,7 @@ def getMimeTypeFileExtensions(mimeType):
         return [ "jpgv" ]
 
     if mimeType == imagejpeg:
-        return [ "jpg", "jpeg", "jpe" ]
+        return [ "jpg", "jpeg", "jpe", "jfif" ]
 
     if mimeType == imagejpx:
         return [ "jpf" ]
@@ -10029,6 +10295,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == imagejls:
         return [ "jls" ]
 
+    if mimeType == textjulia:
+        return [ "jl" ]
+
     if mimeType == applicationxjavakeystore:
         return [ "jks", "ks", "cacerts" ]
 
@@ -10047,8 +10316,8 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxjavaarchivediff:
         return [ "jardiff" ]
 
-    if mimeType == applicationxjavaarchive:
-        return [ "jar" ]
+    if mimeType == applicationjavaarchive:
+        return [ "jar", "war", "ear" ]
 
     if mimeType == applicationvndjam:
         return [ "jam" ]
@@ -10080,7 +10349,7 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == audioxit:
         return [ "it" ]
 
-    if mimeType == applicationxcdimage:
+    if mimeType == applicationvndefiiso:
         return [ "iso", "iso9660" ]
 
     if mimeType == applicationvndirepositorypackage_xml:
@@ -10395,7 +10664,7 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxgenesisrom:
         return [ "gen", "sgd" ]
 
-    if mimeType == applicationxgedcom:
+    if mimeType == textvndfamilysearchgedcom:
         return [ "ged", "gedcom" ]
 
     if mimeType == applicationxgodotshader:
@@ -10418,6 +10687,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationxgcacompressed:
         return [ "gca" ]
+
+    if mimeType == applicationxgerberjob:
+        return [ "gbrjob" ]
 
     if mimeType == imagexgimpgbr:
         return [ "gbr" ]
@@ -10530,6 +10802,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationfits:
         return [ "fits", "fit", "fts" ]
 
+    if mimeType == applicationxfishscript:
+        return [ "fish" ]
+
     if mimeType == imagexxfig:
         return [ "fig" ]
 
@@ -10596,8 +10871,8 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationexi:
         return [ "exi" ]
 
-    if mimeType == applicationxmsdosexecutable:
-        return [ "exe" ]
+    if mimeType == applicationxmsdownload:
+        return [ "exe", "dll", "cpl", "drv", "scr", "com" ]
 
     if mimeType == textxelixir:
         return [ "ex", "exs" ]
@@ -10628,6 +10903,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == textxerlang:
         return [ "erl" ]
+
+    if mimeType == applicationxerislink_cbor:
+        return [ "eris" ]
 
     if mimeType == applicationepub_zip:
         return [ "epub" ]
@@ -10674,11 +10952,17 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndpgosasli:
         return [ "ei6" ]
 
+    if mimeType == applicationvndmicrosoftwindowsthumbnailcache:
+        return [ "ehthumbsdb", "ehthumbsvistadb", "imagedb", "musicthumbsdb", "thumbsdb", "tvthumbdb", "videodb" ]
+
     if mimeType == applicationxegon:
         return [ "egon" ]
 
     if mimeType == applicationvndpicsel:
         return [ "efif" ]
+
+    if mimeType == applicationvndmicrosoftportableexecutable:
+        return [ "efi", "ocx", "sys", "lib" ]
 
     if mimeType == applicationvndnovadigmedx:
         return [ "edx" ]
@@ -10758,8 +11042,14 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == imagedicomrle:
         return [ "drle" ]
 
+    if mimeType == applicationxexcellon:
+        return [ "drl" ]
+
     if mimeType == audiovnddra:
         return [ "dra" ]
+
+    if mimeType == imagedpx:
+        return [ "dpx" ]
 
     if mimeType == applicationvnddpgraph:
         return [ "dpg" ]
@@ -10860,13 +11150,13 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxdocbook_xml:
         return [ "dbk", "docbook" ]
 
-    if mimeType == applicationxdbf:
+    if mimeType == applicationvnddbf:
         return [ "dbf" ]
 
     if mimeType == applicationdavmount_xml:
         return [ "davmount" ]
 
-    if mimeType == textxdart:
+    if mimeType == applicationvnddart:
         return [ "dart" ]
 
     if mimeType == applicationxdar:
@@ -10962,9 +11252,6 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == textxc__src:
         return [ "cpp", "cxx", "cc", "c" ]
 
-    if mimeType == applicationcpl_xml:
-        return [ "cpl" ]
-
     if mimeType == applicationxcpiocompressed:
         return [ "cpiogz" ]
 
@@ -10976,9 +11263,6 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == textxcopying:
         return [ "copying" ]
-
-    if mimeType == applicationxmsdownload:
-        return [ "com", "bat" ]
 
     if mimeType == applicationvndcoffeescript:
         return [ "coffee" ]
@@ -11021,6 +11305,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationvndcrickclickerkeyboard:
         return [ "clkk" ]
+
+    if mimeType == modelvndcld:
+        return [ "cld" ]
 
     if mimeType == applicationxjava:
         return [ "class" ]
@@ -11127,6 +11414,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndcomicbookrar:
         return [ "cbr" ]
 
+    if mimeType == applicationcbor:
+        return [ "cbor" ]
+
     if mimeType == textxcobol:
         return [ "cbl", "cob" ]
 
@@ -11157,8 +11447,14 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndcluetrustcartomobileconfig:
         return [ "c11amc" ]
 
-    if mimeType == applicationxbzip:
-        return [ "bz2", "bz" ]
+    if mimeType == applicationxbzip3:
+        return [ "bz3" ]
+
+    if mimeType == applicationxbzip2:
+        return [ "bz2", "boz" ]
+
+    if mimeType == applicationxbzip1:
+        return [ "bz" ]
 
     if mimeType == imageprsbtif:
         return [ "btif", "btf" ]
@@ -11169,11 +11465,11 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationxbsdiff:
         return [ "bsdiff" ]
 
+    if mimeType == chemicalxpdb:
+        return [ "brk" ]
+
     if mimeType == applicationxbpspatch:
         return [ "bps" ]
-
-    if mimeType == applicationxbzip2:
-        return [ "boz" ]
 
     if mimeType == applicationvndpreviewsystemsbox:
         return [ "box" ]
@@ -11187,6 +11483,9 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndbmi:
         return [ "bmi" ]
 
+    if mimeType == textxblueprint:
+        return [ "blp" ]
+
     if mimeType == applicationxblender:
         return [ "blend", "blender" ]
 
@@ -11194,7 +11493,7 @@ def getMimeTypeFileExtensions(mimeType):
         return [ "blb", "blorb" ]
 
     if mimeType == applicationoctetstream:
-        return [ "bin", "dms", "lrf", "mar", "dist", "distz", "bpk", "dump", "elc", "deploy", "dll", "msp", "msm", "buffer" ]
+        return [ "bin", "dms", "lrf", "mar", "dist", "distz", "bpk", "dump", "elc", "deploy", "msp", "msm", "buffer" ]
 
     if mimeType == videovndradgamettoolsbink:
         return [ "bik", "bk2" ]
@@ -11216,6 +11515,12 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationxbcpio:
         return [ "bcpio" ]
+
+    if mimeType == applicationxbat:
+        return [ "bat" ]
+
+    if mimeType == textxbasic:
+        return [ "bas" ]
 
     if mimeType == applicationxtrash:
         return [ "bak", "old", "sik" ]
@@ -11256,7 +11561,7 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == imageavif:
         return [ "avif", "avifs" ]
 
-    if mimeType == videoxmsvideo:
+    if mimeType == videovndavi:
         return [ "avi", "avf", "divx" ]
 
     if mimeType == imageavcs:
@@ -11328,8 +11633,17 @@ def getMimeTypeFileExtensions(mimeType):
     if mimeType == applicationvndlotusapproach:
         return [ "apr" ]
 
+    if mimeType == applicationappxbundle:
+        return [ "appxbundle" ]
+
+    if mimeType == applicationappx:
+        return [ "appx" ]
+
     if mimeType == applicationxmsapplication:
         return [ "application" ]
+
+    if mimeType == applicationappinstaller:
+        return [ "appinstaller" ]
 
     if mimeType == applicationxiso9660appimage:
         return [ "appimage" ]
@@ -11357,6 +11671,12 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == audioamr:
         return [ "amr" ]
+
+    if mimeType == applicationautomationmlamlx_zip:
+        return [ "amlx" ]
+
+    if mimeType == applicationautomationmlaml_xml:
+        return [ "aml" ]
 
     if mimeType == applicationvndamigaami:
         return [ "ami" ]
@@ -11423,6 +11743,9 @@ def getMimeTypeFileExtensions(mimeType):
 
     if mimeType == applicationxabiword:
         return [ "abw", "abwcrashed", "abwgz", "zabw" ]
+
+    if mimeType == audiovndaudibleaaxc:
+        return [ "aaxc" ]
 
     if mimeType == audiovndaudibleaax:
         return [ "aax" ]

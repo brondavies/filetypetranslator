@@ -2,12 +2,13 @@
 <package >
   <metadata>
     <id>FTTLib.dll</id>
-    <version>1.1.4</version>
+    <version>1.1.5</version>
     <authors>Bron Davies</authors>
     <owners>Bron Davies</owners>
     <title>File Type Translator (FTT) Library</title>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/brondavies/filetypetranslator/</projectUrl>
+	<readme>docs\README.md</readme>
     <repository url="https://github.com/brondavies/filetypetranslator/" type="git"></repository>
     <icon>img\ftt-icon.png</icon>
     <releaseNotes>See release notes on GitHub https://github.com/brondavies/filetypetranslator/</releaseNotes>
@@ -32,5 +33,6 @@
     <file src="bin\Release\netcoreapp3.1\FTTLib.xml" target="lib\netcoreapp3.1" />
     <file src="bin\Release\netcoreapp3.1\FTTLib.deps.json" target="lib\netcoreapp3.1" />
     <file src="..\..\..\ftt-icon.png" target="img\" />
+	<file src="..\..\..\README.md" target="docs" />
   </files>
 </package>

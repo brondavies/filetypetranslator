@@ -69,6 +69,7 @@
     <Compile Include="Extensions.cs" />
     <Compile Include="generators\CodeGeneratorBase.cs" />
     <Compile Include="generators\CsharpGenerator.cs" />
+    <Compile Include="generators\JavascriptGenerator.cs" />
     <Compile Include="generators\PythonGenerator.cs" />
     <Compile Include="gen\freedesktop.org.xml.in.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -113,6 +114,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Properties\JavascriptClass.js" />
     <Content Include="Properties\PythonClass.py" />
   </ItemGroup>
   <ItemGroup>

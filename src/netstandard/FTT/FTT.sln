@@ -13,6 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 		..\..\..\README.md = ..\..\..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{382A5BEB-A39D-439B-87C3-2EF6CCDE9544}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\python\deploy.cmd = ..\..\python\deploy.cmd
+		..\..\python\fttlib\FTT.py = ..\..\python\fttlib\FTT.py
+		..\..\python\README.md = ..\..\python\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node", "node", "{0116F007-D04C-4FBE-9C91-21EF657899E3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\node\deploy.cmd = ..\..\node\deploy.cmd
+		..\..\node\dist\FTT.js = ..\..\node\dist\FTT.js
+		..\..\node\package.json = ..\..\node\package.json
+		..\..\node\README.md = ..\..\node\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

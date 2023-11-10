@@ -11,7 +11,8 @@ namespace FTT
             {
                 Sources.Parse(
                     typeof(CsharpGenerator),
-                    typeof(PythonGenerator)
+                    typeof(PythonGenerator),
+                    typeof(JavascriptGenerator)
                     );
             }
             catch (Exception e)

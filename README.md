@@ -2,13 +2,16 @@
 
 [![NuGet version (FTTLib)](https://img.shields.io/nuget/v/FTTLib.dll.svg?style=flat-square)](https://www.nuget.org/packages/FTTLib.dll/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/FTTLib.dll.svg)](https://www.nuget.org/packages/FTTLib.dll/)
+[![npm](https://badge.fury.io/js/fttlib.svg)](https://www.npmjs.com/package/fttlib/)
 [![PyPI](https://badge.fury.io/py/fttlib.svg)](https://pypi.org/project/fttlib/)
 [![CodeQL](https://github.com/brondavies/filetypetranslator/workflows/CodeQL/badge.svg)](https://github.com/brondavies/filetypetranslator/actions?query=workflow%3ACodeQL)
 
-A library of helper methods for your .Net project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
+A library of helper methods for your .Net, Javascript or Python projects to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
 
 # Releases
-Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll) 
+Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll), [npm package](https://www.npmjs.com/package/fttlib/), or
+[PyPI package](https://pypi.org/project/fttlib/)
+
 #### 1.1.5 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
 #### 1.1.4 - Multi-framework targeting nuget package
 #### 1.1.3 - Updated sources, Notably the mime type for .js is now text/javascript instead of application/javascript according to the [IANA standard specification](https://www.iana.org/assignments/media-types/application/javascript)
@@ -18,6 +21,18 @@ Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll)
 #### 1.0.3 - Initial public release
 
 # Examples
+
+#### Install
+
+```sh
+dotnet add package FTTLib.dll
+```
+
+#### Import the library
+
+```csharp
+using FTTLib;
+```
 
 ####  When you need to know the mime type of a file based on its extension.
 

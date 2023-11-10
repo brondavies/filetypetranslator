@@ -10,6 +10,12 @@ Available as a [pypi package](https://pypi.org/packages/fttlib)
 
 # Examples
 
+#### Install
+
+```sh
+pip install fttlib
+```
+
 #### Import the library
 
 ```python

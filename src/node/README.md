@@ -4,9 +4,15 @@ A library of helper methods for your Javascript project to get [mime types](http
 
 # Releases
 Available as an [npm package](https://npmjs.org/packages/fttlib)
-#### 1.1.5 - Initial javascript (Node.js) release
+#### 1.1.5 - Initial Javascript (Node.js) release
 
 # Examples
+
+#### Install
+
+```sh
+npm i fttlib
+```
 
 #### Import the library
 

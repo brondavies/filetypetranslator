@@ -1,29 +1,27 @@
 # ![FTT Logo](https://raw.githubusercontent.com/brondavies/filetypetranslator/master/ftt-icon.png) File Type Translator (FTT)
 
-A library of helper methods for your Python project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
+A library of helper methods for your Javascript project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
 
 # Releases
-Available as a [pypi package](https://pypi.org/packages/fttlib)
-#### 1.1.5 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
-#### 1.1.3 - Updated sources, Notably the mime type for .js is now text/javascript instead of application/javascript according to the [IANA standard specification](https://www.iana.org/assignments/media-types/application/javascript)
-#### 1.1.2 - Initial python release
+Available as an [npm package](https://npmjs.org/packages/fttlib)
+#### 1.1.5 - Initial javascript (Node.js) release
 
 # Examples
 
 #### Import the library
 
-```python
-from FTTLib import FTT
+```js
+import { FTT } from 'fttlib'
 ```
 
 ####  When you need to know the mime type of a file based on its extension.
 
-```python
-mimeType = FTT.getMimeType("Path/To/My/File.doc")
-print(mimeType)
+```js
+let mimeType = FTT.getMimeType("Path/To/My/File.doc")
+console.log(mimeType)
 
 mimeType = FTT.getMimeType("Path/To/My/File.docx")
-print(mimeType)
+console.log(mimeType)
 
 >  application/msword
 >  application/vnd.openxmlformats-officedocument.wordprocessingml.document
@@ -31,22 +29,22 @@ print(mimeType)
 
 ####  When you need to know the file type category of a file based on its extension.
 
-```python
-category = FTT.getFileCategory("Path/To/My/File.docx")
-print(category)
+```js
+let category = FTT.getFileCategory("Path/To/My/File.docx")
+console.log(category)
 
 category = FTT.getFileCategory("Path/To/My/File.jpg")
-print(category)
+console.log(category)
 
->  FileCategory.Document
->  FileCategory.Image
+>  Document
+>  Image
 ```
 
 ####  When you need to know the preferred file extension for a file based on its mime type.
 
-```python
-string[] extensions = FTT.getMimeTypeFileExtensions("text/csv")
-print(extensions[0])
+```js
+let extensions = FTT.getMimeTypeFileExtensions("text/csv")
+console.log(extensions[0])
 
 >  csv
 ```

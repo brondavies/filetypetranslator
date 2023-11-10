@@ -9,6 +9,7 @@ A library of helper methods for your .Net project to get [mime types](https://en
 
 # Releases
 Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll) 
+#### 1.1.5 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
 #### 1.1.4 - Multi-framework targeting nuget package
 #### 1.1.3 - Updated sources, Notably the mime type for .js is now text/javascript instead of application/javascript according to the [IANA standard specification](https://www.iana.org/assignments/media-types/application/javascript)
 #### 1.1.2 - Updated sources, Initial python release
@@ -47,7 +48,7 @@ Console.WriteLine(category);
 ####  When you need to know the preferred file extension for a file based on its mime type.
 
 ```csharp
-string[] extensions = FTT.GetMimeTypeFileExtension("text/csv");
+string[] extensions = FTT.GetMimeTypeFileExtensions("text/csv");
 Console.WriteLine(extensions[0]);
 
 >  csv

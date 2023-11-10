@@ -39,9 +39,9 @@ namespace FTT.generators
             return cleanregex.Replace(ext.ToLowerInvariant().Replace('+', '_').Trim(), "");
         }
 
-        protected static string quote(string value)
+        protected static string quote(string value, char c = '"')
         {
-            return string.Format("\"{0}\"", value);
+            return string.Format($"{c}{{0}}{c}", value);
         }
     }
 }

@@ -3,7 +3,7 @@
 A library of helper methods for your Javascript project to get [mime types](https://en.wikipedia.org/wiki/Media_type) and general file category
 
 # Releases
-Available as an [npm package](https://npmjs.org/packages/fttlib)
+Available as an [npm package](https://npmjs.org/package/fttlib)
 #### 1.1.6 - Initial Javascript (Node.js) release
 
 # Examples

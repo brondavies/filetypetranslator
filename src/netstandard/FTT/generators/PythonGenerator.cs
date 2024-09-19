@@ -19,14 +19,25 @@ namespace FTT.generators
         public void GenerateConstants(List<MimeType> mimetypes)
         {
             StringBuilder result = new StringBuilder();
+            var list = new List<string>();
             foreach (var mimetype in mimetypes)
             {
-                result.AppendLine(GenerateConstantFor(mimetype.type));
+                list.Add(GenerateConstantFor(mimetype.type));
                 foreach (string ext in mimetype.extensions)
                 {
-                    result.AppendLine(GenerateConstantFor(ext));
+                    list.Add(GenerateConstantFor(ext));
                 }
             }
+            foreach (var item in list.OrderBy(s => s))
+            {
+                result.AppendLine(item);
+            }
+
+            foreach (var pair in AllConstants)
+            {
+                format = format.Replace(string.Format("\"{0}\"", pair.Value), pair.Key);
+            }
+            File.WriteAllText(@"..\..\..\..\netstandard\FTT\Properties\PythonClass.py", format, Encoding.UTF8);
             format = format.InsertAfter("#constants", result.ToString());
         }
 
@@ -112,9 +123,11 @@ namespace FTT.generators
             return $"{indent}# {comment}";
         }
 
+        static Dictionary<string, string> AllConstants = new Dictionary<string, string>();
         private static string GenerateConstantFor(string type)
         {
             string name = GetConstantFor(type);
+            if (!AllConstants.ContainsKey(name)) AllConstants.Add(name, type);
             return $"{name} = \"{type}\"";
         }
         

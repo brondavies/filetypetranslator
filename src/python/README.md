@@ -4,6 +4,7 @@ A library of helper methods for your Python project to get [mime types](https://
 
 # Releases
 Available as a [pypi package](https://pypi.org/packages/fttlib)
+#### 1.1.7 - Updated sources, optimized generated code to be smaller and to be easier to diff future versions
 #### 1.1.5 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
 #### 1.1.3 - Updated sources, Notably the mime type for .js is now text/javascript instead of application/javascript according to the [IANA standard specification](https://www.iana.org/assignments/media-types/application/javascript)
 #### 1.1.2 - Initial python release
@@ -51,7 +52,7 @@ print(category)
 ####  When you need to know the preferred file extension for a file based on its mime type.
 
 ```python
-string[] extensions = FTT.getMimeTypeFileExtensions("text/csv")
+extensions = FTT.getMimeTypeFileExtensions("text/csv")
 print(extensions[0])
 
 >  csv

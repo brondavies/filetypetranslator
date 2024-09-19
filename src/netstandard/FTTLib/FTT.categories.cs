@@ -11,15 +11,15 @@
                 case ace:
                 case air:
                 case apk:
-                case "appxbundle":
-                case "arc":
+                case appxbundle:
+                case arc:
                 case arj:
                 case "asec":
                 case "bar":
                 case bz2:
                 case "bzip":
                 case cab:
-                case "cso":
+                case cso:
                 case deb:
                 case "dlc":
                 case dmg:
@@ -31,7 +31,7 @@
                 case iso:
                 case "isz":
                 case jar:
-                case "msu":
+                case msu:
                 case "nbh":
                 case pak:
                 case rar:
@@ -67,7 +67,7 @@
                 case "logic":
                 case m4a:
                 case m4b:
-                case "m4p":
+                case m4p:
                 case midi:
                 case mp3:
                 case ogg:
@@ -92,7 +92,7 @@
                 case cpp:
                 case cs:
                 case css:
-                case "gradle":
+                case gradle:
                 case htm:
                 case "inc":
                 case jad:
@@ -100,7 +100,7 @@
                 case js:
                 case json:
                 case "jsp":
-                case "lib":
+                case lib:
                 case m:
                 case "matlab":
                 case ml:
@@ -108,7 +108,7 @@
                 case perl:
                 case php:
                 case pl:
-                case "ps1":
+                case ps1:
                 case py:
                 case rb:
                 case "rc":
@@ -118,10 +118,10 @@
                 case sql:
                 case src:
                 case "swift":
-                case "vb":
-                case "vbs":
-                case "ws":
-                case "xaml":
+                case vb:
+                case vbs:
+                case ws:
+                case xaml:
                 case "xcodeproj":
                 case xml:
                 case xsd:
@@ -133,7 +133,7 @@
                 case abw:
                 case "aww":
                 case azw:
-                case "azw3":
+                case azw3:
                 case "azw4":
                 case cbr:
                 case cbz:
@@ -160,7 +160,7 @@
                 case odf:
                 case odt:
                 case ott:
-                case "pages":
+                case pages:
                 case pmd:
                 case "prn":
                 case "prproj":
@@ -206,7 +206,7 @@
                 case tif:
                 case tiff:
                 case wbmp:
-                case "wdp":
+                case wdp:
                 case webp:
                     return FileCategory.Image;
 
@@ -227,7 +227,7 @@
                     return FileCategory.Presentation;
 
                 case ods:
-                case "numbers":
+                case numbers:
                 case sdc:
                 case xls:
                 case xlsx:
@@ -257,7 +257,7 @@
                 case _3g2:
                 case _3gp:
                 case avi:
-                case "bik":
+                case bik:
                 case "dash":
                 case "dat":
                 case "dvr":

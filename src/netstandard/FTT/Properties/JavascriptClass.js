@@ -32,19 +32,19 @@ function getMimeTypeFileExtensions(mimeType) {
  */
 function getFileCategory(fileName) {
   let extension = __getExt(fileName)
-  if ([_7z, '7zip', ace, air, apk, 'appxbundle', 'arc', arj, 'asec', 'bar', bz2, 'bzip', cab, 'cso', deb, 'dlc', dmg, gz, 'gzip', hqx, 'inv', 'ipa', iso, 'isz', jar, 'msu', 'nbh', pak, rar, rpm, sis, sisx, sit, 'sitd', sitx, tar, targz, tgz, 'webarchive', xap, z, zip].includes(extension))
+  if ([_7z, '7zip', ace, air, apk, appxbundle, arc, arj, 'asec', 'bar', bz2, 'bzip', cab, cso, deb, 'dlc', dmg, gz, 'gzip', hqx, 'inv', 'ipa', iso, 'isz', jar, msu, 'nbh', pak, rar, rpm, sis, sisx, sit, 'sitd', sitx, tar, targz, tgz, 'webarchive', xap, z, zip].includes(extension))
     return FileCategory.Archive
 
-  if ([_3ga, aac, aiff, amr, ape, 'arf', asf, asx, 'cda', 'dvf', flac, 'gp4', 'gp5', gpx, 'logic', m4a, m4b, 'm4p', midi, mp3, ogg, 'pcm', 'rec', snd, 'sng', 'uax', wav, wma, wpl, 'zab'].includes(extension))
+  if ([_3ga, aac, aiff, amr, ape, 'arf', asf, asx, 'cda', 'dvf', flac, 'gp4', 'gp5', gpx, 'logic', m4a, m4b, m4p, midi, mp3, ogg, 'pcm', 'rec', snd, 'sng', 'uax', wav, wma, wpl, 'zab'].includes(extension))
     return FileCategory.Audio
 
-  if ([_as, asm, asp, 'aspx', bat, c, 'cp', cpp, cs, css, 'gradle', htm, 'inc', jad, java, js, json, 'jsp', 'lib', m, 'matlab', ml, o, perl, php, pl, 'ps1', py, rb, 'rc', rss, 'scpt', sh, sql, src, 'swift', 'vb', 'vbs', 'ws', 'xaml', 'xcodeproj', xml, xsd, xsl, xslt, yml].includes(extension))
+  if ([_as, asm, asp, 'aspx', bat, c, 'cp', cpp, cs, css, gradle, htm, 'inc', jad, java, js, json, 'jsp', lib, m, 'matlab', ml, o, perl, php, pl, ps1, py, rb, 'rc', rss, 'scpt', sh, sql, src, 'swift', vb, vbs, ws, xaml, 'xcodeproj', xml, xsd, xsl, xslt, yml].includes(extension))
     return FileCategory.Code
 
-  if ([abw, 'aww', azw, 'azw3', 'azw4', cbr, cbz, chm, 'cnt', 'dbx', djvu, doc, docm, docx, dot, dotm, dotx, epub, fb2, 'iba', 'ibooks', 'ind', 'indd', 'lit', mht, mobi, mpp, odf, odt, ott, 'pages', pmd, 'prn', 'prproj', ps, pub, 'pwi', rep, rtf, sdd, sdw, 'shs', 'snp', sxw, tpl, vsd, 'wlmp', wpd, wps, wri].includes(extension))
+  if ([abw, 'aww', azw, azw3, 'azw4', cbr, cbz, chm, 'cnt', 'dbx', djvu, doc, docm, docx, dot, dotm, dotx, epub, fb2, 'iba', 'ibooks', 'ind', 'indd', 'lit', mht, mobi, mpp, odf, odt, ott, pages, pmd, 'prn', 'prproj', ps, pub, 'pwi', rep, rtf, sdd, sdw, 'shs', 'snp', sxw, tpl, vsd, 'wlmp', wpd, wps, wri].includes(extension))
     return FileCategory.Document
 
-  if ([bmp, cpt, dds, dib, dng, 'dt2', emf, gif, ico, 'icon', icns, jpeg, jpg, pcx, pic, png, psd, 'psdx', raw, tga, 'thm', tif, tiff, wbmp, 'wdp', webp].includes(extension))
+  if ([bmp, cpt, dds, dib, dng, 'dt2', emf, gif, ico, 'icon', icns, jpeg, jpg, pcx, pic, png, psd, 'psdx', raw, tga, 'thm', tif, tiff, wbmp, wdp, webp].includes(extension))
     return FileCategory.Image
 
   if ([oxps, pdf, xps].includes(extension))
@@ -53,13 +53,13 @@ function getFileCategory(fileName) {
   if ([key, 'keynote', pot, potx, pps, ppsx, ppt, pptm, pptx].includes(extension))
     return FileCategory.Presentation
 
-  if ([ods, 'numbers', sdc, xls, xlsx, xlsb].includes(extension))
+  if ([ods, numbers, sdc, xls, xlsx, xlsb].includes(extension))
     return FileCategory.Spreadsheet
 
   if (['alx', application, csv, 'eng', html, log, 'lrc', 'lst', nfo, opml, 'plist', reg, srt, sub, 'tbl', text, txt].includes(extension))
     return FileCategory.Text
 
-  if (['264', _3g2, _3gp, avi, 'bik', 'dash', 'dat', 'dvr', flv, h264, m2t, m2ts, m4v, mkv, mod, mov, mp4, mpeg, mpg, 'mswmm', mts, ogv, rmvb, swf, 'tod', 'tp', ts, vob, webm, wmv].includes(extension))
+  if (['264', _3g2, _3gp, avi, bik, 'dash', 'dat', 'dvr', flv, h264, m2t, m2ts, m4v, mkv, mod, mov, mp4, mpeg, mpg, 'mswmm', mts, ogv, rmvb, swf, 'tod', 'tp', ts, vob, webm, wmv].includes(extension))
     return FileCategory.Video
 
   return FileCategory.Binary

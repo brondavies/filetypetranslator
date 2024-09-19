@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace FTT.generators
@@ -21,16 +23,25 @@ namespace FTT.generators
 
         public void GenerateConstants(List<MimeType> mimetypes)
         {
-            StringBuilder result = new StringBuilder();
+            var list = new List<string>();
             foreach (var mimetype in mimetypes)
             {
-                result.AppendLine(GenerateConstantFor(mimetype.type));
+                list.Add(GenerateConstantFor(mimetype.type));
                 foreach (string ext in mimetype.extensions)
                 {
-                    result.AppendLine(GenerateConstantFor(ext));
+                    list.Add(GenerateConstantFor(ext));
                 }
             }
-            format.AppendLine(result.ToString());
+            var text = File.ReadAllText(@"..\..\..\..\netstandard\FTTLib\FTT.categories.cs");
+            foreach(var pair in AllConstants)
+            {
+                text = text.Replace(string.Format("\"{0}\"", pair.Value), pair.Key);
+            }
+            File.WriteAllText(@"..\..\..\..\netstandard\FTTLib\FTT.categories.cs", text, Encoding.UTF8);
+            foreach (var item in list.OrderBy(s => s))
+            {
+                format.AppendLine(item);
+            }
         }
 
         public void GenerateBeginFunction()
@@ -108,9 +119,11 @@ namespace FTT.generators
             File.WriteAllText(generatedFile, format.ToString());
         }
 
+        static Dictionary<string, string> AllConstants = new Dictionary<string, string>();
         private static string GenerateConstantFor(string type)
         {
             string name = GetConstantFor(type);
+            if (!AllConstants.ContainsKey(name)) AllConstants.Add(name, type);
             return string.Format("        const string {0} = \"{1}\";", name, type);
         }
 

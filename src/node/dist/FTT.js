@@ -1,3180 +1,3230 @@
 //constants
-const applicationvndlotus123 = 'application/vnd.lotus-1-2-3';
+const _090909vdr = '090909vdr';
 const _123 = '123';
-const wk1 = 'wk1';
-const wk3 = 'wk3';
-const wk4 = 'wk4';
-const wks = 'wks';
-const applicationvnd1000mindsdecisionmodel_xml = 'application/vnd.1000minds.decision-model+xml';
+const _19 = '19';
 const _1km = '1km';
-const applicationxgenesis32xrom = 'application/x-genesis-32x-rom';
 const _32x = '32x';
-const mdx = 'mdx';
-const textvndin3d3dml = 'text/vnd.in3d.3dml';
 const _3dml = '3dml';
-const applicationxnintendo3dsrom = 'application/x-nintendo-3ds-rom';
 const _3ds = '3ds';
-const cci = 'cci';
-const applicationxnintendo3dsexecutable = 'application/x-nintendo-3ds-executable';
 const _3dsx = '3dsx';
-const video3gpp2 = 'video/3gpp2';
 const _3g2 = '3g2';
-const _3gp2 = '3gp2';
-const _3gpp2 = '3gpp2';
-const video3gpp = 'video/3gpp';
-const _3gp = '3gp';
-const _3gpp = '3gpp';
 const _3ga = '3ga';
-const model3mf = 'model/3mf';
+const _3gp = '3gp';
+const _3gp2 = '3gp2';
+const _3gpp = '3gpp';
+const _3gpp2 = '3gpp2';
 const _3mf = '3mf';
-const applicationxt602 = 'application/x-t602';
 const _602 = '602';
-const applicationx7zcompressed = 'application/x-7z-compressed';
+const _669 = '669';
 const _7z = '7z';
 const _7z001 = '7z001';
-const applicationxarchive = 'application/x-archive';
+const _as = 'as';
+const _class = 'class';
+const _def = 'def';
+const _for = 'for';
+const _in = 'in';
+const _not = 'not';
 const a = 'a';
-const ar = 'ar';
-const applicationxatari2600rom = 'application/x-atari-2600-rom';
 const a26 = 'a26';
-const applicationxatari7800rom = 'application/x-atari-7800-rom';
 const a78 = 'a78';
-const audioxpnaudibleaudio = 'audio/x-pn-audibleaudio';
 const aa = 'aa';
-const applicationxauthorwarebin = 'application/x-authorware-bin';
 const aab = 'aab';
-const x32 = 'x32';
-const u32 = 'u32';
-const vox = 'vox';
-const audioaac = 'audio/aac';
 const aac = 'aac';
-const adts = 'adts';
-const applicationxauthorwaremap = 'application/x-authorware-map';
 const aam = 'aam';
-const applicationxauthorwareseg = 'application/x-authorware-seg';
 const aas = 'aas';
-const audiovndaudibleaax = 'audio/vnd.audible.aax';
 const aax = 'aax';
-const audiovndaudibleaaxc = 'audio/vnd.audible.aaxc';
 const aaxc = 'aaxc';
-const applicationxabiword = 'application/x-abiword';
 const abw = 'abw';
 const abwcrashed = 'abwcrashed';
 const abwgz = 'abwgz';
-const zabw = 'zabw';
-const applicationpkixattrcert = 'application/pkix-attr-cert';
 const ac = 'ac';
-const audioac3 = 'audio/ac3';
 const ac3 = 'ac3';
-const applicationvndamericandynamicsacc = 'application/vnd.americandynamics.acc';
 const acc = 'acc';
-const applicationxace = 'application/x-ace';
 const ace = 'ace';
-const applicationvndacucobol = 'application/vnd.acucobol';
 const acu = 'acu';
-const textxadasrc = 'text/x-adasrc';
-const adb = 'adb';
-const ads = 'ads';
-const applicationxamigadiskformat = 'application/x-amiga-disk-format';
-const adf = 'adf';
-const audioadpcm = 'audio/adpcm';
-const adp = 'adp';
-const applicationvndaudiograph = 'application/vnd.audiograph';
-const aep = 'aep';
-const applicationxfontafm = 'application/x-font-afm';
-const afm = 'afm';
-const applicationvndibmmodcap = 'application/vnd.ibm.modcap';
-const afp = 'afp';
-const listafp = 'listafp';
-const list3820 = 'list3820';
-const imagexapplixgraphics = 'image/x-applix-graphics';
-const ag = 'ag';
-const applicationvndage = 'application/vnd.age';
-const age = 'age';
-const applicationvndaheadspace = 'application/vnd.ahead.space';
-const ahead = 'ahead';
-const applicationillustrator = 'application/illustrator';
-const ai = 'ai';
-const audioxaifc = 'audio/x-aifc';
-const aifc = 'aifc';
-const aiffc = 'aiffc';
-const audioxaiff = 'audio/x-aiff';
-const aiff = 'aiff';
-const aif = 'aif';
-const applicationvndadobeairapplicationinstallerpackage_zip = 'application/vnd.adobe.air-application-installer-package+zip';
-const air = 'air';
-const applicationvnddvbait = 'application/vnd.dvb.ait';
-const ait = 'ait';
-const applicationxalz = 'application/x-alz';
-const alz = 'alz';
-const applicationvndamigaami = 'application/vnd.amiga.ami';
-const ami = 'ami';
-const applicationautomationmlaml_xml = 'application/automationml-aml+xml';
-const aml = 'aml';
-const applicationautomationmlamlx_zip = 'application/automationml-amlx+zip';
-const amlx = 'amlx';
-const audioamr = 'audio/amr';
-const amr = 'amr';
-const audioxamzxml = 'audio/x-amzxml';
-const amz = 'amz';
-const applicationxnavianimation = 'application/x-navi-animation';
-const ani = 'ani';
-const videoxanim = 'video/x-anim';
-const anim19j = 'anim19j';
-const applicationannodex = 'application/annodex';
-const anx = 'anx';
-const audioxape = 'audio/x-ape';
-const ape = 'ape';
-const applicationvndandroidpackagearchive = 'application/vnd.android.package-archive';
-const apk = 'apk';
-const imageapng = 'image/apng';
-const apng = 'apng';
-const applicationxiso9660appimage = 'application/x-iso9660-appimage';
-const appimage = 'appimage';
-const applicationappinstaller = 'application/appinstaller';
-const appinstaller = 'appinstaller';
-const applicationxmsapplication = 'application/x-ms-application';
-const application = 'application';
-const applicationappx = 'application/appx';
-const appx = 'appx';
-const applicationappxbundle = 'application/appxbundle';
-const appxbundle = 'appxbundle';
-const applicationvndlotusapproach = 'application/vnd.lotus-approach';
-const apr = 'apr';
-const applicationxfreearc = 'application/x-freearc';
-const arc = 'arc';
-const applicationxarj = 'application/x-arj';
-const arj = 'arj';
-const imagexsonyarw = 'image/x-sony-arw';
-const arw = 'arw';
-const applicationxapplixspreadsheet = 'application/x-applix-spreadsheet';
-const _as = 'as';
-const applicationxasar = 'application/x-asar';
-const asar = 'asar';
-const textxcommonlisp = 'text/x-common-lisp';
-const asd = 'asd';
-const fasl = 'fasl';
-const lisp = 'lisp';
-const ros = 'ros';
-const applicationvndmsasf = 'application/vnd.ms-asf';
-const asf = 'asf';
-const applicationvndaccpacsimplyaso = 'application/vnd.accpac.simply.aso';
-const aso = 'aso';
-const applicationxasp = 'application/x-asp';
-const asp = 'asp';
-const imageastc = 'image/astc';
-const astc = 'astc';
-const audioxmsasx = 'audio/x-ms-asx';
-const asx = 'asx';
-const wax = 'wax';
-const wvx = 'wvx';
-const wmx = 'wmx';
-const applicationvndacucorp = 'application/vnd.acucorp';
-const atc = 'atc';
 const acutc = 'acutc';
+const adb = 'adb';
+const adf = 'adf';
+const adp = 'adp';
+const ads = 'ads';
+const adts = 'adts';
+const aep = 'aep';
+const afm = 'afm';
+const afp = 'afp';
+const ag = 'ag';
+const agb = 'agb';
+const age = 'age';
+const ahead = 'ahead';
+const ai = 'ai';
+const aif = 'aif';
+const aifc = 'aifc';
+const aiff = 'aiff';
+const aiffc = 'aiffc';
+const air = 'air';
+const ait = 'ait';
+const al = 'al';
+const alz = 'alz';
+const ami = 'ami';
+const aml = 'aml';
+const amlx = 'amlx';
+const amr = 'amr';
+const amz = 'amz';
+const ani = 'ani';
+const anim19j = 'anim19j';
+const anx = 'anx';
+const ape = 'ape';
+const apk = 'apk';
+const apng = 'apng';
+const appcache = 'appcache';
+const appimage = 'appimage';
+const appinstaller = 'appinstaller';
+const application = 'application';
+const applicationandrewinset = 'application/andrew-inset';
+const applicationannodex = 'application/annodex';
+const applicationappinstaller = 'application/appinstaller';
+const applicationappx = 'application/appx';
+const applicationappxbundle = 'application/appxbundle';
 const applicationatom_xml = 'application/atom+xml';
-const atom = 'atom';
 const applicationatomcat_xml = 'application/atomcat+xml';
-const atomcat = 'atomcat';
 const applicationatomdeleted_xml = 'application/atomdeleted+xml';
-const atomdeleted = 'atomdeleted';
 const applicationatomsvc_xml = 'application/atomsvc+xml';
-const atomsvc = 'atomsvc';
+const applicationatscdwd_xml = 'application/atsc-dwd+xml';
+const applicationatscheld_xml = 'application/atsc-held+xml';
+const applicationatscrsat_xml = 'application/atsc-rsat+xml';
+const applicationautomationmlaml_xml = 'application/automationml-aml+xml';
+const applicationautomationmlamlx_zip = 'application/automationml-amlx+zip';
+const applicationbdoc = 'application/bdoc';
+const applicationcalendar_xml = 'application/calendar+xml';
+const applicationcbor = 'application/cbor';
+const applicationccxml_xml = 'application/ccxml+xml';
+const applicationcdfx_xml = 'application/cdfx+xml';
+const applicationcdmicapability = 'application/cdmi-capability';
+const applicationcdmicontainer = 'application/cdmi-container';
+const applicationcdmidomain = 'application/cdmi-domain';
+const applicationcdmiobject = 'application/cdmi-object';
+const applicationcdmiqueue = 'application/cdmi-queue';
+const applicationcuseeme = 'application/cu-seeme';
+const applicationcwl = 'application/cwl';
+const applicationdash_xml = 'application/dash+xml';
+const applicationdavmount_xml = 'application/davmount+xml';
+const applicationdicom = 'application/dicom';
+const applicationdocbook_xml = 'application/docbook+xml';
+const applicationdssc_der = 'application/dssc+der';
+const applicationdssc_xml = 'application/dssc+xml';
+const applicationecmascript = 'application/ecmascript';
+const applicationemma_xml = 'application/emma+xml';
+const applicationemotionml_xml = 'application/emotionml+xml';
+const applicationepub_zip = 'application/epub+zip';
+const applicationexi = 'application/exi';
+const applicationexpress = 'application/express';
+const applicationfdf = 'application/fdf';
+const applicationfdt_xml = 'application/fdt+xml';
+const applicationfits = 'application/fits';
+const applicationfonttdpfr = 'application/font-tdpfr';
+const applicationgeo_json = 'application/geo+json';
+const applicationgml_xml = 'application/gml+xml';
+const applicationgnunetdirectory = 'application/gnunet-directory';
+const applicationgpx_xml = 'application/gpx+xml';
+const applicationgxf = 'application/gxf';
+const applicationgzip = 'application/gzip';
+const applicationhjson = 'application/hjson';
+const applicationhta = 'application/hta';
+const applicationhyperstudio = 'application/hyperstudio';
+const applicationillustrator = 'application/illustrator';
+const applicationinkml_xml = 'application/inkml+xml';
+const applicationipfix = 'application/ipfix';
+const applicationits_xml = 'application/its+xml';
+const applicationjavaarchive = 'application/java-archive';
+const applicationjavaserializedobject = 'application/java-serialized-object';
+const applicationjrd_json = 'application/jrd+json';
+const applicationjson = 'application/json';
+const applicationjson5 = 'application/json5';
+const applicationjsonml_json = 'application/jsonml+json';
+const applicationjsonpatch_json = 'application/json-patch+json';
+const applicationld_json = 'application/ld+json';
+const applicationlgr_xml = 'application/lgr+xml';
+const applicationlost_xml = 'application/lost+xml';
+const applicationmacbinhex40 = 'application/mac-binhex40';
+const applicationmaccompactpro = 'application/mac-compactpro';
+const applicationmads_xml = 'application/mads+xml';
+const applicationmanifest_json = 'application/manifest+json';
+const applicationmarc = 'application/marc';
+const applicationmarcxml_xml = 'application/marcxml+xml';
+const applicationmathematica = 'application/mathematica';
+const applicationmathml_xml = 'application/mathml+xml';
+const applicationmbox = 'application/mbox';
+const applicationmediapolicydataset_xml = 'application/media-policy-dataset+xml';
+const applicationmediaservercontrol_xml = 'application/mediaservercontrol+xml';
+const applicationmetalink_xml = 'application/metalink+xml';
+const applicationmetalink4_xml = 'application/metalink4+xml';
+const applicationmets_xml = 'application/mets+xml';
+const applicationmicrosoftpatch = 'application/microsoftpatch';
+const applicationmicrosoftupdate = 'application/microsoftupdate';
+const applicationmmtaei_xml = 'application/mmt-aei+xml';
+const applicationmmtusd_xml = 'application/mmt-usd+xml';
+const applicationmods_xml = 'application/mods+xml';
+const applicationmp21 = 'application/mp21';
+const applicationmp4 = 'application/mp4';
+const applicationmsix = 'application/msix';
+const applicationmsixbundle = 'application/msixbundle';
+const applicationmsword = 'application/msword';
+const applicationmswordtemplate = 'application/msword-template';
+const applicationmxf = 'application/mxf';
+const applicationnode = 'application/node';
+const applicationnquads = 'application/n-quads';
+const applicationntriples = 'application/n-triples';
+const applicationoctetstream = 'application/octet-stream';
+const applicationoda = 'application/oda';
+const applicationoebpspackage_xml = 'application/oebps-package+xml';
+const applicationogg = 'application/ogg';
+const applicationomdoc_xml = 'application/omdoc+xml';
+const applicationonenote = 'application/onenote';
+const applicationovf = 'application/ovf';
+const applicationowl_xml = 'application/owl+xml';
+const applicationoxps = 'application/oxps';
+const applicationp2poverlay_xml = 'application/p2p-overlay+xml';
+const applicationpatchopserror_xml = 'application/patch-ops-error+xml';
+const applicationpdf = 'application/pdf';
+const applicationpgpencrypted = 'application/pgp-encrypted';
+const applicationpgpkeys = 'application/pgp-keys';
+const applicationpgpsignature = 'application/pgp-signature';
+const applicationpicsrules = 'application/pics-rules';
+const applicationpkcs10 = 'application/pkcs10';
+const applicationpkcs12 = 'application/pkcs12';
+const applicationpkcs7mime = 'application/pkcs7-mime';
+const applicationpkcs7signature = 'application/pkcs7-signature';
+const applicationpkcs8 = 'application/pkcs8';
+const applicationpkcs8encrypted = 'application/pkcs8-encrypted';
+const applicationpkixattrcert = 'application/pkix-attr-cert';
+const applicationpkixcert = 'application/pkix-cert';
+const applicationpkixcmp = 'application/pkixcmp';
+const applicationpkixcrl = 'application/pkix-crl';
+const applicationpkixpkipath = 'application/pkix-pkipath';
+const applicationpostscript = 'application/postscript';
+const applicationprovenance_xml = 'application/provenance+xml';
+const applicationprscww = 'application/prs.cww';
+const applicationprsxsf_xml = 'application/prs.xsf+xml';
+const applicationpskc_xml = 'application/pskc+xml';
+const applicationram = 'application/ram';
+const applicationraml_yaml = 'application/raml+yaml';
+const applicationrdf_xml = 'application/rdf+xml';
+const applicationreginfo_xml = 'application/reginfo+xml';
+const applicationrelaxngcompactsyntax = 'application/relax-ng-compact-syntax';
+const applicationresourcelists_xml = 'application/resource-lists+xml';
+const applicationresourcelistsdiff_xml = 'application/resource-lists-diff+xml';
+const applicationrouteapd_xml = 'application/route-apd+xml';
+const applicationroutestsid_xml = 'application/route-s-tsid+xml';
+const applicationrouteusd_xml = 'application/route-usd+xml';
+const applicationrpkimanifest = 'application/rpki-manifest';
+const applicationrpkiroa = 'application/rpki-roa';
+const applicationrsd_xml = 'application/rsd+xml';
+const applicationrss_xml = 'application/rss+xml';
+const applicationrtf = 'application/rtf';
+const applicationsbml_xml = 'application/sbml+xml';
+const applicationscvpcvrequest = 'application/scvp-cv-request';
+const applicationscvpcvresponse = 'application/scvp-cv-response';
+const applicationscvpvprequest = 'application/scvp-vp-request';
+const applicationscvpvpresponse = 'application/scvp-vp-response';
+const applicationsenml_xml = 'application/senml+xml';
+const applicationsensml_xml = 'application/sensml+xml';
+const applicationsetpaymentinitiation = 'application/set-payment-initiation';
+const applicationsetregistrationinitiation = 'application/set-registration-initiation';
+const applicationshf_xml = 'application/shf+xml';
+const applicationsieve = 'application/sieve';
+const applicationsmil_xml = 'application/smil+xml';
+const applicationsparqlquery = 'application/sparql-query';
+const applicationsparqlresults_xml = 'application/sparql-results+xml';
+const applicationsql = 'application/sql';
+const applicationsrgs = 'application/srgs';
+const applicationsrgs_xml = 'application/srgs+xml';
+const applicationsru_xml = 'application/sru+xml';
+const applicationssdl_xml = 'application/ssdl+xml';
+const applicationssml_xml = 'application/ssml+xml';
+const applicationswid_xml = 'application/swid+xml';
+const applicationtei_xml = 'application/tei+xml';
+const applicationthraud_xml = 'application/thraud+xml';
+const applicationtimestampeddata = 'application/timestamped-data';
+const applicationtoml = 'application/toml';
+const applicationtrig = 'application/trig';
+const applicationttml_xml = 'application/ttml+xml';
+const applicationubjson = 'application/ubjson';
+const applicationurcressheet_xml = 'application/urc-ressheet+xml';
+const applicationurctargetdesc_xml = 'application/urc-targetdesc+xml';
+const applicationvnd1000mindsdecisionmodel_xml = 'application/vnd.1000minds.decision-model+xml';
+const applicationvnd3gpp2tcap = 'application/vnd.3gpp2.tcap';
+const applicationvnd3gpppicbwlarge = 'application/vnd.3gpp.pic-bw-large';
+const applicationvnd3gpppicbwsmall = 'application/vnd.3gpp.pic-bw-small';
+const applicationvnd3gpppicbwvar = 'application/vnd.3gpp.pic-bw-var';
+const applicationvnd3mpostitnotes = 'application/vnd.3m.post-it-notes';
+const applicationvndaccpacsimplyaso = 'application/vnd.accpac.simply.aso';
+const applicationvndaccpacsimplyimp = 'application/vnd.accpac.simply.imp';
+const applicationvndacucobol = 'application/vnd.acucobol';
+const applicationvndacucorp = 'application/vnd.acucorp';
+const applicationvndadobeairapplicationinstallerpackage_zip = 'application/vnd.adobe.air-application-installer-package+zip';
+const applicationvndadobeflashmovie = 'application/vnd.adobe.flash.movie';
+const applicationvndadobeformscentralfcdt = 'application/vnd.adobe.formscentral.fcdt';
+const applicationvndadobefxp = 'application/vnd.adobe.fxp';
+const applicationvndadobexdp_xml = 'application/vnd.adobe.xdp+xml';
+const applicationvndadobexfdf = 'application/vnd.adobe.xfdf';
+const applicationvndage = 'application/vnd.age';
+const applicationvndaheadspace = 'application/vnd.ahead.space';
+const applicationvndairzipfilesecureazf = 'application/vnd.airzip.filesecure.azf';
+const applicationvndairzipfilesecureazs = 'application/vnd.airzip.filesecure.azs';
+const applicationvndamazonebook = 'application/vnd.amazon.ebook';
+const applicationvndamazonmobi8ebook = 'application/vnd.amazon.mobi8-ebook';
+const applicationvndamericandynamicsacc = 'application/vnd.americandynamics.acc';
+const applicationvndamigaami = 'application/vnd.amiga.ami';
+const applicationvndandroidpackagearchive = 'application/vnd.android.package-archive';
+const applicationvndanserwebcertificateissueinitiation = 'application/vnd.anser-web-certificate-issue-initiation';
+const applicationvndanserwebfundstransferinitiation = 'application/vnd.anser-web-funds-transfer-initiation';
 const applicationvndantixgamecomponent = 'application/vnd.antix.game-component';
+const applicationvndapacheparquet = 'application/vnd.apache.parquet';
+const applicationvndappleinstaller_xml = 'application/vnd.apple.installer+xml';
+const applicationvndapplenumbers = 'application/vnd.apple.numbers';
+const applicationvndapplepages = 'application/vnd.apple.pages';
+const applicationvndapplepkpass = 'application/vnd.apple.pkpass';
+const applicationvndaristanetworksswi = 'application/vnd.aristanetworks.swi';
+const applicationvndastraeasoftwareiota = 'application/vnd.astraea-software.iota';
+const applicationvndaudiograph = 'application/vnd.audiograph';
+const applicationvndbalsamiqbmml_xml = 'application/vnd.balsamiq.bmml+xml';
+const applicationvndblueicemultipass = 'application/vnd.blueice.multipass';
+const applicationvndbmi = 'application/vnd.bmi';
+const applicationvndbusinessobjects = 'application/vnd.businessobjects';
+const applicationvndchemdraw_xml = 'application/vnd.chemdraw+xml';
+const applicationvndchesspgn = 'application/vnd.chess-pgn';
+const applicationvndchipnutskaraokemmd = 'application/vnd.chipnuts.karaoke-mmd';
+const applicationvndcinderella = 'application/vnd.cinderella';
+const applicationvndcitationstylesstyle_xml = 'application/vnd.citationstyles.style+xml';
+const applicationvndclaymore = 'application/vnd.claymore';
+const applicationvndcloantorp9 = 'application/vnd.cloanto.rp9';
+const applicationvndclonkc4group = 'application/vnd.clonk.c4group';
+const applicationvndcluetrustcartomobileconfig = 'application/vnd.cluetrust.cartomobile-config';
+const applicationvndcluetrustcartomobileconfigpkg = 'application/vnd.cluetrust.cartomobile-config-pkg';
+const applicationvndcoffeescript = 'application/vnd.coffeescript';
+const applicationvndcomicbook_zip = 'application/vnd.comicbook+zip';
+const applicationvndcomicbookrar = 'application/vnd.comicbook-rar';
+const applicationvndcommonspace = 'application/vnd.commonspace';
+const applicationvndcontactcmsg = 'application/vnd.contact.cmsg';
+const applicationvndcoreldraw = 'application/vnd.corel-draw';
+const applicationvndcosmocaller = 'application/vnd.cosmocaller';
+const applicationvndcrickclicker = 'application/vnd.crick.clicker';
+const applicationvndcrickclickerkeyboard = 'application/vnd.crick.clicker.keyboard';
+const applicationvndcrickclickerpalette = 'application/vnd.crick.clicker.palette';
+const applicationvndcrickclickertemplate = 'application/vnd.crick.clicker.template';
+const applicationvndcrickclickerwordbank = 'application/vnd.crick.clicker.wordbank';
+const applicationvndcriticaltoolswbs_xml = 'application/vnd.criticaltools.wbs+xml';
+const applicationvndctcposml = 'application/vnd.ctc-posml';
+const applicationvndcupsppd = 'application/vnd.cups-ppd';
+const applicationvndcurlcar = 'application/vnd.curl.car';
+const applicationvndcurlpcurl = 'application/vnd.curl.pcurl';
+const applicationvnddart = 'application/vnd.dart';
+const applicationvnddatavisionrdz = 'application/vnd.data-vision.rdz';
+const applicationvnddbf = 'application/vnd.dbf';
+const applicationvnddebianbinarypackage = 'application/vnd.debian.binary-package';
+const applicationvnddecedata = 'application/vnd.dece.data';
+const applicationvnddecettml_xml = 'application/vnd.dece.ttml+xml';
+const applicationvnddeceunspecified = 'application/vnd.dece.unspecified';
+const applicationvnddecezip = 'application/vnd.dece.zip';
+const applicationvnddenovofcselayoutlink = 'application/vnd.denovo.fcselayout-link';
+const applicationvnddna = 'application/vnd.dna';
+const applicationvnddolbymlp = 'application/vnd.dolby.mlp';
+const applicationvnddpgraph = 'application/vnd.dpgraph';
+const applicationvnddreamfactory = 'application/vnd.dreamfactory';
+const applicationvnddskeypoint = 'application/vnd.ds-keypoint';
+const applicationvnddvbait = 'application/vnd.dvb.ait';
+const applicationvnddvbservice = 'application/vnd.dvb.service';
+const applicationvnddynageo = 'application/vnd.dynageo';
+const applicationvndecowinchart = 'application/vnd.ecowin.chart';
+const applicationvndefiimg = 'application/vnd.efi.img';
+const applicationvndefiiso = 'application/vnd.efi.iso';
+const applicationvndemusicemusic_package = 'application/vnd.emusic-emusic_package';
+const applicationvndenliven = 'application/vnd.enliven';
+const applicationvndepsonesf = 'application/vnd.epson.esf';
+const applicationvndepsonmsf = 'application/vnd.epson.msf';
+const applicationvndepsonquickanime = 'application/vnd.epson.quickanime';
+const applicationvndepsonsalt = 'application/vnd.epson.salt';
+const applicationvndepsonssf = 'application/vnd.epson.ssf';
+const applicationvndeszigno3_xml = 'application/vnd.eszigno3+xml';
+const applicationvndezpixalbum = 'application/vnd.ezpix-album';
+const applicationvndezpixpackage = 'application/vnd.ezpix-package';
+const applicationvndfdsnmseed = 'application/vnd.fdsn.mseed';
+const applicationvndfdsnseed = 'application/vnd.fdsn.seed';
+const applicationvndflatpak = 'application/vnd.flatpak';
+const applicationvndflatpakref = 'application/vnd.flatpak.ref';
+const applicationvndflatpakrepo = 'application/vnd.flatpak.repo';
+const applicationvndflographit = 'application/vnd.flographit';
+const applicationvndfluxtimeclip = 'application/vnd.fluxtime.clip';
+const applicationvndframemaker = 'application/vnd.framemaker';
+const applicationvndfrogansfnc = 'application/vnd.frogans.fnc';
+const applicationvndfrogansltf = 'application/vnd.frogans.ltf';
+const applicationvndfscweblaunch = 'application/vnd.fsc.weblaunch';
+const applicationvndfujitsuoasys = 'application/vnd.fujitsu.oasys';
+const applicationvndfujitsuoasys2 = 'application/vnd.fujitsu.oasys2';
+const applicationvndfujitsuoasys3 = 'application/vnd.fujitsu.oasys3';
+const applicationvndfujitsuoasysgp = 'application/vnd.fujitsu.oasysgp';
+const applicationvndfujitsuoasysprs = 'application/vnd.fujitsu.oasysprs';
+const applicationvndfujixeroxddd = 'application/vnd.fujixerox.ddd';
+const applicationvndfujixeroxdocuworks = 'application/vnd.fujixerox.docuworks';
+const applicationvndfujixeroxdocuworksbinder = 'application/vnd.fujixerox.docuworks.binder';
+const applicationvndfuzzysheet = 'application/vnd.fuzzysheet';
+const applicationvndgenomatixtuxedo = 'application/vnd.genomatix.tuxedo';
+const applicationvndgeogebrafile = 'application/vnd.geogebra.file';
+const applicationvndgeogebraslides = 'application/vnd.geogebra.slides';
+const applicationvndgeogebratool = 'application/vnd.geogebra.tool';
+const applicationvndgeometryexplorer = 'application/vnd.geometry-explorer';
+const applicationvndgeonext = 'application/vnd.geonext';
+const applicationvndgeoplan = 'application/vnd.geoplan';
+const applicationvndgeospace = 'application/vnd.geospace';
+const applicationvndgmx = 'application/vnd.gmx';
+const applicationvndgoogleappsdocument = 'application/vnd.google-apps.document';
+const applicationvndgoogleappspresentation = 'application/vnd.google-apps.presentation';
+const applicationvndgoogleappsspreadsheet = 'application/vnd.google-apps.spreadsheet';
+const applicationvndgoogleearthkml_xml = 'application/vnd.google-earth.kml+xml';
+const applicationvndgoogleearthkmz = 'application/vnd.google-earth.kmz';
+const applicationvndgovskxmldatacontainer_xml = 'application/vnd.gov.sk.xmldatacontainer+xml';
+const applicationvndgrafeq = 'application/vnd.grafeq';
+const applicationvndgrooveaccount = 'application/vnd.groove-account';
+const applicationvndgroovehelp = 'application/vnd.groove-help';
+const applicationvndgrooveidentitymessage = 'application/vnd.groove-identity-message';
+const applicationvndgrooveinjector = 'application/vnd.groove-injector';
+const applicationvndgroovetoolmessage = 'application/vnd.groove-tool-message';
+const applicationvndgroovetooltemplate = 'application/vnd.groove-tool-template';
+const applicationvndgroovevcard = 'application/vnd.groove-vcard';
+const applicationvndhal_xml = 'application/vnd.hal+xml';
+const applicationvndhandheldentertainment_xml = 'application/vnd.handheld-entertainment+xml';
+const applicationvndhbci = 'application/vnd.hbci';
+const applicationvndhhelessonplayer = 'application/vnd.hhe.lesson-player';
+const applicationvndhphpgl = 'application/vnd.hp-hpgl';
+const applicationvndhphpid = 'application/vnd.hp-hpid';
+const applicationvndhphps = 'application/vnd.hp-hps';
+const applicationvndhpjlyt = 'application/vnd.hp-jlyt';
+const applicationvndhppcl = 'application/vnd.hp-pcl';
+const applicationvndhppclxl = 'application/vnd.hp-pclxl';
+const applicationvndhydrostatixsofdata = 'application/vnd.hydrostatix.sof-data';
+const applicationvndibmminipay = 'application/vnd.ibm.minipay';
+const applicationvndibmmodcap = 'application/vnd.ibm.modcap';
+const applicationvndibmrightsmanagement = 'application/vnd.ibm.rights-management';
+const applicationvndiccprofile = 'application/vnd.iccprofile';
+const applicationvndigloader = 'application/vnd.igloader';
+const applicationvndimmervisionivp = 'application/vnd.immervision-ivp';
+const applicationvndimmervisionivu = 'application/vnd.immervision-ivu';
+const applicationvndinsorsigm = 'application/vnd.insors.igm';
+const applicationvndinterconformnet = 'application/vnd.intercon.formnet';
+const applicationvndintergeo = 'application/vnd.intergeo';
+const applicationvndintuqbo = 'application/vnd.intu.qbo';
+const applicationvndintuqfx = 'application/vnd.intu.qfx';
+const applicationvndipunpluggedrcprofile = 'application/vnd.ipunplugged.rcprofile';
+const applicationvndirepositorypackage_xml = 'application/vnd.irepository.package+xml';
+const applicationvndisacfcs = 'application/vnd.isac.fcs';
+const applicationvndisxpr = 'application/vnd.is-xpr';
+const applicationvndjam = 'application/vnd.jam';
+const applicationvndjisp = 'application/vnd.jisp';
+const applicationvndjoostjodaarchive = 'application/vnd.joost.joda-archive';
+const applicationvndkahootz = 'application/vnd.kahootz';
+const applicationvndkenameaapp = 'application/vnd.kenameaapp';
+const applicationvndkidspiration = 'application/vnd.kidspiration';
+const applicationvndkinar = 'application/vnd.kinar';
+const applicationvndkoan = 'application/vnd.koan';
+const applicationvndkodakdescriptor = 'application/vnd.kodak-descriptor';
+const applicationvndlaslas_xml = 'application/vnd.las.las+xml';
+const applicationvndllamagraphicslifebalancedesktop = 'application/vnd.llamagraphics.life-balance.desktop';
+const applicationvndllamagraphicslifebalanceexchange_xml = 'application/vnd.llamagraphics.life-balance.exchange+xml';
+const applicationvndlotus123 = 'application/vnd.lotus-1-2-3';
+const applicationvndlotusapproach = 'application/vnd.lotus-approach';
+const applicationvndlotusfreelance = 'application/vnd.lotus-freelance';
+const applicationvndlotusnotes = 'application/vnd.lotus-notes';
+const applicationvndlotuswordpro = 'application/vnd.lotus-wordpro';
+const applicationvndmacportsportpkg = 'application/vnd.macports.portpkg';
+const applicationvndmapboxvectortile = 'application/vnd.mapbox-vector-tile';
+const applicationvndmcd = 'application/vnd.mcd';
+const applicationvndmedcalcdata = 'application/vnd.medcalcdata';
+const applicationvndmediastationcdkey = 'application/vnd.mediastation.cdkey';
+const applicationvndmfer = 'application/vnd.mfer';
+const applicationvndmfmp = 'application/vnd.mfmp';
+const applicationvndmicrografxflo = 'application/vnd.micrografx.flo';
+const applicationvndmicrografxigx = 'application/vnd.micrografx.igx';
+const applicationvndmicrosoftportableexecutable = 'application/vnd.microsoft.portable-executable';
+const applicationvndmicrosoftwindowsthumbnailcache = 'application/vnd.microsoft.windows.thumbnail-cache';
+const applicationvndmobiusdaf = 'application/vnd.mobius.daf';
+const applicationvndmobiusdis = 'application/vnd.mobius.dis';
+const applicationvndmobiusmbk = 'application/vnd.mobius.mbk';
+const applicationvndmobiusmqy = 'application/vnd.mobius.mqy';
+const applicationvndmobiusmsl = 'application/vnd.mobius.msl';
+const applicationvndmobiusplc = 'application/vnd.mobius.plc';
+const applicationvndmobiustxf = 'application/vnd.mobius.txf';
+const applicationvndmophunapplication = 'application/vnd.mophun.application';
+const applicationvndmozillaxul_xml = 'application/vnd.mozilla.xul+xml';
+const applicationvndmsartgalry = 'application/vnd.ms-artgalry';
+const applicationvndmsasf = 'application/vnd.ms-asf';
+const applicationvndmscabcompressed = 'application/vnd.ms-cab-compressed';
+const applicationvndmseq = 'application/vnd.mseq';
+const applicationvndmsexcel = 'application/vnd.ms-excel';
+const applicationvndmsexceladdinmacroenabled12 = 'application/vnd.ms-excel.addin.macroenabled.12';
+const applicationvndmsexcelsheetbinarymacroenabled12 = 'application/vnd.ms-excel.sheet.binary.macroenabled.12';
+const applicationvndmsexcelsheetmacroenabled12 = 'application/vnd.ms-excel.sheet.macroenabled.12';
+const applicationvndmsexceltemplatemacroenabled12 = 'application/vnd.ms-excel.template.macroenabled.12';
+const applicationvndmsfontobject = 'application/vnd.ms-fontobject';
+const applicationvndmshtmlhelp = 'application/vnd.ms-htmlhelp';
+const applicationvndmsims = 'application/vnd.ms-ims';
+const applicationvndmslrm = 'application/vnd.ms-lrm';
+const applicationvndmsofficetheme = 'application/vnd.ms-officetheme';
+const applicationvndmsoutlook = 'application/vnd.ms-outlook';
+const applicationvndmspkiseccat = 'application/vnd.ms-pki.seccat';
+const applicationvndmspowerpoint = 'application/vnd.ms-powerpoint';
+const applicationvndmspowerpointaddinmacroenabled12 = 'application/vnd.ms-powerpoint.addin.macroenabled.12';
+const applicationvndmspowerpointpresentationmacroenabled12 = 'application/vnd.ms-powerpoint.presentation.macroenabled.12';
+const applicationvndmspowerpointslidemacroenabled12 = 'application/vnd.ms-powerpoint.slide.macroenabled.12';
+const applicationvndmspowerpointslideshowmacroenabled12 = 'application/vnd.ms-powerpoint.slideshow.macroenabled.12';
+const applicationvndmspowerpointtemplatemacroenabled12 = 'application/vnd.ms-powerpoint.template.macroenabled.12';
+const applicationvndmsproject = 'application/vnd.ms-project';
+const applicationvndmspublisher = 'application/vnd.ms-publisher';
+const applicationvndmstnef = 'application/vnd.ms-tnef';
+const applicationvndmsvisiodrawingmacroenabledmain_xml = 'application/vnd.ms-visio.drawing.macroenabled.main+xml';
+const applicationvndmsvisiodrawingmain_xml = 'application/vnd.ms-visio.drawing.main+xml';
+const applicationvndmsvisiostencilmacroenabledmain_xml = 'application/vnd.ms-visio.stencil.macroenabled.main+xml';
+const applicationvndmsvisiostencilmain_xml = 'application/vnd.ms-visio.stencil.main+xml';
+const applicationvndmsvisiotemplatemacroenabledmain_xml = 'application/vnd.ms-visio.template.macroenabled.main+xml';
+const applicationvndmsvisiotemplatemain_xml = 'application/vnd.ms-visio.template.main+xml';
+const applicationvndmsworddocumentmacroenabled12 = 'application/vnd.ms-word.document.macroenabled.12';
+const applicationvndmswordtemplatemacroenabled12 = 'application/vnd.ms-word.template.macroenabled.12';
+const applicationvndmsworks = 'application/vnd.ms-works';
+const applicationvndmswpl = 'application/vnd.ms-wpl';
+const applicationvndmsxpsdocument = 'application/vnd.ms-xpsdocument';
+const applicationvndmusician = 'application/vnd.musician';
+const applicationvndmuveestyle = 'application/vnd.muvee.style';
+const applicationvndmynfc = 'application/vnd.mynfc';
+const applicationvndnatobindingdataobject_xml = 'application/vnd.nato.bindingdataobject+xml';
+const applicationvndneurolanguagenlu = 'application/vnd.neurolanguage.nlu';
+const applicationvndnintendosnesrom = 'application/vnd.nintendo.snes.rom';
+const applicationvndnitf = 'application/vnd.nitf';
+const applicationvndnoblenetdirectory = 'application/vnd.noblenet-directory';
+const applicationvndnoblenetsealer = 'application/vnd.noblenet-sealer';
+const applicationvndnoblenetweb = 'application/vnd.noblenet-web';
+const applicationvndnokiangagedata = 'application/vnd.nokia.n-gage.data';
+const applicationvndnokiangagesymbianinstall = 'application/vnd.nokia.n-gage.symbian.install';
+const applicationvndnokiaradiopreset = 'application/vnd.nokia.radio-preset';
+const applicationvndnokiaradiopresets = 'application/vnd.nokia.radio-presets';
+const applicationvndnovadigmedm = 'application/vnd.novadigm.edm';
+const applicationvndnovadigmedx = 'application/vnd.novadigm.edx';
+const applicationvndnovadigmext = 'application/vnd.novadigm.ext';
+const applicationvndoasisopendocumentbase = 'application/vnd.oasis.opendocument.base';
+const applicationvndoasisopendocumentchart = 'application/vnd.oasis.opendocument.chart';
+const applicationvndoasisopendocumentcharttemplate = 'application/vnd.oasis.opendocument.chart-template';
+const applicationvndoasisopendocumentformula = 'application/vnd.oasis.opendocument.formula';
+const applicationvndoasisopendocumentformulatemplate = 'application/vnd.oasis.opendocument.formula-template';
+const applicationvndoasisopendocumentgraphics = 'application/vnd.oasis.opendocument.graphics';
+const applicationvndoasisopendocumentgraphicsflatxml = 'application/vnd.oasis.opendocument.graphics-flat-xml';
+const applicationvndoasisopendocumentgraphicstemplate = 'application/vnd.oasis.opendocument.graphics-template';
+const applicationvndoasisopendocumentimage = 'application/vnd.oasis.opendocument.image';
+const applicationvndoasisopendocumentimagetemplate = 'application/vnd.oasis.opendocument.image-template';
+const applicationvndoasisopendocumentpresentation = 'application/vnd.oasis.opendocument.presentation';
+const applicationvndoasisopendocumentpresentationflatxml = 'application/vnd.oasis.opendocument.presentation-flat-xml';
+const applicationvndoasisopendocumentpresentationtemplate = 'application/vnd.oasis.opendocument.presentation-template';
+const applicationvndoasisopendocumentspreadsheet = 'application/vnd.oasis.opendocument.spreadsheet';
+const applicationvndoasisopendocumentspreadsheetflatxml = 'application/vnd.oasis.opendocument.spreadsheet-flat-xml';
+const applicationvndoasisopendocumentspreadsheettemplate = 'application/vnd.oasis.opendocument.spreadsheet-template';
+const applicationvndoasisopendocumenttext = 'application/vnd.oasis.opendocument.text';
+const applicationvndoasisopendocumenttextflatxml = 'application/vnd.oasis.opendocument.text-flat-xml';
+const applicationvndoasisopendocumenttextmaster = 'application/vnd.oasis.opendocument.text-master';
+const applicationvndoasisopendocumenttextmastertemplate = 'application/vnd.oasis.opendocument.text-master-template';
+const applicationvndoasisopendocumenttexttemplate = 'application/vnd.oasis.opendocument.text-template';
+const applicationvndoasisopendocumenttextweb = 'application/vnd.oasis.opendocument.text-web';
+const applicationvndolpcsugar = 'application/vnd.olpc-sugar';
+const applicationvndomadd2_xml = 'application/vnd.oma.dd2+xml';
+const applicationvndopenbloxgame_xml = 'application/vnd.openblox.game+xml';
+const applicationvndopenofficeorgextension = 'application/vnd.openofficeorg.extension';
+const applicationvndopenstreetmapdata_xml = 'application/vnd.openstreetmap.data+xml';
+const applicationvndopenxmlformatsofficedocumentpresentationmlpresentation = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
+const applicationvndopenxmlformatsofficedocumentpresentationmlslide = 'application/vnd.openxmlformats-officedocument.presentationml.slide';
+const applicationvndopenxmlformatsofficedocumentpresentationmlslideshow = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow';
+const applicationvndopenxmlformatsofficedocumentpresentationmltemplate = 'application/vnd.openxmlformats-officedocument.presentationml.template';
+const applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+const applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template';
+const applicationvndopenxmlformatsofficedocumentwordprocessingmldocument = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+const applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template';
+const applicationvndosgidp = 'application/vnd.osgi.dp';
+const applicationvndosgisubsystem = 'application/vnd.osgi.subsystem';
+const applicationvndpalm = 'application/vnd.palm';
+const applicationvndpawaafile = 'application/vnd.pawaafile';
+const applicationvndpgformat = 'application/vnd.pg.format';
+const applicationvndpgosasli = 'application/vnd.pg.osasli';
+const applicationvndpicsel = 'application/vnd.picsel';
+const applicationvndpmiwidget = 'application/vnd.pmi.widget';
+const applicationvndpocketlearn = 'application/vnd.pocketlearn';
+const applicationvndpowerbuilder6 = 'application/vnd.powerbuilder6';
+const applicationvndpreviewsystemsbox = 'application/vnd.previewsystems.box';
+const applicationvndproteusmagazine = 'application/vnd.proteus.magazine';
+const applicationvndpublisharedeltatree = 'application/vnd.publishare-delta-tree';
+const applicationvndpviptid1 = 'application/vnd.pvi.ptid1';
+const applicationvndpwgxhtmlprint_xml = 'application/vnd.pwg-xhtml-print+xml';
+const applicationvndquarkquarkxpress = 'application/vnd.quark.quarkxpress';
+const applicationvndrar = 'application/vnd.rar';
+const applicationvndrealvncbed = 'application/vnd.realvnc.bed';
+const applicationvndrecordaremusicxml = 'application/vnd.recordare.musicxml';
+const applicationvndrecordaremusicxml_xml = 'application/vnd.recordare.musicxml+xml';
+const applicationvndrigcryptonote = 'application/vnd.rig.cryptonote';
+const applicationvndrimcod = 'application/vnd.rim.cod';
+const applicationvndrnrealmedia = 'application/vnd.rn-realmedia';
+const applicationvndroute66link66_xml = 'application/vnd.route66.link66+xml';
+const applicationvndsailingtrackertrack = 'application/vnd.sailingtracker.track';
+const applicationvndseemail = 'application/vnd.seemail';
+const applicationvndsema = 'application/vnd.sema';
+const applicationvndsemd = 'application/vnd.semd';
+const applicationvndsemf = 'application/vnd.semf';
+const applicationvndshanainformedformdata = 'application/vnd.shana.informed.formdata';
+const applicationvndshanainformedformtemplate = 'application/vnd.shana.informed.formtemplate';
+const applicationvndshanainformedinterchange = 'application/vnd.shana.informed.interchange';
+const applicationvndshanainformedpackage = 'application/vnd.shana.informed.package';
+const applicationvndsimtechmindmapper = 'application/vnd.simtech-mindmapper';
+const applicationvndsmaf = 'application/vnd.smaf';
+const applicationvndsmartteacher = 'application/vnd.smart.teacher';
+const applicationvndsnap = 'application/vnd.snap';
+const applicationvndsolentsdkm_xml = 'application/vnd.solent.sdkm+xml';
+const applicationvndspotfiredxp = 'application/vnd.spotfire.dxp';
+const applicationvndsqlite3 = 'application/vnd.sqlite3';
+const applicationvndsquashfs = 'application/vnd.squashfs';
+const applicationvndstardivisionimpresspacked = 'application/vnd.stardivision.impress-packed';
+const applicationvndstardivisionmail = 'application/vnd.stardivision.mail';
+const applicationvndstepmaniapackage = 'application/vnd.stepmania.package';
+const applicationvndstepmaniastepchart = 'application/vnd.stepmania.stepchart';
+const applicationvndsunwadl_xml = 'application/vnd.sun.wadl+xml';
+const applicationvndsunxmlcalc = 'application/vnd.sun.xml.calc';
+const applicationvndsunxmlcalctemplate = 'application/vnd.sun.xml.calc.template';
+const applicationvndsunxmldraw = 'application/vnd.sun.xml.draw';
+const applicationvndsunxmldrawtemplate = 'application/vnd.sun.xml.draw.template';
+const applicationvndsunxmlimpress = 'application/vnd.sun.xml.impress';
+const applicationvndsunxmlimpresstemplate = 'application/vnd.sun.xml.impress.template';
+const applicationvndsunxmlmath = 'application/vnd.sun.xml.math';
+const applicationvndsunxmlwriter = 'application/vnd.sun.xml.writer';
+const applicationvndsunxmlwriterglobal = 'application/vnd.sun.xml.writer.global';
+const applicationvndsunxmlwritertemplate = 'application/vnd.sun.xml.writer.template';
+const applicationvndsuscalendar = 'application/vnd.sus-calendar';
+const applicationvndsvd = 'application/vnd.svd';
+const applicationvndsymbianinstall = 'application/vnd.symbian.install';
+const applicationvndsyncml_xml = 'application/vnd.syncml+xml';
+const applicationvndsyncmldm_xml = 'application/vnd.syncml.dm+xml';
+const applicationvndsyncmldmddf_xml = 'application/vnd.syncml.dmddf+xml';
+const applicationvndtaointentmodulearchive = 'application/vnd.tao.intent-module-archive';
+const applicationvndtcpdumppcap = 'application/vnd.tcpdump.pcap';
+const applicationvndtmobilelivetv = 'application/vnd.tmobile-livetv';
+const applicationvndtridtpt = 'application/vnd.trid.tpt';
+const applicationvndtriscapemxs = 'application/vnd.triscape.mxs';
+const applicationvndtrueapp = 'application/vnd.trueapp';
+const applicationvndufdl = 'application/vnd.ufdl';
+const applicationvnduiqtheme = 'application/vnd.uiq.theme';
+const applicationvndumajin = 'application/vnd.umajin';
+const applicationvndunity = 'application/vnd.unity';
+const applicationvnduoml_xml = 'application/vnd.uoml+xml';
+const applicationvndvcx = 'application/vnd.vcx';
+const applicationvndvisio = 'application/vnd.visio';
+const applicationvndvisionary = 'application/vnd.visionary';
+const applicationvndvsf = 'application/vnd.vsf';
+const applicationvndwapwbxml = 'application/vnd.wap.wbxml';
+const applicationvndwapwmlc = 'application/vnd.wap.wmlc';
+const applicationvndwapwmlscriptc = 'application/vnd.wap.wmlscriptc';
+const applicationvndwebturbo = 'application/vnd.webturbo';
+const applicationvndwolframplayer = 'application/vnd.wolfram.player';
+const applicationvndwordperfect = 'application/vnd.wordperfect';
+const applicationvndwqd = 'application/vnd.wqd';
+const applicationvndwtstf = 'application/vnd.wt.stf';
+const applicationvndxfdl = 'application/vnd.xfdl';
+const applicationvndyamahahvdic = 'application/vnd.yamaha.hv-dic';
+const applicationvndyamahahvscript = 'application/vnd.yamaha.hv-script';
+const applicationvndyamahahvvoice = 'application/vnd.yamaha.hv-voice';
+const applicationvndyamahaopenscoreformat = 'application/vnd.yamaha.openscoreformat';
+const applicationvndyamahaopenscoreformatosfpvg_xml = 'application/vnd.yamaha.openscoreformat.osfpvg+xml';
+const applicationvndyamahasmafaudio = 'application/vnd.yamaha.smaf-audio';
+const applicationvndyamahasmafphrase = 'application/vnd.yamaha.smaf-phrase';
+const applicationvndyellowrivercustommenu = 'application/vnd.yellowriver-custom-menu';
+const applicationvndzul = 'application/vnd.zul';
+const applicationvndzzazzdeck_xml = 'application/vnd.zzazz.deck+xml';
+const applicationvoicexml_xml = 'application/voicexml+xml';
+const applicationwasm = 'application/wasm';
+const applicationwatcherinfo_xml = 'application/watcherinfo+xml';
+const applicationwidget = 'application/widget';
+const applicationwinhlp = 'application/winhlp';
+const applicationwsdl_xml = 'application/wsdl+xml';
+const applicationwspolicy_xml = 'application/wspolicy+xml';
+const applicationx7zcompressed = 'application/x-7z-compressed';
+const applicationxabiword = 'application/x-abiword';
+const applicationxace = 'application/x-ace';
+const applicationxalz = 'application/x-alz';
+const applicationxamigadiskformat = 'application/x-amiga-disk-format';
+const applicationxamipro = 'application/x-amipro';
+const applicationxaml_xml = 'application/xaml+xml';
+const applicationxaportisdoc = 'application/x-aportisdoc';
+const applicationxapplediskimage = 'application/x-apple-diskimage';
+const applicationxapplesystemprofiler_xml = 'application/x-apple-systemprofiler+xml';
+const applicationxappleworksdocument = 'application/x-appleworks-document';
+const applicationxapplixspreadsheet = 'application/x-applix-spreadsheet';
+const applicationxapplixword = 'application/x-applix-word';
+const applicationxarchive = 'application/x-archive';
+const applicationxarj = 'application/x-arj';
+const applicationxasar = 'application/x-asar';
+const applicationxasp = 'application/x-asp';
+const applicationxatari2600rom = 'application/x-atari-2600-rom';
+const applicationxatari7800rom = 'application/x-atari-7800-rom';
+const applicationxatarilynxrom = 'application/x-atari-lynx-rom';
+const applicationxauthorwarebin = 'application/x-authorware-bin';
+const applicationxauthorwaremap = 'application/x-authorware-map';
+const applicationxauthorwareseg = 'application/x-authorware-seg';
+const applicationxawk = 'application/x-awk';
+const applicationxbat = 'application/x-bat';
+const applicationxbcpio = 'application/x-bcpio';
+const applicationxbittorrent = 'application/x-bittorrent';
+const applicationxblender = 'application/x-blender';
+const applicationxblorb = 'application/x-blorb';
+const applicationxbpspatch = 'application/x-bps-patch';
+const applicationxbsdiff = 'application/x-bsdiff';
+const applicationxbzdvi = 'application/x-bzdvi';
+const applicationxbzip1 = 'application/x-bzip1';
+const applicationxbzip1compressedtar = 'application/x-bzip1-compressed-tar';
+const applicationxbzip2 = 'application/x-bzip2';
+const applicationxbzip2compressedtar = 'application/x-bzip2-compressed-tar';
+const applicationxbzip3 = 'application/x-bzip3';
+const applicationxbzip3compressedtar = 'application/x-bzip3-compressed-tar';
+const applicationxbzpdf = 'application/x-bzpdf';
+const applicationxbzpostscript = 'application/x-bzpostscript';
+const applicationxcapatt_xml = 'application/xcap-att+xml';
+const applicationxcapcaps_xml = 'application/xcap-caps+xml';
+const applicationxcapdiff_xml = 'application/xcap-diff+xml';
+const applicationxcapel_xml = 'application/xcap-el+xml';
+const applicationxcapns_xml = 'application/xcap-ns+xml';
+const applicationxcb7 = 'application/x-cb7';
+const applicationxcbr = 'application/x-cbr';
+const applicationxcbt = 'application/x-cbt';
+const applicationxccmx = 'application/x-ccmx';
+const applicationxcdlink = 'application/x-cdlink';
+const applicationxcdrdaotoc = 'application/x-cdrdao-toc';
+const applicationxcfscompressed = 'application/x-cfs-compressed';
+const applicationxchat = 'application/x-chat';
+const applicationxchromeextension = 'application/x-chrome-extension';
+const applicationxcocoa = 'application/x-cocoa';
+const applicationxcompress = 'application/x-compress';
+const applicationxcompressediso = 'application/x-compressed-iso';
+const applicationxcompressedtar = 'application/x-compressed-tar';
+const applicationxcore = 'application/x-core';
+const applicationxcpio = 'application/x-cpio';
+const applicationxcpiocompressed = 'application/x-cpio-compressed';
+const applicationxcsh = 'application/x-csh';
+const applicationxcue = 'application/x-cue';
+const applicationxdar = 'application/x-dar';
+const applicationxdesigner = 'application/x-designer';
+const applicationxdesktop = 'application/x-desktop';
+const applicationxdgccompressed = 'application/x-dgc-compressed';
+const applicationxdiadiagram = 'application/x-dia-diagram';
+const applicationxdiashape = 'application/x-dia-shape';
+const applicationxdirector = 'application/x-director';
+const applicationxdiscjugglercdimage = 'application/x-discjuggler-cd-image';
+const applicationxdtbncx_xml = 'application/x-dtbncx+xml';
+const applicationxdvi = 'application/x-dvi';
+const applicationxegon = 'application/x-egon';
+const applicationxenc_xml = 'application/xenc+xml';
+const applicationxenvoy = 'application/x-envoy';
+const applicationxerislink_cbor = 'application/x-eris-link+cbor';
+const applicationxetheme = 'application/x-e-theme';
+const applicationxeva = 'application/x-eva';
+const applicationxexcellon = 'application/x-excellon';
+const applicationxfdsdisk = 'application/x-fds-disk';
+const applicationxfictionbook_xml = 'application/x-fictionbook+xml';
+const applicationxfishscript = 'application/x-fishscript';
+const applicationxfluid = 'application/x-fluid';
+const applicationxfontafm = 'application/x-font-afm';
+const applicationxfontbdf = 'application/x-font-bdf';
+const applicationxfontlinuxpsf = 'application/x-font-linux-psf';
+const applicationxfontpcf = 'application/x-font-pcf';
+const applicationxfontsnf = 'application/x-font-snf';
+const applicationxfontspeedo = 'application/x-font-speedo';
+const applicationxfontttx = 'application/x-font-ttx';
+const applicationxfonttype1 = 'application/x-font-type1';
+const applicationxfreearc = 'application/x-freearc';
+const applicationxgameboycolorrom = 'application/x-gameboy-color-rom';
+const applicationxgameboyrom = 'application/x-gameboy-rom';
+const applicationxgamegearrom = 'application/x-gamegear-rom';
+const applicationxgbarom = 'application/x-gba-rom';
+const applicationxgcacompressed = 'application/x-gca-compressed';
+const applicationxgdromcue = 'application/x-gd-rom-cue';
+const applicationxgdscript = 'application/x-gdscript';
+const applicationxgenesis32xrom = 'application/x-genesis-32x-rom';
+const applicationxgenesisrom = 'application/x-genesis-rom';
+const applicationxgerberjob = 'application/x-gerber-job';
+const applicationxgettexttranslation = 'application/x-gettext-translation';
+const applicationxglade = 'application/x-glade';
+const applicationxglulx = 'application/x-glulx';
+const applicationxgnucash = 'application/x-gnucash';
+const applicationxgnumeric = 'application/x-gnumeric';
+const applicationxgnuplot = 'application/x-gnuplot';
+const applicationxgodotproject = 'application/x-godot-project';
+const applicationxgodotresource = 'application/x-godot-resource';
+const applicationxgodotscene = 'application/x-godot-scene';
+const applicationxgodotshader = 'application/x-godot-shader';
+const applicationxgosgf = 'application/x-go-sgf';
+const applicationxgrampsxml = 'application/x-gramps-xml';
+const applicationxgraphite = 'application/x-graphite';
+const applicationxgzdvi = 'application/x-gzdvi';
+const applicationxgzfontlinuxpsf = 'application/x-gz-font-linux-psf';
+const applicationxgzpdf = 'application/x-gzpdf';
+const applicationxgzpostscript = 'application/x-gzpostscript';
+const applicationxhdf = 'application/x-hdf';
+const applicationxhfefloppyimage = 'application/x-hfe-floppy-image';
+const applicationxhtml_xml = 'application/xhtml+xml';
+const applicationxhwp = 'application/x-hwp';
+const applicationxhwt = 'application/x-hwt';
+const applicationxica = 'application/x-ica';
+const applicationxipspatch = 'application/x-ips-patch';
+const applicationxipynb_json = 'application/x-ipynb+json';
+const applicationxiso9660appimage = 'application/x-iso9660-appimage';
+const applicationxit87 = 'application/x-it87';
+const applicationxjava = 'application/x-java';
+const applicationxjavaarchivediff = 'application/x-java-archive-diff';
+const applicationxjavajcekeystore = 'application/x-java-jce-keystore';
+const applicationxjavajnlpfile = 'application/x-java-jnlp-file';
+const applicationxjavakeystore = 'application/x-java-keystore';
+const applicationxjavapack200 = 'application/x-java-pack200';
+const applicationxjbuilderproject = 'application/x-jbuilder-project';
+const applicationxkarbon = 'application/x-karbon';
+const applicationxkchart = 'application/x-kchart';
+const applicationxkeepass2 = 'application/x-keepass2';
+const applicationxkexiconnectiondata = 'application/x-kexi-connectiondata';
+const applicationxkexiprojectshortcut = 'application/x-kexiproject-shortcut';
+const applicationxkexiprojectsqlite2 = 'application/x-kexiproject-sqlite2';
+const applicationxkformula = 'application/x-kformula';
+const applicationxkillustrator = 'application/x-killustrator';
+const applicationxkivio = 'application/x-kivio';
+const applicationxkontour = 'application/x-kontour';
+const applicationxkpovmodeler = 'application/x-kpovmodeler';
+const applicationxkpresenter = 'application/x-kpresenter';
+const applicationxkrita = 'application/x-krita';
+const applicationxkspread = 'application/x-kspread';
+const applicationxkugar = 'application/x-kugar';
+const applicationxkword = 'application/x-kword';
+const applicationxlha = 'application/x-lha';
+const applicationxlhz = 'application/x-lhz';
+const applicationxliff_xml = 'application/xliff+xml';
+const applicationxlmdb = 'application/x-lmdb';
+const applicationxlrzip = 'application/x-lrzip';
+const applicationxlrzipcompressedtar = 'application/x-lrzip-compressed-tar';
+const applicationxluabytecode = 'application/x-lua-bytecode';
+const applicationxlyx = 'application/x-lyx';
+const applicationxlz4 = 'application/x-lz4';
+const applicationxlz4compressedtar = 'application/x-lz4-compressed-tar';
+const applicationxlzip = 'application/x-lzip';
+const applicationxlzipcompressedtar = 'application/x-lzip-compressed-tar';
+const applicationxlzma = 'application/x-lzma';
+const applicationxlzmacompressedtar = 'application/x-lzma-compressed-tar';
+const applicationxlzop = 'application/x-lzop';
+const applicationxlzpdf = 'application/x-lzpdf';
+const applicationxm4 = 'application/x-m4';
+const applicationxmagicpoint = 'application/x-magicpoint';
+const applicationxmakeself = 'application/x-makeself';
+const applicationxmamechd = 'application/x-mame-chd';
+const applicationxmarkaby = 'application/x-markaby';
+const applicationxmie = 'application/x-mie';
+const applicationxmif = 'application/x-mif';
+const applicationxmimearchive = 'application/x-mimearchive';
+const applicationxml = 'application/xml';
+const applicationxmldtd = 'application/xml-dtd';
+const applicationxmlexternalparsedentity = 'application/xml-external-parsed-entity';
+const applicationxmobipocketebook = 'application/x-mobipocket-ebook';
+const applicationxmodrinthmodpack_zip = 'application/x-modrinth-modpack+zip';
+const applicationxmsapplication = 'application/x-ms-application';
+const applicationxmsbinder = 'application/x-msbinder';
+const applicationxmscardfile = 'application/x-mscardfile';
+const applicationxmsclip = 'application/x-msclip';
+const applicationxmsdownload = 'application/x-msdownload';
+const applicationxmsi = 'application/x-msi';
+const applicationxmsmediaview = 'application/x-msmediaview';
+const applicationxmsmetafile = 'application/x-msmetafile';
+const applicationxmsmoney = 'application/x-msmoney';
+const applicationxmsschedule = 'application/x-msschedule';
+const applicationxmsshortcut = 'application/x-ms-shortcut';
+const applicationxmsterminal = 'application/x-msterminal';
+const applicationxmswim = 'application/x-ms-wim';
+const applicationxmswinurl = 'application/x-mswinurl';
+const applicationxmswmd = 'application/x-ms-wmd';
+const applicationxmswmz = 'application/x-ms-wmz';
+const applicationxmswrite = 'application/x-mswrite';
+const applicationxmsxbap = 'application/x-ms-xbap';
+const applicationxmsxrom = 'application/x-msx-rom';
+const applicationxn64rom = 'application/x-n64-rom';
+const applicationxnavianimation = 'application/x-navi-animation';
+const applicationxneogeopocketcolorrom = 'application/x-neo-geo-pocket-color-rom';
+const applicationxneogeopocketrom = 'application/x-neo-geo-pocket-rom';
+const applicationxnesrom = 'application/x-nes-rom';
+const applicationxnetcdf = 'application/x-netcdf';
+const applicationxnetshowchannel = 'application/x-netshow-channel';
+const applicationxnintendo3dsexecutable = 'application/x-nintendo-3ds-executable';
+const applicationxnintendo3dsrom = 'application/x-nintendo-3ds-rom';
+const applicationxnintendodsrom = 'application/x-nintendo-ds-rom';
+const applicationxnintendoswitchxci = 'application/x-nintendo-switch-xci';
+const applicationxnsproxyautoconfig = 'application/x-ns-proxy-autoconfig';
+const applicationxnuscript = 'application/x-nuscript';
+const applicationxnzb = 'application/x-nzb';
+const applicationxobject = 'application/x-object';
+const applicationxoleo = 'application/x-oleo';
+const applicationxop_xml = 'application/xop+xml';
+const applicationxopenvpnprofile = 'application/x-openvpn-profile';
+const applicationxopenzim = 'application/x-openzim';
+const applicationxpagemaker = 'application/x-pagemaker';
+const applicationxpak = 'application/x-pak';
+const applicationxpar2 = 'application/x-par2';
+const applicationxpartialdownload = 'application/x-partial-download';
+const applicationxpcapng = 'application/x-pcapng';
+const applicationxpcenginerom = 'application/x-pc-engine-rom';
+const applicationxperfdata = 'application/x-perf-data';
+const applicationxperl = 'application/x-perl';
+const applicationxphp = 'application/x-php';
+const applicationxpkcs7certificates = 'application/x-pkcs7-certificates';
+const applicationxpkcs7certreqresp = 'application/x-pkcs7-certreqresp';
+const applicationxplanperfect = 'application/x-planperfect';
+const applicationxpocketword = 'application/x-pocket-word';
+const applicationxpowershell = 'application/x-powershell';
+const applicationxproc_xml = 'application/xproc+xml';
+const applicationxprofile = 'application/x-profile';
+const applicationxpw = 'application/x-pw';
+const applicationxpyspreadbzspreadsheet = 'application/x-pyspread-bz-spreadsheet';
+const applicationxpyspreadspreadsheet = 'application/x-pyspread-spreadsheet';
+const applicationxpythonbytecode = 'application/x-python-bytecode';
+const applicationxqbrew = 'application/x-qbrew';
+const applicationxqeddisk = 'application/x-qed-disk';
+const applicationxqemudisk = 'application/x-qemu-disk';
+const applicationxqpress = 'application/x-qpress';
+const applicationxqtiplot = 'application/x-qtiplot';
+const applicationxquattropro = 'application/x-quattropro';
+const applicationxquicktimemedialink = 'application/x-quicktime-media-link';
+const applicationxqw = 'application/x-qw';
+const applicationxrawdiskimagexzcompressed = 'application/x-raw-disk-image-xz-compressed';
+const applicationxrawfloppydiskimage = 'application/x-raw-floppy-disk-image';
+const applicationxresearchinfosystems = 'application/x-research-info-systems';
+const applicationxrpm = 'application/x-rpm';
+const applicationxruby = 'application/x-ruby';
+const applicationxrzip = 'application/x-rzip';
+const applicationxrzipcompressedtar = 'application/x-rzip-compressed-tar';
+const applicationxsami = 'application/x-sami';
+const applicationxsea = 'application/x-sea';
+const applicationxsg1000rom = 'application/x-sg1000-rom';
+const applicationxshar = 'application/x-shar';
+const applicationxsharedlib = 'application/x-sharedlib';
+const applicationxsharedlibraryla = 'application/x-shared-library-la';
+const applicationxshellscript = 'application/x-shellscript';
+const applicationxshorten = 'application/x-shorten';
+const applicationxsiag = 'application/x-siag';
+const applicationxsilverlightapp = 'application/x-silverlight-app';
+const applicationxslt_xml = 'application/xslt+xml';
+const applicationxsmsrom = 'application/x-sms-rom';
+const applicationxsonybbeb = 'application/x-sony-bbeb';
+const applicationxsourcerpm = 'application/x-source-rpm';
+const applicationxspf_xml = 'application/xspf+xml';
+const applicationxspsspor = 'application/x-spss-por';
+const applicationxspsssav = 'application/x-spss-sav';
+const applicationxsqlite2 = 'application/x-sqlite2';
+const applicationxstarcalc = 'application/x-starcalc';
+const applicationxstarchart = 'application/x-starchart';
+const applicationxstardraw = 'application/x-stardraw';
+const applicationxstarimpress = 'application/x-starimpress';
+const applicationxstarmail = 'application/x-starmail';
+const applicationxstarmath = 'application/x-starmath';
+const applicationxstarwriter = 'application/x-starwriter';
+const applicationxstarwriterglobal = 'application/x-starwriter-global';
+const applicationxstuffit = 'application/x-stuffit';
+const applicationxstuffitx = 'application/x-stuffitx';
+const applicationxsubrip = 'application/x-subrip';
+const applicationxsv4cpio = 'application/x-sv4cpio';
+const applicationxsv4crc = 'application/x-sv4crc';
+const applicationxsylk = 'application/x-sylk';
+const applicationxt3vmimage = 'application/x-t3vm-image';
+const applicationxt602 = 'application/x-t602';
+const applicationxtads = 'application/x-tads';
+const applicationxtar = 'application/x-tar';
+const applicationxtarz = 'application/x-tarz';
+const applicationxtexgf = 'application/x-tex-gf';
+const applicationxtexpk = 'application/x-tex-pk';
+const applicationxtextfm = 'application/x-tex-tfm';
+const applicationxtgif = 'application/x-tgif';
+const applicationxtheme = 'application/x-theme';
+const applicationxthomsoncartridgememo7 = 'application/x-thomson-cartridge-memo7';
+const applicationxthomsoncassette = 'application/x-thomson-cassette';
+const applicationxthomsonsapimage = 'application/x-thomson-sap-image';
+const applicationxtiledtmx = 'application/x-tiled-tmx';
+const applicationxtiledtsx = 'application/x-tiled-tsx';
+const applicationxtrash = 'application/x-trash';
+const applicationxtroffman = 'application/x-troff-man';
+const applicationxtzo = 'application/x-tzo';
+const applicationxufraw = 'application/x-ufraw';
+const applicationxustar = 'application/x-ustar';
+const applicationxv_xml = 'application/xv+xml';
+const applicationxvdidisk = 'application/x-vdi-disk';
+const applicationxvhddisk = 'application/x-vhd-disk';
+const applicationxvhdxdisk = 'application/x-vhdx-disk';
+const applicationxvirtualboxhdd = 'application/x-virtualbox-hdd';
+const applicationxvirtualboxovf = 'application/x-virtualbox-ovf';
+const applicationxvirtualboxvbox = 'application/x-virtualbox-vbox';
+const applicationxvirtualboxvboxextpack = 'application/x-virtualbox-vbox-extpack';
+const applicationxvirtualboyrom = 'application/x-virtual-boy-rom';
+const applicationxvmdkdisk = 'application/x-vmdk-disk';
+const applicationxwaissource = 'application/x-wais-source';
+const applicationxwebappmanifest_json = 'application/x-web-app-manifest+json';
+const applicationxwiiwad = 'application/x-wii-wad';
+const applicationxwindowsthemepack = 'application/x-windows-themepack';
+const applicationxwonderswancolorrom = 'application/x-wonderswan-color-rom';
+const applicationxwonderswanrom = 'application/x-wonderswan-rom';
+const applicationxwpg = 'application/x-wpg';
+const applicationxwwf = 'application/x-wwf';
+const applicationxx509cacert = 'application/x-x509-ca-cert';
+const applicationxxar = 'application/x-xar';
+const applicationxxbel = 'application/x-xbel';
+const applicationxxpinstall = 'application/x-xpinstall';
+const applicationxxz = 'application/x-xz';
+const applicationxxzcompressedtar = 'application/x-xz-compressed-tar';
+const applicationxxzpdf = 'application/x-xzpdf';
+const applicationxzipcompressedfb2 = 'application/x-zip-compressed-fb2';
+const applicationxzmachine = 'application/x-zmachine';
+const applicationxzoo = 'application/x-zoo';
+const applicationxzpaq = 'application/x-zpaq';
+const applicationxzstdcompressedtar = 'application/x-zstd-compressed-tar';
+const applicationyaml = 'application/yaml';
+const applicationyang = 'application/yang';
+const applicationyin_xml = 'application/yin+xml';
+const applicationzip = 'application/zip';
+const applicationzlib = 'application/zlib';
+const applicationzstd = 'application/zstd';
+const appx = 'appx';
+const appxbundle = 'appxbundle';
+const apr = 'apr';
+const ar = 'ar';
+const arc = 'arc';
+const arj = 'arj';
+const arw = 'arw';
+const asar = 'asar';
+const asc = 'asc';
+const asd = 'asd';
+const asf = 'asf';
+const asm = 'asm';
+const aso = 'aso';
+const asp = 'asp';
+const ass = 'ass';
+const astc = 'astc';
+const asx = 'asx';
+const atc = 'atc';
+const atom = 'atom';
+const atomcat = 'atomcat';
+const atomdeleted = 'atomdeleted';
+const atomsvc = 'atomsvc';
 const atx = 'atx';
-const audiobasic = 'audio/basic';
 const au = 'au';
-const snd = 'snd';
-const textxauthors = 'text/x-authors';
+const audioaac = 'audio/aac';
+const audioac3 = 'audio/ac3';
+const audioadpcm = 'audio/adpcm';
+const audioamr = 'audio/amr';
+const audioamrwb = 'audio/amr-wb';
+const audioannodex = 'audio/annodex';
+const audiobasic = 'audio/basic';
+const audioflac = 'audio/flac';
+const audiomidi = 'audio/midi';
+const audiomobilexmf = 'audio/mobile-xmf';
+const audiomp2 = 'audio/mp2';
+const audiomp4 = 'audio/mp4';
+const audiompeg = 'audio/mpeg';
+const audioogg = 'audio/ogg';
+const audioprssid = 'audio/prs.sid';
+const audiosilk = 'audio/silk';
+const audiousac = 'audio/usac';
+const audiovndaudibleaax = 'audio/vnd.audible.aax';
+const audiovndaudibleaaxc = 'audio/vnd.audible.aaxc';
+const audiovnddeceaudio = 'audio/vnd.dece.audio';
+const audiovnddigitalwinds = 'audio/vnd.digital-winds';
+const audiovnddra = 'audio/vnd.dra';
+const audiovnddts = 'audio/vnd.dts';
+const audiovnddtshd = 'audio/vnd.dts.hd';
+const audiovndlucentvoice = 'audio/vnd.lucent.voice';
+const audiovndmsplayreadymediapya = 'audio/vnd.ms-playready.media.pya';
+const audiovndnueraecelp4800 = 'audio/vnd.nuera.ecelp4800';
+const audiovndnueraecelp7470 = 'audio/vnd.nuera.ecelp7470';
+const audiovndnueraecelp9600 = 'audio/vnd.nuera.ecelp9600';
+const audiovndrip = 'audio/vnd.rip';
+const audiovndrnrealaudio = 'audio/vnd.rn-realaudio';
+const audiovndwave = 'audio/vnd.wave';
+const audiowebm = 'audio/webm';
+const audioxaifc = 'audio/x-aifc';
+const audioxaiff = 'audio/x-aiff';
+const audioxamzxml = 'audio/x-amzxml';
+const audioxape = 'audio/x-ape';
+const audioxcaf = 'audio/x-caf';
+const audioxdff = 'audio/x-dff';
+const audioxdsf = 'audio/x-dsf';
+const audioxgsm = 'audio/x-gsm';
+const audioxiriverpla = 'audio/x-iriver-pla';
+const audioxit = 'audio/x-it';
+const audioxm4b = 'audio/x-m4b';
+const audioxm4r = 'audio/x-m4r';
+const audioxmatroska = 'audio/x-matroska';
+const audioxminipsf = 'audio/x-minipsf';
+const audioxmo3 = 'audio/x-mo3';
+const audioxmod = 'audio/x-mod';
+const audioxmpegurl = 'audio/x-mpegurl';
+const audioxmsasx = 'audio/x-ms-asx';
+const audioxmswma = 'audio/x-ms-wma';
+const audioxmusepack = 'audio/x-musepack';
+const audioxpnaudibleaudio = 'audio/x-pn-audibleaudio';
+const audioxpnrealaudioplugin = 'audio/x-pn-realaudio-plugin';
+const audioxpsflib = 'audio/x-psflib';
+const audioxs3m = 'audio/x-s3m';
+const audioxscpls = 'audio/x-scpls';
+const audioxstm = 'audio/x-stm';
+const audioxtak = 'audio/x-tak';
+const audioxtta = 'audio/x-tta';
+const audioxvoc = 'audio/x-voc';
+const audioxwavpack = 'audio/x-wavpack';
+const audioxwavpackcorrection = 'audio/x-wavpack-correction';
+const audioxxi = 'audio/x-xi';
+const audioxxm = 'audio/x-xm';
+const audioxxmf = 'audio/x-xmf';
 const authors = 'authors';
-const textxsystemdunit = 'text/x-systemd-unit';
 const automount = 'automount';
-const device = 'device';
-const mount = 'mount';
-const path = 'path';
-const scope = 'scope';
-const slice = 'slice';
-const socket = 'socket';
-const swap = 'swap';
-const target = 'target';
-const timer = 'timer';
-const imageavci = 'image/avci';
 const avci = 'avci';
-const imageavcs = 'image/avcs';
 const avcs = 'avcs';
-const videovndavi = 'video/vnd.avi';
-const avi = 'avi';
 const avf = 'avf';
-const divx = 'divx';
-const imageavif = 'image/avif';
+const avi = 'avi';
 const avif = 'avif';
 const avifs = 'avifs';
-const applicationxapplixword = 'application/x-applix-word';
 const aw = 'aw';
-const audioamrwb = 'audio/amr-wb';
 const awb = 'awb';
-const applicationxawk = 'application/x-awk';
 const awk = 'awk';
-const audioannodex = 'audio/annodex';
 const axa = 'axa';
-const videoannodex = 'video/annodex';
 const axv = 'axv';
-const applicationvndairzipfilesecureazf = 'application/vnd.airzip.filesecure.azf';
 const azf = 'azf';
-const applicationvndairzipfilesecureazs = 'application/vnd.airzip.filesecure.azs';
 const azs = 'azs';
-const imagevndairzipacceleratorazv = 'image/vnd.airzip.accelerator.azv';
 const azv = 'azv';
-const applicationvndamazonebook = 'application/vnd.amazon.ebook';
 const azw = 'azw';
-const applicationvndamazonmobi8ebook = 'application/vnd.amazon.mobi8-ebook';
 const azw3 = 'azw3';
-const kfx = 'kfx';
-const imagevndpcob16 = 'image/vnd.pco.b16';
 const b16 = 'b16';
-const applicationxtrash = 'application/x-trash';
 const bak = 'bak';
-const old = 'old';
-const sik = 'sik';
-const textxbasic = 'text/x-basic';
+const bary = 'bary';
 const bas = 'bas';
-const applicationxbat = 'application/x-bat';
 const bat = 'bat';
-const applicationxbcpio = 'application/x-bcpio';
 const bcpio = 'bcpio';
-const applicationxfontbdf = 'application/x-font-bdf';
 const bdf = 'bdf';
-const applicationbdoc = 'application/bdoc';
+const bdm = 'bdm';
+const bdmv = 'bdmv';
+const bdo = 'bdo';
 const bdoc = 'bdoc';
-const applicationvndrealvncbed = 'application/vnd.realvnc.bed';
 const bed = 'bed';
-const applicationvndfujitsuoasysprs = 'application/vnd.fujitsu.oasysprs';
 const bh2 = 'bh2';
-const textxbibtex = 'text/x-bibtex';
 const bib = 'bib';
-const videovndradgamettoolsbink = 'video/vnd.radgamettools.bink';
 const bik = 'bik';
-const bk2 = 'bk2';
-const applicationoctetstream = 'application/octet-stream';
 const bin = 'bin';
-const dms = 'dms';
-const lrf = 'lrf';
-const mar = 'mar';
-const dist = 'dist';
-const distz = 'distz';
-const bpk = 'bpk';
-const dump = 'dump';
-const elc = 'elc';
-const deploy = 'deploy';
-const msp = 'msp';
-const msm = 'msm';
-const buffer = 'buffer';
-const applicationxblorb = 'application/x-blorb';
+const bk2 = 'bk2';
 const blb = 'blb';
-const blorb = 'blorb';
-const applicationxblender = 'application/x-blender';
 const blend = 'blend';
 const blender = 'blender';
-const textxblueprint = 'text/x-blueprint';
+const blorb = 'blorb';
 const blp = 'blp';
-const applicationvndbmi = 'application/vnd.bmi';
 const bmi = 'bmi';
-const applicationvndbalsamiqbmml_xml = 'application/vnd.balsamiq.bmml+xml';
 const bmml = 'bmml';
-const imagebmp = 'image/bmp';
 const bmp = 'bmp';
-const dib = 'dib';
-const applicationvndpreviewsystemsbox = 'application/vnd.previewsystems.box';
+const book = 'book';
 const box = 'box';
-const applicationxbpspatch = 'application/x-bps-patch';
-const bps = 'bps';
-const chemicalxpdb = 'chemical/x-pdb';
-const brk = 'brk';
-const applicationxbsdiff = 'application/x-bsdiff';
-const bsdiff = 'bsdiff';
-const modelvndvalvesourcecompiledmap = 'model/vnd.valve.source.compiled-map';
-const bsp = 'bsp';
-const imageprsbtif = 'image/prs.btif';
-const btif = 'btif';
-const btf = 'btf';
-const applicationxbzip1 = 'application/x-bzip1';
-const bz = 'bz';
-const applicationxbzip2 = 'application/x-bzip2';
-const bz2 = 'bz2';
 const boz = 'boz';
-const applicationxbzip3 = 'application/x-bzip3';
+const bpk = 'bpk';
+const bps = 'bps';
+const brk = 'brk';
+const bsdiff = 'bsdiff';
+const bsp = 'bsp';
+const btf = 'btf';
+const btif = 'btif';
+const buffer = 'buffer';
+const bz = 'bz';
+const bz2 = 'bz2';
 const bz3 = 'bz3';
-const applicationvndcluetrustcartomobileconfig = 'application/vnd.cluetrust.cartomobile-config';
+const c = 'c';
 const c11amc = 'c11amc';
-const applicationvndcluetrustcartomobileconfigpkg = 'application/vnd.cluetrust.cartomobile-config-pkg';
 const c11amz = 'c11amz';
-const applicationvndclonkc4group = 'application/vnd.clonk.c4group';
-const c4g = 'c4g';
 const c4d = 'c4d';
 const c4f = 'c4f';
+const c4g = 'c4g';
 const c4p = 'c4p';
 const c4u = 'c4u';
-const applicationvndmscabcompressed = 'application/vnd.ms-cab-compressed';
 const cab = 'cab';
-const audioxcaf = 'audio/x-caf';
+const cacerts = 'cacerts';
 const caf = 'caf';
-const applicationvndcurlcar = 'application/vnd.curl.car';
+const cap = 'cap';
 const car = 'car';
-const applicationvndmspkiseccat = 'application/vnd.ms-pki.seccat';
 const cat = 'cat';
-const applicationxcb7 = 'application/x-cb7';
 const cb7 = 'cb7';
-const applicationxcbr = 'application/x-cbr';
 const cba = 'cba';
-const textxcobol = 'text/x-cobol';
 const cbl = 'cbl';
-const cob = 'cob';
-const applicationcbor = 'application/cbor';
 const cbor = 'cbor';
-const applicationvndcomicbookrar = 'application/vnd.comicbook-rar';
 const cbr = 'cbr';
-const applicationxcbt = 'application/x-cbt';
 const cbt = 'cbt';
-const applicationvndcomicbook_zip = 'application/vnd.comicbook+zip';
 const cbz = 'cbz';
-const applicationxccmx = 'application/x-ccmx';
+const cc = 'cc';
+const cci = 'cci';
 const ccmx = 'ccmx';
-const applicationxcocoa = 'application/x-cocoa';
 const cco = 'cco';
-const applicationccxml_xml = 'application/ccxml+xml';
+const cct = 'cct';
 const ccxml = 'ccxml';
-const applicationvndcontactcmsg = 'application/vnd.contact.cmsg';
 const cdbcmsg = 'cdbcmsg';
-const applicationxnetcdf = 'application/x-netcdf';
 const cdf = 'cdf';
-const nc = 'nc';
-const applicationcdfx_xml = 'application/cdfx+xml';
 const cdfx = 'cdfx';
-const applicationxdiscjugglercdimage = 'application/x-discjuggler-cd-image';
 const cdi = 'cdi';
-const applicationvndmediastationcdkey = 'application/vnd.mediastation.cdkey';
 const cdkey = 'cdkey';
-const applicationcdmicapability = 'application/cdmi-capability';
 const cdmia = 'cdmia';
-const applicationcdmicontainer = 'application/cdmi-container';
 const cdmic = 'cdmic';
-const applicationcdmidomain = 'application/cdmi-domain';
 const cdmid = 'cdmid';
-const applicationcdmiobject = 'application/cdmi-object';
 const cdmio = 'cdmio';
-const applicationcdmiqueue = 'application/cdmi-queue';
 const cdmiq = 'cdmiq';
-const applicationvndcoreldraw = 'application/vnd.corel-draw';
 const cdr = 'cdr';
-const chemicalxcdx = 'chemical/x-cdx';
 const cdx = 'cdx';
-const applicationvndchemdraw_xml = 'application/vnd.chemdraw+xml';
 const cdxml = 'cdxml';
-const applicationvndcinderella = 'application/vnd.cinderella';
 const cdy = 'cdy';
-const applicationpkixcert = 'application/pkix-cert';
+const cel = 'cel';
 const cer = 'cer';
-const applicationxcfscompressed = 'application/x-cfs-compressed';
+const cert = 'cert';
 const cfs = 'cfs';
-const imagecgm = 'image/cgm';
+const cgb = 'cgb';
 const cgm = 'cgm';
-const textxchangelog = 'text/x-changelog';
 const changelog = 'changelog';
-const applicationxchat = 'application/x-chat';
 const chat = 'chat';
-const applicationxmamechd = 'application/x-mame-chd';
 const chd = 'chd';
-const applicationvndmshtmlhelp = 'application/vnd.ms-htmlhelp';
-const chm = 'chm';
-const applicationxkchart = 'application/x-kchart';
-const chrt = 'chrt';
+const chemicalxcdx = 'chemical/x-cdx';
 const chemicalxcif = 'chemical/x-cif';
+const chemicalxcmdf = 'chemical/x-cmdf';
+const chemicalxcml = 'chemical/x-cml';
+const chemicalxcsml = 'chemical/x-csml';
+const chemicalxpdb = 'chemical/x-pdb';
+const chemicalxxyz = 'chemical/x-xyz';
+const chm = 'chm';
+const chrt = 'chrt';
 const cif = 'cif';
-const applicationvndanserwebcertificateissueinitiation = 'application/vnd.anser-web-certificate-issue-initiation';
 const cii = 'cii';
-const applicationvndmsartgalry = 'application/vnd.ms-artgalry';
 const cil = 'cil';
-const applicationnode = 'application/node';
 const cjs = 'cjs';
-const textxopenclsrc = 'text/x-opencl-src';
 const cl = 'cl';
-const applicationvndclaymore = 'application/vnd.claymore';
 const cla = 'cla';
-const applicationxjava = 'application/x-java';
-const _class = 'class';
-const modelvndcld = 'model/vnd.cld';
 const cld = 'cld';
-const applicationvndcrickclickerkeyboard = 'application/vnd.crick.clicker.keyboard';
 const clkk = 'clkk';
-const applicationvndcrickclickerpalette = 'application/vnd.crick.clicker.palette';
 const clkp = 'clkp';
-const applicationvndcrickclickertemplate = 'application/vnd.crick.clicker.template';
 const clkt = 'clkt';
-const applicationvndcrickclickerwordbank = 'application/vnd.crick.clicker.wordbank';
 const clkw = 'clkw';
-const applicationvndcrickclicker = 'application/vnd.crick.clicker';
 const clkx = 'clkx';
-const applicationxmsclip = 'application/x-msclip';
 const clp = 'clp';
-const textxcmake = 'text/x-cmake';
+const clpi = 'clpi';
+const cls = 'cls';
 const cmake = 'cmake';
 const cmakeliststxt = 'cmakeliststxt';
-const applicationvndcosmocaller = 'application/vnd.cosmocaller';
 const cmc = 'cmc';
-const chemicalxcmdf = 'chemical/x-cmdf';
 const cmdf = 'cmdf';
-const chemicalxcml = 'chemical/x-cml';
 const cml = 'cml';
-const applicationvndyellowrivercustommenu = 'application/vnd.yellowriver-custom-menu';
 const cmp = 'cmp';
-const imagexcmx = 'image/x-cmx';
 const cmx = 'cmx';
-const applicationvndrimcod = 'application/vnd.rim.cod';
+const cob = 'cob';
 const cod = 'cod';
-const applicationvndcoffeescript = 'application/vnd.coffeescript';
 const coffee = 'coffee';
-const textxcopying = 'text/x-copying';
+const com = 'com';
+const conf = 'conf';
 const copying = 'copying';
-const applicationxcore = 'application/x-core';
 const core = 'core';
-const applicationxcpio = 'application/x-cpio';
+const cpi = 'cpi';
 const cpio = 'cpio';
-const applicationxcpiocompressed = 'application/x-cpio-compressed';
 const cpiogz = 'cpiogz';
-const textxc__src = 'text/x-c++src';
+const cpl = 'cpl';
 const cpp = 'cpp';
-const cxx = 'cxx';
-const cc = 'cc';
-const c = 'c';
-const applicationmaccompactpro = 'application/mac-compactpro';
 const cpt = 'cpt';
-const textxcrystal = 'text/x-crystal';
 const cr = 'cr';
-const imagexcanoncr2 = 'image/x-canon-cr2';
 const cr2 = 'cr2';
-const imagexcanoncr3 = 'image/x-canon-cr3';
 const cr3 = 'cr3';
-const applicationxmscardfile = 'application/x-mscardfile';
 const crd = 'crd';
-const textxcredits = 'text/x-credits';
+const crdownload = 'crdownload';
 const credits = 'credits';
-const applicationpkixcrl = 'application/pkix-crl';
 const crl = 'crl';
-const imagexcanoncrw = 'image/x-canon-crw';
-const crw = 'crw';
-const applicationxchromeextension = 'application/x-chrome-extension';
-const crx = 'crx';
-const applicationvndrigcryptonote = 'application/vnd.rig.cryptonote';
-const cryptonote = 'cryptonote';
-const textxcsharp = 'text/x-csharp';
-const cs = 'cs';
-const applicationxcsh = 'application/x-csh';
-const csh = 'csh';
-const applicationvndcitationstylesstyle_xml = 'application/vnd.citationstyles.style+xml';
-const csl = 'csl';
-const chemicalxcsml = 'chemical/x-csml';
-const csml = 'csml';
-const applicationxcompressediso = 'application/x-compressed-iso';
-const cso = 'cso';
-const applicationvndcommonspace = 'application/vnd.commonspace';
-const csp = 'csp';
-const textcss = 'text/css';
-const css = 'css';
-const textcsv = 'text/csv';
-const csv = 'csv';
-const textcsvschema = 'text/csv-schema';
-const csvs = 'csvs';
-const applicationcuseeme = 'application/cu-seeme';
-const cu = 'cu';
-const applicationxcue = 'application/x-cue';
-const cue = 'cue';
-const imagexwinbitmap = 'image/x-win-bitmap';
-const cur = 'cur';
-const textvndcurl = 'text/vnd.curl';
-const curl = 'curl';
-const applicationxappleworksdocument = 'application/x-appleworks-document';
-const cwk = 'cwk';
-const applicationcwl = 'application/cwl';
-const cwl = 'cwl';
-const applicationprscww = 'application/prs.cww';
-const cww = 'cww';
-const textxdsrc = 'text/x-dsrc';
-const d = 'd';
-const di = 'di';
-const modelvndcollada_xml = 'model/vnd.collada+xml';
-const dae = 'dae';
-const applicationvndmobiusdaf = 'application/vnd.mobius.daf';
-const daf = 'daf';
-const applicationxdar = 'application/x-dar';
-const dar = 'dar';
-const applicationvnddart = 'application/vnd.dart';
-const dart = 'dart';
-const applicationdavmount_xml = 'application/davmount+xml';
-const davmount = 'davmount';
-const applicationvnddbf = 'application/vnd.dbf';
-const dbf = 'dbf';
-const applicationxdocbook_xml = 'application/x-docbook+xml';
-const dbk = 'dbk';
-const docbook = 'docbook';
-const textxdcl = 'text/x-dcl';
-const dcl = 'dcl';
-const imagexkodakdcr = 'image/x-kodak-dcr';
-const dcr = 'dcr';
-const textvndcurldcurl = 'text/vnd.curl.dcurl';
-const dcurl = 'dcurl';
-const applicationvndomadd2_xml = 'application/vnd.oma.dd2+xml';
-const dd2 = 'dd2';
-const applicationvndfujixeroxddd = 'application/vnd.fujixerox.ddd';
-const ddd = 'ddd';
-const applicationvndsyncmldmddf_xml = 'application/vnd.syncml.dmddf+xml';
-const ddf = 'ddf';
-const imagexdds = 'image/x-dds';
-const dds = 'dds';
-const applicationvnddebianbinarypackage = 'application/vnd.debian.binary-package';
-const deb = 'deb';
-const udeb = 'udeb';
-const applicationxx509cacert = 'application/x-x509-ca-cert';
-const der = 'der';
 const crt = 'crt';
-const cert = 'cert';
-const pem = 'pem';
-const applicationxdesktop = 'application/x-desktop';
-const desktop = 'desktop';
-const kdelnk = 'kdelnk';
-const applicationvnddreamfactory = 'application/vnd.dreamfactory';
-const dfac = 'dfac';
-const audioxdff = 'audio/x-dff';
-const dff = 'dff';
-const applicationxdgccompressed = 'application/x-dgc-compressed';
-const dgc = 'dgc';
-const applicationxdiadiagram = 'application/x-dia-diagram';
-const dia = 'dia';
-const textxc = 'text/x-c';
-const dic = 'dic';
-const applicationdicom = 'application/dicom';
-const dicomdir = 'dicomdir';
-const dcm = 'dcm';
-const textxpatch = 'text/x-patch';
-const diff = 'diff';
-const patch = 'patch';
-const applicationxdirector = 'application/x-director';
-const dir = 'dir';
-const dxr = 'dxr';
+const crw = 'crw';
+const crx = 'crx';
+const cryptonote = 'cryptonote';
+const cs = 'cs';
+const csh = 'csh';
+const csl = 'csl';
+const csml = 'csml';
+const cso = 'cso';
+const csp = 'csp';
+const css = 'css';
 const cst = 'cst';
-const cct = 'cct';
+const csv = 'csv';
+const csvs = 'csvs';
+const cu = 'cu';
+const cue = 'cue';
+const cur = 'cur';
+const curl = 'curl';
+const cwk = 'cwk';
+const cwl = 'cwl';
+const cww = 'cww';
 const cxt = 'cxt';
-const w3d = 'w3d';
-const fgd = 'fgd';
-const swa = 'swa';
-const applicationvndmobiusdis = 'application/vnd.mobius.dis';
+const cxx = 'cxx';
+const d = 'd';
+const dae = 'dae';
+const daf = 'daf';
+const dar = 'dar';
+const dart = 'dart';
+const dataless = 'dataless';
+const davmount = 'davmount';
+const dbf = 'dbf';
+const dbk = 'dbk';
+const dcl = 'dcl';
+const dcm = 'dcm';
+const dcr = 'dcr';
+const dcurl = 'dcurl';
+const dd2 = 'dd2';
+const ddd = 'ddd';
+const ddf = 'ddf';
+const dds = 'dds';
+const deb = 'deb';
+const deploy = 'deploy';
+const der = 'der';
+const desktop = 'desktop';
+const device = 'device';
+const dfac = 'dfac';
+const dff = 'dff';
+const dgc = 'dgc';
+const di = 'di';
+const dia = 'dia';
+const dib = 'dib';
+const dic = 'dic';
+const dicomdir = 'dicomdir';
+const diff = 'diff';
+const dir = 'dir';
 const dis = 'dis';
-const messagedispositionnotification = 'message/disposition-notification';
 const dispositionnotification = 'disposition-notification';
-const imagevnddjvu = 'image/vnd.djvu';
-const djvu = 'djvu';
+const dist = 'dist';
+const distz = 'distz';
+const divx = 'divx';
 const djv = 'djv';
-const applicationxapplediskimage = 'application/x-apple-diskimage';
+const djvu = 'djvu';
+const dll = 'dll';
 const dmg = 'dmg';
-const applicationvnddna = 'application/vnd.dna';
+const dmp = 'dmp';
+const dms = 'dms';
 const dna = 'dna';
-const imagexadobedng = 'image/x-adobe-dng';
 const dng = 'dng';
-const applicationmsword = 'application/msword';
 const doc = 'doc';
-const applicationvndmsworddocumentmacroenabled12 = 'application/vnd.ms-word.document.macroenabled.12';
+const docbook = 'docbook';
 const docm = 'docm';
-const applicationvndopenxmlformatsofficedocumentwordprocessingmldocument = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
 const docx = 'docx';
-const applicationmswordtemplate = 'application/msword-template';
 const dot = 'dot';
-const applicationvndmswordtemplatemacroenabled12 = 'application/vnd.ms-word.template.macroenabled.12';
 const dotm = 'dotm';
-const applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template';
 const dotx = 'dotx';
-const applicationvndosgidp = 'application/vnd.osgi.dp';
 const dp = 'dp';
-const applicationvnddpgraph = 'application/vnd.dpgraph';
 const dpg = 'dpg';
-const imagedpx = 'image/dpx';
 const dpx = 'dpx';
-const audiovnddra = 'audio/vnd.dra';
 const dra = 'dra';
-const applicationxexcellon = 'application/x-excellon';
 const drl = 'drl';
-const imagedicomrle = 'image/dicom-rle';
 const drle = 'drle';
-const textprslinestag = 'text/prs.lines.tag';
+const drv = 'drv';
 const dsc = 'dsc';
-const audioxdsf = 'audio/x-dsf';
 const dsf = 'dsf';
-const textxdsl = 'text/x-dsl';
 const dsl = 'dsl';
-const applicationdssc_der = 'application/dssc+der';
 const dssc = 'dssc';
-const textxdevicetreebinary = 'text/x-devicetree-binary';
 const dtb = 'dtb';
-const applicationxmldtd = 'application/xml-dtd';
 const dtd = 'dtd';
-const audiovnddts = 'audio/vnd.dts';
 const dts = 'dts';
-const audiovnddtshd = 'audio/vnd.dts.hd';
 const dtshd = 'dtshd';
-const textxdevicetreesource = 'text/x-devicetree-source';
 const dtsi = 'dtsi';
-const videodv = 'video/dv';
+const dtx = 'dtx';
+const dump = 'dump';
 const dv = 'dv';
-const videovnddvbfile = 'video/vnd.dvb.file';
 const dvb = 'dvb';
-const applicationxdvi = 'application/x-dvi';
 const dvi = 'dvi';
-const applicationxbzdvi = 'application/x-bzdvi';
 const dvibz2 = 'dvibz2';
-const applicationxgzdvi = 'application/x-gzdvi';
 const dvigz = 'dvigz';
-const applicationatscdwd_xml = 'application/atsc-dwd+xml';
 const dwd = 'dwd';
-const modelvnddwf = 'model/vnd.dwf';
 const dwf = 'dwf';
-const imagevnddwg = 'image/vnd.dwg';
 const dwg = 'dwg';
-const imagevnddxf = 'image/vnd.dxf';
 const dxf = 'dxf';
-const applicationvndspotfiredxp = 'application/vnd.spotfire.dxp';
 const dxp = 'dxp';
-const textxeiffel = 'text/x-eiffel';
+const dxr = 'dxr';
 const e = 'e';
-const eif = 'eif';
-const audiovndnueraecelp4800 = 'audio/vnd.nuera.ecelp4800';
+const ear = 'ear';
 const ecelp4800 = 'ecelp4800';
-const audiovndnueraecelp7470 = 'audio/vnd.nuera.ecelp7470';
 const ecelp7470 = 'ecelp7470';
-const audiovndnueraecelp9600 = 'audio/vnd.nuera.ecelp9600';
 const ecelp9600 = 'ecelp9600';
-const applicationvndnovadigmedm = 'application/vnd.novadigm.edm';
+const ecma = 'ecma';
 const edm = 'edm';
-const applicationvndnovadigmedx = 'application/vnd.novadigm.edx';
 const edx = 'edx';
-const applicationvndmicrosoftportableexecutable = 'application/vnd.microsoft.portable-executable';
 const efi = 'efi';
-const ocx = 'ocx';
-const sys = 'sys';
-const lib = 'lib';
-const applicationvndpicsel = 'application/vnd.picsel';
 const efif = 'efif';
-const applicationxegon = 'application/x-egon';
 const egon = 'egon';
-const applicationvndmicrosoftwindowsthumbnailcache = 'application/vnd.microsoft.windows.thumbnail-cache';
 const ehthumbsdb = 'ehthumbsdb';
 const ehthumbsvistadb = 'ehthumbsvistadb';
-const imagedb = 'imagedb';
-const musicthumbsdb = 'musicthumbsdb';
-const thumbsdb = 'thumbsdb';
-const tvthumbdb = 'tvthumbdb';
-const videodb = 'videodb';
-const applicationvndpgosasli = 'application/vnd.pg.osasli';
 const ei6 = 'ei6';
-const textxemacslisp = 'text/x-emacs-lisp';
+const eif = 'eif';
 const el = 'el';
-const imageemf = 'image/emf';
+const elc = 'elc';
 const emf = 'emf';
-const messagerfc822 = 'message/rfc822';
 const eml = 'eml';
-const mime = 'mime';
-const applicationemma_xml = 'application/emma+xml';
 const emma = 'emma';
-const applicationemotionml_xml = 'application/emotionml+xml';
 const emotionml = 'emotionml';
-const applicationvndemusicemusic_package = 'application/vnd.emusic-emusic_package';
 const emp = 'emp';
-const applicationxmsmetafile = 'application/x-msmetafile';
 const emz = 'emz';
-const applicationxmlexternalparsedentity = 'application/xml-external-parsed-entity';
 const ent = 'ent';
-const audiovnddigitalwinds = 'audio/vnd.digital-winds';
 const eol = 'eol';
-const applicationvndmsfontobject = 'application/vnd.ms-fontobject';
 const eot = 'eot';
-const imagexeps = 'image/x-eps';
 const eps = 'eps';
-const epsi = 'epsi';
-const epsf = 'epsf';
-const imagexbzeps = 'image/x-bzeps';
 const epsbz2 = 'epsbz2';
-const epsibz2 = 'epsibz2';
+const epsf = 'epsf';
 const epsfbz2 = 'epsfbz2';
-const imagexgzeps = 'image/x-gzeps';
-const epsgz = 'epsgz';
-const epsigz = 'epsigz';
 const epsfgz = 'epsfgz';
-const applicationepub_zip = 'application/epub+zip';
+const epsgz = 'epsgz';
+const epsi = 'epsi';
+const epsibz2 = 'epsibz2';
+const epsigz = 'epsigz';
 const epub = 'epub';
-const applicationxerislink_cbor = 'application/x-eris-link+cbor';
 const eris = 'eris';
-const textxerlang = 'text/x-erlang';
 const erl = 'erl';
-const applicationecmascript = 'application/ecmascript';
 const es = 'es';
-const ecma = 'ecma';
-const applicationvndeszigno3_xml = 'application/vnd.eszigno3+xml';
 const es3 = 'es3';
-const et3 = 'et3';
-const applicationvndosgisubsystem = 'application/vnd.osgi.subsystem';
 const esa = 'esa';
-const applicationvndepsonesf = 'application/vnd.epson.esf';
+const escn = 'escn';
 const esf = 'esf';
-const applicationxetheme = 'application/x-e-theme';
+const et3 = 'et3';
 const etheme = 'etheme';
-const textxsetext = 'text/x-setext';
 const etx = 'etx';
-const applicationxeva = 'application/x-eva';
 const eva = 'eva';
-const applicationxenvoy = 'application/x-envoy';
 const evy = 'evy';
-const textxelixir = 'text/x-elixir';
 const ex = 'ex';
-const exs = 'exs';
-const applicationxmsdownload = 'application/x-msdownload';
 const exe = 'exe';
-const dll = 'dll';
-const cpl = 'cpl';
-const drv = 'drv';
-const scr = 'scr';
-const com = 'com';
-const applicationexi = 'application/exi';
 const exi = 'exi';
-const applicationexpress = 'application/express';
 const exp = 'exp';
-const imagexexr = 'image/x-exr';
 const exr = 'exr';
-const applicationvndnovadigmext = 'application/vnd.novadigm.ext';
+const exs = 'exs';
 const ext = 'ext';
-const applicationandrewinset = 'application/andrew-inset';
 const ez = 'ez';
-const applicationvndezpixalbum = 'application/vnd.ezpix-album';
 const ez2 = 'ez2';
-const applicationvndezpixpackage = 'application/vnd.ezpix-package';
 const ez3 = 'ez3';
-const textxfortran = 'text/x-fortran';
 const f = 'f';
+const f4a = 'f4a';
+const f4b = 'f4b';
+const f4v = 'f4v';
+const f77 = 'f77';
 const f90 = 'f90';
 const f95 = 'f95';
-const _for = 'for';
-const f77 = 'f77';
-const applicationxfictionbook_xml = 'application/x-fictionbook+xml';
+const fasl = 'fasl';
 const fb2 = 'fb2';
-const applicationxzipcompressedfb2 = 'application/x-zip-compressed-fb2';
 const fb2zip = 'fb2zip';
-const imagevndfastbidsheet = 'image/vnd.fastbidsheet';
 const fbs = 'fbs';
-const applicationvndadobeformscentralfcdt = 'application/vnd.adobe.formscentral.fcdt';
 const fcdt = 'fcdt';
-const applicationvndisacfcs = 'application/vnd.isac.fcs';
 const fcs = 'fcs';
-const applicationxrawfloppydiskimage = 'application/x-raw-floppy-disk-image';
 const fd = 'fd';
-const qd = 'qd';
-const applicationfdf = 'application/fdf';
 const fdf = 'fdf';
-const applicationxfdsdisk = 'application/x-fds-disk';
 const fds = 'fds';
-const applicationfdt_xml = 'application/fdt+xml';
 const fdt = 'fdt';
-const applicationvnddenovofcselayoutlink = 'application/vnd.denovo.fcselayout-link';
 const fe_launch = 'fe_launch';
-const textxgherkin = 'text/x-gherkin';
 const feature = 'feature';
-const applicationvndfujitsuoasysgp = 'application/vnd.fujitsu.oasysgp';
 const fg5 = 'fg5';
-const imagexfreehand = 'image/x-freehand';
+const fgd = 'fgd';
 const fh = 'fh';
-const fhc = 'fhc';
 const fh4 = 'fh4';
 const fh5 = 'fh5';
 const fh7 = 'fh7';
-const imagexxfig = 'image/x-xfig';
+const fhc = 'fhc';
 const fig = 'fig';
-const applicationxfishscript = 'application/x-fishscript';
 const fish = 'fish';
-const applicationfits = 'application/fits';
-const fits = 'fits';
 const fit = 'fit';
-const fts = 'fts';
-const applicationxfluid = 'application/x-fluid';
+const fits = 'fits';
 const fl = 'fl';
-const audioflac = 'audio/flac';
 const flac = 'flac';
-const applicationvndflatpak = 'application/vnd.flatpak';
 const flatpak = 'flatpak';
-const xdgapp = 'xdgapp';
-const applicationvndflatpakref = 'application/vnd.flatpak.ref';
 const flatpakref = 'flatpakref';
-const applicationvndflatpakrepo = 'application/vnd.flatpak.repo';
 const flatpakrepo = 'flatpakrepo';
-const videoxflic = 'video/x-flic';
-const fli = 'fli';
 const flc = 'flc';
-const applicationvndmicrografxflo = 'application/vnd.micrografx.flo';
+const fli = 'fli';
 const flo = 'flo';
-const videoxflv = 'video/x-flv';
 const flv = 'flv';
-const applicationxkivio = 'application/x-kivio';
 const flw = 'flw';
-const textvndfmiflexstor = 'text/vnd.fmi.flexstor';
 const flx = 'flx';
-const textvndfly = 'text/vnd.fly';
 const fly = 'fly';
-const applicationvndframemaker = 'application/vnd.framemaker';
 const fm = 'fm';
-const frame = 'frame';
-const maker = 'maker';
-const book = 'book';
-const applicationvndfrogansfnc = 'application/vnd.frogans.fnc';
 const fnc = 'fnc';
-const textxxslfo = 'text/x-xslfo';
 const fo = 'fo';
-const xslfo = 'xslfo';
-const applicationvndoasisopendocumentgraphicsflatxml = 'application/vnd.oasis.opendocument.graphics-flat-xml';
 const fodg = 'fodg';
-const applicationvndoasisopendocumentpresentationflatxml = 'application/vnd.oasis.opendocument.presentation-flat-xml';
 const fodp = 'fodp';
-const applicationvndoasisopendocumentspreadsheetflatxml = 'application/vnd.oasis.opendocument.spreadsheet-flat-xml';
 const fods = 'fods';
-const applicationvndoasisopendocumenttextflatxml = 'application/vnd.oasis.opendocument.text-flat-xml';
 const fodt = 'fodt';
-const imagevndfpx = 'image/vnd.fpx';
+const fontcollection = 'font/collection';
+const fontttf = 'font/ttf';
+const fontwoff = 'font/woff';
+const fontwoff2 = 'font/woff2';
 const fpx = 'fpx';
-const applicationvndfscweblaunch = 'application/vnd.fsc.weblaunch';
+const frame = 'frame';
 const fsc = 'fsc';
-const imagevndfst = 'image/vnd.fst';
 const fst = 'fst';
-const applicationvndfluxtimeclip = 'application/vnd.fluxtime.clip';
 const ftc = 'ftc';
-const applicationvndanserwebfundstransferinitiation = 'application/vnd.anser-web-funds-transfer-initiation';
 const fti = 'fti';
-const videovndfvt = 'video/vnd.fvt';
+const fts = 'fts';
 const fvt = 'fvt';
-const videoxjavafx = 'video/x-javafx';
 const fxm = 'fxm';
-const applicationvndadobefxp = 'application/vnd.adobe.fxp';
 const fxp = 'fxp';
 const fxpl = 'fxpl';
-const applicationvndfuzzysheet = 'application/vnd.fuzzysheet';
 const fzs = 'fzs';
-const applicationvndgeoplan = 'application/vnd.geoplan';
 const g2w = 'g2w';
-const imageg3fax = 'image/g3fax';
 const g3 = 'g3';
-const applicationvndgeospace = 'application/vnd.geospace';
 const g3w = 'g3w';
-const applicationvndgrooveaccount = 'application/vnd.groove-account';
 const gac = 'gac';
-const applicationxtads = 'application/x-tads';
 const gam = 'gam';
-const applicationxgameboyrom = 'application/x-gameboy-rom';
 const gb = 'gb';
-const sgb = 'sgb';
-const applicationxgbarom = 'application/x-gba-rom';
 const gba = 'gba';
-const agb = 'agb';
-const applicationxgameboycolorrom = 'application/x-gameboy-color-rom';
 const gbc = 'gbc';
-const cgb = 'cgb';
-const imagexgimpgbr = 'image/x-gimp-gbr';
 const gbr = 'gbr';
-const applicationxgerberjob = 'application/x-gerber-job';
 const gbrjob = 'gbrjob';
-const applicationxgcacompressed = 'application/x-gca-compressed';
 const gca = 'gca';
-const textxgcode = 'text/x.gcode';
 const gcode = 'gcode';
-const applicationxgdscript = 'application/x-gdscript';
+const gcrd = 'gcrd';
 const gd = 'gd';
-const applicationxgdromcue = 'application/x-gd-rom-cue';
 const gdi = 'gdi';
-const modelvndgdl = 'model/vnd.gdl';
 const gdl = 'gdl';
-const applicationvndgoogleappsdocument = 'application/vnd.google-apps.document';
 const gdoc = 'gdoc';
-const applicationxgodotshader = 'application/x-godot-shader';
 const gdshader = 'gdshader';
-const textvndfamilysearchgedcom = 'text/vnd.familysearch.gedcom';
 const ged = 'ged';
 const gedcom = 'gedcom';
-const applicationxgenesisrom = 'application/x-genesis-rom';
+const gem = 'gem';
 const gen = 'gen';
-const sgd = 'sgd';
-const applicationvnddynageo = 'application/vnd.dynageo';
 const geo = 'geo';
-const applicationgeo_json = 'application/geo+json';
 const geojson = 'geojson';
-const applicationvndgeometryexplorer = 'application/vnd.geometry-explorer';
 const gex = 'gex';
-const gre = 'gre';
-const applicationxtexgf = 'application/x-tex-gf';
 const gf = 'gf';
-const applicationxgamegearrom = 'application/x-gamegear-rom';
 const gg = 'gg';
-const applicationvndgeogebrafile = 'application/vnd.geogebra.file';
 const ggb = 'ggb';
-const applicationvndgeogebratool = 'application/vnd.geogebra.tool';
+const ggs = 'ggs';
 const ggt = 'ggt';
-const applicationvndgroovehelp = 'application/vnd.groove-help';
 const ghf = 'ghf';
-const imagegif = 'image/gif';
 const gif = 'gif';
-const imagexgimpgih = 'image/x-gimp-gih';
 const gih = 'gih';
-const applicationvndgrooveidentitymessage = 'application/vnd.groove-identity-message';
 const gim = 'gim';
-const applicationxglade = 'application/x-glade';
 const glade = 'glade';
-const modelgltfbinary = 'model/gltf-binary';
 const glb = 'glb';
-const modelgltf_json = 'model/gltf+json';
 const gltf = 'gltf';
-const applicationgml_xml = 'application/gml+xml';
 const gml = 'gml';
-const applicationxgettexttranslation = 'application/x-gettext-translation';
 const gmo = 'gmo';
-const mo = 'mo';
-const applicationxprofile = 'application/x-profile';
 const gmonout = 'gmonout';
-const applicationvndgmx = 'application/vnd.gmx';
 const gmx = 'gmx';
-const applicationgnunetdirectory = 'application/gnunet-directory';
-const gnd = 'gnd';
-const applicationxgnucash = 'application/x-gnucash';
-const gnucash = 'gnucash';
 const gnc = 'gnc';
-const xac = 'xac';
-const applicationxgnumeric = 'application/x-gnumeric';
+const gnd = 'gnd';
+const gnucash = 'gnucash';
+const gnumakefile = 'gnumakefile';
 const gnumeric = 'gnumeric';
-const textxgo = 'text/x-go';
-const go = 'go';
-const applicationxgnuplot = 'application/x-gnuplot';
-const gp = 'gp';
-const gplt = 'gplt';
 const gnuplot = 'gnuplot';
-const applicationvndflographit = 'application/vnd.flographit';
+const go = 'go';
+const gp = 'gp';
+const gpg = 'gpg';
 const gph = 'gph';
-const applicationgpx_xml = 'application/gpx+xml';
+const gplt = 'gplt';
 const gpx = 'gpx';
-const applicationvndgrafeq = 'application/vnd.grafeq';
 const gqf = 'gqf';
 const gqs = 'gqs';
-const applicationxgraphite = 'application/x-graphite';
 const gra = 'gra';
-const textxgradle = 'text/x-gradle';
 const gradle = 'gradle';
-const applicationsrgs = 'application/srgs';
 const gram = 'gram';
-const applicationxgrampsxml = 'application/x-gramps-xml';
 const gramps = 'gramps';
-const textxgroovy = 'text/x-groovy';
+const gre = 'gre';
 const groovy = 'groovy';
-const gvy = 'gvy';
-const gy = 'gy';
-const gsh = 'gsh';
-const applicationvndgrooveinjector = 'application/vnd.groove-injector';
 const grv = 'grv';
-const applicationsrgs_xml = 'application/srgs+xml';
 const grxml = 'grxml';
-const textxgenie = 'text/x-genie';
 const gs = 'gs';
-const applicationvndgoogleappsspreadsheet = 'application/vnd.google-apps.spreadsheet';
+const gsf = 'gsf';
+const gsh = 'gsh';
 const gsheet = 'gsheet';
-const applicationvndgoogleappspresentation = 'application/vnd.google-apps.presentation';
 const gslides = 'gslides';
-const audioxgsm = 'audio/x-gsm';
 const gsm = 'gsm';
-const applicationvndgroovetoolmessage = 'application/vnd.groove-tool-message';
+const gtar = 'gtar';
 const gtm = 'gtm';
-const modelvndgtw = 'model/vnd.gtw';
 const gtw = 'gtw';
-const textvndgraphviz = 'text/vnd.graphviz';
 const gv = 'gv';
-const textxgooglevideopointer = 'text/x-google-video-pointer';
 const gvp = 'gvp';
-const textxgcodegx = 'text/x-gcode-gx';
+const gvy = 'gvy';
 const gx = 'gx';
-const applicationgxf = 'application/gxf';
 const gxf = 'gxf';
-const applicationvndgeonext = 'application/vnd.geonext';
 const gxt = 'gxt';
-const applicationgzip = 'application/gzip';
+const gy = 'gy';
 const gz = 'gz';
-const videoh261 = 'video/h261';
+const h = 'h';
 const h261 = 'h261';
-const videoh263 = 'video/h263';
 const h263 = 'h263';
-const videoh264 = 'video/h264';
 const h264 = 'h264';
-const applicationvndhal_xml = 'application/vnd.hal+xml';
+const h4 = 'h4';
+const h5 = 'h5';
 const hal = 'hal';
-const applicationvndhbci = 'application/vnd.hbci';
 const hbci = 'hbci';
-const textxhandlebarstemplate = 'text/x-handlebars-template';
 const hbs = 'hbs';
-const applicationxvirtualboxhdd = 'application/x-virtualbox-hdd';
 const hdd = 'hdd';
-const applicationxhdf = 'application/x-hdf';
 const hdf = 'hdf';
 const hdf4 = 'hdf4';
-const h4 = 'h4';
 const hdf5 = 'hdf5';
-const h5 = 'h5';
-const imageheif = 'image/heif';
+const hdp = 'hdp';
 const heic = 'heic';
-const heif = 'heif';
-const hif = 'hif';
-const imageheicsequence = 'image/heic-sequence';
 const heics = 'heics';
-const imageheifsequence = 'image/heif-sequence';
+const heif = 'heif';
 const heifs = 'heifs';
-const imagehej2k = 'image/hej2k';
 const hej2 = 'hej2';
-const applicationatscheld_xml = 'application/atsc-held+xml';
 const held = 'held';
-const applicationxhfefloppyimage = 'application/x-hfe-floppy-image';
 const hfe = 'hfe';
-const textxc__hdr = 'text/x-c++hdr';
 const hh = 'hh';
-const hp = 'hp';
-const hpp = 'hpp';
-const h = 'h';
-const hxx = 'hxx';
-const applicationhjson = 'application/hjson';
+const hif = 'hif';
 const hjson = 'hjson';
-const applicationwinhlp = 'application/winhlp';
 const hlp = 'hlp';
-const applicationvndhphpgl = 'application/vnd.hp-hpgl';
+const hp = 'hp';
 const hpgl = 'hpgl';
-const applicationvndhphpid = 'application/vnd.hp-hpid';
 const hpid = 'hpid';
-const applicationvndhphps = 'application/vnd.hp-hps';
+const hpp = 'hpp';
 const hps = 'hps';
-const applicationmacbinhex40 = 'application/mac-binhex40';
 const hqx = 'hqx';
-const textxhaskell = 'text/x-haskell';
 const hs = 'hs';
-const imagehsj2 = 'image/hsj2';
 const hsj2 = 'hsj2';
-const textxcomponent = 'text/x-component';
+const hta = 'hta';
 const htc = 'htc';
-const applicationvndkenameaapp = 'application/vnd.kenameaapp';
 const htke = 'htke';
-const applicationvndyamahahvdic = 'application/vnd.yamaha.hv-dic';
+const htm = 'htm';
+const html = 'html';
 const hvd = 'hvd';
-const applicationvndyamahahvvoice = 'application/vnd.yamaha.hv-voice';
 const hvp = 'hvp';
-const applicationvndyamahahvscript = 'application/vnd.yamaha.hv-script';
 const hvs = 'hvs';
-const applicationxhwp = 'application/x-hwp';
 const hwp = 'hwp';
-const applicationxhwt = 'application/x-hwt';
 const hwt = 'hwt';
-const applicationvndintergeo = 'application/vnd.intergeo';
+const hxx = 'hxx';
 const i2g = 'i2g';
-const applicationxica = 'application/x-ica';
 const ica = 'ica';
-const applicationvndiccprofile = 'application/vnd.iccprofile';
+const icalendar = 'icalendar';
+const icb = 'icb';
 const icc = 'icc';
-const icm = 'icm';
-const xconferencexcooltalk = 'x-conference/x-cooltalk';
 const ice = 'ice';
-const imagexicns = 'image/x-icns';
+const icm = 'icm';
 const icns = 'icns';
-const imagevndmicrosofticon = 'image/vnd.microsoft.icon';
 const ico = 'ico';
-const textxidl = 'text/x-idl';
+const ics = 'ics';
 const idl = 'idl';
-const imageief = 'image/ief';
 const ief = 'ief';
-const imagexilbm = 'image/x-ilbm';
+const ifb = 'ifb';
 const iff = 'iff';
-const ilbm = 'ilbm';
-const lbm = 'lbm';
-const applicationvndshanainformedformdata = 'application/vnd.shana.informed.formdata';
 const ifm = 'ifm';
-const applicationvndigloader = 'application/vnd.igloader';
-const igl = 'igl';
-const applicationvndinsorsigm = 'application/vnd.insors.igm';
-const igm = 'igm';
-const modeliges = 'model/iges';
-const igs = 'igs';
 const iges = 'iges';
-const applicationvndmicrografxigx = 'application/vnd.micrografx.igx';
+const igl = 'igl';
+const igm = 'igm';
+const igs = 'igs';
 const igx = 'igx';
-const applicationvndshanainformedinterchange = 'application/vnd.shana.informed.interchange';
 const iif = 'iif';
-const applicationvndaccpacsimplyimp = 'application/vnd.accpac.simply.imp';
-const imp = 'imp';
-const applicationvndmsims = 'application/vnd.ms-ims';
-const ims = 'ims';
-const textximelody = 'text/x-imelody';
-const imy = 'imy';
+const ilbm = 'ilbm';
+const imageapng = 'image/apng';
+const imageastc = 'image/astc';
+const imageavci = 'image/avci';
+const imageavcs = 'image/avcs';
+const imageavif = 'image/avif';
+const imagebmp = 'image/bmp';
+const imagecgm = 'image/cgm';
+const imagedb = 'imagedb';
+const imagedicomrle = 'image/dicom-rle';
+const imagedpx = 'image/dpx';
+const imageemf = 'image/emf';
+const imageg3fax = 'image/g3fax';
+const imagegif = 'image/gif';
+const imageheicsequence = 'image/heic-sequence';
+const imageheif = 'image/heif';
+const imageheifsequence = 'image/heif-sequence';
+const imagehej2k = 'image/hej2k';
+const imagehsj2 = 'image/hsj2';
+const imageief = 'image/ief';
+const imagejls = 'image/jls';
+const imagejp2 = 'image/jp2';
+const imagejpeg = 'image/jpeg';
+const imagejph = 'image/jph';
+const imagejphc = 'image/jphc';
+const imagejpm = 'image/jpm';
+const imagejpx = 'image/jpx';
+const imagejxl = 'image/jxl';
+const imagejxr = 'image/jxr';
+const imagejxra = 'image/jxra';
+const imagejxrs = 'image/jxrs';
+const imagejxs = 'image/jxs';
+const imagejxsc = 'image/jxsc';
+const imagejxsi = 'image/jxsi';
+const imagejxss = 'image/jxss';
+const imagektx = 'image/ktx';
+const imagektx2 = 'image/ktx2';
+const imageopenraster = 'image/openraster';
+const imagepng = 'image/png';
+const imageprsbtif = 'image/prs.btif';
+const imageprspti = 'image/prs.pti';
+const imageqoi = 'image/qoi';
+const imagerle = 'image/rle';
+const imagesvg_xml = 'image/svg+xml';
+const imagesvg_xmlcompressed = 'image/svg+xml-compressed';
+const imaget38 = 'image/t38';
+const imagetiff = 'image/tiff';
+const imagetifffx = 'image/tiff-fx';
+const imagevndadobephotoshop = 'image/vnd.adobe.photoshop';
+const imagevndairzipacceleratorazv = 'image/vnd.airzip.accelerator.azv';
+const imagevnddecegraphic = 'image/vnd.dece.graphic';
+const imagevnddjvu = 'image/vnd.djvu';
+const imagevnddwg = 'image/vnd.dwg';
+const imagevnddxf = 'image/vnd.dxf';
+const imagevndfastbidsheet = 'image/vnd.fastbidsheet';
+const imagevndfpx = 'image/vnd.fpx';
+const imagevndfst = 'image/vnd.fst';
+const imagevndfujixeroxedmicsmmr = 'image/vnd.fujixerox.edmics-mmr';
+const imagevndfujixeroxedmicsrlc = 'image/vnd.fujixerox.edmics-rlc';
+const imagevndmicrosofticon = 'image/vnd.microsoft.icon';
+const imagevndmsmodi = 'image/vnd.ms-modi';
+const imagevndnetfpx = 'image/vnd.net-fpx';
+const imagevndpcob16 = 'image/vnd.pco.b16';
+const imagevndrnrealpix = 'image/vnd.rn-realpix';
+const imagevndtencenttap = 'image/vnd.tencent.tap';
+const imagevndvalvesourcetexture = 'image/vnd.valve.source.texture';
+const imagevndwapwbmp = 'image/vnd.wap.wbmp';
+const imagevndxiff = 'image/vnd.xiff';
+const imagevndzbrushpcx = 'image/vnd.zbrush.pcx';
+const imagewebp = 'image/webp';
+const imagewmf = 'image/wmf';
+const imagexadobedng = 'image/x-adobe-dng';
+const imagexapplixgraphics = 'image/x-applix-graphics';
+const imagexbzeps = 'image/x-bzeps';
+const imagexcanoncr2 = 'image/x-canon-cr2';
+const imagexcanoncr3 = 'image/x-canon-cr3';
+const imagexcanoncrw = 'image/x-canon-crw';
+const imagexcmuraster = 'image/x-cmu-raster';
+const imagexcmx = 'image/x-cmx';
+const imagexcompressedxcf = 'image/x-compressed-xcf';
+const imagexdds = 'image/x-dds';
+const imagexeps = 'image/x-eps';
+const imagexexr = 'image/x-exr';
+const imagexfreehand = 'image/x-freehand';
+const imagexfujiraf = 'image/x-fuji-raf';
+const imagexgimpgbr = 'image/x-gimp-gbr';
+const imagexgimpgih = 'image/x-gimp-gih';
+const imagexgimppat = 'image/x-gimp-pat';
+const imagexgzeps = 'image/x-gzeps';
+const imagexicns = 'image/x-icns';
+const imagexilbm = 'image/x-ilbm';
+const imagexjng = 'image/x-jng';
+const imagexjp2codestream = 'image/x-jp2-codestream';
+const imagexkisscel = 'image/x-kiss-cel';
+const imagexkodakdcr = 'image/x-kodak-dcr';
+const imagexkodakk25 = 'image/x-kodak-k25';
+const imagexkodakkdc = 'image/x-kodak-kdc';
+const imagexlwo = 'image/x-lwo';
+const imagexlws = 'image/x-lws';
+const imagexmacpaint = 'image/x-macpaint';
+const imagexminoltamrw = 'image/x-minolta-mrw';
+const imagexmsod = 'image/x-msod';
+const imagexnikonnef = 'image/x-nikon-nef';
+const imagexnikonnrw = 'image/x-nikon-nrw';
+const imagexolympusorf = 'image/x-olympus-orf';
+const imagexpanasonicrw = 'image/x-panasonic-rw';
+const imagexpanasonicrw2 = 'image/x-panasonic-rw2';
+const imagexpentaxpef = 'image/x-pentax-pef';
+const imagexphotocd = 'image/x-photo-cd';
+const imagexpict = 'image/x-pict';
+const imagexportableanymap = 'image/x-portable-anymap';
+const imagexportablebitmap = 'image/x-portable-bitmap';
+const imagexportablegraymap = 'image/x-portable-graymap';
+const imagexportablepixmap = 'image/x-portable-pixmap';
+const imagexquicktime = 'image/x-quicktime';
+const imagexrgb = 'image/x-rgb';
+const imagexsgi = 'image/x-sgi';
+const imagexsigmax3f = 'image/x-sigma-x3f';
+const imagexskencil = 'image/x-skencil';
+const imagexsonyarw = 'image/x-sony-arw';
+const imagexsonysr2 = 'image/x-sony-sr2';
+const imagexsonysrf = 'image/x-sony-srf';
+const imagexsunraster = 'image/x-sun-raster';
+const imagextga = 'image/x-tga';
+const imagexwinbitmap = 'image/x-win-bitmap';
+const imagexxbitmap = 'image/x-xbitmap';
+const imagexxcf = 'image/x-xcf';
+const imagexxfig = 'image/x-xfig';
+const imagexxpixmap = 'image/x-xpixmap';
+const imagexxwindowdump = 'image/x-xwindowdump';
 const ime = 'ime';
-const applicationinkml_xml = 'application/inkml+xml';
+const img = 'img';
+const imgxz = 'imgxz';
+const imp = 'imp';
+const ims = 'ims';
+const imy = 'imy';
+const ini = 'ini';
 const ink = 'ink';
 const inkml = 'inkml';
-const textxinstall = 'text/x-install';
+const ins = 'ins';
 const install = 'install';
-const applicationvndastraeasoftwareiota = 'application/vnd.astraea-software.iota';
 const iota = 'iota';
-const applicationipfix = 'application/ipfix';
 const ipfix = 'ipfix';
-const applicationvndshanainformedpackage = 'application/vnd.shana.informed.package';
 const ipk = 'ipk';
-const applicationxipspatch = 'application/x-ips-patch';
 const ips = 'ips';
-const textxiptables = 'text/x-iptables';
 const iptables = 'iptables';
-const applicationxipynb_json = 'application/x-ipynb+json';
 const ipynb = 'ipynb';
-const applicationvndibmrightsmanagement = 'application/vnd.ibm.rights-management';
 const irm = 'irm';
-const applicationvndirepositorypackage_xml = 'application/vnd.irepository.package+xml';
 const irp = 'irp';
-const applicationvndefiiso = 'application/vnd.efi.iso';
 const iso = 'iso';
 const iso9660 = 'iso9660';
-const audioxit = 'audio/x-it';
 const it = 'it';
-const applicationxit87 = 'application/x-it87';
 const it87 = 'it87';
-const applicationvndshanainformedformtemplate = 'application/vnd.shana.informed.formtemplate';
 const itp = 'itp';
-const applicationits_xml = 'application/its+xml';
 const its = 'its';
-const applicationvndimmervisionivp = 'application/vnd.immervision-ivp';
 const ivp = 'ivp';
-const applicationvndimmervisionivu = 'application/vnd.immervision-ivu';
 const ivu = 'ivu';
-const imagexjp2codestream = 'image/x-jp2-codestream';
 const j2c = 'j2c';
 const j2k = 'j2k';
-const jpc = 'jpc';
-const textvndsunj2meappdescriptor = 'text/vnd.sun.j2me.app-descriptor';
 const jad = 'jad';
-const textjade = 'text/jade';
 const jade = 'jade';
-const applicationvndjam = 'application/vnd.jam';
 const jam = 'jam';
-const applicationjavaarchive = 'application/java-archive';
 const jar = 'jar';
-const war = 'war';
-const ear = 'ear';
-const applicationxjavaarchivediff = 'application/x-java-archive-diff';
 const jardiff = 'jardiff';
-const textxjava = 'text/x-java';
 const java = 'java';
-const applicationxjavajcekeystore = 'application/x-java-jce-keystore';
 const jceks = 'jceks';
-const imagejphc = 'image/jphc';
-const jhc = 'jhc';
-const applicationvndjisp = 'application/vnd.jisp';
-const jisp = 'jisp';
-const applicationxjavakeystore = 'application/x-java-keystore';
-const jks = 'jks';
-const ks = 'ks';
-const cacerts = 'cacerts';
-const textjulia = 'text/julia';
-const jl = 'jl';
-const imagejls = 'image/jls';
-const jls = 'jls';
-const applicationvndhpjlyt = 'application/vnd.hp-jlyt';
-const jlt = 'jlt';
-const imagexjng = 'image/x-jng';
-const jng = 'jng';
-const applicationxjavajnlpfile = 'application/x-java-jnlp-file';
-const jnlp = 'jnlp';
-const applicationvndjoostjodaarchive = 'application/vnd.joost.joda-archive';
-const joda = 'joda';
-const imagejp2 = 'image/jp2';
-const jp2 = 'jp2';
-const jpg2 = 'jpg2';
-const imagejpx = 'image/jpx';
-const jpf = 'jpf';
-const imagejpeg = 'image/jpeg';
-const jpg = 'jpg';
-const jpeg = 'jpeg';
-const jpe = 'jpe';
 const jfif = 'jfif';
-const videojpeg = 'video/jpeg';
-const jpgv = 'jpgv';
-const imagejph = 'image/jph';
-const jph = 'jph';
-const imagejpm = 'image/jpm';
-const jpm = 'jpm';
+const jhc = 'jhc';
+const jisp = 'jisp';
+const jks = 'jks';
+const jl = 'jl';
+const jls = 'jls';
+const jlt = 'jlt';
+const jng = 'jng';
+const jnlp = 'jnlp';
+const joda = 'joda';
+const jp2 = 'jp2';
+const jpc = 'jpc';
+const jpe = 'jpe';
+const jpeg = 'jpeg';
+const jpf = 'jpf';
+const jpg = 'jpg';
+const jpg2 = 'jpg2';
 const jpgm = 'jpgm';
-const applicationxjbuilderproject = 'application/x-jbuilder-project';
+const jpgv = 'jpgv';
+const jph = 'jph';
+const jpm = 'jpm';
 const jpr = 'jpr';
 const jpx = 'jpx';
-const applicationjrd_json = 'application/jrd+json';
 const jrd = 'jrd';
-const textjavascript = 'text/javascript';
 const js = 'js';
-const jsm = 'jsm';
-const mjs = 'mjs';
-const textjscriptencode = 'text/jscript.encode';
 const jse = 'jse';
-const applicationjson = 'application/json';
+const jsm = 'jsm';
 const json = 'json';
-const map = 'map';
-const applicationjson5 = 'application/json5';
 const json5 = 'json5';
-const applicationld_json = 'application/ld+json';
 const jsonld = 'jsonld';
-const applicationjsonml_json = 'application/jsonml+json';
 const jsonml = 'jsonml';
-const applicationjsonpatch_json = 'application/json-patch+json';
 const jsonpatch = 'jsonpatch';
-const textjsx = 'text/jsx';
 const jsx = 'jsx';
-const modeljt = 'model/jt';
 const jt = 'jt';
-const imagejxl = 'image/jxl';
 const jxl = 'jxl';
-const imagejxr = 'image/jxr';
 const jxr = 'jxr';
-const hdp = 'hdp';
-const wdp = 'wdp';
-const imagejxra = 'image/jxra';
 const jxra = 'jxra';
-const imagejxrs = 'image/jxrs';
 const jxrs = 'jxrs';
-const imagejxs = 'image/jxs';
 const jxs = 'jxs';
-const imagejxsc = 'image/jxsc';
 const jxsc = 'jxsc';
-const imagejxsi = 'image/jxsi';
 const jxsi = 'jxsi';
-const imagejxss = 'image/jxss';
 const jxss = 'jxss';
-const imagexkodakk25 = 'image/x-kodak-k25';
 const k25 = 'k25';
-const applicationxthomsoncassette = 'application/x-thomson-cassette';
 const k7 = 'k7';
-const applicationxkarbon = 'application/x-karbon';
+const kar = 'kar';
 const karbon = 'karbon';
-const applicationxkeepass2 = 'application/x-keepass2';
+const kcf = 'kcf';
 const kdbx = 'kdbx';
-const imagexkodakkdc = 'image/x-kodak-kdc';
 const kdc = 'kdc';
-const applicationxkexiprojectsqlite2 = 'application/x-kexiproject-sqlite2';
+const kdelnk = 'kdelnk';
 const kexi = 'kexi';
-const applicationxkexiconnectiondata = 'application/x-kexi-connectiondata';
 const kexic = 'kexic';
-const applicationxkexiprojectshortcut = 'application/x-kexiproject-shortcut';
 const kexis = 'kexis';
-const applicationxkformula = 'application/x-kformula';
+const key = 'key';
 const kfo = 'kfo';
-const applicationvndkidspiration = 'application/vnd.kidspiration';
+const kfx = 'kfx';
 const kia = 'kia';
-const applicationxkillustrator = 'application/x-killustrator';
 const kil = 'kil';
-const applicationvndgoogleearthkml_xml = 'application/vnd.google-earth.kml+xml';
+const kino = 'kino';
 const kml = 'kml';
-const applicationvndgoogleearthkmz = 'application/vnd.google-earth.kmz';
 const kmz = 'kmz';
-const applicationvndkinar = 'application/vnd.kinar';
 const kne = 'kne';
 const knp = 'knp';
-const applicationxkontour = 'application/x-kontour';
 const kon = 'kon';
-const applicationxkpovmodeler = 'application/x-kpovmodeler';
 const kpm = 'kpm';
-const applicationxkpresenter = 'application/x-kpresenter';
 const kpr = 'kpr';
 const kpt = 'kpt';
-const applicationvnddskeypoint = 'application/vnd.ds-keypoint';
 const kpxx = 'kpxx';
-const applicationxkrita = 'application/x-krita';
 const kra = 'kra';
 const krz = 'krz';
-const applicationxkspread = 'application/x-kspread';
+const ks = 'ks';
 const ksp = 'ksp';
-const textxkaitaistruct = 'text/x-kaitai-struct';
 const ksy = 'ksy';
-const textxkotlin = 'text/x-kotlin';
 const kt = 'kt';
-const imagektx = 'image/ktx';
-const ktx = 'ktx';
-const imagektx2 = 'image/ktx2';
-const ktx2 = 'ktx2';
-const applicationvndkahootz = 'application/vnd.kahootz';
-const ktz = 'ktz';
 const ktr = 'ktr';
-const applicationxkugar = 'application/x-kugar';
+const ktx = 'ktx';
+const ktx2 = 'ktx2';
+const ktz = 'ktz';
 const kud = 'kud';
-const applicationxkword = 'application/x-kword';
 const kwd = 'kwd';
 const kwt = 'kwt';
-const applicationxsharedlibraryla = 'application/x-shared-library-la';
 const la = 'la';
-const applicationvndlaslas_xml = 'application/vnd.las.las+xml';
 const lasxml = 'lasxml';
-const applicationvndllamagraphicslifebalancedesktop = 'application/vnd.llamagraphics.life-balance.desktop';
+const latex = 'latex';
 const lbd = 'lbd';
-const applicationvndllamagraphicslifebalanceexchange_xml = 'application/vnd.llamagraphics.life-balance.exchange+xml';
 const lbe = 'lbe';
-const textxldif = 'text/x-ldif';
+const lbm = 'lbm';
 const ldif = 'ldif';
-const applicationvndhhelessonplayer = 'application/vnd.hhe.lesson-player';
 const les = 'les';
-const textless = 'text/less';
 const less = 'less';
-const applicationlgr_xml = 'application/lgr+xml';
 const lgr = 'lgr';
-const applicationxlha = 'application/x-lha';
 const lha = 'lha';
-const lzh = 'lzh';
-const textxliteratehaskell = 'text/x-literate-haskell';
 const lhs = 'lhs';
-const applicationxlhz = 'application/x-lhz';
 const lhz = 'lhz';
-const applicationvndroute66link66_xml = 'application/vnd.route66.link66+xml';
+const lib = 'lib';
 const link66 = 'link66';
-const textcoffeescript = 'text/coffeescript';
+const lisp = 'lisp';
+const list = 'list';
+const list3820 = 'list3820';
+const listafp = 'listafp';
 const litcoffee = 'litcoffee';
-const applicationxmsshortcut = 'application/x-ms-shortcut';
+const lmdb = 'lmdb';
 const lnk = 'lnk';
-const applicationxatarilynxrom = 'application/x-atari-lynx-rom';
 const lnx = 'lnx';
-const audiousac = 'audio/usac';
 const loas = 'loas';
-const xhe = 'xhe';
-const textxlog = 'text/x-log';
 const log = 'log';
-const applicationlost_xml = 'application/lost+xml';
 const lostxml = 'lostxml';
-const applicationvndmslrm = 'application/vnd.ms-lrm';
+const lrf = 'lrf';
 const lrm = 'lrm';
-const applicationxlrzip = 'application/x-lrzip';
+const lrv = 'lrv';
 const lrz = 'lrz';
-const applicationvndfrogansltf = 'application/vnd.frogans.ltf';
 const ltf = 'ltf';
-const textxlua = 'text/x-lua';
+const ltx = 'ltx';
 const lua = 'lua';
-const applicationxluabytecode = 'application/x-lua-bytecode';
 const luac = 'luac';
-const audiovndlucentvoice = 'audio/vnd.lucent.voice';
 const lvp = 'lvp';
-const imagexlwo = 'image/x-lwo';
 const lwo = 'lwo';
 const lwob = 'lwob';
-const applicationvndlotuswordpro = 'application/vnd.lotus-wordpro';
 const lwp = 'lwp';
-const imagexlws = 'image/x-lws';
 const lws = 'lws';
-const textxlilypond = 'text/x-lilypond';
 const ly = 'ly';
-const applicationxlyx = 'application/x-lyx';
 const lyx = 'lyx';
-const applicationxlzip = 'application/x-lzip';
 const lz = 'lz';
-const applicationxlz4 = 'application/x-lz4';
 const lz4 = 'lz4';
-const applicationxlzma = 'application/x-lzma';
+const lzh = 'lzh';
 const lzma = 'lzma';
-const applicationxlzop = 'application/x-lzop';
 const lzo = 'lzo';
-const textxobjcsrc = 'text/x-objcsrc';
 const m = 'm';
-const videovndmpegurl = 'video/vnd.mpegurl';
-const m1u = 'm1u';
-const m4u = 'm4u';
-const mxu = 'mxu';
-const applicationmp21 = 'application/mp21';
-const m21 = 'm21';
-const mp21 = 'mp21';
-const videomp2t = 'video/mp2t';
-const m2t = 'm2t';
-const m2ts = 'm2ts';
-const mts = 'mts';
-const cpi = 'cpi';
-const clpi = 'clpi';
-const mpls = 'mpls';
-const bdm = 'bdm';
-const bdmv = 'bdmv';
-const audioxmpegurl = 'audio/x-mpegurl';
-const m3u = 'm3u';
-const m3u8 = 'm3u8';
-const vlc = 'vlc';
-const applicationxm4 = 'application/x-m4';
-const m4 = 'm4';
-const audiomp4 = 'audio/mp4';
-const m4a = 'm4a';
-const f4a = 'f4a';
-const mp4a = 'mp4a';
-const audioxm4b = 'audio/x-m4b';
-const m4b = 'm4b';
-const f4b = 'f4b';
-const audioxm4r = 'audio/x-m4r';
-const m4r = 'm4r';
-const videoisosegment = 'video/iso.segment';
-const m4s = 'm4s';
-const applicationxthomsoncartridgememo7 = 'application/x-thomson-cartridge-memo7';
-const m7 = 'm7';
-const applicationxmarkaby = 'application/x-markaby';
-const mab = 'mab';
-const applicationmads_xml = 'application/mads+xml';
-const mads = 'mads';
-const applicationmmtaei_xml = 'application/mmt-aei+xml';
-const maei = 'maei';
-const applicationvndecowinchart = 'application/vnd.ecowin.chart';
-const mag = 'mag';
-const textxmakefile = 'text/x-makefile';
-const makefile = 'makefile';
-const gnumakefile = 'gnumakefile';
-const mk = 'mk';
-const mak = 'mak';
-const applicationxtroffman = 'application/x-troff-man';
-const man = 'man';
-const _19 = '19';
-const textcachemanifest = 'text/cache-manifest';
-const manifest = 'manifest';
-const appcache = 'appcache';
-const applicationvndmobiusmbk = 'application/vnd.mobius.mbk';
-const mbk = 'mbk';
-const applicationmbox = 'application/mbox';
-const mbox = 'mbox';
-const applicationvndmedcalcdata = 'application/vnd.medcalcdata';
-const mc1 = 'mc1';
-const textvndsenxwarpscript = 'text/vnd.senx.warpscript';
-const mc2 = 'mc2';
-const applicationvndmcd = 'application/vnd.mcd';
-const mcd = 'mcd';
-const textvndcurlmcurl = 'text/vnd.curl.mcurl';
-const mcurl = 'mcurl';
-const textmarkdown = 'text/markdown';
-const md = 'md';
-const mkd = 'mkd';
-const markdown = 'markdown';
-const applicationxlmdb = 'application/x-lmdb';
-const mdb = 'mdb';
-const lmdb = 'lmdb';
-const imagevndmsmodi = 'image/vnd.ms-modi';
-const mdi = 'mdi';
-const textxtroffme = 'text/x-troff-me';
-const me = 'me';
-const textxmeson = 'text/x-meson';
-const mesonbuild = 'mesonbuild';
-const mesonoptionstxt = 'mesonoptionstxt';
-const applicationmetalink4_xml = 'application/metalink4+xml';
-const meta4 = 'meta4';
-const applicationmetalink_xml = 'application/metalink+xml';
-const metalink = 'metalink';
-const applicationmets_xml = 'application/mets+xml';
-const mets = 'mets';
-const applicationvndmfmp = 'application/vnd.mfmp';
-const mfm = 'mfm';
-const applicationrpkimanifest = 'application/rpki-manifest';
-const mft = 'mft';
-const applicationxmagicpoint = 'application/x-magicpoint';
-const mgp = 'mgp';
-const applicationvndproteusmagazine = 'application/vnd.proteus.magazine';
-const mgz = 'mgz';
-const applicationxmimearchive = 'application/x-mimearchive';
-const mhtml = 'mhtml';
-const mht = 'mht';
-const audiomidi = 'audio/midi';
-const mid = 'mid';
-const midi = 'midi';
-const kar = 'kar';
-const rmi = 'rmi';
-const applicationxmie = 'application/x-mie';
-const mie = 'mie';
-const applicationxmif = 'application/x-mif';
-const mif = 'mif';
-const audioxminipsf = 'audio/x-minipsf';
-const minipsf = 'minipsf';
-const videomj2 = 'video/mj2';
-const mj2 = 'mj2';
-const mjp2 = 'mjp2';
-const videoxmjpeg = 'video/x-mjpeg';
-const mjpeg = 'mjpeg';
-const mjpg = 'mjpg';
-const videoxmatroska3d = 'video/x-matroska-3d';
-const mk3d = 'mk3d';
-const audioxmatroska = 'audio/x-matroska';
-const mka = 'mka';
-const videoxmatroska = 'video/x-matroska';
-const mkv = 'mkv';
-const mks = 'mks';
-const textxocaml = 'text/x-ocaml';
-const ml = 'ml';
-const mli = 'mli';
-const applicationvnddolbymlp = 'application/vnd.dolby.mlp';
-const mlp = 'mlp';
-const textxobjc__src = 'text/x-objc++src';
-const mm = 'mm';
-const applicationvndchipnutskaraokemmd = 'application/vnd.chipnuts.karaoke-mmd';
-const mmd = 'mmd';
-const applicationvndsmaf = 'application/vnd.smaf';
-const mmf = 'mmf';
-const smaf = 'smaf';
-const applicationmathml_xml = 'application/mathml+xml';
-const mml = 'mml';
-const mathml = 'mathml';
-const imagevndfujixeroxedmicsmmr = 'image/vnd.fujixerox.edmics-mmr';
-const mmr = 'mmr';
-const videoxmng = 'video/x-mng';
-const mng = 'mng';
-const applicationxmsmoney = 'application/x-msmoney';
-const mny = 'mny';
-const audioxmo3 = 'audio/x-mo3';
-const mo3 = 'mo3';
-const applicationxmobipocketebook = 'application/x-mobipocket-ebook';
-const mobi = 'mobi';
-const prc = 'prc';
-const textxmoc = 'text/x-moc';
-const moc = 'moc';
-const applicationmods_xml = 'application/mods+xml';
-const mods = 'mods';
-const textxmof = 'text/x-mof';
-const mof = 'mof';
-const videoxsgimovie = 'video/x-sgi-movie';
-const movie = 'movie';
-const audiomp2 = 'audio/mp2';
-const mp2 = 'mp2';
-const audiompeg = 'audio/mpeg';
-const mp3 = 'mp3';
-const mpga = 'mpga';
-const mp2a = 'mp2a';
-const m2a = 'm2a';
-const m3a = 'm3a';
-const videomp4 = 'video/mp4';
-const mp4 = 'mp4';
-const m4v = 'm4v';
-const f4v = 'f4v';
-const lrv = 'lrv';
-const mp4v = 'mp4v';
-const audioxmusepack = 'audio/x-musepack';
-const mpc = 'mpc';
-const mpp = 'mpp';
-const mp = 'mp';
-const applicationdash_xml = 'application/dash+xml';
-const mpd = 'mpd';
-const videompeg = 'video/mpeg';
-const mpeg = 'mpeg';
-const mpg = 'mpg';
-const mpe = 'mpe';
-const vob = 'vob';
-const _090909vdr = '090909vdr';
-const m1v = 'm1v';
-const m2v = 'm2v';
-const applicationmediapolicydataset_xml = 'application/media-policy-dataset+xml';
-const mpf = 'mpf';
-const applicationmp4 = 'application/mp4';
-const mpg4 = 'mpg4';
-const mp4s = 'mp4s';
-const m4p = 'm4p';
-const applicationvndappleinstaller_xml = 'application/vnd.apple.installer+xml';
-const mpkg = 'mpkg';
-const textxmpl2 = 'text/x-mpl2';
-const mpl = 'mpl';
-const applicationvndblueicemultipass = 'application/vnd.blueice.multipass';
-const mpm = 'mpm';
-const applicationvndmophunapplication = 'application/vnd.mophun.application';
-const mpn = 'mpn';
-const applicationvndmsproject = 'application/vnd.ms-project';
-const mpt = 'mpt';
-const applicationvndibmminipay = 'application/vnd.ibm.minipay';
-const mpy = 'mpy';
-const applicationvndmobiusmqy = 'application/vnd.mobius.mqy';
-const mqy = 'mqy';
-const applicationmarc = 'application/marc';
-const mrc = 'mrc';
-const applicationmarcxml_xml = 'application/marcxml+xml';
-const mrcx = 'mrcx';
-const textxmrml = 'text/x-mrml';
-const mrml = 'mrml';
-const mrl = 'mrl';
-const applicationxmodrinthmodpack_zip = 'application/x-modrinth-modpack+zip';
-const mrpack = 'mrpack';
-const imagexminoltamrw = 'image/x-minolta-mrw';
-const mrw = 'mrw';
-const textxtroffms = 'text/x-troff-ms';
-const ms = 'ms';
-const applicationmediaservercontrol_xml = 'application/mediaservercontrol+xml';
-const mscml = 'mscml';
-const applicationvndfdsnmseed = 'application/vnd.fdsn.mseed';
-const mseed = 'mseed';
-const applicationvndmseq = 'application/vnd.mseq';
-const mseq = 'mseq';
-const applicationvndepsonmsf = 'application/vnd.epson.msf';
-const msf = 'msf';
-const applicationvndmsoutlook = 'application/vnd.ms-outlook';
-const msg = 'msg';
-const modelmesh = 'model/mesh';
-const msh = 'msh';
-const mesh = 'mesh';
-const silo = 'silo';
-const applicationxmsi = 'application/x-msi';
-const msi = 'msi';
-const applicationmsix = 'application/msix';
-const msix = 'msix';
-const applicationmsixbundle = 'application/msixbundle';
-const msixbundle = 'msixbundle';
-const applicationvndmobiusmsl = 'application/vnd.mobius.msl';
-const msl = 'msl';
-const imagexmsod = 'image/x-msod';
-const msod = 'msod';
-const applicationvndmuveestyle = 'application/vnd.muvee.style';
-const msty = 'msty';
-const applicationxmsxrom = 'application/x-msx-rom';
-const msx = 'msx';
-const modelmtl = 'model/mtl';
-const mtl = 'mtl';
-const textxmup = 'text/x-mup';
-const mup = 'mup';
-const _not = 'not';
-const applicationvndmusician = 'application/vnd.musician';
-const mus = 'mus';
-const applicationmmtusd_xml = 'application/mmt-usd+xml';
-const musd = 'musd';
-const applicationvndrecordaremusicxml_xml = 'application/vnd.recordare.musicxml+xml';
-const musicxml = 'musicxml';
-const applicationxmsmediaview = 'application/x-msmediaview';
-const mvb = 'mvb';
 const m13 = 'm13';
 const m14 = 'm14';
-const applicationvndmapboxvectortile = 'application/vnd.mapbox-vector-tile';
-const mvt = 'mvt';
-const applicationvndmfer = 'application/vnd.mfer';
-const mwf = 'mwf';
-const applicationmxf = 'application/mxf';
-const mxf = 'mxf';
-const applicationvndrecordaremusicxml = 'application/vnd.recordare.musicxml';
-const mxl = 'mxl';
-const audiomobilexmf = 'audio/mobile-xmf';
-const mxmf = 'mxmf';
-const applicationxv_xml = 'application/xv+xml';
-const mxml = 'mxml';
-const xhvml = 'xhvml';
-const xvml = 'xvml';
-const xvm = 'xvm';
-const applicationvndtriscapemxs = 'application/vnd.triscape.mxs';
-const mxs = 'mxs';
-const textn3 = 'text/n3';
-const n3 = 'n3';
-const applicationxn64rom = 'application/x-n64-rom';
-const n64 = 'n64';
-const z64 = 'z64';
-const v64 = 'v64';
-const applicationmathematica = 'application/mathematica';
-const nb = 'nb';
+const m15 = 'm15';
+const m1u = 'm1u';
+const m1v = 'm1v';
+const m21 = 'm21';
+const m2a = 'm2a';
+const m2t = 'm2t';
+const m2ts = 'm2ts';
+const m2v = 'm2v';
+const m3a = 'm3a';
+const m3u = 'm3u';
+const m3u8 = 'm3u8';
+const m4 = 'm4';
+const m4a = 'm4a';
+const m4b = 'm4b';
+const m4p = 'm4p';
+const m4r = 'm4r';
+const m4s = 'm4s';
+const m4u = 'm4u';
+const m4v = 'm4v';
+const m7 = 'm7';
 const ma = 'ma';
+const mab = 'mab';
+const mads = 'mads';
+const maei = 'maei';
+const mag = 'mag';
+const mak = 'mak';
+const makefile = 'makefile';
+const maker = 'maker';
+const man = 'man';
+const manifest = 'manifest';
+const map = 'map';
+const mar = 'mar';
+const markdown = 'markdown';
+const mathml = 'mathml';
 const mb = 'mb';
-const applicationvndwolframplayer = 'application/vnd.wolfram.player';
+const mbk = 'mbk';
+const mbox = 'mbox';
+const mc1 = 'mc1';
+const mc2 = 'mc2';
+const mcd = 'mcd';
+const mcurl = 'mcurl';
+const md = 'md';
+const mdb = 'mdb';
+const mdi = 'mdi';
+const mdx = 'mdx';
+const me = 'me';
+const med = 'med';
+const mesh = 'mesh';
+const mesonbuild = 'mesonbuild';
+const mesonoptionstxt = 'mesonoptionstxt';
+const messagedispositionnotification = 'message/disposition-notification';
+const messageglobal = 'message/global';
+const messageglobaldeliverystatus = 'message/global-delivery-status';
+const messageglobaldispositionnotification = 'message/global-disposition-notification';
+const messageglobalheaders = 'message/global-headers';
+const messagerfc822 = 'message/rfc822';
+const messagexgnurmail = 'message/x-gnu-rmail';
+const meta4 = 'meta4';
+const metalink = 'metalink';
+const mets = 'mets';
+const mfm = 'mfm';
+const mft = 'mft';
+const mgp = 'mgp';
+const mgz = 'mgz';
+const mht = 'mht';
+const mhtml = 'mhtml';
+const mid = 'mid';
+const midi = 'midi';
+const mie = 'mie';
+const mif = 'mif';
+const mime = 'mime';
+const minipsf = 'minipsf';
+const mj2 = 'mj2';
+const mjp2 = 'mjp2';
+const mjpeg = 'mjpeg';
+const mjpg = 'mjpg';
+const mjs = 'mjs';
+const mk = 'mk';
+const mk3d = 'mk3d';
+const mka = 'mka';
+const mkd = 'mkd';
+const mks = 'mks';
+const mkv = 'mkv';
+const ml = 'ml';
+const mli = 'mli';
+const mlp = 'mlp';
+const mm = 'mm';
+const mmd = 'mmd';
+const mmf = 'mmf';
+const mml = 'mml';
+const mmr = 'mmr';
+const mng = 'mng';
+const mny = 'mny';
+const mo = 'mo';
+const mo3 = 'mo3';
+const mobi = 'mobi';
+const moc = 'moc';
+const mod = 'mod';
+const model3mf = 'model/3mf';
+const modelgltf_json = 'model/gltf+json';
+const modelgltfbinary = 'model/gltf-binary';
+const modeliges = 'model/iges';
+const modeljt = 'model/jt';
+const modelmesh = 'model/mesh';
+const modelmtl = 'model/mtl';
+const modelstep = 'model/step';
+const modelstep_xml = 'model/step+xml';
+const modelstep_zip = 'model/step+zip';
+const modelstepxml_zip = 'model/step-xml+zip';
+const modelstl = 'model/stl';
+const modelu3d = 'model/u3d';
+const modelvndbary = 'model/vnd.bary';
+const modelvndcld = 'model/vnd.cld';
+const modelvndcollada_xml = 'model/vnd.collada+xml';
+const modelvnddwf = 'model/vnd.dwf';
+const modelvndgdl = 'model/vnd.gdl';
+const modelvndgtw = 'model/vnd.gtw';
+const modelvndopengex = 'model/vnd.opengex';
+const modelvndparasolidtransmitbinary = 'model/vnd.parasolid.transmit.binary';
+const modelvndparasolidtransmittext = 'model/vnd.parasolid.transmit.text';
+const modelvndpythapyox = 'model/vnd.pytha.pyox';
+const modelvndsapvds = 'model/vnd.sap.vds';
+const modelvndusda = 'model/vnd.usda';
+const modelvndusdz_zip = 'model/vnd.usdz+zip';
+const modelvndvalvesourcecompiledmap = 'model/vnd.valve.source.compiled-map';
+const modelvndvtu = 'model/vnd.vtu';
+const modelvrml = 'model/vrml';
+const modelx3d_binary = 'model/x3d+binary';
+const modelx3d_vrml = 'model/x3d+vrml';
+const modelx3d_xml = 'model/x3d+xml';
+const mods = 'mods';
+const mof = 'mof';
+const moov = 'moov';
+const mount = 'mount';
+const mov = 'mov';
+const movie = 'movie';
+const mp = 'mp';
+const mp2 = 'mp2';
+const mp21 = 'mp21';
+const mp2a = 'mp2a';
+const mp3 = 'mp3';
+const mp4 = 'mp4';
+const mp4a = 'mp4a';
+const mp4s = 'mp4s';
+const mp4v = 'mp4v';
+const mpc = 'mpc';
+const mpd = 'mpd';
+const mpe = 'mpe';
+const mpeg = 'mpeg';
+const mpf = 'mpf';
+const mpg = 'mpg';
+const mpg4 = 'mpg4';
+const mpga = 'mpga';
+const mpkg = 'mpkg';
+const mpl = 'mpl';
+const mpls = 'mpls';
+const mpm = 'mpm';
+const mpn = 'mpn';
+const mpp = 'mpp';
+const mpt = 'mpt';
+const mpy = 'mpy';
+const mqy = 'mqy';
+const mrc = 'mrc';
+const mrcx = 'mrcx';
+const mrl = 'mrl';
+const mrml = 'mrml';
+const mrpack = 'mrpack';
+const mrw = 'mrw';
+const ms = 'ms';
+const mscml = 'mscml';
+const mseed = 'mseed';
+const mseq = 'mseq';
+const msf = 'msf';
+const msg = 'msg';
+const msh = 'msh';
+const msi = 'msi';
+const msix = 'msix';
+const msixbundle = 'msixbundle';
+const msl = 'msl';
+const msm = 'msm';
+const msod = 'msod';
+const msp = 'msp';
+const msty = 'msty';
+const msu = 'msu';
+const msx = 'msx';
+const mtl = 'mtl';
+const mtm = 'mtm';
+const mts = 'mts';
+const mup = 'mup';
+const mus = 'mus';
+const musd = 'musd';
+const musicthumbsdb = 'musicthumbsdb';
+const musicxml = 'musicxml';
+const mvb = 'mvb';
+const mvt = 'mvt';
+const mwf = 'mwf';
+const mxf = 'mxf';
+const mxl = 'mxl';
+const mxmf = 'mxmf';
+const mxml = 'mxml';
+const mxs = 'mxs';
+const mxu = 'mxu';
+const n3 = 'n3';
+const n64 = 'n64';
+const nb = 'nb';
 const nbp = 'nbp';
-const applicationxdtbncx_xml = 'application/x-dtbncx+xml';
+const nc = 'nc';
 const ncx = 'ncx';
-const applicationxnintendodsrom = 'application/x-nintendo-ds-rom';
 const nds = 'nds';
-const imagexnikonnef = 'image/x-nikon-nef';
 const nef = 'nef';
-const applicationxnesrom = 'application/x-nes-rom';
 const nes = 'nes';
 const nez = 'nez';
-const unf = 'unf';
-const unif = 'unif';
-const textxnfo = 'text/x-nfo';
 const nfo = 'nfo';
-const applicationvndnokiangagesymbianinstall = 'application/vnd.nokia.n-gage.symbian.install';
 const ngage = 'n-gage';
-const applicationxneogeopocketcolorrom = 'application/x-neo-geo-pocket-color-rom';
 const ngc = 'ngc';
-const applicationvndnokiangagedata = 'application/vnd.nokia.n-gage.data';
 const ngdat = 'ngdat';
-const applicationxneogeopocketrom = 'application/x-neo-geo-pocket-rom';
 const ngp = 'ngp';
-const textxnim = 'text/x-nim';
 const nim = 'nim';
-const textxnimscript = 'text/x-nimscript';
-const nims = 'nims';
 const nimble = 'nimble';
-const applicationvndneurolanguagenlu = 'application/vnd.neurolanguage.nlu';
-const nlu = 'nlu';
-const applicationvndenliven = 'application/vnd.enliven';
-const nml = 'nml';
-const applicationvndnoblenetdirectory = 'application/vnd.noblenet-directory';
-const nnd = 'nnd';
-const applicationvndnoblenetsealer = 'application/vnd.noblenet-sealer';
-const nns = 'nns';
-const applicationvndnoblenetweb = 'application/vnd.noblenet-web';
-const nnw = 'nnw';
-const imagevndnetfpx = 'image/vnd.net-fpx';
-const npx = 'npx';
-const applicationnquads = 'application/n-quads';
-const nq = 'nq';
-const imagexnikonnrw = 'image/x-nikon-nrw';
-const nrw = 'nrw';
-const applicationxnetshowchannel = 'application/x-netshow-channel';
-const nsc = 'nsc';
-const applicationvndlotusnotes = 'application/vnd.lotus-notes';
-const nsf = 'nsf';
-const videoxnsv = 'video/x-nsv';
-const nsv = 'nsv';
-const applicationntriples = 'application/n-triples';
-const nt = 'nt';
-const applicationvndnitf = 'application/vnd.nitf';
-const ntf = 'ntf';
+const nims = 'nims';
 const nitf = 'nitf';
-const applicationxnuscript = 'application/x-nuscript';
+const nix = 'nix';
+const nlu = 'nlu';
+const nml = 'nml';
+const nnd = 'nnd';
+const nns = 'nns';
+const nnw = 'nnw';
+const npx = 'npx';
+const nq = 'nq';
+const nrw = 'nrw';
+const nsc = 'nsc';
+const nsf = 'nsf';
+const nsv = 'nsv';
+const nt = 'nt';
+const ntar = 'ntar';
+const ntf = 'ntf';
 const nu = 'nu';
-const applicationvndapplenumbers = 'application/vnd.apple.numbers';
 const numbers = 'numbers';
-const applicationxnzb = 'application/x-nzb';
 const nzb = 'nzb';
-const applicationxobject = 'application/x-object';
 const o = 'o';
-const mod = 'mod';
-const applicationvndfujitsuoasys2 = 'application/vnd.fujitsu.oasys2';
 const oa2 = 'oa2';
-const applicationvndfujitsuoasys3 = 'application/vnd.fujitsu.oasys3';
 const oa3 = 'oa3';
-const applicationvndfujitsuoasys = 'application/vnd.fujitsu.oasys';
 const oas = 'oas';
-const applicationxmsbinder = 'application/x-msbinder';
 const obd = 'obd';
-const applicationvndopenbloxgame_xml = 'application/vnd.openblox.game+xml';
 const obgx = 'obgx';
-const applicationxtgif = 'application/x-tgif';
 const obj = 'obj';
-const textxocl = 'text/x-ocl';
 const ocl = 'ocl';
-const applicationoda = 'application/oda';
+const ocx = 'ocx';
 const oda = 'oda';
-const applicationvndoasisopendocumentdatabase = 'application/vnd.oasis.opendocument.database';
 const odb = 'odb';
-const applicationvndoasisopendocumentchart = 'application/vnd.oasis.opendocument.chart';
 const odc = 'odc';
-const applicationvndoasisopendocumentformula = 'application/vnd.oasis.opendocument.formula';
 const odf = 'odf';
-const applicationvndoasisopendocumentgraphics = 'application/vnd.oasis.opendocument.graphics';
+const odft = 'odft';
 const odg = 'odg';
-const applicationvndoasisopendocumentimage = 'application/vnd.oasis.opendocument.image';
 const odi = 'odi';
-const applicationvndoasisopendocumenttextmaster = 'application/vnd.oasis.opendocument.text-master';
 const odm = 'odm';
-const applicationvndoasisopendocumentpresentation = 'application/vnd.oasis.opendocument.presentation';
 const odp = 'odp';
-const applicationvndoasisopendocumentspreadsheet = 'application/vnd.oasis.opendocument.spreadsheet';
 const ods = 'ods';
-const applicationvndoasisopendocumenttext = 'application/vnd.oasis.opendocument.text';
 const odt = 'odt';
-const audioogg = 'audio/ogg';
 const oga = 'oga';
-const ogg = 'ogg';
-const opus = 'opus';
-const modelvndopengex = 'model/vnd.opengex';
 const ogex = 'ogex';
-const videoxogm_ogg = 'video/x-ogm+ogg';
+const ogg = 'ogg';
 const ogm = 'ogm';
-const videoogg = 'video/ogg';
 const ogv = 'ogv';
-const applicationogg = 'application/ogg';
 const ogx = 'ogx';
-const applicationxoleo = 'application/x-oleo';
+const old = 'old';
 const oleo = 'oleo';
-const applicationomdoc_xml = 'application/omdoc+xml';
 const omdoc = 'omdoc';
-const applicationonenote = 'application/onenote';
+const onepkg = 'onepkg';
+const onetmp = 'onetmp';
 const onetoc = 'onetoc';
 const onetoc2 = 'onetoc2';
-const onetmp = 'onetmp';
-const onepkg = 'onepkg';
-const textxooc = 'text/x-ooc';
 const ooc = 'ooc';
-const applicationxopenvpnprofile = 'application/x-openvpn-profile';
 const openvpn = 'openvpn';
-const ovpn = 'ovpn';
-const applicationoebpspackage_xml = 'application/oebps-package+xml';
 const opf = 'opf';
-const textxopml_xml = 'text/x-opml+xml';
 const opml = 'opml';
-const imageopenraster = 'image/openraster';
+const oprc = 'oprc';
+const opus = 'opus';
 const ora = 'ora';
-const imagexolympusorf = 'image/x-olympus-orf';
 const orf = 'orf';
-const textorg = 'text/org';
 const org = 'org';
-const applicationvndyamahaopenscoreformat = 'application/vnd.yamaha.openscoreformat';
 const osf = 'osf';
-const applicationvndyamahaopenscoreformatosfpvg_xml = 'application/vnd.yamaha.openscoreformat.osfpvg+xml';
 const osfpvg = 'osfpvg';
-const applicationvndopenstreetmapdata_xml = 'application/vnd.openstreetmap.data+xml';
 const osm = 'osm';
-const applicationvndoasisopendocumentcharttemplate = 'application/vnd.oasis.opendocument.chart-template';
 const otc = 'otc';
-const applicationvndoasisopendocumentformulatemplate = 'application/vnd.oasis.opendocument.formula-template';
 const otf = 'otf';
-const odft = 'odft';
-const applicationvndoasisopendocumentgraphicstemplate = 'application/vnd.oasis.opendocument.graphics-template';
 const otg = 'otg';
-const applicationvndoasisopendocumenttextweb = 'application/vnd.oasis.opendocument.text-web';
 const oth = 'oth';
-const applicationvndoasisopendocumentimagetemplate = 'application/vnd.oasis.opendocument.image-template';
 const oti = 'oti';
-const applicationvndoasisopendocumentpresentationtemplate = 'application/vnd.oasis.opendocument.presentation-template';
+const otm = 'otm';
 const otp = 'otp';
-const applicationvndoasisopendocumentspreadsheettemplate = 'application/vnd.oasis.opendocument.spreadsheet-template';
 const ots = 'ots';
-const applicationvndoasisopendocumenttexttemplate = 'application/vnd.oasis.opendocument.text-template';
 const ott = 'ott';
-const applicationovf = 'application/ovf';
 const ova = 'ova';
-const applicationxvirtualboxovf = 'application/x-virtualbox-ovf';
 const ovf = 'ovf';
-const applicationowl_xml = 'application/owl+xml';
+const ovpn = 'ovpn';
+const owl = 'owl';
 const owx = 'owx';
-const applicationoxps = 'application/oxps';
 const oxps = 'oxps';
-const applicationvndopenofficeorgextension = 'application/vnd.openofficeorg.extension';
 const oxt = 'oxt';
-const textxpascal = 'text/x-pascal';
 const p = 'p';
-const pas = 'pas';
-const applicationpkcs10 = 'application/pkcs10';
 const p10 = 'p10';
-const applicationpkcs12 = 'application/pkcs12';
 const p12 = 'p12';
-const pfx = 'pfx';
-const applicationxpagemaker = 'application/x-pagemaker';
 const p65 = 'p65';
-const pm6 = 'pm6';
-const pmd = 'pmd';
-const applicationxpkcs7certificates = 'application/x-pkcs7-certificates';
 const p7b = 'p7b';
-const spc = 'spc';
-const applicationpkcs7mime = 'application/pkcs7-mime';
 const p7c = 'p7c';
 const p7m = 'p7m';
-const applicationxpkcs7certreqresp = 'application/x-pkcs7-certreqresp';
 const p7r = 'p7r';
-const applicationpkcs7signature = 'application/pkcs7-signature';
 const p7s = 'p7s';
-const applicationpkcs8 = 'application/pkcs8';
 const p8 = 'p8';
-const applicationpkcs8encrypted = 'application/pkcs8-encrypted';
 const p8e = 'p8e';
-const applicationxnsproxyautoconfig = 'application/x-ns-proxy-autoconfig';
 const pac = 'pac';
-const applicationxjavapack200 = 'application/x-java-pack200';
 const pack = 'pack';
-const applicationvndapplepages = 'application/vnd.apple.pages';
 const pages = 'pages';
-const applicationxpak = 'application/x-pak';
 const pak = 'pak';
-const applicationxpar2 = 'application/x-par2';
 const par2 = 'par2';
-const imagexgimppat = 'image/x-gimp-pat';
+const parquet = 'parquet';
+const part = 'part';
+const pas = 'pas';
 const pat = 'pat';
-const applicationvndpawaafile = 'application/vnd.pawaafile';
+const patch = 'patch';
+const path = 'path';
 const paw = 'paw';
-const applicationvndpowerbuilder6 = 'application/vnd.powerbuilder6';
 const pbd = 'pbd';
-const imagexportablebitmap = 'image/x-portable-bitmap';
 const pbm = 'pbm';
-const applicationvndtcpdumppcap = 'application/vnd.tcpdump.pcap';
 const pcap = 'pcap';
-const cap = 'cap';
-const dmp = 'dmp';
-const imagexphotocd = 'image/x-photo-cd';
+const pcapng = 'pcapng';
 const pcd = 'pcd';
-const applicationxpcenginerom = 'application/x-pc-engine-rom';
 const pce = 'pce';
-const applicationxfontpcf = 'application/x-font-pcf';
 const pcf = 'pcf';
-const pcfz = 'pcfz';
 const pcfgz = 'pcfgz';
-const applicationvndhppcl = 'application/vnd.hp-pcl';
+const pcfz = 'pcfz';
 const pcl = 'pcl';
-const applicationvndhppclxl = 'application/vnd.hp-pclxl';
 const pclxl = 'pclxl';
-const imagexpict = 'image/x-pict';
 const pct = 'pct';
-const pict = 'pict';
-const pict1 = 'pict1';
-const pict2 = 'pict2';
-const pic = 'pic';
-const applicationvndcurlpcurl = 'application/vnd.curl.pcurl';
 const pcurl = 'pcurl';
-const imagevndzbrushpcx = 'image/vnd.zbrush.pcx';
 const pcx = 'pcx';
-const applicationxaportisdoc = 'application/x-aportisdoc';
 const pdb = 'pdb';
 const pdc = 'pdc';
-const textxprocessing = 'text/x-processing';
 const pde = 'pde';
-const applicationpdf = 'application/pdf';
 const pdf = 'pdf';
-const applicationxbzpdf = 'application/x-bzpdf';
 const pdfbz2 = 'pdfbz2';
-const applicationxgzpdf = 'application/x-gzpdf';
 const pdfgz = 'pdfgz';
-const applicationxlzpdf = 'application/x-lzpdf';
 const pdflz = 'pdflz';
-const applicationxxzpdf = 'application/x-xzpdf';
 const pdfxz = 'pdfxz';
-const imagexpentaxpef = 'image/x-pentax-pef';
 const pef = 'pef';
-const applicationxperfdata = 'application/x-perf-data';
+const pem = 'pem';
 const perfdata = 'perfdata';
-const applicationxfonttype1 = 'application/x-font-type1';
+const perl = 'perl';
 const pfa = 'pfa';
 const pfb = 'pfb';
-const gsf = 'gsf';
 const pfm = 'pfm';
-const applicationfonttdpfr = 'application/font-tdpfr';
 const pfr = 'pfr';
-const imagexportablegraymap = 'image/x-portable-graymap';
+const pfx = 'pfx';
 const pgm = 'pgm';
-const applicationvndchesspgn = 'application/vnd.chess-pgn';
 const pgn = 'pgn';
-const applicationpgpencrypted = 'application/pgp-encrypted';
 const pgp = 'pgp';
-const gpg = 'gpg';
-const asc = 'asc';
-const applicationxphp = 'application/x-php';
 const php = 'php';
 const php3 = 'php3';
 const php4 = 'php4';
 const php5 = 'php5';
 const phps = 'phps';
-const applicationxtexpk = 'application/x-tex-pk';
+const pic = 'pic';
+const pict = 'pict';
+const pict1 = 'pict1';
+const pict2 = 'pict2';
 const pk = 'pk';
-const applicationpkixcmp = 'application/pkixcmp';
+const pkg = 'pkg';
 const pki = 'pki';
-const applicationpkixpkipath = 'application/pkix-pkipath';
 const pkipath = 'pkipath';
-const applicationvndapplepkpass = 'application/vnd.apple.pkpass';
 const pkpass = 'pkpass';
-const applicationxperl = 'application/x-perl';
+const pkr = 'pkr';
 const pl = 'pl';
-const pm = 'pm';
-const al = 'al';
-const perl = 'perl';
-const pod = 'pod';
-const t = 't';
-const audioxiriverpla = 'audio/x-iriver-pla';
 const pla = 'pla';
-const applicationvnd3gpppicbwlarge = 'application/vnd.3gpp.pic-bw-large';
 const plb = 'plb';
-const applicationvndmobiusplc = 'application/vnd.mobius.plc';
 const plc = 'plc';
-const applicationvndpocketlearn = 'application/vnd.pocketlearn';
 const plf = 'plf';
-const applicationxplanperfect = 'application/x-planperfect';
 const pln = 'pln';
-const audioxscpls = 'audio/x-scpls';
 const pls = 'pls';
-const applicationvndctcposml = 'application/vnd.ctc-posml';
+const pm = 'pm';
+const pm6 = 'pm6';
+const pmd = 'pmd';
 const pml = 'pml';
-const imagepng = 'image/png';
 const png = 'png';
-const imagexportableanymap = 'image/x-portable-anymap';
 const pnm = 'pnm';
-const imagexmacpaint = 'image/x-macpaint';
 const pntg = 'pntg';
-const textxgettexttranslation = 'text/x-gettext-translation';
 const po = 'po';
-const textxmaven_xml = 'text/x-maven+xml';
+const pod = 'pod';
 const pomxml = 'pomxml';
-const settingsxml = 'settingsxml';
-const applicationxspsspor = 'application/x-spss-por';
 const por = 'por';
-const applicationvndmacportsportpkg = 'application/vnd.macports.portpkg';
 const portpkg = 'portpkg';
-const applicationvndmspowerpointtemplatemacroenabled12 = 'application/vnd.ms-powerpoint.template.macroenabled.12';
-const potm = 'potm';
-const applicationvndopenxmlformatsofficedocumentpresentationmltemplate = 'application/vnd.openxmlformats-officedocument.presentationml.template';
-const potx = 'potx';
-const applicationvndmspowerpointaddinmacroenabled12 = 'application/vnd.ms-powerpoint.addin.macroenabled.12';
-const ppam = 'ppam';
-const applicationvndcupsppd = 'application/vnd.cups-ppd';
-const ppd = 'ppd';
-const imagexportablepixmap = 'image/x-portable-pixmap';
-const ppm = 'ppm';
-const applicationvndmspowerpointslideshowmacroenabled12 = 'application/vnd.ms-powerpoint.slideshow.macroenabled.12';
-const ppsm = 'ppsm';
-const applicationvndopenxmlformatsofficedocumentpresentationmlslideshow = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow';
-const ppsx = 'ppsx';
-const applicationvndmspowerpointpresentationmacroenabled12 = 'application/vnd.ms-powerpoint.presentation.macroenabled.12';
-const pptm = 'pptm';
-const applicationvndopenxmlformatsofficedocumentpresentationmlpresentation = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
-const pptx = 'pptx';
-const applicationvndmspowerpoint = 'application/vnd.ms-powerpoint';
-const ppz = 'ppz';
-const ppt = 'ppt';
-const pps = 'pps';
 const pot = 'pot';
-const applicationvndpalm = 'application/vnd.palm';
+const potm = 'potm';
+const potx = 'potx';
+const ppam = 'ppam';
+const ppd = 'ppd';
+const ppm = 'ppm';
+const pps = 'pps';
+const ppsm = 'ppsm';
+const ppsx = 'ppsx';
+const ppt = 'ppt';
+const pptm = 'pptm';
+const pptx = 'pptx';
+const ppz = 'ppz';
 const pqa = 'pqa';
-const oprc = 'oprc';
-const applicationvndlotusfreelance = 'application/vnd.lotus-freelance';
+const prc = 'prc';
 const pre = 'pre';
-const applicationpicsrules = 'application/pics-rules';
 const prf = 'prf';
-const applicationxgodotproject = 'application/x-godot-project';
 const projectgodot = 'projectgodot';
-const applicationprovenance_xml = 'application/provenance+xml';
 const provx = 'provx';
-const applicationpostscript = 'application/postscript';
 const ps = 'ps';
-const applicationxpowershell = 'application/x-powershell';
 const ps1 = 'ps1';
-const applicationvnd3gpppicbwsmall = 'application/vnd.3gpp.pic-bw-small';
 const psb = 'psb';
-const applicationxbzpostscript = 'application/x-bzpostscript';
 const psbz2 = 'psbz2';
-const imagevndadobephotoshop = 'image/vnd.adobe.photoshop';
 const psd = 'psd';
-const applicationxfontlinuxpsf = 'application/x-font-linux-psf';
 const psf = 'psf';
-const applicationxgzfontlinuxpsf = 'application/x-gz-font-linux-psf';
 const psfgz = 'psfgz';
-const audioxpsflib = 'audio/x-psflib';
 const psflib = 'psflib';
-const applicationxgzpostscript = 'application/x-gzpostscript';
 const psgz = 'psgz';
-const applicationpskc_xml = 'application/pskc+xml';
+const psid = 'psid';
 const pskcxml = 'pskcxml';
-const applicationxpocketword = 'application/x-pocket-word';
 const psw = 'psw';
-const imageprspti = 'image/prs.pti';
 const pti = 'pti';
-const applicationvndpviptid1 = 'application/vnd.pvi.ptid1';
 const ptid = 'ptid';
-const applicationvndmspublisher = 'application/vnd.ms-publisher';
 const pub = 'pub';
-const applicationvnd3gpppicbwvar = 'application/vnd.3gpp.pic-bw-var';
 const pvb = 'pvb';
-const applicationxpw = 'application/x-pw';
 const pw = 'pw';
-const applicationvnd3mpostitnotes = 'application/vnd.3m.post-it-notes';
 const pwn = 'pwn';
-const textxpython3 = 'text/x-python3';
+const pxd = 'pxd';
+const pxi = 'pxi';
 const py = 'py';
+const py2 = 'py2';
 const py3 = 'py3';
-const py3x = 'py3x';
-const pyi = 'pyi';
-const audiovndmsplayreadymediapya = 'audio/vnd.ms-playready.media.pya';
 const pya = 'pya';
-const applicationxpythonbytecode = 'application/x-python-bytecode';
 const pyc = 'pyc';
+const pyi = 'pyi';
 const pyo = 'pyo';
-const modelvndpythapyox = 'model/vnd.pytha.pyox';
 const pyox = 'pyox';
-const applicationxpyspreadbzspreadsheet = 'application/x-pyspread-bz-spreadsheet';
 const pys = 'pys';
-const applicationxpyspreadspreadsheet = 'application/x-pyspread-spreadsheet';
 const pysu = 'pysu';
-const videovndmsplayreadymediapyv = 'video/vnd.ms-playready.media.pyv';
 const pyv = 'pyv';
-const textxpython = 'text/x-python';
 const pyx = 'pyx';
-const wsgi = 'wsgi';
-const applicationvndepsonquickanime = 'application/vnd.epson.quickanime';
 const qam = 'qam';
-const applicationvndintuqbo = 'application/vnd.intu.qbo';
 const qbo = 'qbo';
-const applicationxqemudisk = 'application/x-qemu-disk';
-const qcow2 = 'qcow2';
+const qbrew = 'qbrew';
 const qcow = 'qcow';
-const applicationxqeddisk = 'application/x-qed-disk';
+const qcow2 = 'qcow2';
+const qd = 'qd';
 const qed = 'qed';
-const applicationvndintuqfx = 'application/vnd.intu.qfx';
 const qfx = 'qfx';
-const applicationxqw = 'application/x-qw';
 const qif = 'qif';
-const textxqml = 'text/x-qml';
 const qml = 'qml';
-const qmltypes = 'qmltypes';
 const qmlproject = 'qmlproject';
-const imageqoi = 'image/qoi';
+const qmltypes = 'qmltypes';
 const qoi = 'qoi';
-const applicationxqpress = 'application/x-qpress';
 const qp = 'qp';
-const applicationvndpublisharedeltatree = 'application/vnd.publishare-delta-tree';
 const qps = 'qps';
-const applicationsparqlquery = 'application/sparql-query';
+const qpw = 'qpw';
 const qs = 'qs';
-const rq = 'rq';
-const videoquicktime = 'video/quicktime';
 const qt = 'qt';
-const mov = 'mov';
-const moov = 'moov';
-const qtvr = 'qtvr';
-const applicationxqtiplot = 'application/x-qtiplot';
 const qti = 'qti';
-const qtigz = 'qtigz';
-const imagexquicktime = 'image/x-quicktime';
 const qtif = 'qtif';
-const applicationxquicktimemedialink = 'application/x-quicktime-media-link';
+const qtigz = 'qtigz';
 const qtl = 'qtl';
-const applicationvndquarkquarkxpress = 'application/vnd.quark.quarkxpress';
-const qxd = 'qxd';
-const qxt = 'qxt';
+const qtvr = 'qtvr';
 const qwd = 'qwd';
 const qwt = 'qwt';
-const qxl = 'qxl';
 const qxb = 'qxb';
-const audiovndrnrealaudio = 'audio/vnd.rn-realaudio';
+const qxd = 'qxd';
+const qxl = 'qxl';
+const qxp = 'qxp';
+const qxt = 'qxt';
 const ra = 'ra';
-const rax = 'rax';
-const imagexfujiraf = 'image/x-fuji-raf';
 const raf = 'raf';
-const applicationram = 'application/ram';
 const ram = 'ram';
-const applicationraml_yaml = 'application/raml+yaml';
 const raml = 'raml';
-const applicationrouteapd_xml = 'application/route-apd+xml';
 const rapd = 'rapd';
-const applicationvndrar = 'application/vnd.rar';
 const rar = 'rar';
-const imagexcmuraster = 'image/x-cmu-raster';
 const ras = 'ras';
-const imagexpanasonicrw = 'image/x-panasonic-rw';
 const raw = 'raw';
-const applicationvndefiimg = 'application/vnd.efi.img';
 const rawdiskimage = 'rawdiskimage';
-const img = 'img';
-const applicationxrawdiskimagexzcompressed = 'application/x-raw-disk-image-xz-compressed';
 const rawdiskimagexz = 'rawdiskimagexz';
-const imgxz = 'imgxz';
-const applicationxruby = 'application/x-ruby';
+const rax = 'rax';
 const rb = 'rb';
-const applicationvndipunpluggedrcprofile = 'application/vnd.ipunplugged.rcprofile';
 const rcprofile = 'rcprofile';
-const applicationrdf_xml = 'application/rdf+xml';
 const rdf = 'rdf';
 const rdfs = 'rdfs';
-const owl = 'owl';
-const applicationvnddatavisionrdz = 'application/vnd.data-vision.rdz';
 const rdz = 'rdz';
-const textxreadme = 'text/x-readme';
 const readme = 'readme';
-const textxmsregedit = 'text/x-ms-regedit';
 const reg = 'reg';
-const textxreject = 'text/x-reject';
 const rej = 'rej';
-const applicationp2poverlay_xml = 'application/p2p-overlay+xml';
 const relo = 'relo';
-const applicationvndbusinessobjects = 'application/vnd.businessobjects';
 const rep = 'rep';
-const applicationxgodotresource = 'application/x-godot-resource';
 const res = 'res';
-const tres = 'tres';
-const imagexrgb = 'image/x-rgb';
 const rgb = 'rgb';
-const applicationreginfo_xml = 'application/reginfo+xml';
 const rif = 'rif';
-const audiovndrip = 'audio/vnd.rip';
 const rip = 'rip';
-const applicationxresearchinfosystems = 'application/x-research-info-systems';
 const ris = 'ris';
-const applicationresourcelists_xml = 'application/resource-lists+xml';
 const rl = 'rl';
-const imagevndfujixeroxedmicsrlc = 'image/vnd.fujixerox.edmics-rlc';
 const rlc = 'rlc';
-const applicationresourcelistsdiff_xml = 'application/resource-lists-diff+xml';
 const rld = 'rld';
-const imagerle = 'image/rle';
 const rle = 'rle';
-const applicationvndrnrealmedia = 'application/vnd.rn-realmedia';
 const rm = 'rm';
+const rmail = 'rmail';
+const rmi = 'rmi';
 const rmj = 'rmj';
 const rmm = 'rmm';
-const rms = 'rms';
-const rmx = 'rmx';
-const rmvb = 'rmvb';
-const messagexgnurmail = 'message/x-gnu-rmail';
-const rmail = 'rmail';
-const audioxpnrealaudioplugin = 'audio/x-pn-realaudio-plugin';
 const rmp = 'rmp';
-const applicationrelaxngcompactsyntax = 'application/relax-ng-compact-syntax';
+const rms = 'rms';
+const rmvb = 'rmvb';
+const rmx = 'rmx';
 const rnc = 'rnc';
-const applicationrpkiroa = 'application/rpki-roa';
+const rng = 'rng';
 const roa = 'roa';
-const imagevndrnrealpix = 'image/vnd.rn-realpix';
+const roff = 'roff';
+const ros = 'ros';
 const rp = 'rp';
-const applicationvndcloantorp9 = 'application/vnd.cloanto.rp9';
 const rp9 = 'rp9';
-const applicationxrpm = 'application/x-rpm';
 const rpm = 'rpm';
-const applicationvndnokiaradiopresets = 'application/vnd.nokia.radio-presets';
 const rpss = 'rpss';
-const applicationvndnokiaradiopreset = 'application/vnd.nokia.radio-preset';
 const rpst = 'rpst';
-const textrust = 'text/rust';
+const rq = 'rq';
 const rs = 'rs';
-const applicationatscrsat_xml = 'application/atsc-rsat+xml';
 const rsat = 'rsat';
-const applicationrsd_xml = 'application/rsd+xml';
 const rsd = 'rsd';
-const applicationurcressheet_xml = 'application/urc-ressheet+xml';
 const rsheet = 'rsheet';
-const applicationrss_xml = 'application/rss+xml';
 const rss = 'rss';
-const textxrst = 'text/x-rst';
 const rst = 'rst';
-const textvndrnrealtext = 'text/vnd.rn-realtext';
 const rt = 'rt';
-const applicationrtf = 'application/rtf';
 const rtf = 'rtf';
-const textrichtext = 'text/richtext';
 const rtx = 'rtx';
-const applicationxmakeself = 'application/x-makeself';
 const run = 'run';
-const applicationrouteusd_xml = 'application/route-usd+xml';
 const rusd = 'rusd';
-const videovndrnrealvideo = 'video/vnd.rn-realvideo';
 const rv = 'rv';
 const rvx = 'rvx';
-const imagexpanasonicrw2 = 'image/x-panasonic-rw2';
 const rw2 = 'rw2';
-const textxasm = 'text/x-asm';
+const rz = 'rz';
 const s = 's';
-const asm = 'asm';
-const audioxs3m = 'audio/x-s3m';
 const s3m = 's3m';
-const applicationvndyamahasmafaudio = 'application/vnd.yamaha.smaf-audio';
 const saf = 'saf';
-const textxsagemath = 'text/x-sagemath';
 const sage = 'sage';
-const applicationxamipro = 'application/x-amipro';
 const sam = 'sam';
-const applicationxsami = 'application/x-sami';
 const sami = 'sami';
-const applicationxthomsonsapimage = 'application/x-thomson-sap-image';
 const sap = 'sap';
-const textxsass = 'text/x-sass';
 const sass = 'sass';
-const applicationxspsssav = 'application/x-spss-sav';
 const sav = 'sav';
-const zsav = 'zsav';
-const applicationsbml_xml = 'application/sbml+xml';
 const sbml = 'sbml';
-const textxscala = 'text/x-scala';
-const scala = 'scala';
 const sc = 'sc';
-const applicationxmsschedule = 'application/x-msschedule';
+const scala = 'scala';
 const scd = 'scd';
-const textxscheme = 'text/x-scheme';
 const scm = 'scm';
-const ss = 'ss';
-const applicationxgodotscene = 'application/x-godot-scene';
 const scn = 'scn';
-const tscn = 'tscn';
-const escn = 'escn';
-const textxscons = 'text/x-scons';
-const sconstruct = 'sconstruct';
 const sconscript = 'sconscript';
-const applicationscvpcvrequest = 'application/scvp-cv-request';
+const sconstruct = 'sconstruct';
+const scope = 'scope';
 const scq = 'scq';
-const applicationscvpcvresponse = 'application/scvp-cv-response';
+const scr = 'scr';
 const scs = 'scs';
-const textxscss = 'text/x-scss';
 const scss = 'scss';
-const textvndcurlscurl = 'text/vnd.curl.scurl';
 const scurl = 'scurl';
-const applicationvndstardivisiondraw = 'application/vnd.stardivision.draw';
 const sda = 'sda';
-const applicationvndstardivisioncalc = 'application/vnd.stardivision.calc';
 const sdc = 'sdc';
-const applicationvndstardivisionimpress = 'application/vnd.stardivision.impress';
 const sdd = 'sdd';
-const sdp = 'sdp';
-const applicationvndsolentsdkm_xml = 'application/vnd.solent.sdkm+xml';
-const sdkm = 'sdkm';
 const sdkd = 'sdkd';
-const applicationvndstardivisionchart = 'application/vnd.stardivision.chart';
+const sdkm = 'sdkm';
+const sdm = 'sdm';
+const sdp = 'sdp';
 const sds = 'sds';
-const applicationvndstardivisionwriter = 'application/vnd.stardivision.writer';
 const sdw = 'sdw';
-const vor = 'vor';
-const sgl = 'sgl';
-const applicationxsea = 'application/x-sea';
 const sea = 'sea';
-const applicationvndseemail = 'application/vnd.seemail';
 const see = 'see';
-const applicationvndfdsnseed = 'application/vnd.fdsn.seed';
 const seed = 'seed';
-const dataless = 'dataless';
-const applicationvndsema = 'application/vnd.sema';
 const sema = 'sema';
-const applicationvndsemd = 'application/vnd.semd';
 const semd = 'semd';
-const applicationvndsemf = 'application/vnd.semf';
 const semf = 'semf';
-const applicationsenml_xml = 'application/senml+xml';
 const senmlx = 'senmlx';
-const applicationsensml_xml = 'application/sensml+xml';
 const sensmlx = 'sensmlx';
-const applicationjavaserializedobject = 'application/java-serialized-object';
 const ser = 'ser';
-const textxdbusservice = 'text/x-dbus-service';
 const service = 'service';
-const applicationsetpaymentinitiation = 'application/set-payment-initiation';
 const setpay = 'setpay';
-const applicationsetregistrationinitiation = 'application/set-registration-initiation';
 const setreg = 'setreg';
-const applicationvndnintendosnesrom = 'application/vnd.nintendo.snes.rom';
+const settingsxml = 'settingsxml';
 const sfc = 'sfc';
-const smc = 'smc';
-const applicationvndhydrostatixsofdata = 'application/vnd.hydrostatix.sof-data';
 const sfdhdstx = 'sfd-hdstx';
-const applicationvndspotfiresfs = 'application/vnd.spotfire.sfs';
 const sfs = 'sfs';
-const textxsfv = 'text/x-sfv';
 const sfv = 'sfv';
-const applicationxsg1000rom = 'application/x-sg1000-rom';
 const sg = 'sg';
-const applicationxgosgf = 'application/x-go-sgf';
+const sgb = 'sgb';
+const sgd = 'sgd';
 const sgf = 'sgf';
-const imagexsgi = 'image/x-sgi';
 const sgi = 'sgi';
-const textsgml = 'text/sgml';
-const sgml = 'sgml';
+const sgl = 'sgl';
 const sgm = 'sgm';
-const applicationxshellscript = 'application/x-shellscript';
+const sgml = 'sgml';
 const sh = 'sh';
-const applicationxdiashape = 'application/x-dia-shape';
 const shape = 'shape';
-const applicationxshar = 'application/x-shar';
 const shar = 'shar';
-const textshex = 'text/shex';
 const shex = 'shex';
-const applicationshf_xml = 'application/shf+xml';
 const shf = 'shf';
-const applicationxshorten = 'application/x-shorten';
 const shn = 'shn';
-const texthtml = 'text/html';
 const shtml = 'shtml';
-const applicationxsiag = 'application/x-siag';
 const siag = 'siag';
-const audioprssid = 'audio/prs.sid';
 const sid = 'sid';
-const psid = 'psid';
-const applicationpgpsignature = 'application/pgp-signature';
-const sig = 'sig';
-const audiosilk = 'audio/silk';
-const sil = 'sil';
-const applicationvndsymbianinstall = 'application/vnd.symbian.install';
-const sis = 'sis';
-const xepocxsisxapp = 'x-epoc/x-sisx-app';
-const sisx = 'sisx';
-const applicationxstuffit = 'application/x-stuffit';
-const sit = 'sit';
-const applicationxstuffitx = 'application/x-stuffitx';
-const sitx = 'sitx';
-const applicationsieve = 'application/sieve';
-const siv = 'siv';
 const sieve = 'sieve';
-const imagexskencil = 'image/x-skencil';
+const sig = 'sig';
+const sik = 'sik';
+const sil = 'sil';
+const silo = 'silo';
+const sis = 'sis';
+const sisx = 'sisx';
+const sit = 'sit';
+const sitx = 'sitx';
+const siv = 'siv';
 const sk = 'sk';
 const sk1 = 'sk1';
-const applicationvndkoan = 'application/vnd.koan';
-const skp = 'skp';
 const skd = 'skd';
-const skt = 'skt';
 const skm = 'skm';
-const applicationpgpkeys = 'application/pgp-keys';
+const skp = 'skp';
 const skr = 'skr';
-const pkr = 'pkr';
-const key = 'key';
-const applicationvndmspowerpointslidemacroenabled12 = 'application/vnd.ms-powerpoint.slide.macroenabled.12';
+const skt = 'skt';
 const sldm = 'sldm';
-const applicationvndopenxmlformatsofficedocumentpresentationmlslide = 'application/vnd.openxmlformats-officedocument.presentationml.slide';
 const sldx = 'sldx';
-const textslim = 'text/slim';
+const slice = 'slice';
 const slim = 'slim';
+const slk = 'slk';
 const slm = 'slm';
-const applicationroutestsid_xml = 'application/route-s-tsid+xml';
 const sls = 'sls';
-const applicationvndepsonsalt = 'application/vnd.epson.salt';
 const slt = 'slt';
-const applicationvndstepmaniastepchart = 'application/vnd.stepmania.stepchart';
 const sm = 'sm';
-const applicationvndstardivisionmail = 'application/vnd.stardivision.mail';
+const smaf = 'smaf';
+const smc = 'smc';
 const smd = 'smd';
-const applicationvndstardivisionmath = 'application/vnd.stardivision.math';
 const smf = 'smf';
-const applicationsmil_xml = 'application/smil+xml';
-const smil = 'smil';
 const smi = 'smi';
-const sml = 'sml';
-const kino = 'kino';
-const videovndradgamettoolssmacker = 'video/vnd.radgamettools.smacker';
+const smil = 'smil';
 const smk = 'smk';
-const applicationxsmsrom = 'application/x-sms-rom';
+const sml = 'sml';
 const sms = 'sms';
-const videoxsmv = 'video/x-smv';
 const smv = 'smv';
-const applicationvndstepmaniapackage = 'application/vnd.stepmania.package';
 const smzip = 'smzip';
-const applicationvndsnap = 'application/vnd.snap';
 const snap = 'snap';
-const applicationxfontsnf = 'application/x-font-snf';
+const snd = 'snd';
 const snf = 'snf';
-const applicationxsharedlib = 'application/x-sharedlib';
 const so = 'so';
 const so09 = 'so09';
-const applicationxfontspeedo = 'application/x-font-speedo';
+const socket = 'socket';
+const spc = 'spc';
 const spd = 'spd';
-const textspdx = 'text/spdx';
 const spdx = 'spdx';
-const textxrpmspec = 'text/x-rpm-spec';
 const spec = 'spec';
-const applicationvndyamahasmafphrase = 'application/vnd.yamaha.smaf-phrase';
 const spf = 'spf';
-const textvndin3dspot = 'text/vnd.in3d.spot';
-const spot = 'spot';
-const applicationscvpvpresponse = 'application/scvp-vp-response';
-const spp = 'spp';
-const applicationscvpvprequest = 'application/scvp-vp-request';
-const spq = 'spq';
-const applicationxapplesystemprofiler_xml = 'application/x-apple-systemprofiler+xml';
-const spx = 'spx';
-const applicationsql = 'application/sql';
-const sql = 'sql';
-const applicationxsqlite2 = 'application/x-sqlite2';
-const sqlite2 = 'sqlite2';
-const applicationvndsqlite3 = 'application/vnd.sqlite3';
-const sqlite3 = 'sqlite3';
-const applicationvndsquashfs = 'application/vnd.squashfs';
-const sqsh = 'sqsh';
-const imagexsonysr2 = 'image/x-sony-sr2';
-const sr2 = 'sr2';
-const applicationxwaissource = 'application/x-wais-source';
-const src = 'src';
-const applicationxsourcerpm = 'application/x-source-rpm';
-const srcrpm = 'srcrpm';
+const spl = 'spl';
 const spm = 'spm';
-const imagexsonysrf = 'image/x-sony-srf';
+const spot = 'spot';
+const spp = 'spp';
+const spq = 'spq';
+const spx = 'spx';
+const sqfs = 'sqfs';
+const sql = 'sql';
+const sqlite2 = 'sqlite2';
+const sqlite3 = 'sqlite3';
+const sqsh = 'sqsh';
+const squashfs = 'squashfs';
+const sr2 = 'sr2';
+const src = 'src';
+const srcrpm = 'srcrpm';
 const srf = 'srf';
-const applicationxsubrip = 'application/x-subrip';
 const srt = 'srt';
-const applicationsru_xml = 'application/sru+xml';
 const sru = 'sru';
-const applicationsparqlresults_xml = 'application/sparql-results+xml';
 const srx = 'srx';
-const textxssa = 'text/x-ssa';
+const ss = 'ss';
 const ssa = 'ssa';
-const ass = 'ass';
-const applicationssdl_xml = 'application/ssdl+xml';
 const ssdl = 'ssdl';
-const applicationvndkodakdescriptor = 'application/vnd.kodak-descriptor';
 const sse = 'sse';
-const applicationvndepsonssf = 'application/vnd.epson.ssf';
 const ssf = 'ssf';
-const applicationssml_xml = 'application/ssml+xml';
 const ssml = 'ssml';
-const applicationvndsailingtrackertrack = 'application/vnd.sailingtracker.track';
 const st = 'st';
-const applicationvndsunxmlcalctemplate = 'application/vnd.sun.xml.calc.template';
 const stc = 'stc';
-const applicationvndsunxmldrawtemplate = 'application/vnd.sun.xml.draw.template';
 const std = 'std';
-const applicationvndwtstf = 'application/vnd.wt.stf';
+const step = 'step';
 const stf = 'stf';
-const applicationvndsunxmlimpresstemplate = 'application/vnd.sun.xml.impress.template';
 const sti = 'sti';
-const applicationhyperstudio = 'application/hyperstudio';
 const stk = 'stk';
-const modelstl = 'model/stl';
 const stl = 'stl';
-const audioxstm = 'audio/x-stm';
 const stm = 'stm';
-const modelstep_xml = 'model/step+xml';
+const stp = 'stp';
 const stpx = 'stpx';
-const modelstepxml_zip = 'model/step-xml+zip';
 const stpxz = 'stpxz';
-const modelstep_zip = 'model/step+zip';
 const stpz = 'stpz';
-const applicationvndpgformat = 'application/vnd.pg.format';
 const str = 'str';
-const applicationvndsunxmlwritertemplate = 'application/vnd.sun.xml.writer.template';
 const stw = 'stw';
-const textstylus = 'text/stylus';
-const stylus = 'stylus';
+const sty = 'sty';
 const styl = 'styl';
-const textxmicrodvd = 'text/x-microdvd';
+const stylus = 'stylus';
 const sub = 'sub';
-const imagexsunraster = 'image/x-sun-raster';
 const sun = 'sun';
-const applicationvndsuscalendar = 'application/vnd.sus-calendar';
 const sus = 'sus';
 const susp = 'susp';
-const textxsvsrc = 'text/x-svsrc';
 const sv = 'sv';
-const applicationxsv4cpio = 'application/x-sv4cpio';
 const sv4cpio = 'sv4cpio';
-const applicationxsv4crc = 'application/x-sv4crc';
 const sv4crc = 'sv4crc';
-const applicationvnddvbservice = 'application/vnd.dvb.service';
 const svc = 'svc';
-const applicationvndsvd = 'application/vnd.svd';
 const svd = 'svd';
-const imagesvg_xml = 'image/svg+xml';
 const svg = 'svg';
-const imagesvg_xmlcompressed = 'image/svg+xml-compressed';
-const svgz = 'svgz';
 const svggz = 'svggz';
-const textxsvhdr = 'text/x-svhdr';
+const svgz = 'svgz';
 const svh = 'svh';
-const applicationvndadobeflashmovie = 'application/vnd.adobe.flash.movie';
+const swa = 'swa';
+const swap = 'swap';
 const swf = 'swf';
-const spl = 'spl';
-const applicationvndaristanetworksswi = 'application/vnd.aristanetworks.swi';
 const swi = 'swi';
-const applicationswid_xml = 'application/swid+xml';
 const swidtag = 'swidtag';
-const applicationvndsunxmlcalc = 'application/vnd.sun.xml.calc';
+const swm = 'swm';
 const sxc = 'sxc';
-const applicationvndsunxmldraw = 'application/vnd.sun.xml.draw';
 const sxd = 'sxd';
-const applicationvndsunxmlwriterglobal = 'application/vnd.sun.xml.writer.global';
 const sxg = 'sxg';
-const applicationvndsunxmlimpress = 'application/vnd.sun.xml.impress';
 const sxi = 'sxi';
-const applicationvndsunxmlmath = 'application/vnd.sun.xml.math';
 const sxm = 'sxm';
-const applicationvndsunxmlwriter = 'application/vnd.sun.xml.writer';
 const sxw = 'sxw';
-const textspreadsheet = 'text/spreadsheet';
 const sylk = 'sylk';
-const slk = 'slk';
-const textxtxt2tags = 'text/x-txt2tags';
+const sys = 'sys';
+const t = 't';
 const t2t = 't2t';
-const applicationxt3vmimage = 'application/x-t3vm-image';
 const t3 = 't3';
-const imaget38 = 'image/t38';
 const t38 = 't38';
-const applicationvndmynfc = 'application/vnd.mynfc';
 const taglet = 'taglet';
-const audioxtak = 'audio/x-tak';
 const tak = 'tak';
-const applicationvndtaointentmodulearchive = 'application/vnd.tao.intent-module-archive';
 const tao = 'tao';
-const imagevndtencenttap = 'image/vnd.tencent.tap';
 const tap = 'tap';
-const applicationxtar = 'application/x-tar';
 const tar = 'tar';
-const gtar = 'gtar';
-const gem = 'gem';
-const applicationxbzip1compressedtar = 'application/x-bzip1-compressed-tar';
 const tarbz = 'tarbz';
-const tbz = 'tbz';
-const applicationxbzip2compressedtar = 'application/x-bzip2-compressed-tar';
 const tarbz2 = 'tarbz2';
-const tbz2 = 'tbz2';
-const tb2 = 'tb2';
-const applicationxbzip3compressedtar = 'application/x-bzip3-compressed-tar';
 const tarbz3 = 'tarbz3';
-const tbz3 = 'tbz3';
-const applicationxcompressedtar = 'application/x-compressed-tar';
+const target = 'target';
 const targz = 'targz';
-const tgz = 'tgz';
-const applicationxlrzipcompressedtar = 'application/x-lrzip-compressed-tar';
 const tarlrz = 'tarlrz';
-const tlrz = 'tlrz';
-const applicationxlzipcompressedtar = 'application/x-lzip-compressed-tar';
 const tarlz = 'tarlz';
-const applicationxlz4compressedtar = 'application/x-lz4-compressed-tar';
 const tarlz4 = 'tarlz4';
-const applicationxlzmacompressedtar = 'application/x-lzma-compressed-tar';
 const tarlzma = 'tarlzma';
-const tlz = 'tlz';
-const applicationxtzo = 'application/x-tzo';
 const tarlzo = 'tarlzo';
-const tzo = 'tzo';
-const applicationxxzcompressedtar = 'application/x-xz-compressed-tar';
+const tarrz = 'tarrz';
 const tarxz = 'tarxz';
-const txz = 'txz';
-const applicationxtarz = 'application/x-tarz';
 const tarz = 'tarz';
-const taz = 'taz';
-const applicationxzstdcompressedtar = 'application/x-zstd-compressed-tar';
 const tarzst = 'tarzst';
-const tzst = 'tzst';
-const applicationvnd3gpp2tcap = 'application/vnd.3gpp2.tcap';
+const taz = 'taz';
+const tb2 = 'tb2';
+const tbz = 'tbz';
+const tbz2 = 'tbz2';
+const tbz3 = 'tbz3';
 const tcap = 'tcap';
-const texttcl = 'text/tcl';
 const tcl = 'tcl';
-const tk = 'tk';
-const applicationurctargetdesc_xml = 'application/urc-targetdesc+xml';
 const td = 'td';
-const applicationvndsmartteacher = 'application/vnd.smart.teacher';
 const teacher = 'teacher';
-const applicationtei_xml = 'application/tei+xml';
 const tei = 'tei';
 const teicorpus = 'teicorpus';
-const textxtex = 'text/x-tex';
 const tex = 'tex';
-const ltx = 'ltx';
-const sty = 'sty';
-const cls = 'cls';
-const dtx = 'dtx';
-const ins = 'ins';
-const latex = 'latex';
-const textxtexinfo = 'text/x-texinfo';
 const texi = 'texi';
 const texinfo = 'texinfo';
-const applicationthraud_xml = 'application/thraud+xml';
+const text = 'text';
+const textcachemanifest = 'text/cache-manifest';
+const textcalendar = 'text/calendar';
+const textcoffeescript = 'text/coffeescript';
+const textcss = 'text/css';
+const textcsv = 'text/csv';
+const textcsvschema = 'text/csv-schema';
+const texthtml = 'text/html';
+const textjade = 'text/jade';
+const textjavascript = 'text/javascript';
+const textjscriptencode = 'text/jscript.encode';
+const textjsx = 'text/jsx';
+const textjulia = 'text/julia';
+const textless = 'text/less';
+const textmarkdown = 'text/markdown';
+const textn3 = 'text/n3';
+const textorg = 'text/org';
+const textplain = 'text/plain';
+const textprslinestag = 'text/prs.lines.tag';
+const textrichtext = 'text/richtext';
+const textrust = 'text/rust';
+const textsgml = 'text/sgml';
+const textshex = 'text/shex';
+const textslim = 'text/slim';
+const textspdx = 'text/spdx';
+const textstylus = 'text/stylus';
+const texttabseparatedvalues = 'text/tab-separated-values';
+const texttcl = 'text/tcl';
+const texttroff = 'text/troff';
+const textturtle = 'text/turtle';
+const texturilist = 'text/uri-list';
+const textvbscript = 'text/vbscript';
+const textvbscriptencode = 'text/vbscript.encode';
+const textvcard = 'text/vcard';
+const textvndcurl = 'text/vnd.curl';
+const textvndcurldcurl = 'text/vnd.curl.dcurl';
+const textvndcurlmcurl = 'text/vnd.curl.mcurl';
+const textvndcurlscurl = 'text/vnd.curl.scurl';
+const textvndfamilysearchgedcom = 'text/vnd.familysearch.gedcom';
+const textvndfly = 'text/vnd.fly';
+const textvndfmiflexstor = 'text/vnd.fmi.flexstor';
+const textvndgraphviz = 'text/vnd.graphviz';
+const textvndin3d3dml = 'text/vnd.in3d.3dml';
+const textvndin3dspot = 'text/vnd.in3d.spot';
+const textvndrnrealtext = 'text/vnd.rn-realtext';
+const textvndsenxwarpscript = 'text/vnd.senx.warpscript';
+const textvndsunj2meappdescriptor = 'text/vnd.sun.j2me.app-descriptor';
+const textvndtrolltechlinguist = 'text/vnd.trolltech.linguist';
+const textvndwapwml = 'text/vnd.wap.wml';
+const textvndwapwmlscript = 'text/vnd.wap.wmlscript';
+const textvtt = 'text/vtt';
+const textwgsl = 'text/wgsl';
+const textxadasrc = 'text/x-adasrc';
+const textxasm = 'text/x-asm';
+const textxauthors = 'text/x-authors';
+const textxbasic = 'text/x-basic';
+const textxbibtex = 'text/x-bibtex';
+const textxblueprint = 'text/x-blueprint';
+const textxc = 'text/x-c';
+const textxc__hdr = 'text/x-c++hdr';
+const textxc__src = 'text/x-c++src';
+const textxchangelog = 'text/x-changelog';
+const textxcmake = 'text/x-cmake';
+const textxcobol = 'text/x-cobol';
+const textxcommonlisp = 'text/x-common-lisp';
+const textxcomponent = 'text/x-component';
+const textxcopying = 'text/x-copying';
+const textxcredits = 'text/x-credits';
+const textxcrystal = 'text/x-crystal';
+const textxcsharp = 'text/x-csharp';
+const textxcython = 'text/x-cython';
+const textxdbusservice = 'text/x-dbus-service';
+const textxdcl = 'text/x-dcl';
+const textxdevicetreebinary = 'text/x-devicetree-binary';
+const textxdevicetreesource = 'text/x-devicetree-source';
+const textxdsl = 'text/x-dsl';
+const textxdsrc = 'text/x-dsrc';
+const textxeiffel = 'text/x-eiffel';
+const textxelixir = 'text/x-elixir';
+const textxemacslisp = 'text/x-emacs-lisp';
+const textxerlang = 'text/x-erlang';
+const textxfortran = 'text/x-fortran';
+const textxgcode = 'text/x.gcode';
+const textxgcodegx = 'text/x-gcode-gx';
+const textxgenie = 'text/x-genie';
+const textxgettexttranslation = 'text/x-gettext-translation';
+const textxgherkin = 'text/x-gherkin';
+const textxgo = 'text/x-go';
+const textxgooglevideopointer = 'text/x-google-video-pointer';
+const textxgradle = 'text/x-gradle';
+const textxgroovy = 'text/x-groovy';
+const textxhandlebarstemplate = 'text/x-handlebars-template';
+const textxhaskell = 'text/x-haskell';
+const textxidl = 'text/x-idl';
+const textximelody = 'text/x-imelody';
+const textxinstall = 'text/x-install';
+const textxiptables = 'text/x-iptables';
+const textxjava = 'text/x-java';
+const textxkaitaistruct = 'text/x-kaitai-struct';
+const textxkotlin = 'text/x-kotlin';
+const textxldif = 'text/x-ldif';
+const textxlilypond = 'text/x-lilypond';
+const textxliteratehaskell = 'text/x-literate-haskell';
+const textxlog = 'text/x-log';
+const textxlua = 'text/x-lua';
+const textxmakefile = 'text/x-makefile';
+const textxmaven_xml = 'text/x-maven+xml';
+const textxmeson = 'text/x-meson';
+const textxmicrodvd = 'text/x-microdvd';
+const textxmoc = 'text/x-moc';
+const textxmof = 'text/x-mof';
+const textxmpl2 = 'text/x-mpl2';
+const textxmrml = 'text/x-mrml';
+const textxmsregedit = 'text/x-ms-regedit';
+const textxmup = 'text/x-mup';
+const textxnfo = 'text/x-nfo';
+const textxnim = 'text/x-nim';
+const textxnimscript = 'text/x-nimscript';
+const textxnix = 'text/x-nix';
+const textxobjc__src = 'text/x-objc++src';
+const textxobjcsrc = 'text/x-objcsrc';
+const textxocaml = 'text/x-ocaml';
+const textxocl = 'text/x-ocl';
+const textxooc = 'text/x-ooc';
+const textxopenclsrc = 'text/x-opencl-src';
+const textxopml_xml = 'text/x-opml+xml';
+const textxpascal = 'text/x-pascal';
+const textxpatch = 'text/x-patch';
+const textxprocessing = 'text/x-processing';
+const textxpython = 'text/x-python';
+const textxpython2 = 'text/x-python2';
+const textxpython3 = 'text/x-python3';
+const textxqml = 'text/x-qml';
+const textxreadme = 'text/x-readme';
+const textxreject = 'text/x-reject';
+const textxrpmspec = 'text/x-rpm-spec';
+const textxrst = 'text/x-rst';
+const textxsagemath = 'text/x-sagemath';
+const textxsass = 'text/x-sass';
+const textxscala = 'text/x-scala';
+const textxscheme = 'text/x-scheme';
+const textxscons = 'text/x-scons';
+const textxscss = 'text/x-scss';
+const textxsetext = 'text/x-setext';
+const textxsfv = 'text/x-sfv';
+const textxssa = 'text/x-ssa';
+const textxsuseymp = 'text/x-suse-ymp';
+const textxsvhdr = 'text/x-svhdr';
+const textxsvsrc = 'text/x-svsrc';
+const textxsystemdunit = 'text/x-systemd-unit';
+const textxtex = 'text/x-tex';
+const textxtexinfo = 'text/x-texinfo';
+const textxtodotxt = 'text/x-todo-txt';
+const textxtroffme = 'text/x-troff-me';
+const textxtroffms = 'text/x-troff-ms';
+const textxtwig = 'text/x-twig';
+const textxtxt2tags = 'text/x-txt2tags';
+const textxtypst = 'text/x-typst';
+const textxuil = 'text/x-uil';
+const textxuuencode = 'text/x-uuencode';
+const textxvala = 'text/x-vala';
+const textxverilog = 'text/x-verilog';
+const textxvhdl = 'text/x-vhdl';
+const textxxmi = 'text/x-xmi';
+const textxxslfo = 'text/x-xslfo';
 const tfi = 'tfi';
-const applicationxtextfm = 'application/x-tex-tfm';
 const tfm = 'tfm';
-const imagetifffx = 'image/tiff-fx';
 const tfx = 'tfx';
-const imagextga = 'image/x-tga';
 const tga = 'tga';
-const icb = 'icb';
-const tpic = 'tpic';
-const vda = 'vda';
-const applicationxtheme = 'application/x-theme';
+const tgz = 'tgz';
 const theme = 'theme';
-const applicationxwindowsthemepack = 'application/x-windows-themepack';
 const themepack = 'themepack';
-const applicationvndmsofficetheme = 'application/vnd.ms-officetheme';
 const thmx = 'thmx';
-const imagetiff = 'image/tiff';
+const thumbsdb = 'thumbsdb';
 const tif = 'tif';
 const tiff = 'tiff';
-const applicationvndtmobilelivetv = 'application/vnd.tmobile-livetv';
+const timer = 'timer';
+const tk = 'tk';
+const tlrz = 'tlrz';
+const tlz = 'tlz';
 const tmo = 'tmo';
-const applicationxtiledtmx = 'application/x-tiled-tmx';
 const tmx = 'tmx';
-const applicationvndmstnef = 'application/vnd.ms-tnef';
 const tnef = 'tnef';
 const tnf = 'tnf';
-const winmaildat = 'winmaildat';
-const applicationxcdrdaotoc = 'application/x-cdrdao-toc';
 const toc = 'toc';
-const textxtodotxt = 'text/x-todo-txt';
 const todotxt = 'todotxt';
-const applicationtoml = 'application/toml';
 const toml = 'toml';
-const applicationxbittorrent = 'application/x-bittorrent';
 const torrent = 'torrent';
-const applicationvndgroovetooltemplate = 'application/vnd.groove-tool-template';
+const tpic = 'tpic';
 const tpl = 'tpl';
-const applicationvndtridtpt = 'application/vnd.trid.tpt';
 const tpt = 'tpt';
-const texttroff = 'text/troff';
 const tr = 'tr';
-const roff = 'roff';
-const applicationvndtrueapp = 'application/vnd.trueapp';
 const tra = 'tra';
-const applicationtrig = 'application/trig';
+const tres = 'tres';
 const trig = 'trig';
-const applicationxmsterminal = 'application/x-msterminal';
 const trm = 'trm';
-const textvndtrolltechlinguist = 'text/vnd.trolltech.linguist';
+const trz = 'trz';
 const ts = 'ts';
-const applicationtimestampeddata = 'application/timestamped-data';
+const tscn = 'tscn';
 const tsd = 'tsd';
-const texttabseparatedvalues = 'text/tab-separated-values';
 const tsv = 'tsv';
-const applicationxtiledtsx = 'application/x-tiled-tsx';
 const tsx = 'tsx';
-const audioxtta = 'audio/x-tta';
 const tta = 'tta';
-const fontcollection = 'font/collection';
 const ttc = 'ttc';
-const fontttf = 'font/ttf';
 const ttf = 'ttf';
-const textturtle = 'text/turtle';
 const ttl = 'ttl';
-const applicationttml_xml = 'application/ttml+xml';
 const ttml = 'ttml';
-const applicationxfontttx = 'application/x-font-ttx';
 const ttx = 'ttx';
-const applicationvndsimtechmindmapper = 'application/vnd.simtech-mindmapper';
+const tvthumbdb = 'tvthumbdb';
 const twd = 'twd';
 const twds = 'twds';
-const textxtwig = 'text/x-twig';
 const twig = 'twig';
-const applicationvndgenomatixtuxedo = 'application/vnd.genomatix.tuxedo';
 const txd = 'txd';
-const applicationvndmobiustxf = 'application/vnd.mobius.txf';
 const txf = 'txf';
-const textplain = 'text/plain';
 const txt = 'txt';
-const text = 'text';
-const conf = 'conf';
-const _def = 'def';
-const list = 'list';
-const _in = 'in';
-const ini = 'ini';
-const textxtypst = 'text/x-typst';
+const txz = 'txz';
 const typ = 'typ';
-const modelu3d = 'model/u3d';
+const tzo = 'tzo';
+const tzst = 'tzst';
+const u32 = 'u32';
 const u3d = 'u3d';
-const messageglobaldeliverystatus = 'message/global-delivery-status';
 const u8dsn = 'u8dsn';
-const messageglobalheaders = 'message/global-headers';
 const u8hdr = 'u8hdr';
-const messageglobaldispositionnotification = 'message/global-disposition-notification';
 const u8mdn = 'u8mdn';
-const messageglobal = 'message/global';
 const u8msg = 'u8msg';
-const applicationubjson = 'application/ubjson';
 const ubj = 'ubj';
-const applicationvndufdl = 'application/vnd.ufdl';
+const udeb = 'udeb';
 const ufd = 'ufd';
 const ufdl = 'ufdl';
-const applicationxufraw = 'application/x-ufraw';
 const ufraw = 'ufraw';
-const applicationxdesigner = 'application/x-designer';
 const ui = 'ui';
-const textxuil = 'text/x-uil';
 const uil = 'uil';
-const audioxmod = 'audio/x-mod';
 const ult = 'ult';
-const uni = 'uni';
-const m15 = 'm15';
-const mtm = 'mtm';
-const _669 = '669';
-const med = 'med';
-const applicationxglulx = 'application/x-glulx';
 const ulx = 'ulx';
-const applicationvndumajin = 'application/vnd.umajin';
 const umj = 'umj';
-const applicationvndunity = 'application/vnd.unity';
+const unf = 'unf';
+const uni = 'uni';
+const unif = 'unif';
 const unityweb = 'unityweb';
-const applicationvnduoml_xml = 'application/vnd.uoml+xml';
-const uoml = 'uoml';
 const uo = 'uo';
-const texturilist = 'text/uri-list';
+const uoml = 'uoml';
 const uri = 'uri';
 const uris = 'uris';
-const urls = 'urls';
-const applicationxmswinurl = 'application/x-mswinurl';
 const url = 'url';
-const modelvndusda = 'model/vnd.usda';
+const urls = 'urls';
 const usda = 'usda';
-const modelvndusdz_zip = 'model/vnd.usdz+zip';
 const usdz = 'usdz';
-const applicationxustar = 'application/x-ustar';
 const ustar = 'ustar';
-const applicationvnduiqtheme = 'application/vnd.uiq.theme';
 const utz = 'utz';
-const textxuuencode = 'text/x-uuencode';
-const uue = 'uue';
 const uu = 'uu';
-const audiovnddeceaudio = 'audio/vnd.dece.audio';
+const uue = 'uue';
 const uva = 'uva';
-const uvva = 'uvva';
-const applicationvnddecedata = 'application/vnd.dece.data';
-const uvf = 'uvf';
-const uvvf = 'uvvf';
 const uvd = 'uvd';
-const uvvd = 'uvvd';
-const videovnddecehd = 'video/vnd.dece.hd';
-const uvh = 'uvh';
-const uvvh = 'uvvh';
-const imagevnddecegraphic = 'image/vnd.dece.graphic';
-const uvi = 'uvi';
-const uvvi = 'uvvi';
+const uvf = 'uvf';
 const uvg = 'uvg';
-const uvvg = 'uvvg';
-const videovnddecemobile = 'video/vnd.dece.mobile';
+const uvh = 'uvh';
+const uvi = 'uvi';
 const uvm = 'uvm';
-const uvvm = 'uvvm';
-const videovnddecepd = 'video/vnd.dece.pd';
 const uvp = 'uvp';
-const uvvp = 'uvvp';
-const videovnddecesd = 'video/vnd.dece.sd';
 const uvs = 'uvs';
-const uvvs = 'uvvs';
-const applicationvnddecettml_xml = 'application/vnd.dece.ttml+xml';
 const uvt = 'uvt';
-const uvvt = 'uvvt';
-const videovnduvvump4 = 'video/vnd.uvvu.mp4';
 const uvu = 'uvu';
-const uvvu = 'uvvu';
-const videovnddecevideo = 'video/vnd.dece.video';
 const uvv = 'uvv';
+const uvva = 'uvva';
+const uvvd = 'uvvd';
+const uvvf = 'uvvf';
+const uvvg = 'uvvg';
+const uvvh = 'uvvh';
+const uvvi = 'uvvi';
+const uvvm = 'uvvm';
+const uvvp = 'uvvp';
+const uvvs = 'uvvs';
+const uvvt = 'uvvt';
+const uvvu = 'uvvu';
 const uvvv = 'uvvv';
-const applicationvnddeceunspecified = 'application/vnd.dece.unspecified';
-const uvx = 'uvx';
 const uvvx = 'uvvx';
-const applicationvnddecezip = 'application/vnd.dece.zip';
-const uvz = 'uvz';
 const uvvz = 'uvvz';
-const textxverilog = 'text/x-verilog';
+const uvx = 'uvx';
+const uvz = 'uvz';
 const v = 'v';
-const textxvala = 'text/x-vala';
+const v64 = 'v64';
 const vala = 'vala';
 const vapi = 'vapi';
-const applicationxvirtualboyrom = 'application/x-virtual-boy-rom';
 const vb = 'vb';
-const textvbscriptencode = 'text/vbscript.encode';
 const vbe = 'vbe';
-const applicationxvirtualboxvbox = 'application/x-virtualbox-vbox';
 const vbox = 'vbox';
-const applicationxvirtualboxvboxextpack = 'application/x-virtualbox-vbox-extpack';
 const vboxextpack = 'vbox-extpack';
-const textvbscript = 'text/vbscript';
 const vbs = 'vbs';
-const textvcard = 'text/vcard';
 const vcard = 'vcard';
-const vcf = 'vcf';
-const vct = 'vct';
-const gcrd = 'gcrd';
-const applicationxcdlink = 'application/x-cdlink';
 const vcd = 'vcd';
-const applicationvndgroovevcard = 'application/vnd.groove-vcard';
+const vcf = 'vcf';
 const vcg = 'vcg';
-const textcalendar = 'text/calendar';
 const vcs = 'vcs';
-const ics = 'ics';
-const ifb = 'ifb';
-const applicationvndvcx = 'application/vnd.vcx';
+const vct = 'vct';
 const vcx = 'vcx';
-const applicationxvdidisk = 'application/x-vdi-disk';
+const vda = 'vda';
 const vdi = 'vdi';
-const modelvndsapvds = 'model/vnd.sap.vds';
 const vds = 'vds';
-const textxvhdl = 'text/x-vhdl';
 const vhd = 'vhd';
 const vhdl = 'vhdl';
-const applicationxvhdxdisk = 'application/x-vhdx-disk';
 const vhdx = 'vhdx';
-const applicationvndvisionary = 'application/vnd.visionary';
-const vis = 'vis';
+const video3gpp = 'video/3gpp';
+const video3gpp2 = 'video/3gpp2';
+const videoannodex = 'video/annodex';
+const videodb = 'videodb';
+const videodv = 'video/dv';
+const videoh261 = 'video/h261';
+const videoh263 = 'video/h263';
+const videoh264 = 'video/h264';
+const videoisosegment = 'video/iso.segment';
+const videojpeg = 'video/jpeg';
+const videomj2 = 'video/mj2';
+const videomp2t = 'video/mp2t';
+const videomp4 = 'video/mp4';
+const videompeg = 'video/mpeg';
+const videoogg = 'video/ogg';
+const videoquicktime = 'video/quicktime';
+const videovndavi = 'video/vnd.avi';
+const videovnddecehd = 'video/vnd.dece.hd';
+const videovnddecemobile = 'video/vnd.dece.mobile';
+const videovnddecepd = 'video/vnd.dece.pd';
+const videovnddecesd = 'video/vnd.dece.sd';
+const videovnddecevideo = 'video/vnd.dece.video';
+const videovnddvbfile = 'video/vnd.dvb.file';
+const videovndfvt = 'video/vnd.fvt';
+const videovndmpegurl = 'video/vnd.mpegurl';
+const videovndmsplayreadymediapyv = 'video/vnd.ms-playready.media.pyv';
+const videovndradgamettoolsbink = 'video/vnd.radgamettools.bink';
+const videovndradgamettoolssmacker = 'video/vnd.radgamettools.smacker';
+const videovndrnrealvideo = 'video/vnd.rn-realvideo';
+const videovnduvvump4 = 'video/vnd.uvvu.mp4';
 const videovndvivo = 'video/vnd.vivo';
+const videovndyoutubeyt = 'video/vnd.youtube.yt';
+const videowebm = 'video/webm';
+const videoxanim = 'video/x-anim';
+const videoxflic = 'video/x-flic';
+const videoxflv = 'video/x-flv';
+const videoxjavafx = 'video/x-javafx';
+const videoxmatroska = 'video/x-matroska';
+const videoxmatroska3d = 'video/x-matroska-3d';
+const videoxmjpeg = 'video/x-mjpeg';
+const videoxmng = 'video/x-mng';
+const videoxmswm = 'video/x-ms-wm';
+const videoxmswmv = 'video/x-ms-wmv';
+const videoxnsv = 'video/x-nsv';
+const videoxogm_ogg = 'video/x-ogm+ogg';
+const videoxsgimovie = 'video/x-sgi-movie';
+const videoxsmv = 'video/x-smv';
+const vis = 'vis';
 const viv = 'viv';
 const vivo = 'vivo';
-const applicationxvmdkdisk = 'application/x-vmdk-disk';
+const vlc = 'vlc';
 const vmdk = 'vmdk';
-const audioxvoc = 'audio/x-voc';
+const vob = 'vob';
 const voc = 'voc';
-const applicationxvhddisk = 'application/x-vhd-disk';
+const vor = 'vor';
+const vox = 'vox';
 const vpc = 'vpc';
-const modelvrml = 'model/vrml';
 const vrm = 'vrm';
 const vrml = 'vrml';
-const wrl = 'wrl';
-const applicationvndvisio = 'application/vnd.visio';
 const vsd = 'vsd';
-const vst = 'vst';
-const vsw = 'vsw';
-const vss = 'vss';
-const applicationvndmsvisiodrawingmacroenabledmain_xml = 'application/vnd.ms-visio.drawing.macroenabled.main+xml';
 const vsdm = 'vsdm';
-const applicationvndmsvisiodrawingmain_xml = 'application/vnd.ms-visio.drawing.main+xml';
 const vsdx = 'vsdx';
-const applicationvndvsf = 'application/vnd.vsf';
 const vsf = 'vsf';
-const applicationvndmsvisiostencilmacroenabledmain_xml = 'application/vnd.ms-visio.stencil.macroenabled.main+xml';
+const vss = 'vss';
 const vssm = 'vssm';
-const applicationvndmsvisiostencilmain_xml = 'application/vnd.ms-visio.stencil.main+xml';
 const vssx = 'vssx';
-const applicationvndmsvisiotemplatemacroenabledmain_xml = 'application/vnd.ms-visio.template.macroenabled.main+xml';
+const vst = 'vst';
 const vstm = 'vstm';
-const applicationvndmsvisiotemplatemain_xml = 'application/vnd.ms-visio.template.main+xml';
 const vstx = 'vstx';
-const imagevndvalvesourcetexture = 'image/vnd.valve.source.texture';
+const vsw = 'vsw';
 const vtf = 'vtf';
-const textvtt = 'text/vtt';
 const vtt = 'vtt';
-const modelvndvtu = 'model/vnd.vtu';
 const vtu = 'vtu';
-const applicationvoicexml_xml = 'application/voicexml+xml';
 const vxml = 'vxml';
-const applicationxwiiwad = 'application/x-wii-wad';
+const w3d = 'w3d';
 const wad = 'wad';
-const applicationvndsunwadl_xml = 'application/vnd.sun.wadl+xml';
 const wadl = 'wadl';
-const applicationwasm = 'application/wasm';
+const war = 'war';
 const wasm = 'wasm';
-const audiovndwave = 'audio/vnd.wave';
 const wav = 'wav';
-const applicationxquattropro = 'application/x-quattropro';
+const wax = 'wax';
 const wb1 = 'wb1';
 const wb2 = 'wb2';
 const wb3 = 'wb3';
-const imagevndwapwbmp = 'image/vnd.wap.wbmp';
 const wbmp = 'wbmp';
-const applicationvndcriticaltoolswbs_xml = 'application/vnd.criticaltools.wbs+xml';
 const wbs = 'wbs';
-const applicationvndwapwbxml = 'application/vnd.wap.wbxml';
 const wbxml = 'wbxml';
-const applicationvndmsworks = 'application/vnd.ms-works';
 const wcm = 'wcm';
 const wdb = 'wdb';
-const wps = 'wps';
-const xlr = 'xlr';
-const audiowebm = 'audio/webm';
+const wdp = 'wdp';
 const weba = 'weba';
-const applicationxwebappmanifest_json = 'application/x-web-app-manifest+json';
 const webapp = 'webapp';
-const videowebm = 'video/webm';
 const webm = 'webm';
-const applicationmanifest_json = 'application/manifest+json';
 const webmanifest = 'webmanifest';
-const imagewebp = 'image/webp';
 const webp = 'webp';
-const applicationvndpmiwidget = 'application/vnd.pmi.widget';
 const wg = 'wg';
-const textwgsl = 'text/wgsl';
 const wgsl = 'wgsl';
-const applicationwidget = 'application/widget';
 const wgt = 'wgt';
-const applicationwatcherinfo_xml = 'application/watcherinfo+xml';
 const wif = 'wif';
-const applicationxmswim = 'application/x-ms-wim';
 const wim = 'wim';
-const swm = 'swm';
-const applicationxpartialdownload = 'application/x-partial-download';
+const winmaildat = 'winmaildat';
+const wk1 = 'wk1';
+const wk3 = 'wk3';
+const wk4 = 'wk4';
 const wkdownload = 'wkdownload';
-const crdownload = 'crdownload';
-const part = 'part';
-const videoxmswm = 'video/x-ms-wm';
+const wks = 'wks';
 const wm = 'wm';
-const audioxmswma = 'audio/x-ms-wma';
 const wma = 'wma';
-const applicationxmswmd = 'application/x-ms-wmd';
 const wmd = 'wmd';
-const imagewmf = 'image/wmf';
 const wmf = 'wmf';
-const textvndwapwml = 'text/vnd.wap.wml';
 const wml = 'wml';
-const applicationvndwapwmlc = 'application/vnd.wap.wmlc';
 const wmlc = 'wmlc';
-const textvndwapwmlscript = 'text/vnd.wap.wmlscript';
 const wmls = 'wmls';
-const applicationvndwapwmlscriptc = 'application/vnd.wap.wmlscriptc';
 const wmlsc = 'wmlsc';
-const videoxmswmv = 'video/x-ms-wmv';
 const wmv = 'wmv';
-const applicationxmswmz = 'application/x-ms-wmz';
+const wmx = 'wmx';
 const wmz = 'wmz';
-const fontwoff = 'font/woff';
 const woff = 'woff';
-const fontwoff2 = 'font/woff2';
 const woff2 = 'woff2';
-const applicationvndwordperfect = 'application/vnd.wordperfect';
 const wp = 'wp';
 const wp4 = 'wp4';
 const wp5 = 'wp5';
 const wp6 = 'wp6';
 const wpd = 'wpd';
-const wpp = 'wpp';
-const applicationxwpg = 'application/x-wpg';
 const wpg = 'wpg';
-const applicationvndmswpl = 'application/vnd.ms-wpl';
 const wpl = 'wpl';
-const applicationvndwqd = 'application/vnd.wqd';
+const wpp = 'wpp';
+const wps = 'wps';
 const wqd = 'wqd';
-const applicationxmswrite = 'application/x-mswrite';
 const wri = 'wri';
-const applicationxwonderswanrom = 'application/x-wonderswan-rom';
+const wrl = 'wrl';
 const ws = 'ws';
-const applicationxwonderswancolorrom = 'application/x-wonderswan-color-rom';
 const wsc = 'wsc';
-const applicationwsdl_xml = 'application/wsdl+xml';
 const wsdl = 'wsdl';
-const applicationwspolicy_xml = 'application/wspolicy+xml';
+const wsgi = 'wsgi';
 const wspolicy = 'wspolicy';
-const applicationvndwebturbo = 'application/vnd.webturbo';
 const wtb = 'wtb';
-const audioxwavpack = 'audio/x-wavpack';
 const wv = 'wv';
-const wvp = 'wvp';
-const audioxwavpackcorrection = 'audio/x-wavpack-correction';
 const wvc = 'wvc';
-const applicationxwwf = 'application/x-wwf';
+const wvp = 'wvp';
+const wvx = 'wvx';
 const wwf = 'wwf';
-const modelvndparasolidtransmitbinary = 'model/vnd.parasolid.transmit.binary';
 const x_b = 'x_b';
-const modelvndparasolidtransmittext = 'model/vnd.parasolid.transmit.text';
 const x_t = 'x_t';
-const modelx3d_xml = 'model/x3d+xml';
+const x32 = 'x32';
 const x3d = 'x3d';
-const x3dz = 'x3dz';
-const modelx3d_binary = 'model/x3d+binary';
 const x3db = 'x3db';
 const x3dbz = 'x3dbz';
-const modelx3d_vrml = 'model/x3d+vrml';
 const x3dv = 'x3dv';
 const x3dvz = 'x3dvz';
-const imagexsigmax3f = 'image/x-sigma-x3f';
+const x3dz = 'x3dz';
 const x3f = 'x3f';
-const applicationxaml_xml = 'application/xaml+xml';
+const xac = 'xac';
 const xaml = 'xaml';
-const applicationxsilverlightapp = 'application/x-silverlight-app';
 const xap = 'xap';
-const applicationxxar = 'application/x-xar';
 const xar = 'xar';
-const pkg = 'pkg';
-const applicationxcapatt_xml = 'application/xcap-att+xml';
 const xav = 'xav';
-const applicationxmsxbap = 'application/x-ms-xbap';
 const xbap = 'xbap';
-const applicationvndfujixeroxdocuworksbinder = 'application/vnd.fujixerox.docuworks.binder';
 const xbd = 'xbd';
-const applicationxxbel = 'application/x-xbel';
 const xbel = 'xbel';
-const imagexxbitmap = 'image/x-xbitmap';
+const xbl = 'xbl';
 const xbm = 'xbm';
-const applicationxcapcaps_xml = 'application/xcap-caps+xml';
 const xca = 'xca';
-const imagexxcf = 'image/x-xcf';
 const xcf = 'xcf';
-const imagexcompressedxcf = 'image/x-compressed-xcf';
-const xcfgz = 'xcfgz';
 const xcfbz2 = 'xcfbz2';
-const applicationcalendar_xml = 'application/calendar+xml';
+const xcfgz = 'xcfgz';
+const xci = 'xci';
+const xconferencexcooltalk = 'x-conference/x-cooltalk';
 const xcs = 'xcs';
-const applicationxcapdiff_xml = 'application/xcap-diff+xml';
+const xdcf = 'xdcf';
 const xdf = 'xdf';
-const applicationvndsyncmldm_xml = 'application/vnd.syncml.dm+xml';
+const xdgapp = 'xdgapp';
 const xdm = 'xdm';
-const applicationvndadobexdp_xml = 'application/vnd.adobe.xdp+xml';
 const xdp = 'xdp';
-const applicationdssc_xml = 'application/dssc+xml';
 const xdssc = 'xdssc';
-const applicationvndfujixeroxdocuworks = 'application/vnd.fujixerox.docuworks';
 const xdw = 'xdw';
-const applicationxcapel_xml = 'application/xcap-el+xml';
 const xel = 'xel';
-const applicationxenc_xml = 'application/xenc+xml';
 const xenc = 'xenc';
-const applicationpatchopserror_xml = 'application/patch-ops-error+xml';
+const xepocxsisxapp = 'x-epoc/x-sisx-app';
 const xer = 'xer';
-const applicationvndadobexfdf = 'application/vnd.adobe.xfdf';
 const xfdf = 'xfdf';
-const applicationvndxfdl = 'application/vnd.xfdl';
 const xfdl = 'xfdl';
-const applicationvndpwgxhtmlprint_xml = 'application/vnd.pwg-xhtml-print+xml';
-const xhtm = 'xhtm';
-const applicationxhtml_xml = 'application/xhtml+xml';
-const xhtml = 'xhtml';
+const xhe = 'xhe';
 const xht = 'xht';
-const html = 'html';
-const htm = 'htm';
-const audioxxi = 'audio/x-xi';
+const xhtm = 'xhtm';
+const xhtml = 'xhtml';
+const xhvml = 'xhvml';
 const xi = 'xi';
-const imagevndxiff = 'image/vnd.xiff';
 const xif = 'xif';
-const applicationvndmsexceladdinmacroenabled12 = 'application/vnd.ms-excel.addin.macroenabled.12';
+const xla = 'xla';
 const xlam = 'xlam';
-const applicationxliff_xml = 'application/xliff+xml';
+const xlc = 'xlc';
+const xld = 'xld';
 const xlf = 'xlf';
 const xliff = 'xliff';
-const applicationvndmsexcel = 'application/vnd.ms-excel';
-const xls = 'xls';
-const xlc = 'xlc';
 const xll = 'xll';
 const xlm = 'xlm';
-const xlw = 'xlw';
-const xla = 'xla';
-const xlt = 'xlt';
-const xld = 'xld';
-const applicationvndmsexcelsheetbinarymacroenabled12 = 'application/vnd.ms-excel.sheet.binary.macroenabled.12';
+const xlr = 'xlr';
+const xls = 'xls';
 const xlsb = 'xlsb';
-const applicationvndmsexcelsheetmacroenabled12 = 'application/vnd.ms-excel.sheet.macroenabled.12';
 const xlsm = 'xlsm';
-const applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 const xlsx = 'xlsx';
-const applicationvndmsexceltemplatemacroenabled12 = 'application/vnd.ms-excel.template.macroenabled.12';
+const xlt = 'xlt';
 const xltm = 'xltm';
-const applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template';
 const xltx = 'xltx';
-const audioxxm = 'audio/x-xm';
+const xlw = 'xlw';
 const xm = 'xm';
-const audioxxmf = 'audio/x-xmf';
 const xmf = 'xmf';
-const textxxmi = 'text/x-xmi';
 const xmi = 'xmi';
-const applicationxml = 'application/xml';
 const xml = 'xml';
-const xbl = 'xbl';
-const xsd = 'xsd';
-const rng = 'rng';
-const applicationxcapns_xml = 'application/xcap-ns+xml';
 const xns = 'xns';
-const applicationvndolpcsugar = 'application/vnd.olpc-sugar';
 const xo = 'xo';
-const applicationxop_xml = 'application/xop+xml';
 const xop = 'xop';
-const applicationxxpinstall = 'application/x-xpinstall';
 const xpi = 'xpi';
-const applicationxproc_xml = 'application/xproc+xml';
 const xpl = 'xpl';
-const imagexxpixmap = 'image/x-xpixmap';
 const xpm = 'xpm';
-const applicationvndisxpr = 'application/vnd.is-xpr';
 const xpr = 'xpr';
-const applicationvndmsxpsdocument = 'application/vnd.ms-xpsdocument';
 const xps = 'xps';
-const applicationvndinterconformnet = 'application/vnd.intercon.formnet';
 const xpw = 'xpw';
 const xpx = 'xpx';
-const applicationprsxsf_xml = 'application/prs.xsf+xml';
+const xsd = 'xsd';
 const xsf = 'xsf';
-const applicationxslt_xml = 'application/xslt+xml';
 const xsl = 'xsl';
+const xslfo = 'xslfo';
 const xslt = 'xslt';
-const applicationvndsyncml_xml = 'application/vnd.syncml+xml';
 const xsm = 'xsm';
-const applicationxspf_xml = 'application/xspf+xml';
 const xspf = 'xspf';
-const applicationvndmozillaxul_xml = 'application/vnd.mozilla.xul+xml';
 const xul = 'xul';
-const imagexxwindowdump = 'image/x-xwindowdump';
+const xvm = 'xvm';
+const xvml = 'xvml';
 const xwd = 'xwd';
-const chemicalxxyz = 'chemical/x-xyz';
 const xyz = 'xyz';
-const applicationxxz = 'application/x-xz';
 const xz = 'xz';
-const applicationyaml = 'application/yaml';
 const yaml = 'yaml';
-const yml = 'yml';
-const applicationyang = 'application/yang';
 const yang = 'yang';
-const applicationyin_xml = 'application/yin+xml';
 const yin = 'yin';
-const textxsuseymp = 'text/x-suse-ymp';
+const yml = 'yml';
 const ymp = 'ymp';
-const videovndyoutubeyt = 'video/vnd.youtube.yt';
 const yt = 'yt';
-const applicationxcompress = 'application/x-compress';
 const z = 'z';
-const applicationxzmachine = 'application/x-zmachine';
 const z1 = 'z1';
 const z2 = 'z2';
 const z3 = 'z3';
 const z4 = 'z4';
 const z5 = 'z5';
 const z6 = 'z6';
+const z64 = 'z64';
 const z7 = 'z7';
 const z8 = 'z8';
-const applicationvndzzazzdeck_xml = 'application/vnd.zzazz.deck+xml';
+const zabw = 'zabw';
 const zaz = 'zaz';
-const applicationxopenzim = 'application/x-openzim';
 const zim = 'zim';
-const applicationzip = 'application/zip';
 const zip = 'zip';
 const zipx = 'zipx';
-const applicationvndzul = 'application/vnd.zul';
 const zir = 'zir';
 const zirz = 'zirz';
-const applicationvndhandheldentertainment_xml = 'application/vnd.handheld-entertainment+xml';
 const zmm = 'zmm';
-const applicationxzoo = 'application/x-zoo';
 const zoo = 'zoo';
-const applicationxzpaq = 'application/x-zpaq';
 const zpaq = 'zpaq';
-const applicationzstd = 'application/zstd';
+const zsav = 'zsav';
 const zst = 'zst';
-const applicationzlib = 'application/zlib';
 const zz = 'zz';
 
 
@@ -3424,8 +3474,15 @@ function getMimeType(fileName) {
     return applicationxcapdiff_xml;
 
     // iana
+    case xdcf:
+    return applicationvndgovskxmldatacontainer_xml;
+
+    // iana
     case xcs:
     return applicationcalendar_xml;
+
+    case xci:
+    return applicationxnintendoswitchxci;
 
     case xcfgz:
     case xcfbz2:
@@ -3511,6 +3568,9 @@ function getMimeType(fileName) {
     // iana
     case wspolicy:
     return applicationwspolicy_xml;
+
+    case wsgi:
+    return textxpython;
 
     // iana
     case wsdl:
@@ -3646,6 +3706,7 @@ function getMimeType(fileName) {
     case wb1:
     case wb2:
     case wb3:
+    case qpw:
     return applicationxquattropro;
 
     case wav:
@@ -3747,6 +3808,7 @@ function getMimeType(fileName) {
     case vcs:
     case ics:
     case ifb:
+    case icalendar:
     return textcalendar;
 
     // iana
@@ -4123,6 +4185,10 @@ function getMimeType(fileName) {
     case txz:
     return applicationxxzcompressedtar;
 
+    case tarrz:
+    case trz:
+    return applicationxrzipcompressedtar;
+
     case tarlzo:
     case tzo:
     return applicationxtzo;
@@ -4191,7 +4257,7 @@ function getMimeType(fileName) {
 
     case sylk:
     case slk:
-    return textspreadsheet;
+    return applicationxsylk;
 
     case sxw:
     return applicationvndsunxmlwriter;
@@ -4301,6 +4367,10 @@ function getMimeType(fileName) {
     case stf:
     return applicationvndwtstf;
 
+    case step:
+    case stp:
+    return modelstep;
+
     case std:
     return applicationvndsunxmldrawtemplate;
 
@@ -4353,9 +4423,6 @@ function getMimeType(fileName) {
 
     case sr2:
     return imagexsonysr2;
-
-    case sqsh:
-    return applicationvndsquashfs;
 
     case sqlite3:
     return applicationvndsqlite3;
@@ -4427,10 +4494,10 @@ function getMimeType(fileName) {
     return applicationsmil_xml;
 
     case smf:
-    return applicationvndstardivisionmath;
+    return applicationxstarmath;
 
     case smd:
-    return applicationvndstardivisionmail;
+    return applicationxstarmail;
 
     // iana
     case sm:
@@ -4528,6 +4595,9 @@ function getMimeType(fileName) {
     case sgm:
     return textsgml;
 
+    case sgl:
+    return applicationxstarwriterglobal;
+
     case sgi:
     return imagexsgi;
 
@@ -4541,9 +4611,11 @@ function getMimeType(fileName) {
     case sfv:
     return textxsfv;
 
-    // iana
     case sfs:
-    return applicationvndspotfiresfs;
+    case sqfs:
+    case sqsh:
+    case squashfs:
+    return applicationvndsquashfs;
 
     // iana
     case sfdhdstx:
@@ -4603,11 +4675,16 @@ function getMimeType(fileName) {
 
     case sdw:
     case vor:
-    case sgl:
-    return applicationvndstardivisionwriter;
+    return applicationxstarwriter;
 
     case sds:
-    return applicationvndstardivisionchart;
+    return applicationxstarchart;
+
+    case sdp:
+    return applicationvndstardivisionimpresspacked;
+
+    case sdm:
+    return applicationvndstardivisionmail;
 
     // iana
     case sdkm:
@@ -4615,14 +4692,13 @@ function getMimeType(fileName) {
     return applicationvndsolentsdkm_xml;
 
     case sdd:
-    case sdp:
-    return applicationvndstardivisionimpress;
+    return applicationxstarimpress;
 
     case sdc:
-    return applicationvndstardivisioncalc;
+    return applicationxstarcalc;
 
     case sda:
-    return applicationvndstardivisiondraw;
+    return applicationxstardraw;
 
     // apache
     case scurl:
@@ -4690,10 +4766,8 @@ function getMimeType(fileName) {
     case s3m:
     return audioxs3m;
 
-    // apache
-    case s:
-    case asm:
-    return textxasm;
+    case rz:
+    return applicationxrzip;
 
     case rw2:
     return imagexpanasonicrw2;
@@ -4881,13 +4955,13 @@ function getMimeType(fileName) {
     case rax:
     return audiovndrnrealaudio;
 
-    // iana
-    case qxd:
-    case qxt:
     case qwd:
     case qwt:
-    case qxl:
     case qxb:
+    case qxd:
+    case qxl:
+    case qxp:
+    case qxt:
     return applicationvndquarkquarkxpress;
 
     case qtl:
@@ -4939,6 +5013,9 @@ function getMimeType(fileName) {
     case qcow:
     return applicationxqemudisk;
 
+    case qbrew:
+    return applicationxqbrew;
+
     // iana
     case qbo:
     return applicationvndintuqbo;
@@ -4946,10 +5023,6 @@ function getMimeType(fileName) {
     // iana
     case qam:
     return applicationvndepsonquickanime;
-
-    case pyx:
-    case wsgi:
-    return textxpython;
 
     // iana
     case pyv:
@@ -4973,11 +5046,18 @@ function getMimeType(fileName) {
     case pya:
     return audiovndmsplayreadymediapya;
 
+    case py2:
+    return textxpython2;
+
     case py:
     case py3:
-    case py3x:
     case pyi:
     return textxpython3;
+
+    case pxd:
+    case pxi:
+    case pyx:
+    return textxcython;
 
     // iana
     case pwn:
@@ -5244,6 +5324,10 @@ function getMimeType(fileName) {
     case pcd:
     return imagexphotocd;
 
+    case pcapng:
+    case ntar:
+    return applicationxpcapng;
+
     case pcap:
     case cap:
     case dmp:
@@ -5262,6 +5346,9 @@ function getMimeType(fileName) {
 
     case pat:
     return imagexgimppat;
+
+    case parquet:
+    return applicationvndapacheparquet;
 
     case par2:
     return applicationxpar2;
@@ -5338,6 +5425,9 @@ function getMimeType(fileName) {
 
     case otp:
     return applicationvndoasisopendocumentpresentationtemplate;
+
+    case otm:
+    return applicationvndoasisopendocumenttextmastertemplate;
 
     // iana
     case oti:
@@ -5448,7 +5538,7 @@ function getMimeType(fileName) {
     return applicationvndoasisopendocumentchart;
 
     case odb:
-    return applicationvndoasisopendocumentdatabase;
+    return applicationvndoasisopendocumentbase;
 
     case oda:
     return applicationoda;
@@ -5541,6 +5631,9 @@ function getMimeType(fileName) {
     // iana
     case nlu:
     return applicationvndneurolanguagenlu;
+
+    case nix:
+    return textxnix;
 
     case nims:
     case nimble:
@@ -5657,9 +5750,15 @@ function getMimeType(fileName) {
     case msx:
     return applicationxmsxrom;
 
+    case msu:
+    return applicationmicrosoftupdate;
+
     // iana
     case msty:
     return applicationvndmuveestyle;
+
+    case msp:
+    return applicationmicrosoftpatch;
 
     case msod:
     return imagexmsod;
@@ -5853,6 +5952,10 @@ function getMimeType(fileName) {
     case mks:
     return videoxmatroska;
 
+    case mkd:
+    case markdown:
+    return textmarkdown;
+
     case mka:
     return audioxmatroska;
 
@@ -5925,11 +6028,6 @@ function getMimeType(fileName) {
     case mdb:
     case lmdb:
     return applicationxlmdb;
-
-    case md:
-    case mkd:
-    case markdown:
-    return textmarkdown;
 
     // apache
     case mcurl:
@@ -6080,6 +6178,9 @@ function getMimeType(fileName) {
     // iana
     case lrm:
     return applicationvndmslrm;
+
+    case lrf:
+    return applicationxsonybbeb;
 
     // iana
     case lostxml:
@@ -6549,6 +6650,9 @@ function getMimeType(fileName) {
     case htc:
     return textxcomponent;
 
+    case hta:
+    return applicationhta;
+
     // iana
     case hsj2:
     return imagehsj2;
@@ -6590,7 +6694,6 @@ function getMimeType(fileName) {
     case held:
     return applicationatscheld_xml;
 
-    // iana
     case hej2:
     return imagehej2k;
 
@@ -6781,6 +6884,10 @@ function getMimeType(fileName) {
     return applicationvndgeogebratool;
 
     // iana
+    case ggs:
+    return applicationvndgeogebraslides;
+
+    // iana
     case ggb:
     return applicationvndgeogebrafile;
 
@@ -6803,6 +6910,7 @@ function getMimeType(fileName) {
     return applicationvnddynageo;
 
     case gen:
+    case md:
     case sgd:
     return applicationxgenesisrom;
 
@@ -6902,7 +7010,6 @@ function getMimeType(fileName) {
     case fsc:
     return applicationvndfscweblaunch;
 
-    // iana
     case fpx:
     return imagevndfpx;
 
@@ -7192,7 +7299,6 @@ function getMimeType(fileName) {
     case efi:
     case ocx:
     case sys:
-    case lib:
     return applicationvndmicrosoftportableexecutable;
 
     // iana
@@ -7423,7 +7529,7 @@ function getMimeType(fileName) {
 
     case dbk:
     case docbook:
-    return applicationxdocbook_xml;
+    return applicationdocbook_xml;
 
     case dbf:
     return applicationvnddbf;
@@ -7667,6 +7773,10 @@ function getMimeType(fileName) {
     case cer:
     return applicationpkixcert;
 
+    case cel:
+    case kcf:
+    return imagexkisscel;
+
     // iana
     case cdy:
     return applicationvndcinderella;
@@ -7845,7 +7955,6 @@ function getMimeType(fileName) {
     // iana
     case bin:
     case dms:
-    case lrf:
     case mar:
     case dist:
     case distz:
@@ -7853,7 +7962,6 @@ function getMimeType(fileName) {
     case dump:
     case elc:
     case deploy:
-    case msp:
     case msm:
     case buffer:
     return applicationoctetstream;
@@ -7876,6 +7984,10 @@ function getMimeType(fileName) {
     case bdoc:
     return applicationbdoc;
 
+    // iana
+    case bdo:
+    return applicationvndnatobindingdataobject_xml;
+
     case bdf:
     return applicationxfontbdf;
 
@@ -7887,6 +7999,10 @@ function getMimeType(fileName) {
 
     case bas:
     return textxbasic;
+
+    // iana
+    case bary:
+    return modelvndbary;
 
     case bak:
     case old:
@@ -8007,6 +8123,10 @@ function getMimeType(fileName) {
     // iana
     case aso:
     return applicationvndaccpacsimplyaso;
+
+    case asm:
+    case s:
+    return textxasm;
 
     case asf:
     return applicationvndmsasf;
@@ -8206,6 +8326,7 @@ function getMimeType(fileName) {
 
     case a:
     case ar:
+    case lib:
     return applicationxarchive;
 
     case _7z:
@@ -8441,8 +8562,14 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxcapdiff_xml:
     return [ xdf ];
 
+    case applicationvndgovskxmldatacontainer_xml:
+    return [ xdcf ];
+
     case applicationcalendar_xml:
     return [ xcs ];
+
+    case applicationxnintendoswitchxci:
+    return [ xci ];
 
     case imagexcompressedxcf:
     return [ xcfgz, xcfbz2 ];
@@ -8509,6 +8636,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationwspolicy_xml:
     return [ wspolicy ];
+
+    case textxpython:
+    return [ wsgi ];
 
     case applicationwsdl_xml:
     return [ wsdl ];
@@ -8616,7 +8746,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ wbmp ];
 
     case applicationxquattropro:
-    return [ wb1, wb2, wb3 ];
+    return [ wb1, wb2, wb3, qpw ];
 
     case audiovndwave:
     return [ wav ];
@@ -8700,7 +8830,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ vcx ];
 
     case textcalendar:
-    return [ vcs, ics, ifb ];
+    return [ vcs, ics, ifb, icalendar ];
 
     case applicationvndgroovevcard:
     return [ vcg ];
@@ -8975,6 +9105,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxxzcompressedtar:
     return [ tarxz, txz ];
 
+    case applicationxrzipcompressedtar:
+    return [ tarrz, trz ];
+
     case applicationxtzo:
     return [ tarlzo, tzo ];
 
@@ -9026,7 +9159,7 @@ function getMimeTypeFileExtensions(mimeType) {
     case textxtxt2tags:
     return [ t2t ];
 
-    case textspreadsheet:
+    case applicationxsylk:
     return [ sylk, slk ];
 
     case applicationvndsunxmlwriter:
@@ -9122,6 +9255,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationvndwtstf:
     return [ stf ];
 
+    case modelstep:
+    return [ step, stp ];
+
     case applicationvndsunxmldrawtemplate:
     return [ std ];
 
@@ -9166,9 +9302,6 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case imagexsonysr2:
     return [ sr2 ];
-
-    case applicationvndsquashfs:
-    return [ sqsh ];
 
     case applicationvndsqlite3:
     return [ sqlite3 ];
@@ -9227,10 +9360,10 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationsmil_xml:
     return [ smil, smi, sml, kino ];
 
-    case applicationvndstardivisionmath:
+    case applicationxstarmath:
     return [ smf ];
 
-    case applicationvndstardivisionmail:
+    case applicationxstarmail:
     return [ smd ];
 
     case applicationvndstepmaniastepchart:
@@ -9311,6 +9444,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case textsgml:
     return [ sgml, sgm ];
 
+    case applicationxstarwriterglobal:
+    return [ sgl ];
+
     case imagexsgi:
     return [ sgi ];
 
@@ -9323,8 +9459,8 @@ function getMimeTypeFileExtensions(mimeType) {
     case textxsfv:
     return [ sfv ];
 
-    case applicationvndspotfiresfs:
-    return [ sfs ];
+    case applicationvndsquashfs:
+    return [ sfs, sqfs, sqsh, squashfs ];
 
     case applicationvndhydrostatixsofdata:
     return [ sfdhdstx ];
@@ -9368,22 +9504,28 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxsea:
     return [ sea ];
 
-    case applicationvndstardivisionwriter:
-    return [ sdw, vor, sgl ];
+    case applicationxstarwriter:
+    return [ sdw, vor ];
 
-    case applicationvndstardivisionchart:
+    case applicationxstarchart:
     return [ sds ];
+
+    case applicationvndstardivisionimpresspacked:
+    return [ sdp ];
+
+    case applicationvndstardivisionmail:
+    return [ sdm ];
 
     case applicationvndsolentsdkm_xml:
     return [ sdkm, sdkd ];
 
-    case applicationvndstardivisionimpress:
-    return [ sdd, sdp ];
+    case applicationxstarimpress:
+    return [ sdd ];
 
-    case applicationvndstardivisioncalc:
+    case applicationxstarcalc:
     return [ sdc ];
 
-    case applicationvndstardivisiondraw:
+    case applicationxstardraw:
     return [ sda ];
 
     case textvndcurlscurl:
@@ -9440,8 +9582,8 @@ function getMimeTypeFileExtensions(mimeType) {
     case audioxs3m:
     return [ s3m ];
 
-    case textxasm:
-    return [ s, asm ];
+    case applicationxrzip:
+    return [ rz ];
 
     case imagexpanasonicrw2:
     return [ rw2 ];
@@ -9597,7 +9739,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ ra, rax ];
 
     case applicationvndquarkquarkxpress:
-    return [ qxd, qxt, qwd, qwt, qxl, qxb ];
+    return [ qwd, qwt, qxb, qxd, qxl, qxp, qxt ];
 
     case applicationxquicktimemedialink:
     return [ qtl ];
@@ -9638,14 +9780,14 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxqemudisk:
     return [ qcow2, qcow ];
 
+    case applicationxqbrew:
+    return [ qbrew ];
+
     case applicationvndintuqbo:
     return [ qbo ];
 
     case applicationvndepsonquickanime:
     return [ qam ];
-
-    case textxpython:
-    return [ pyx, wsgi ];
 
     case videovndmsplayreadymediapyv:
     return [ pyv ];
@@ -9665,8 +9807,14 @@ function getMimeTypeFileExtensions(mimeType) {
     case audiovndmsplayreadymediapya:
     return [ pya ];
 
+    case textxpython2:
+    return [ py2 ];
+
     case textxpython3:
-    return [ py, py3, py3x, pyi ];
+    return [ py, py3, pyi ];
+
+    case textxcython:
+    return [ pxd, pxi, pyx ];
 
     case applicationvnd3mpostitnotes:
     return [ pwn ];
@@ -9890,6 +10038,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case imagexphotocd:
     return [ pcd ];
 
+    case applicationxpcapng:
+    return [ pcapng, ntar ];
+
     case applicationvndtcpdumppcap:
     return [ pcap, cap, dmp ];
 
@@ -9904,6 +10055,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case imagexgimppat:
     return [ pat ];
+
+    case applicationvndapacheparquet:
+    return [ parquet ];
 
     case applicationxpar2:
     return [ par2 ];
@@ -9973,6 +10127,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndoasisopendocumentpresentationtemplate:
     return [ otp ];
+
+    case applicationvndoasisopendocumenttextmastertemplate:
+    return [ otm ];
 
     case applicationvndoasisopendocumentimagetemplate:
     return [ oti ];
@@ -10067,7 +10224,7 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationvndoasisopendocumentchart:
     return [ odc ];
 
-    case applicationvndoasisopendocumentdatabase:
+    case applicationvndoasisopendocumentbase:
     return [ odb ];
 
     case applicationoda:
@@ -10144,6 +10301,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndneurolanguagenlu:
     return [ nlu ];
+
+    case textxnix:
+    return [ nix ];
 
     case textxnimscript:
     return [ nims, nimble ];
@@ -10232,8 +10392,14 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxmsxrom:
     return [ msx ];
 
+    case applicationmicrosoftupdate:
+    return [ msu ];
+
     case applicationvndmuveestyle:
     return [ msty ];
+
+    case applicationmicrosoftpatch:
+    return [ msp ];
 
     case imagexmsod:
     return [ msod ];
@@ -10379,6 +10545,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case videoxmatroska:
     return [ mkv, mks ];
 
+    case textmarkdown:
+    return [ mkd, markdown ];
+
     case audioxmatroska:
     return [ mka ];
 
@@ -10438,9 +10607,6 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationxlmdb:
     return [ mdb, lmdb ];
-
-    case textmarkdown:
-    return [ md, mkd, markdown ];
 
     case textvndcurlmcurl:
     return [ mcurl ];
@@ -10558,6 +10724,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndmslrm:
     return [ lrm ];
+
+    case applicationxsonybbeb:
+    return [ lrf ];
 
     case applicationlost_xml:
     return [ lostxml ];
@@ -10946,6 +11115,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case textxcomponent:
     return [ htc ];
 
+    case applicationhta:
+    return [ hta ];
+
     case imagehsj2:
     return [ hsj2 ];
 
@@ -11132,6 +11304,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationvndgeogebratool:
     return [ ggt ];
 
+    case applicationvndgeogebraslides:
+    return [ ggs ];
+
     case applicationvndgeogebrafile:
     return [ ggb ];
 
@@ -11151,7 +11326,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ geo ];
 
     case applicationxgenesisrom:
-    return [ gen, sgd ];
+    return [ gen, md, sgd ];
 
     case textvndfamilysearchgedcom:
     return [ ged, gedcom ];
@@ -11451,7 +11626,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ efif ];
 
     case applicationvndmicrosoftportableexecutable:
-    return [ efi, ocx, sys, lib ];
+    return [ efi, ocx, sys ];
 
     case applicationvndnovadigmedx:
     return [ edx ];
@@ -11636,7 +11811,7 @@ function getMimeTypeFileExtensions(mimeType) {
     case textxdcl:
     return [ dcl ];
 
-    case applicationxdocbook_xml:
+    case applicationdocbook_xml:
     return [ dbk, docbook ];
 
     case applicationvnddbf:
@@ -11843,6 +12018,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationpkixcert:
     return [ cer ];
 
+    case imagexkisscel:
+    return [ cel, kcf ];
+
     case applicationvndcinderella:
     return [ cdy ];
 
@@ -11982,7 +12160,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ blb, blorb ];
 
     case applicationoctetstream:
-    return [ bin, dms, lrf, mar, dist, distz, bpk, dump, elc, deploy, msp, msm, buffer ];
+    return [ bin, dms, mar, dist, distz, bpk, dump, elc, deploy, msm, buffer ];
 
     case videovndradgamettoolsbink:
     return [ bik, bk2 ];
@@ -11999,6 +12177,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationbdoc:
     return [ bdoc ];
 
+    case applicationvndnatobindingdataobject_xml:
+    return [ bdo ];
+
     case applicationxfontbdf:
     return [ bdf ];
 
@@ -12010,6 +12191,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case textxbasic:
     return [ bas ];
+
+    case modelvndbary:
+    return [ bary ];
 
     case applicationxtrash:
     return [ bak, old, sik ];
@@ -12097,6 +12281,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndaccpacsimplyaso:
     return [ aso ];
+
+    case textxasm:
+    return [ asm, s ];
 
     case applicationvndmsasf:
     return [ asf ];
@@ -12261,7 +12448,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ a26 ];
 
     case applicationxarchive:
-    return [ a, ar ];
+    return [ a, ar, lib ];
 
     case applicationx7zcompressed:
     return [ _7z, _7z001 ];
@@ -12307,19 +12494,19 @@ function getMimeTypeFileExtensions(mimeType) {
  */
 function getFileCategory(fileName) {
   let extension = __getExt(fileName)
-  if ([_7z, '7zip', ace, air, apk, 'appxbundle', 'arc', arj, 'asec', 'bar', bz2, 'bzip', cab, 'cso', deb, 'dlc', dmg, gz, 'gzip', hqx, 'inv', 'ipa', iso, 'isz', jar, 'msu', 'nbh', pak, rar, rpm, sis, sisx, sit, 'sitd', sitx, tar, targz, tgz, 'webarchive', xap, z, zip].includes(extension))
+  if ([_7z, '7zip', ace, air, apk, appxbundle, arc, arj, 'asec', 'bar', bz2, 'bzip', cab, cso, deb, 'dlc', dmg, gz, 'gzip', hqx, 'inv', 'ipa', iso, 'isz', jar, msu, 'nbh', pak, rar, rpm, sis, sisx, sit, 'sitd', sitx, tar, targz, tgz, 'webarchive', xap, z, zip].includes(extension))
     return FileCategory.Archive
 
-  if ([_3ga, aac, aiff, amr, ape, 'arf', asf, asx, 'cda', 'dvf', flac, 'gp4', 'gp5', gpx, 'logic', m4a, m4b, 'm4p', midi, mp3, ogg, 'pcm', 'rec', snd, 'sng', 'uax', wav, wma, wpl, 'zab'].includes(extension))
+  if ([_3ga, aac, aiff, amr, ape, 'arf', asf, asx, 'cda', 'dvf', flac, 'gp4', 'gp5', gpx, 'logic', m4a, m4b, m4p, midi, mp3, ogg, 'pcm', 'rec', snd, 'sng', 'uax', wav, wma, wpl, 'zab'].includes(extension))
     return FileCategory.Audio
 
-  if ([_as, asm, asp, 'aspx', bat, c, 'cp', cpp, cs, css, 'gradle', htm, 'inc', jad, java, js, json, 'jsp', 'lib', m, 'matlab', ml, o, perl, php, pl, 'ps1', py, rb, 'rc', rss, 'scpt', sh, sql, src, 'swift', 'vb', 'vbs', 'ws', 'xaml', 'xcodeproj', xml, xsd, xsl, xslt, yml].includes(extension))
+  if ([_as, asm, asp, 'aspx', bat, c, 'cp', cpp, cs, css, gradle, htm, 'inc', jad, java, js, json, 'jsp', lib, m, 'matlab', ml, o, perl, php, pl, ps1, py, rb, 'rc', rss, 'scpt', sh, sql, src, 'swift', vb, vbs, ws, xaml, 'xcodeproj', xml, xsd, xsl, xslt, yml].includes(extension))
     return FileCategory.Code
 
-  if ([abw, 'aww', azw, 'azw3', 'azw4', cbr, cbz, chm, 'cnt', 'dbx', djvu, doc, docm, docx, dot, dotm, dotx, epub, fb2, 'iba', 'ibooks', 'ind', 'indd', 'lit', mht, mobi, mpp, odf, odt, ott, 'pages', pmd, 'prn', 'prproj', ps, pub, 'pwi', rep, rtf, sdd, sdw, 'shs', 'snp', sxw, tpl, vsd, 'wlmp', wpd, wps, wri].includes(extension))
+  if ([abw, 'aww', azw, azw3, 'azw4', cbr, cbz, chm, 'cnt', 'dbx', djvu, doc, docm, docx, dot, dotm, dotx, epub, fb2, 'iba', 'ibooks', 'ind', 'indd', 'lit', mht, mobi, mpp, odf, odt, ott, pages, pmd, 'prn', 'prproj', ps, pub, 'pwi', rep, rtf, sdd, sdw, 'shs', 'snp', sxw, tpl, vsd, 'wlmp', wpd, wps, wri].includes(extension))
     return FileCategory.Document
 
-  if ([bmp, cpt, dds, dib, dng, 'dt2', emf, gif, ico, 'icon', icns, jpeg, jpg, pcx, pic, png, psd, 'psdx', raw, tga, 'thm', tif, tiff, wbmp, 'wdp', webp].includes(extension))
+  if ([bmp, cpt, dds, dib, dng, 'dt2', emf, gif, ico, 'icon', icns, jpeg, jpg, pcx, pic, png, psd, 'psdx', raw, tga, 'thm', tif, tiff, wbmp, wdp, webp].includes(extension))
     return FileCategory.Image
 
   if ([oxps, pdf, xps].includes(extension))
@@ -12328,13 +12515,13 @@ function getFileCategory(fileName) {
   if ([key, 'keynote', pot, potx, pps, ppsx, ppt, pptm, pptx].includes(extension))
     return FileCategory.Presentation
 
-  if ([ods, 'numbers', sdc, xls, xlsx, xlsb].includes(extension))
+  if ([ods, numbers, sdc, xls, xlsx, xlsb].includes(extension))
     return FileCategory.Spreadsheet
 
   if (['alx', application, csv, 'eng', html, log, 'lrc', 'lst', nfo, opml, 'plist', reg, srt, sub, 'tbl', text, txt].includes(extension))
     return FileCategory.Text
 
-  if (['264', _3g2, _3gp, avi, 'bik', 'dash', 'dat', 'dvr', flv, h264, m2t, m2ts, m4v, mkv, mod, mov, mp4, mpeg, mpg, 'mswmm', mts, ogv, rmvb, swf, 'tod', 'tp', ts, vob, webm, wmv].includes(extension))
+  if (['264', _3g2, _3gp, avi, bik, 'dash', 'dat', 'dvr', flv, h264, m2t, m2ts, m4v, mkv, mod, mov, mp4, mpeg, mpg, 'mswmm', mts, ogv, rmvb, swf, 'tod', 'tp', ts, vob, webm, wmv].includes(extension))
     return FileCategory.Video
 
   return FileCategory.Binary

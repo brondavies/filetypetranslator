@@ -256,4 +256,5 @@ paket-files/
 src/python/build/
 src/python/dist/
 src/python/fttlib.egg-info
+src/python/fttlib/fttlib.egg-info
 __pycache__

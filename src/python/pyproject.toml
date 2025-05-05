@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fttlib"
+version = "1.1.8"
+authors = [
+    { name="Bron Davies", email="bron@brontech.com" }
+]
+description = "A library of helper methods for your Python project to get mime types and general file category"
+readme = "README.md"
+requires-python = ">=3.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["file", "type", "mime", "mapping", "path", "inspection", "upload", "download", "email", "FTT"]
+
+[project.urls]
+Homepage = "https://github.com/brondavies/filetypetranslator"
+Issues = "https://github.com/brondavies/filetypetranslator/issues"
+
+[tool.setuptools.packages.find]
+where = ["fttlib", "LICENSE", "README.md"]
+namespaces = true

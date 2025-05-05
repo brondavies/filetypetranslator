@@ -3,6 +3,7 @@ const _090909vdr = '090909vdr';
 const _123 = '123';
 const _19 = '19';
 const _1km = '1km';
+const _210 = '210';
 const _32x = '32x';
 const _3dml = '3dml';
 const _3ds = '3ds';
@@ -94,6 +95,7 @@ const applicationatscrsat_xml = 'application/atsc-rsat+xml';
 const applicationautomationmlaml_xml = 'application/automationml-aml+xml';
 const applicationautomationmlamlx_zip = 'application/automationml-amlx+zip';
 const applicationbdoc = 'application/bdoc';
+const applicationbuildstream_yaml = 'application/buildstream+yaml';
 const applicationcalendar_xml = 'application/calendar+xml';
 const applicationcbor = 'application/cbor';
 const applicationccxml_xml = 'application/ccxml+xml';
@@ -170,7 +172,6 @@ const applicationmsixbundle = 'application/msixbundle';
 const applicationmsword = 'application/msword';
 const applicationmswordtemplate = 'application/msword-template';
 const applicationmxf = 'application/mxf';
-const applicationnode = 'application/node';
 const applicationnquads = 'application/n-quads';
 const applicationntriples = 'application/n-triples';
 const applicationoctetstream = 'application/octet-stream';
@@ -247,6 +248,7 @@ const applicationtimestampeddata = 'application/timestamped-data';
 const applicationtoml = 'application/toml';
 const applicationtrig = 'application/trig';
 const applicationttml_xml = 'application/ttml+xml';
+const applicationtypescript = 'application/typescript';
 const applicationubjson = 'application/ubjson';
 const applicationurcressheet_xml = 'application/urc-ressheet+xml';
 const applicationurctargetdesc_xml = 'application/urc-targetdesc+xml';
@@ -283,9 +285,11 @@ const applicationvndappleinstaller_xml = 'application/vnd.apple.installer+xml';
 const applicationvndapplenumbers = 'application/vnd.apple.numbers';
 const applicationvndapplepages = 'application/vnd.apple.pages';
 const applicationvndapplepkpass = 'application/vnd.apple.pkpass';
+const applicationvndapplepkpasses = 'application/vnd.apple.pkpasses';
 const applicationvndaristanetworksswi = 'application/vnd.aristanetworks.swi';
 const applicationvndastraeasoftwareiota = 'application/vnd.astraea-software.iota';
 const applicationvndaudiograph = 'application/vnd.audiograph';
+const applicationvndautodeskfbx = 'application/vnd.autodesk.fbx';
 const applicationvndbalsamiqbmml_xml = 'application/vnd.balsamiq.bmml+xml';
 const applicationvndblueicemultipass = 'application/vnd.blueice.multipass';
 const applicationvndbmi = 'application/vnd.bmi';
@@ -320,6 +324,7 @@ const applicationvndcurlpcurl = 'application/vnd.curl.pcurl';
 const applicationvnddart = 'application/vnd.dart';
 const applicationvnddatavisionrdz = 'application/vnd.data-vision.rdz';
 const applicationvnddbf = 'application/vnd.dbf';
+const applicationvnddcmp_xml = 'application/vnd.dcmp+xml';
 const applicationvnddebianbinarypackage = 'application/vnd.debian.binary-package';
 const applicationvnddecedata = 'application/vnd.dece.data';
 const applicationvnddecettml_xml = 'application/vnd.dece.ttml+xml';
@@ -377,7 +382,13 @@ const applicationvndgeoplan = 'application/vnd.geoplan';
 const applicationvndgeospace = 'application/vnd.geospace';
 const applicationvndgmx = 'application/vnd.gmx';
 const applicationvndgoogleappsdocument = 'application/vnd.google-apps.document';
+const applicationvndgoogleappsdrawing = 'application/vnd.google-apps.drawing';
+const applicationvndgoogleappsform = 'application/vnd.google-apps.form';
+const applicationvndgoogleappsjam = 'application/vnd.google-apps.jam';
+const applicationvndgoogleappsmap = 'application/vnd.google-apps.map';
 const applicationvndgoogleappspresentation = 'application/vnd.google-apps.presentation';
+const applicationvndgoogleappsscript = 'application/vnd.google-apps.script';
+const applicationvndgoogleappssite = 'application/vnd.google-apps.site';
 const applicationvndgoogleappsspreadsheet = 'application/vnd.google-apps.spreadsheet';
 const applicationvndgoogleearthkml_xml = 'application/vnd.google-earth.kml+xml';
 const applicationvndgoogleearthkmz = 'application/vnd.google-earth.kmz';
@@ -485,6 +496,7 @@ const applicationvndmsvisiostencilmacroenabledmain_xml = 'application/vnd.ms-vis
 const applicationvndmsvisiostencilmain_xml = 'application/vnd.ms-visio.stencil.main+xml';
 const applicationvndmsvisiotemplatemacroenabledmain_xml = 'application/vnd.ms-visio.template.macroenabled.main+xml';
 const applicationvndmsvisiotemplatemain_xml = 'application/vnd.ms-visio.template.main+xml';
+const applicationvndmsvisioviewer = 'application/vnd.ms-visio.viewer';
 const applicationvndmsworddocumentmacroenabled12 = 'application/vnd.ms-word.document.macroenabled.12';
 const applicationvndmswordtemplatemacroenabled12 = 'application/vnd.ms-word.template.macroenabled.12';
 const applicationvndmsworks = 'application/vnd.ms-works';
@@ -553,6 +565,9 @@ const applicationvndpmiwidget = 'application/vnd.pmi.widget';
 const applicationvndpocketlearn = 'application/vnd.pocketlearn';
 const applicationvndpowerbuilder6 = 'application/vnd.powerbuilder6';
 const applicationvndpreviewsystemsbox = 'application/vnd.previewsystems.box';
+const applicationvndprocratebrushset = 'application/vnd.procrate.brushset';
+const applicationvndprocreatebrush = 'application/vnd.procreate.brush';
+const applicationvndprocreatedream = 'application/vnd.procreate.dream';
 const applicationvndproteusmagazine = 'application/vnd.proteus.magazine';
 const applicationvndpublisharedeltatree = 'application/vnd.publishare-delta-tree';
 const applicationvndpviptid1 = 'application/vnd.pvi.ptid1';
@@ -912,7 +927,6 @@ const applicationxsiag = 'application/x-siag';
 const applicationxsilverlightapp = 'application/x-silverlight-app';
 const applicationxslt_xml = 'application/xslt+xml';
 const applicationxsmsrom = 'application/x-sms-rom';
-const applicationxsonybbeb = 'application/x-sony-bbeb';
 const applicationxsourcerpm = 'application/x-source-rpm';
 const applicationxspf_xml = 'application/xspf+xml';
 const applicationxspsspor = 'application/x-spss-por';
@@ -986,6 +1000,7 @@ const applicationyaml = 'application/yaml';
 const applicationyang = 'application/yang';
 const applicationyin_xml = 'application/yin+xml';
 const applicationzip = 'application/zip';
+const applicationzip_dotlottie = 'application/zip+dotlottie';
 const applicationzlib = 'application/zlib';
 const applicationzstd = 'application/zstd';
 const appx = 'appx';
@@ -1128,8 +1143,11 @@ const boz = 'boz';
 const bpk = 'bpk';
 const bps = 'bps';
 const brk = 'brk';
+const brush = 'brush';
+const brushset = 'brushset';
 const bsdiff = 'bsdiff';
 const bsp = 'bsp';
+const bst = 'bst';
 const btf = 'btf';
 const btif = 'btif';
 const buffer = 'buffer';
@@ -1251,6 +1269,7 @@ const css = 'css';
 const cst = 'cst';
 const csv = 'csv';
 const csvs = 'csvs';
+const cts = 'cts';
 const cu = 'cu';
 const cue = 'cue';
 const cur = 'cur';
@@ -1271,6 +1290,7 @@ const dbf = 'dbf';
 const dbk = 'dbk';
 const dcl = 'dcl';
 const dcm = 'dcm';
+const dcmp = 'dcmp';
 const dcr = 'dcr';
 const dcurl = 'dcurl';
 const dd2 = 'dd2';
@@ -1307,6 +1327,7 @@ const dna = 'dna';
 const dng = 'dng';
 const doc = 'doc';
 const docbook = 'docbook';
+const dockerfile = 'dockerfile';
 const docm = 'docm';
 const docx = 'docx';
 const dot = 'dot';
@@ -1318,6 +1339,7 @@ const dpx = 'dpx';
 const dra = 'dra';
 const drl = 'drl';
 const drle = 'drle';
+const drm = 'drm';
 const drv = 'drv';
 const dsc = 'dsc';
 const dsf = 'dsf';
@@ -1410,6 +1432,7 @@ const fasl = 'fasl';
 const fb2 = 'fb2';
 const fb2zip = 'fb2zip';
 const fbs = 'fbs';
+const fbx = 'fbx';
 const fcdt = 'fcdt';
 const fcs = 'fcs';
 const fd = 'fd';
@@ -1481,6 +1504,7 @@ const gd = 'gd';
 const gdi = 'gdi';
 const gdl = 'gdl';
 const gdoc = 'gdoc';
+const gdraw = 'gdraw';
 const gdshader = 'gdshader';
 const ged = 'ged';
 const gedcom = 'gedcom';
@@ -1490,6 +1514,7 @@ const geo = 'geo';
 const geojson = 'geojson';
 const gex = 'gex';
 const gf = 'gf';
+const gform = 'gform';
 const gg = 'gg';
 const ggb = 'ggb';
 const ggs = 'ggs';
@@ -1498,9 +1523,11 @@ const ghf = 'ghf';
 const gif = 'gif';
 const gih = 'gih';
 const gim = 'gim';
+const gjam = 'gjam';
 const glade = 'glade';
 const glb = 'glb';
 const gltf = 'gltf';
+const gmap = 'gmap';
 const gml = 'gml';
 const gmo = 'gmo';
 const gmonout = 'gmonout';
@@ -1528,9 +1555,11 @@ const groovy = 'groovy';
 const grv = 'grv';
 const grxml = 'grxml';
 const gs = 'gs';
+const gscript = 'gscript';
 const gsf = 'gsf';
 const gsh = 'gsh';
 const gsheet = 'gsheet';
+const gsite = 'gsite';
 const gslides = 'gslides';
 const gsm = 'gsm';
 const gtar = 'gtar';
@@ -1558,6 +1587,7 @@ const hdf = 'hdf';
 const hdf4 = 'hdf4';
 const hdf5 = 'hdf5';
 const hdp = 'hdp';
+const hdr = 'hdr';
 const heic = 'heic';
 const heics = 'heics';
 const heif = 'heif';
@@ -1576,7 +1606,6 @@ const hpp = 'hpp';
 const hps = 'hps';
 const hqx = 'hqx';
 const hs = 'hs';
-const hsj2 = 'hsj2';
 const hta = 'hta';
 const htc = 'htc';
 const htke = 'htke';
@@ -1627,8 +1656,9 @@ const imageheicsequence = 'image/heic-sequence';
 const imageheif = 'image/heif';
 const imageheifsequence = 'image/heif-sequence';
 const imagehej2k = 'image/hej2k';
-const imagehsj2 = 'image/hsj2';
 const imageief = 'image/ief';
+const imagejaii = 'image/jaii';
+const imagejais = 'image/jais';
 const imagejls = 'image/jls';
 const imagejp2 = 'image/jp2';
 const imagejpeg = 'image/jpeg';
@@ -1672,6 +1702,7 @@ const imagevndmicrosofticon = 'image/vnd.microsoft.icon';
 const imagevndmsmodi = 'image/vnd.ms-modi';
 const imagevndnetfpx = 'image/vnd.net-fpx';
 const imagevndpcob16 = 'image/vnd.pco.b16';
+const imagevndradiance = 'image/vnd.radiance';
 const imagevndrnrealpix = 'image/vnd.rn-realpix';
 const imagevndtencenttap = 'image/vnd.tencent.tap';
 const imagevndvalvesourcetexture = 'image/vnd.valve.source.texture';
@@ -1717,14 +1748,18 @@ const imagexolympusorf = 'image/x-olympus-orf';
 const imagexpanasonicrw = 'image/x-panasonic-rw';
 const imagexpanasonicrw2 = 'image/x-panasonic-rw2';
 const imagexpentaxpef = 'image/x-pentax-pef';
+const imagexpfm = 'image/x-pfm';
+const imagexphm = 'image/x-phm';
 const imagexphotocd = 'image/x-photo-cd';
 const imagexpict = 'image/x-pict';
 const imagexportableanymap = 'image/x-portable-anymap';
 const imagexportablebitmap = 'image/x-portable-bitmap';
 const imagexportablegraymap = 'image/x-portable-graymap';
 const imagexportablepixmap = 'image/x-portable-pixmap';
+const imagexpxr = 'image/x-pxr';
 const imagexquicktime = 'image/x-quicktime';
 const imagexrgb = 'image/x-rgb';
+const imagexsct = 'image/x-sct';
 const imagexsgi = 'image/x-sgi';
 const imagexsigmax3f = 'image/x-sigma-x3f';
 const imagexskencil = 'image/x-skencil';
@@ -1770,6 +1805,8 @@ const j2c = 'j2c';
 const j2k = 'j2k';
 const jad = 'jad';
 const jade = 'jade';
+const jaii = 'jaii';
+const jais = 'jais';
 const jam = 'jam';
 const jar = 'jar';
 const jardiff = 'jardiff';
@@ -1882,6 +1919,7 @@ const lnx = 'lnx';
 const loas = 'loas';
 const log = 'log';
 const lostxml = 'lostxml';
+const lottie = 'lottie';
 const lrf = 'lrf';
 const lrm = 'lrm';
 const lrv = 'lrv';
@@ -2173,6 +2211,8 @@ const ogx = 'ogx';
 const old = 'old';
 const oleo = 'oleo';
 const omdoc = 'omdoc';
+const one = 'one';
+const onea = 'onea';
 const onepkg = 'onepkg';
 const onetmp = 'onetmp';
 const onetoc = 'onetoc';
@@ -2208,6 +2248,7 @@ const oxt = 'oxt';
 const p = 'p';
 const p10 = 'p10';
 const p12 = 'p12';
+const p21 = 'p21';
 const p65 = 'p65';
 const p7b = 'p7b';
 const p7c = 'p7c';
@@ -2262,6 +2303,7 @@ const pfx = 'pfx';
 const pgm = 'pgm';
 const pgn = 'pgn';
 const pgp = 'pgp';
+const phm = 'phm';
 const php = 'php';
 const php3 = 'php3';
 const php4 = 'php4';
@@ -2276,6 +2318,7 @@ const pkg = 'pkg';
 const pki = 'pki';
 const pkipath = 'pkipath';
 const pkpass = 'pkpass';
+const pkpasses = 'pkpasses';
 const pkr = 'pkr';
 const pl = 'pl';
 const pla = 'pla';
@@ -2335,6 +2378,7 @@ const pw = 'pw';
 const pwn = 'pwn';
 const pxd = 'pxd';
 const pxi = 'pxi';
+const pxr = 'pxr';
 const py = 'py';
 const py2 = 'py2';
 const py3 = 'py3';
@@ -2400,6 +2444,7 @@ const relo = 'relo';
 const rep = 'rep';
 const res = 'res';
 const rgb = 'rgb';
+const rgbe = 'rgbe';
 const rif = 'rif';
 const rip = 'rip';
 const ris = 'ris';
@@ -2454,6 +2499,7 @@ const sav = 'sav';
 const sbml = 'sbml';
 const sc = 'sc';
 const scala = 'scala';
+const scap = 'scap';
 const scd = 'scd';
 const scm = 'scm';
 const scn = 'scn';
@@ -2464,6 +2510,7 @@ const scq = 'scq';
 const scr = 'scr';
 const scs = 'scs';
 const scss = 'scss';
+const sct = 'sct';
 const scurl = 'scurl';
 const sda = 'sda';
 const sdc = 'sdc';
@@ -2591,6 +2638,7 @@ const stk = 'stk';
 const stl = 'stl';
 const stm = 'stm';
 const stp = 'stp';
+const stpnc = 'stpnc';
 const stpx = 'stpx';
 const stpxz = 'stpxz';
 const stpz = 'stpz';
@@ -2710,7 +2758,7 @@ const textvndin3dspot = 'text/vnd.in3d.spot';
 const textvndrnrealtext = 'text/vnd.rn-realtext';
 const textvndsenxwarpscript = 'text/vnd.senx.warpscript';
 const textvndsunj2meappdescriptor = 'text/vnd.sun.j2me.app-descriptor';
-const textvndtrolltechlinguist = 'text/vnd.trolltech.linguist';
+const textvndtypst = 'text/vnd.typst';
 const textvndwapwml = 'text/vnd.wap.wml';
 const textvndwapwmlscript = 'text/vnd.wap.wmlscript';
 const textvtt = 'text/vtt';
@@ -2738,6 +2786,7 @@ const textxdbusservice = 'text/x-dbus-service';
 const textxdcl = 'text/x-dcl';
 const textxdevicetreebinary = 'text/x-devicetree-binary';
 const textxdevicetreesource = 'text/x-devicetree-source';
+const textxdockerfile = 'text/x-dockerfile';
 const textxdsl = 'text/x-dsl';
 const textxdsrc = 'text/x-dsrc';
 const textxeiffel = 'text/x-eiffel';
@@ -2820,7 +2869,6 @@ const textxtroffme = 'text/x-troff-me';
 const textxtroffms = 'text/x-troff-ms';
 const textxtwig = 'text/x-twig';
 const textxtxt2tags = 'text/x-txt2tags';
-const textxtypst = 'text/x-typst';
 const textxuil = 'text/x-uil';
 const textxuuencode = 'text/x-uuencode';
 const textxvala = 'text/x-vala';
@@ -2961,6 +3009,7 @@ const vcx = 'vcx';
 const vda = 'vda';
 const vdi = 'vdi';
 const vds = 'vds';
+const vdx = 'vdx';
 const vhd = 'vhd';
 const vhdl = 'vhdl';
 const vhdx = 'vhdx';
@@ -3037,6 +3086,7 @@ const vsw = 'vsw';
 const vtf = 'vtf';
 const vtt = 'vtt';
 const vtu = 'vtu';
+const vtx = 'vtx';
 const vxml = 'vxml';
 const w3d = 'w3d';
 const wad = 'wad';
@@ -3196,6 +3246,7 @@ const xvm = 'xvm';
 const xvml = 'xvml';
 const xwd = 'xwd';
 const xyz = 'xyz';
+const xyze = 'xyze';
 const xz = 'xz';
 const yaml = 'yaml';
 const yang = 'yang';
@@ -3763,6 +3814,7 @@ function getMimeType(fileName) {
     case vst:
     case vsw:
     case vss:
+    case vtx:
     return applicationvndvisio;
 
     case vrm:
@@ -3793,6 +3845,9 @@ function getMimeType(fileName) {
     case vhd:
     case vhdl:
     return textxvhdl;
+
+    case vdx:
+    return applicationvndmsvisioviewer;
 
     // iana
     case vds:
@@ -4002,7 +4057,7 @@ function getMimeType(fileName) {
     return modelu3d;
 
     case typ:
-    return textxtypst;
+    return textvndtypst;
 
     case txt:
     case text:
@@ -4057,9 +4112,6 @@ function getMimeType(fileName) {
     // iana
     case tsd:
     return applicationtimestampeddata;
-
-    case ts:
-    return textvndtrolltechlinguist;
 
     // apache
     case trm:
@@ -4369,6 +4421,9 @@ function getMimeType(fileName) {
 
     case step:
     case stp:
+    case stpnc:
+    case p21:
+    case _210:
     return modelstep;
 
     case std:
@@ -4703,6 +4758,9 @@ function getMimeType(fileName) {
     // apache
     case scurl:
     return textvndcurlscurl;
+
+    case sct:
+    return imagexsct;
 
     case scss:
     return textxscss;
@@ -5054,6 +5112,9 @@ function getMimeType(fileName) {
     case pyi:
     return textxpython3;
 
+    case pxr:
+    return imagexpxr;
+
     case pxd:
     case pxi:
     case pyx:
@@ -5224,6 +5285,9 @@ function getMimeType(fileName) {
     case t:
     return applicationxperl;
 
+    case pkpasses:
+    return applicationvndapplepkpasses;
+
     case pkpass:
     return applicationvndapplepkpass;
 
@@ -5244,6 +5308,9 @@ function getMimeType(fileName) {
     case phps:
     return applicationxphp;
 
+    case phm:
+    return imagexphm;
+
     case pgp:
     case gpg:
     case asc:
@@ -5258,10 +5325,12 @@ function getMimeType(fileName) {
     case pfr:
     return applicationfonttdpfr;
 
+    case pfm:
+    return imagexpfm;
+
     case pfa:
     case pfb:
     case gsf:
-    case pfm:
     return applicationxfonttype1;
 
     case perfdata:
@@ -5303,7 +5372,6 @@ function getMimeType(fileName) {
     case pict:
     case pict1:
     case pict2:
-    case pic:
     return imagexpict;
 
     // iana
@@ -5325,6 +5393,7 @@ function getMimeType(fileName) {
     return imagexphotocd;
 
     case pcapng:
+    case scap:
     case ntar:
     return applicationxpcapng;
 
@@ -5486,6 +5555,8 @@ function getMimeType(fileName) {
     case onetoc2:
     case onetmp:
     case onepkg:
+    case one:
+    case onea:
     return applicationonenote;
 
     // apache
@@ -5881,6 +5952,7 @@ function getMimeType(fileName) {
     case m4v:
     case f4v:
     case lrv:
+    case lrf:
     case mp4v:
     return videomp4;
 
@@ -6109,7 +6181,6 @@ function getMimeType(fileName) {
 
     case m2t:
     case m2ts:
-    case mts:
     case cpi:
     case clpi:
     case mpls:
@@ -6179,8 +6250,8 @@ function getMimeType(fileName) {
     case lrm:
     return applicationvndmslrm;
 
-    case lrf:
-    return applicationxsonybbeb;
+    case lottie:
+    return applicationzip_dotlottie;
 
     // iana
     case lostxml:
@@ -6394,11 +6465,6 @@ function getMimeType(fileName) {
     case jse:
     return textjscriptencode;
 
-    case js:
-    case jsm:
-    case mjs:
-    return textjavascript;
-
     case jrd:
     return applicationjrd_json;
 
@@ -6483,6 +6549,14 @@ function getMimeType(fileName) {
     // iana
     case jam:
     return applicationvndjam;
+
+    // iana
+    case jais:
+    return imagejais;
+
+    // iana
+    case jaii:
+    return imagejaii;
 
     case jade:
     return textjade;
@@ -6653,10 +6727,6 @@ function getMimeType(fileName) {
     case hta:
     return applicationhta;
 
-    // iana
-    case hsj2:
-    return imagehsj2;
-
     case hs:
     return textxhaskell;
 
@@ -6709,6 +6779,12 @@ function getMimeType(fileName) {
     case heif:
     case hif:
     return imageheif;
+
+    case hdr:
+    case pic:
+    case rgbe:
+    case xyze:
+    return imagevndradiance;
 
     case hdf:
     case hdf4:
@@ -6777,8 +6853,14 @@ function getMimeType(fileName) {
     case gslides:
     return applicationvndgoogleappspresentation;
 
+    case gsite:
+    return applicationvndgoogleappssite;
+
     case gsheet:
     return applicationvndgoogleappsspreadsheet;
+
+    case gscript:
+    return applicationvndgoogleappsscript;
 
     case gs:
     return textxgenie;
@@ -6856,6 +6938,9 @@ function getMimeType(fileName) {
     case gml:
     return applicationgml_xml;
 
+    case gmap:
+    return applicationvndgoogleappsmap;
+
     case gltf:
     return modelgltf_json;
 
@@ -6864,6 +6949,9 @@ function getMimeType(fileName) {
 
     case glade:
     return applicationxglade;
+
+    case gjam:
+    return applicationvndgoogleappsjam;
 
     // iana
     case gim:
@@ -6894,6 +6982,9 @@ function getMimeType(fileName) {
     case gg:
     return applicationxgamegearrom;
 
+    case gform:
+    return applicationvndgoogleappsform;
+
     case gf:
     return applicationxtexgf;
 
@@ -6920,6 +7011,9 @@ function getMimeType(fileName) {
 
     case gdshader:
     return applicationxgodotshader;
+
+    case gdraw:
+    return applicationvndgoogleappsdrawing;
 
     case gdoc:
     return applicationvndgoogleappsdocument;
@@ -7129,6 +7223,9 @@ function getMimeType(fileName) {
     // iana
     case fcdt:
     return applicationvndadobeformscentralfcdt;
+
+    case fbx:
+    return applicationvndautodeskfbx;
 
     // iana
     case fbs:
@@ -7388,6 +7485,9 @@ function getMimeType(fileName) {
     case dsc:
     return textprslinestag;
 
+    case drm:
+    return applicationvndprocreatedream;
+
     // iana
     case drle:
     return imagedicomrle;
@@ -7425,6 +7525,9 @@ function getMimeType(fileName) {
 
     case docm:
     return applicationvndmsworddocumentmacroenabled12;
+
+    case dockerfile:
+    return textxdockerfile;
 
     case doc:
     return applicationmsword;
@@ -7524,6 +7627,10 @@ function getMimeType(fileName) {
     case dcr:
     return imagexkodakdcr;
 
+    // iana
+    case dcmp:
+    return applicationvnddcmp_xml;
+
     case dcl:
     return textxdcl;
 
@@ -7580,6 +7687,11 @@ function getMimeType(fileName) {
     // apache
     case cu:
     return applicationcuseeme;
+
+    case cts:
+    case mts:
+    case ts:
+    return applicationtypescript;
 
     case csvs:
     return textcsvschema;
@@ -7731,9 +7843,11 @@ function getMimeType(fileName) {
     case cl:
     return textxopenclsrc;
 
-    // iana
     case cjs:
-    return applicationnode;
+    case js:
+    case jsm:
+    case mjs:
+    return textjavascript;
 
     // iana
     case cil:
@@ -7911,12 +8025,21 @@ function getMimeType(fileName) {
     case btf:
     return imageprsbtif;
 
+    case bst:
+    return applicationbuildstream_yaml;
+
     // iana
     case bsp:
     return modelvndvalvesourcecompiledmap;
 
     case bsdiff:
     return applicationxbsdiff;
+
+    case brushset:
+    return applicationvndprocratebrushset;
+
+    case brush:
+    return applicationvndprocreatebrush;
 
     case brk:
     return chemicalxpdb;
@@ -8061,7 +8184,6 @@ function getMimeType(fileName) {
     case avcs:
     return imageavcs;
 
-    // iana
     case avci:
     return imageavci;
 
@@ -8794,7 +8916,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ vsdm ];
 
     case applicationvndvisio:
-    return [ vsd, vst, vsw, vss ];
+    return [ vsd, vst, vsw, vss, vtx ];
 
     case modelvrml:
     return [ vrm, vrml, wrl ];
@@ -8819,6 +8941,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case textxvhdl:
     return [ vhd, vhdl ];
+
+    case applicationvndmsvisioviewer:
+    return [ vdx ];
 
     case modelvndsapvds:
     return [ vds ];
@@ -8964,7 +9089,7 @@ function getMimeTypeFileExtensions(mimeType) {
     case modelu3d:
     return [ u3d ];
 
-    case textxtypst:
+    case textvndtypst:
     return [ typ ];
 
     case textplain:
@@ -9008,9 +9133,6 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationtimestampeddata:
     return [ tsd ];
-
-    case textvndtrolltechlinguist:
-    return [ ts ];
 
     case applicationxmsterminal:
     return [ trm ];
@@ -9256,7 +9378,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ stf ];
 
     case modelstep:
-    return [ step, stp ];
+    return [ step, stp, stpnc, p21, _210 ];
 
     case applicationvndsunxmldrawtemplate:
     return [ std ];
@@ -9530,6 +9652,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case textvndcurlscurl:
     return [ scurl ];
+
+    case imagexsct:
+    return [ sct ];
 
     case textxscss:
     return [ scss ];
@@ -9813,6 +9938,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case textxpython3:
     return [ py, py3, pyi ];
 
+    case imagexpxr:
+    return [ pxr ];
+
     case textxcython:
     return [ pxd, pxi, pyx ];
 
@@ -9957,6 +10085,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxperl:
     return [ pl, pm, al, perl, pod, t ];
 
+    case applicationvndapplepkpasses:
+    return [ pkpasses ];
+
     case applicationvndapplepkpass:
     return [ pkpass ];
 
@@ -9972,6 +10103,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxphp:
     return [ php, php3, php4, php5, phps ];
 
+    case imagexphm:
+    return [ phm ];
+
     case applicationpgpencrypted:
     return [ pgp, gpg, asc ];
 
@@ -9984,8 +10118,11 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationfonttdpfr:
     return [ pfr ];
 
+    case imagexpfm:
+    return [ pfm ];
+
     case applicationxfonttype1:
-    return [ pfa, pfb, gsf, pfm ];
+    return [ pfa, pfb, gsf ];
 
     case applicationxperfdata:
     return [ perfdata ];
@@ -10021,7 +10158,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ pcurl ];
 
     case imagexpict:
-    return [ pct, pict, pict1, pict2, pic ];
+    return [ pct, pict, pict1, pict2 ];
 
     case applicationvndhppclxl:
     return [ pclxl ];
@@ -10039,7 +10176,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ pcd ];
 
     case applicationxpcapng:
-    return [ pcapng, ntar ];
+    return [ pcapng, scap, ntar ];
 
     case applicationvndtcpdumppcap:
     return [ pcap, cap, dmp ];
@@ -10177,7 +10314,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ ooc ];
 
     case applicationonenote:
-    return [ onetoc, onetoc2, onetmp, onepkg ];
+    return [ onetoc, onetoc2, onetmp, onepkg, one, onea ];
 
     case applicationomdoc_xml:
     return [ omdoc ];
@@ -10489,7 +10626,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ mpc, mpp, mp ];
 
     case videomp4:
-    return [ mp4, m4v, f4v, lrv, mp4v ];
+    return [ mp4, m4v, f4v, lrv, lrf, mp4v ];
 
     case audiompeg:
     return [ mp3, mpga, mp2a, m2a, m3a ];
@@ -10669,7 +10806,7 @@ function getMimeTypeFileExtensions(mimeType) {
     return [ m3u, m3u8, vlc ];
 
     case videomp2t:
-    return [ m2t, m2ts, mts, cpi, clpi, mpls, bdm, bdmv ];
+    return [ m2t, m2ts, cpi, clpi, mpls, bdm, bdmv ];
 
     case applicationmp21:
     return [ m21, mp21 ];
@@ -10725,8 +10862,8 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationvndmslrm:
     return [ lrm ];
 
-    case applicationxsonybbeb:
-    return [ lrf ];
+    case applicationzip_dotlottie:
+    return [ lottie ];
 
     case applicationlost_xml:
     return [ lostxml ];
@@ -10911,9 +11048,6 @@ function getMimeTypeFileExtensions(mimeType) {
     case textjscriptencode:
     return [ jse ];
 
-    case textjavascript:
-    return [ js, jsm, mjs ];
-
     case applicationjrd_json:
     return [ jrd ];
 
@@ -10979,6 +11113,12 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndjam:
     return [ jam ];
+
+    case imagejais:
+    return [ jais ];
+
+    case imagejaii:
+    return [ jaii ];
 
     case textjade:
     return [ jade ];
@@ -11118,9 +11258,6 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationhta:
     return [ hta ];
 
-    case imagehsj2:
-    return [ hsj2 ];
-
     case textxhaskell:
     return [ hs ];
 
@@ -11162,6 +11299,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case imageheif:
     return [ heic, heif, hif ];
+
+    case imagevndradiance:
+    return [ hdr, pic, rgbe, xyze ];
 
     case applicationxhdf:
     return [ hdf, hdf4, h4, hdf5, h5 ];
@@ -11217,8 +11357,14 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationvndgoogleappspresentation:
     return [ gslides ];
 
+    case applicationvndgoogleappssite:
+    return [ gsite ];
+
     case applicationvndgoogleappsspreadsheet:
     return [ gsheet ];
+
+    case applicationvndgoogleappsscript:
+    return [ gscript ];
 
     case textxgenie:
     return [ gs ];
@@ -11280,6 +11426,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationgml_xml:
     return [ gml ];
 
+    case applicationvndgoogleappsmap:
+    return [ gmap ];
+
     case modelgltf_json:
     return [ gltf ];
 
@@ -11288,6 +11437,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationxglade:
     return [ glade ];
+
+    case applicationvndgoogleappsjam:
+    return [ gjam ];
 
     case applicationvndgrooveidentitymessage:
     return [ gim ];
@@ -11313,6 +11465,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case applicationxgamegearrom:
     return [ gg ];
 
+    case applicationvndgoogleappsform:
+    return [ gform ];
+
     case applicationxtexgf:
     return [ gf ];
 
@@ -11333,6 +11488,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationxgodotshader:
     return [ gdshader ];
+
+    case applicationvndgoogleappsdrawing:
+    return [ gdraw ];
 
     case applicationvndgoogleappsdocument:
     return [ gdoc ];
@@ -11501,6 +11659,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndadobeformscentralfcdt:
     return [ fcdt ];
+
+    case applicationvndautodeskfbx:
+    return [ fbx ];
 
     case imagevndfastbidsheet:
     return [ fbs ];
@@ -11703,6 +11864,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case textprslinestag:
     return [ dsc ];
 
+    case applicationvndprocreatedream:
+    return [ drm ];
+
     case imagedicomrle:
     return [ drle ];
 
@@ -11735,6 +11899,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationvndmsworddocumentmacroenabled12:
     return [ docm ];
+
+    case textxdockerfile:
+    return [ dockerfile ];
 
     case applicationmsword:
     return [ doc ];
@@ -11808,6 +11975,9 @@ function getMimeTypeFileExtensions(mimeType) {
     case imagexkodakdcr:
     return [ dcr ];
 
+    case applicationvnddcmp_xml:
+    return [ dcmp ];
+
     case textxdcl:
     return [ dcl ];
 
@@ -11855,6 +12025,9 @@ function getMimeTypeFileExtensions(mimeType) {
 
     case applicationcuseeme:
     return [ cu ];
+
+    case applicationtypescript:
+    return [ cts, mts, ts ];
 
     case textcsvschema:
     return [ csvs ];
@@ -11982,8 +12155,8 @@ function getMimeTypeFileExtensions(mimeType) {
     case textxopenclsrc:
     return [ cl ];
 
-    case applicationnode:
-    return [ cjs ];
+    case textjavascript:
+    return [ cjs, js, jsm, mjs ];
 
     case applicationvndmsartgalry:
     return [ cil ];
@@ -12126,11 +12299,20 @@ function getMimeTypeFileExtensions(mimeType) {
     case imageprsbtif:
     return [ btif, btf ];
 
+    case applicationbuildstream_yaml:
+    return [ bst ];
+
     case modelvndvalvesourcecompiledmap:
     return [ bsp ];
 
     case applicationxbsdiff:
     return [ bsdiff ];
+
+    case applicationvndprocratebrushset:
+    return [ brushset ];
+
+    case applicationvndprocreatebrush:
+    return [ brush ];
 
     case chemicalxpdb:
     return [ brk ];

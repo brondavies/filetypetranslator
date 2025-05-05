@@ -4,6 +4,7 @@ A library of helper methods for your Javascript project to get [mime types](http
 
 # Releases
 Available as an [npm package](https://npmjs.org/package/fttlib)
+#### 1.1.8 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
 #### 1.1.7 - Updated sources, optimized generated code to be smaller and to be easier to diff future versions
 #### 1.1.6 - Initial Javascript (Node.js) release
 

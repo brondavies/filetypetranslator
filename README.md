@@ -12,6 +12,7 @@ A library of helper methods for your .Net, Javascript or Python projects to get 
 Available as a [nuget package](https://www.nuget.org/packages/FTTLib.dll), [npm package](https://www.npmjs.com/package/fttlib/), or
 [PyPI package](https://pypi.org/project/fttlib/)
 
+#### 1.1.8 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
 #### 1.1.7 - Updated sources, optimized generated code to be smaller and to be easier to diff future versions
 #### 1.1.5 - Updated sources, adds many modern file types and updates/eliminates some legacy mime types
 #### 1.1.4 - Multi-framework targeting nuget package

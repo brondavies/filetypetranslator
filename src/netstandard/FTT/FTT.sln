@@ -29,6 +29,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node", "node", "{0116F007-D
 		..\..\node\README.md = ..\..\node\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTTLibTests", "..\FTTLibTests\FTTLibTests.csproj", "{67D8E9BA-A662-4471-A20B-A7A05A03C437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node", "node", "{1DB4550F-0465-4A88-8D8E-F02C26D94E49}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\node\test\index.js = ..\..\node\test\index.js
+		..\..\node\test\package.json = ..\..\node\test\package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{20316DCB-F6F3-46D8-B37E-1B51234C4D44}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\python\test\test.py = ..\..\python\test\test.py
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,9 +58,17 @@ Global
 		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D0F850-240E-43BC-8B4C-327CF75C81C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D8E9BA-A662-4471-A20B-A7A05A03C437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D8E9BA-A662-4471-A20B-A7A05A03C437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D8E9BA-A662-4471-A20B-A7A05A03C437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D8E9BA-A662-4471-A20B-A7A05A03C437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DB4550F-0465-4A88-8D8E-F02C26D94E49} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{20316DCB-F6F3-46D8-B37E-1B51234C4D44} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A4FF25E-6E47-484D-B6A8-99AAC093E8A9}
